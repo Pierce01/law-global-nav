@@ -1,18 +1,12 @@
 /***
- *     @author Victor Chimenti, MSCS-SE '20
- *     @file output-gridfeed.js
- *     @see Seattle University School of Law Newsroom
+ *      @author Victor Chimenti, MSCS-SE '20
+ *      @file image-panel-text-html.js
+ *      @see Seattle University School of Law Image Panel Content Type
+ *      law/text/html
  *
- *     This new content type layout is a smart layout for news items that must obey
- *     a masonry grid layout. In its first iteration this layout will be dedicated
- *     to the category news pages.
+ *      Document will write once when the page loads
  *
- *     This content layout will be the organizer layout and will link to the
- *     full text layout to reveal the full article.
- *
- *     Document will write once when the page loads
- *
- *     @version 6.1
+ *      @version 1.0
  */
 
 
