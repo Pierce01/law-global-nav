@@ -11,3 +11,5 @@ Upgrade existing nav system to bootstrap 5. Currently built in bootstrap 3
 - [x] apply card-overlay to solve bg image
 - [] add logic for selective output - links and link text
 - [] parse link paths and titles seperately
+- [] apply image height
+- [] apply text location
