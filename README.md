@@ -7,3 +7,5 @@ Upgrade existing nav system to bootstrap 5. Currently built in bootstrap 3
 - [x] format home footer
 - [] format landing header
 - [] format landing footer
+- [] convert imgage panel to js layout
+- [] apply card-overlay to solve bg image
