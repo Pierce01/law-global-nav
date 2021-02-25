@@ -9,3 +9,4 @@ Upgrade existing nav system to bootstrap 5. Currently built in bootstrap 3
 - [] format landing footer
 - [] convert imgage panel to js layout
 - [] apply card-overlay to solve bg image
+- [] add logic for selective output - links and link text
