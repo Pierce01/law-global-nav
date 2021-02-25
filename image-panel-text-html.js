@@ -33,17 +33,17 @@ try {
 
 
 
-    
+
     /***
      *  Declare/Assign local variables with base formatting
      * 
      * */
-    var cardText = "<span class='newsroomArticleLead card-text subtitle'><p>" + articleSubtitle + "</p></span>";
-    var titleLink = "";
-    var listItems = "";
-    var listOfTags = "";
-    var thumbNailString = "";
-    var beginningHTML = '<div class="gridFeedItem card shadow col-xs-12 col-sm-10 col-md-8 col-lg-6 col-xl-4" title="' + articleTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="ZoneA" data-position-selected="ZoneA" />">';
+    // var cardText = "<span class='newsroomArticleLead card-text subtitle'><p>" + articleSubtitle + "</p></span>";
+    // var titleLink = "";
+    // var listItems = "";
+    // var listOfTags = "";
+    var imageString = "";
+    var beginningHTML = '<div class="panelWrapper contentItem noGap card shadow col-12" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>">';
     var endingHTML = '</div>';
 
 
@@ -53,13 +53,13 @@ try {
      *  parse the list of tags, add <li> tags
      * 
      * */
-    if (fieldTags != "") {
-        var arrayOfTags = fieldTags.split(',');
-        for (let i = 0; i < arrayOfTags.length; i++) {
-            listItems += '<li class="tag">' + arrayOfTags[i] + '</li>';
-        }
-        listOfTags = '<div class="newsroomArticle tags hidden"><ul class="categories">' + listItems + '</ul></div>';
-    }
+    // if (fieldTags != "") {
+    //     var arrayOfTags = fieldTags.split(',');
+    //     for (let i = 0; i < arrayOfTags.length; i++) {
+    //         listItems += '<li class="tag">' + arrayOfTags[i] + '</li>';
+    //     }
+    //     listOfTags = '<div class="newsroomArticle tags hidden"><ul class="categories">' + listItems + '</ul></div>';
+    // }
 
 
 
@@ -68,11 +68,11 @@ try {
      *  determine if the article contains full text content
      * 
      * */
-    if (articleFullBody == "") {
-        titleLink = '<h3 class="newsroomArticleTitle card-title">' + headline + '</h3>';
-    } else {
-        titleLink = '<h3 class="newsroomArticleTitle card-title"><a href="' + fullTextLink + '">' + headline + '</a></h3>';
-    }
+    // if (articleFullBody == "") {
+    //     titleLink = '<h3 class="newsroomArticleTitle card-title">' + headline + '</h3>';
+    // } else {
+    //     titleLink = '<h3 class="newsroomArticleTitle card-title"><a href="' + fullTextLink + '">' + headline + '</a></h3>';
+    // }
 
 
 
@@ -81,12 +81,12 @@ try {
      *  verify Main image and photo credits
      * 
      * */
-    if (frontPageImage == "") {
-        thumbNailString = '<span class="newsroomImageWrapper hidden">No Image Provided</span>';
+    // if (frontPageImage == "") {
+    //     thumbNailString = '<span class="newsroomImageWrapper hidden">No Image Provided</span>';
 
-    } else {
-        thumbNailString = '<span class="newsroomImageWrapper"><img src="' + frontPageImage + '" class="articleImage card-img-top" alt="' + frontPageImageCaption + '" /></span>';
-    }
+    // } else {
+    //     thumbNailString = '<span class="newsroomImageWrapper"><img src="' + frontPageImage + '" class="articleImage card-img-top" alt="' + frontPageImageCaption + '" /></span>';
+    // }
 
 
 
@@ -97,16 +97,16 @@ try {
      * */
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, beginningHTML));
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, anchorTag));
-    document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, thumbNailString));
+    document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, imageString));
     // document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, photoCredit));
-    document.write('<div class="newsroomArticleBlurb card-body">');
-    document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, titleLink));
-    document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, cardText));
+    document.write('<div class="card-body">');
+    // document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, titleLink));
+    // document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, cardText));
     // document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, authorByLine));
-    document.write('</div>'); // close newsroomArticleBlurb
-    document.write('<div class="card-footer"><medium class="newsroomArticlePublishedDate">' + publishedDate + '</medium></div>');
-    document.write(listOfTags);
-    document.write('<div class="hidden"><span class="articlePinned">' + pinned + '</span><span class="catPinned">' + catPin + '</span></div>');
+    document.write('</div>'); // close card body
+    // document.write('<div class="card-footer"><medium class="newsroomArticlePublishedDate">' + publishedDate + '</medium></div>');
+    // document.write(listOfTags);
+    // document.write('<div class="hidden"><span class="articlePinned">' + pinned + '</span><span class="catPinned">' + catPin + '</span></div>');
     document.write(endingHTML);
 
 
