@@ -43,6 +43,8 @@ try {
     // var listItems = "";
     // var listOfTags = "";
     var imageString = '<img class="card-image-top" src="' + backgroundImage +'">';
+    var openOverlay = '<div class="card-img-overlay card-inverse">';
+    var closeOverlay = '</div>';
     var beginningHTML = '<div class="panelWrapper contentItem noGap card shadow col-12" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>">';
     var endingHTML = '</div>';
 
