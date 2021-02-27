@@ -42,7 +42,7 @@ try {
     // var titleLink = "";
     // var listItems = "";
     // var listOfTags = "";
-    var openPanelContainer = '<div class="panelFlexContainer">'
+    var openPanelContainer = '<div class="panelFlexContainer' + textLocation + '">'
     var closePanelCOntainer = '</div>';
     var imageString = '<img class="card-image-top my-3" src="' + backgroundImage +'">';
     var openOverlay = '<div class="card-img-overlay card-inverse my-3">';
