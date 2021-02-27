@@ -30,6 +30,7 @@ try {
     var btnTwoText = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Button 2 text' output='normal' modifiers='striptags,htmlentities' />");
     var btnTwoStdLink = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Button 2 link' output='normal' modifiers='nav_sections' />");
     var anchorTag = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='meta' meta='html_anchor' />");
+    var contentID = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='meta' meta='content_id' />");
 
 
 
@@ -42,8 +43,11 @@ try {
     // var titleLink = "";
     // var listItems = "";
     // var listOfTags = "";
+    var titleString = '<h2 id="label' + contentID + '">' + itemTitle + '</h2>';
     var openStandardContent = '<div class="standardContent">';
     var closeStandardContent = '</div>'
+    var openPanelInner = '<div class="panelInner col-xs-12 col-sm-12 col-md-6 col-lg-4' + textLocation + '">';
+    var closePanelInner = '</div>';
     var openPanelContainer = '<div class="panelFlexContainer' + textLocation + '">'
     var closePanelCOntainer = '</div>';
     var imageString = '<img class="card-image-top my-3" src="' + backgroundImage +'">';
