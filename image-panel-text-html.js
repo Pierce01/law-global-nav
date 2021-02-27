@@ -6,7 +6,7 @@
  *
  *      Document will write once when the page loads
  *
- *      @version 1.0
+ *      @version 1.1
  */
 
 
@@ -52,7 +52,7 @@ try {
     var openLinksList = '<ul class="panelLinks">';
     var closeLinksList = '</ul>';
     var descriptionString = '<p class="card-text">' + description + '</p>';
-    var beginningHTML = '<div class="container-fluid px-0"><div class="panelWrapper contentItem noGap card shadow col-12" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>">';
+    var beginningHTML = '<div class="container-fluid px-0"><div class="panelWrapper contentItem noGap col-12 card shadow border-0 py-0" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>">';
     var endingHTML = '</div></div>';
 
 
