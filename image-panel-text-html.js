@@ -52,7 +52,7 @@ try {
     var openLinksList = '<ul class="panelLinks">';
     var closeLinksList = '</ul>';
     var descriptionString = '<p class="card-text">' + description + '</p>';
-    var beginningHTML = '<div class="container-fluid px-0"><div class="panelWrapper contentItem col-12 card border-0" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>">';
+    var beginningHTML = '<div class="container-fluid px-0"><div class="panelWrapper contentItem noGap col-12 card border-0" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>">';
     var endingHTML = '</div></div>';
 
 
