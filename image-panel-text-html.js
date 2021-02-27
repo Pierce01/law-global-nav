@@ -6,7 +6,7 @@
  *
  *      Document will write once when the page loads
  *
- *      @version 1.4
+ *      @version 1.5
  */
 
 
@@ -60,7 +60,7 @@ try {
     var openLinksList = '<ul class="panelLinks">';
     var closeLinksList = '</ul>';
     var descriptionString = '<p class="card-text">' + description + '</p>';
-    var beginningHTML = '<div class="container-fluid px-0"><div class="panelWrapper contentItem noGap col-12 card border-0 my-3" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>">';
+    var beginningHTML = '<div class="panelWrapper contentItem noGap container-fluid px-0" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>"><div class="col-12 card border-0 my-3">';
     var endingHTML = '</div></div>';
 
 
@@ -127,7 +127,6 @@ try {
     document.write(btnLinkTwo);
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closeLinksList));
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closeStandardContent));
-
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closePanelInner));
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closePanelContainer));
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closeBlock));
