@@ -12,4 +12,4 @@ Upgrade existing nav system to bootstrap 5. Currently built in bootstrap 3
 - [] add logic for selective output - links and link text
 - [] parse link paths and titles seperately
 - [] apply image height
-- [] apply text location
+- [x] apply text location
