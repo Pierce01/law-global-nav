@@ -44,11 +44,11 @@ try {
     // var listItems = "";
     // var listOfTags = "";
     var titleString = '<h2 id="label' + contentID + '">' + itemTitle + '</h2>';
-    var openStandardContent = '<div class="standardContent">';
-    var closeStandardContent = '</div>'
-    var openPanelInner = '<div class="panelInner col-xs-12 col-sm-12 col-md-6 col-lg-4' + textLocation + '">';
+    var openStandardContent = '<div class="panelText"><div class="standardContent">';
+    var closeStandardContent = '</div></div>'
+    var openPanelInner = '<div class="panelInner col-xs-12 col-sm-12 col-md-6 col-lg-4 ' + textLocation + '">';
     var closePanelInner = '</div>';
-    var openPanelContainer = '<div class="panelFlexContainer' + textLocation + '">'
+    var openPanelContainer = '<div class="panelFlexContainer ' + textLocation + '">'
     var closePanelContainer = '</div>';
     var imageString = '<img class="card-image-top my-3" src="' + backgroundImage +'">';
     var openOverlay = '<div class="card-img-overlay card-inverse my-3">';
