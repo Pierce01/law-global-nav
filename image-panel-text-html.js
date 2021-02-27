@@ -42,8 +42,8 @@ try {
     // var titleLink = "";
     // var listItems = "";
     // var listOfTags = "";
-    var imageString = '<img class="card-image-top" src="' + backgroundImage +'">';
-    var openOverlay = '<div class="card-img-overlay card-inverse">';
+    var imageString = '<img class="card-image-top my-3" src="' + backgroundImage +'">';
+    var openOverlay = '<div class="card-img-overlay card-inverse my-3">';
     var closeOverlay = '</div>';
     var openBlock = '<div class="card-block">';
     var closeBlock = '</div>';
@@ -52,7 +52,7 @@ try {
     var openLinksList = '<ul class="panelLinks">';
     var closeLinksList = '</ul>';
     var descriptionString = '<p class="card-text">' + description + '</p>';
-    var beginningHTML = '<div class="container-fluid px-0"><div class="panelWrapper contentItem noGap col-12 card border-0" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>">';
+    var beginningHTML = '<div class="container-fluid px-0"><div class="panelWrapper contentItem noGap col-12 card border-0 my-3" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>">';
     var endingHTML = '</div></div>';
 
 
