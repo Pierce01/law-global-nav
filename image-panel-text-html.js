@@ -6,7 +6,7 @@
  *
  *      Document will write once when the page loads
  *
- *      @version 1.5
+ *      @version 1.6
  */
 
 
@@ -59,7 +59,7 @@ try {
     var btnLinkTwo = '<a href="' + btnTwoStdLink + '" class="card-link">' + btnTwoText + '</a>';
     var openLinksList = '<ul class="panelLinks">';
     var closeLinksList = '</ul>';
-    var descriptionString = '<p class="card-text">' + description + '</p>';
+    var descriptionString = '<div class="card-text">' + description + '</div>';
     var beginningHTML = '<div class="panelWrapper contentItem noGap container-fluid px-0" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>"><div class="col-12 card border-0 my-3">';
     var endingHTML = '</div></div>';
 
