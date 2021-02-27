@@ -42,6 +42,8 @@ try {
     // var titleLink = "";
     // var listItems = "";
     // var listOfTags = "";
+    var openStandardContent = '<div class="standardContent">';
+    var closeStandardContent = '</div>'
     var openPanelContainer = '<div class="panelFlexContainer' + textLocation + '">'
     var closePanelCOntainer = '</div>';
     var imageString = '<img class="card-image-top my-3" src="' + backgroundImage +'">';
