@@ -53,8 +53,11 @@ try {
     var closeOverlay = '</div>';
     var openBlock = '<div class="card-block">';
     var closeBlock = '</div>';
-    var btnOneString = '<li><a href="' + btnOneLink + '" class="card-link h-100" title="' + btnOneTitle + '"><span class="d-inline-block align-middle">' + btnOneText + '</span></a></li>';
-    var btnTwoString = '<li><a href="' + btnTwoLink + '" class="card-link h-100" title="' + btnTwoTitle + '"><span class="d-inline-block align-middle">' + btnTwoText + '</span></a></li>';
+    var btnOneString = '<li class="hidden visually-hidden"><a href="#" class="hidden visually-hidden card-link h-100" title="No Valid Link Provided"><span class="hidden visually-hidden d-inline-block align-middle">No Valid Link Provided</span></a></li>';
+
+    // var btnOneString = '<li><a href="' + btnOneLink + '" class="card-link h-100" title="' + btnOneTitle + '"><span class="d-inline-block align-middle">' + btnOneText + '</span></a></li>';
+    var btnTwoString = '<li class="hidden visually-hidden"><a href="#" class="hidden visually-hidden card-link h-100" title="No Valid Link Provided"><span class="hidden visually-hidden d-inline-block align-middle">No Valid Link Provided</span></a></li>';
+
     var openLinksList = '<ul class="panelLinks flex-md-nowrap">';
     var closeLinksList = '</ul>';
     var descriptionString = '<div class="card-text">' + description + '</div>';
@@ -69,11 +72,11 @@ try {
      *      Button Links
      * 
      * */
-    if (btnOneLink = "") {
-        var btnOneString = '<li class="hidden visually-hidden"><a href="#" class="hidden visually-hidden card-link h-100" title="No Valid Link Provided"><span class="hidden visually-hidden d-inline-block align-middle">No Valid Link Provided</span></a></li>';
+    if (btnOneLink != "") {
+        btnOneString = '<li><a href="' + btnOneLink + '" class="card-link h-100" title="' + btnOneTitle + '"><span class="d-inline-block align-middle">' + btnOneText + '</span></a></li>';
     }
-    if (btnTwoLink = "") {
-        var btnTwoString = '<li class="hidden visually-hidden"><a href="#" class="hidden visually-hidden card-link h-100" title="No Valid Link Provided"><span class="hidden visually-hidden d-inline-block align-middle">No Valid Link Provided</span></a></li>';
+    if (btnTwoLink != "") {
+        btnTwoString = '<li><a href="' + btnTwoLink + '" class="card-link h-100" title="' + btnTwoTitle + '"><span class="d-inline-block align-middle">' + btnTwoText + '</span></a></li>';
     }
 
 
