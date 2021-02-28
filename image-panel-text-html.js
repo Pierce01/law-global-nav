@@ -46,10 +46,10 @@ try {
     var closeStandardContent = '</div></div>'
     var openPanelInner = '<div class="panelInner col-xs-12 col-sm-12 col-md-6 col-lg-4 ' + textLocation + '">';
     var closePanelInner = '</div>';
-    var openPanelContainer = '<div class="panelFlexContainer ' + textLocation + '">'
+    var openPanelContainer = '<div class="panelFlexContainer ' + textLocation + '" style="height:' + imageHeight + '">'
     var closePanelContainer = '</div>';
-    var imageString = '<img class="card-image-top my-3" src="' + backgroundImage +'">';
-    var openOverlay = '<div class="card-img-overlay card-inverse my-3">';
+    var imageString = '<img class="card-image-top my-3" src="' + backgroundImage +'" style="height:' + imageHeight + '">';
+    var openOverlay = '<div class="panelOverlay card-img-overlay card-inverse my-3" style="height:' + imageHeight + '">';
     var closeOverlay = '</div>';
     var openBlock = '<div class="card-block">';
     var closeBlock = '</div>';
