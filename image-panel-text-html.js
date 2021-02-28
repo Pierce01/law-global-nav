@@ -53,8 +53,8 @@ try {
     var closeOverlay = '</div>';
     var openBlock = '<div class="card-block">';
     var closeBlock = '</div>';
-    var btnOneString = '<a href="' + btnOneLink + '" class="card-link" title="' + btnOneTitle + '">' + btnOneText + '</a>';
-    var btnTwoString = '<a href="' + btnTwoLink + '" class="card-link" title="' + btnTwoTitle + '">' + btnTwoText + '</a>';
+    var btnOneString = '<li><a href="' + btnOneLink + '" class="card-link" title="' + btnOneTitle + '">' + btnOneText + '</a></li>';
+    var btnTwoString = '<li><a href="' + btnTwoLink + '" class="card-link" title="' + btnTwoTitle + '">' + btnTwoText + '</a></li>';
     var openLinksList = '<ul class="panelLinks flex-md-nowrap">';
     var closeLinksList = '</ul>';
     var descriptionString = '<div class="card-text">' + description + '</div>';
