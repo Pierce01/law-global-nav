@@ -38,7 +38,7 @@ try {
 
 
     /***
-     *  Declare/Assign local variables with default formatting
+     *  Declare/Assign local variables with default formatting and values
      * 
      * */
     var titleString = '<h2 id="label' + contentID + '">' + itemTitle + '</h2>';
@@ -61,6 +61,20 @@ try {
     var beginningHTML = '<div class="panelWrapper contentItem noGap container-fluid px-0" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>"><div class="col-12 card border-0 my-3">';
     var endingHTML = '</div></div>';
 
+
+
+
+    /***
+     *  Handle Selective Output Logic
+     *      Button Links
+     * 
+     * */
+    if (btnOneLink = "") {
+        var btnOneString = '<li class="hidden visually-hidden"><a href="#" class="hidden visually-hidden card-link h-100" title="No Valid Link Provided"><span class="hidden visually-hidden d-inline-block align-middle">No Valid Link Provided</span></a></li>';
+    }
+    if (btnTwoLink = "") {
+        var btnTwoString = '<li class="hidden visually-hidden"><a href="#" class="hidden visually-hidden card-link h-100" title="No Valid Link Provided"><span class="hidden visually-hidden d-inline-block align-middle">No Valid Link Provided</span></a></li>';
+    }
 
 
 
