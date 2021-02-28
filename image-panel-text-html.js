@@ -6,7 +6,7 @@
  *
  *      Document will write once when the page loads
  *
- *      @version 1.8
+ *      @version 1.10
  */
 
 
@@ -53,8 +53,8 @@ try {
     var closeOverlay = '</div>';
     var openBlock = '<div class="card-block">';
     var closeBlock = '</div>';
-    var btnOneString = '<li><a href="' + btnOneLink + '" class="card-link" title="' + btnOneTitle + '">' + btnOneText + '</a></li>';
-    var btnTwoString = '<li><a href="' + btnTwoLink + '" class="card-link" title="' + btnTwoTitle + '">' + btnTwoText + '</a></li>';
+    var btnOneString = '<li><a href="' + btnOneLink + '" class="card-link h-100" title="' + btnOneTitle + '"><span class="align-middle">' + btnOneText + '</span></a></li>';
+    var btnTwoString = '<li><a href="' + btnTwoLink + '" class="card-link h-100 align-middle" title="' + btnTwoTitle + '"><span class="align-middle">' + btnTwoText + '</span></a></li>';
     var openLinksList = '<ul class="panelLinks flex-md-nowrap">';
     var closeLinksList = '</ul>';
     var descriptionString = '<div class="card-text">' + description + '</div>';
