@@ -6,7 +6,7 @@
  *
  *      Document will write once when the page loads
  *
- *      @version 1.7
+ *      @version 1.8
  */
 
 
@@ -55,7 +55,7 @@ try {
     var closeBlock = '</div>';
     var btnOneString = '<a href="' + btnOneLink + '" class="card-link" title="' + btnOneTitle + '">' + btnOneText + '</a>';
     var btnTwoString = '<a href="' + btnTwoLink + '" class="card-link" title="' + btnTwoTitle + '">' + btnTwoText + '</a>';
-    var openLinksList = '<ul class="panelLinks">';
+    var openLinksList = '<ul class="panelLinks flex-md-nowrap">';
     var closeLinksList = '</ul>';
     var descriptionString = '<div class="card-text">' + description + '</div>';
     var beginningHTML = '<div class="panelWrapper contentItem noGap container-fluid px-0" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>"><div class="col-12 card border-0 my-3">';
