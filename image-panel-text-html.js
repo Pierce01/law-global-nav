@@ -38,7 +38,7 @@ try {
 
 
     /***
-     *  Declare/Assign local variables with base formatting
+     *  Declare/Assign local variables with default formatting
      * 
      * */
     var titleString = '<h2 id="label' + contentID + '">' + itemTitle + '</h2>';
@@ -87,7 +87,7 @@ try {
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closePanelContainer));
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closeBlock));
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closeOverlay));
-    document.write(endingHTML);
+    document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, endingHTML));
 
 
 
