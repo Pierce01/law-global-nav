@@ -6,7 +6,7 @@
  *
  *      Document will write once when the page loads
  *
- *      @version 1.11
+ *      @version 1.13
  */
 
 
@@ -23,7 +23,7 @@ try {
     var textLocation = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Location of text' output='normal' display_field='value' />");
     var description = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Description' output='normal' display_field='value' />");
     var backgroundImage = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Image' output='normal' formatter='path/*' />");
-    var imageHeight = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Height of image' output='normal' modifiers='striptags,htmlentities' />");
+    // var imageHeight = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Height of image' output='normal' modifiers='striptags,htmlentities' />");
     var borderColor= com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Border Color' output='normal' display_field='value' />");
     var btnOneText = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Button 1 text' output='normal' modifiers='striptags,htmlentities' />");
     var btnOneLink = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Button 1 link' output='linkurl' modifiers='nav_sections' />");
@@ -46,10 +46,10 @@ try {
     var closeStandardContent = '</div></div>'
     var openPanelInner = '<div class="panelInner col-xs-12 col-sm-12 col-md-6 col-lg-4 ' + textLocation + '">';
     var closePanelInner = '</div>';
-    var openPanelContainer = '<div class="panelFlexContainer ' + textLocation + '" style="height:' + imageHeight + '">'
+    var openPanelContainer = '<div class="panelFlexContainer ' + textLocation + '">'
     var closePanelContainer = '</div>';
-    var imageString = '<img class="card-image-top my-3" src="' + backgroundImage +'" style="height:' + imageHeight + '">';
-    var openOverlay = '<div class="panelOverlay card-img-overlay card-inverse my-3" style="height:' + imageHeight + '">';
+    var imageString = '<img class="card-image-top my-3" src="' + backgroundImage +'">';
+    var openOverlay = '<div class="card-img-overlay card-inverse my-3">';
     var closeOverlay = '</div>';
     var openBlock = '<div class="card-block">';
     var closeBlock = '</div>';
