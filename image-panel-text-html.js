@@ -26,18 +26,11 @@ try {
     var imageHeight = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Height of image' output='normal' modifiers='striptags,htmlentities' />");
     var borderColor= com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Border Color' output='normal' display_field='value' />");
     var btnOneText = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Button 1 text' output='normal' modifiers='striptags,htmlentities' />");
-    // var btnOneStdLink = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Button 1 link' output='normal' modifiers='nav_sections' />");
-
     var btnOneLink = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Button 1 link' output='linkurl' modifiers='nav_sections' />");
     var btnOneTitle = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Button 1 link' output='normal' modifiers='nav_sections' />");
-
-
     var btnTwoText = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Button 2 text' output='normal' modifiers='striptags,htmlentities' />");
-    // var btnTwoStdLink = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Button 2 link' output='normal' modifiers='nav_sections' />");
-
     var btnTwoLink = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Button 2 link' output='linkurl' modifiers='nav_sections' />");
     var btnTwoTitle = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Button 2 link' output='linktext' modifiers='nav_sections' />");
-
     var anchorTag = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='meta' meta='html_anchor' />");
     var contentID = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='meta' meta='content_id' />");
 
@@ -48,10 +41,6 @@ try {
      *  Declare/Assign local variables with base formatting
      * 
      * */
-    // var cardText = "<span class='newsroomArticleLead card-text subtitle'><p>" + articleSubtitle + "</p></span>";
-    // var titleLink = "";
-    // var listItems = "";
-    // var listOfTags = "";
     var titleString = '<h2 id="label' + contentID + '">' + itemTitle + '</h2>';
     var openStandardContent = '<div class="panelText"><div class="standardContent">';
     var closeStandardContent = '</div></div>'
@@ -71,48 +60,6 @@ try {
     var descriptionString = '<div class="card-text">' + description + '</div>';
     var beginningHTML = '<div class="panelWrapper contentItem noGap container-fluid px-0" title="' + itemTitle + '" id="id<t4 type=\'meta\' meta=\'content_id\' data-position-default="Main" data-position-selected="Main" role="presentation" aria-labelledby="label<t4 type=\'meta\' meta=\'content_id\' />"/>"><div class="col-12 card border-0 my-3">';
     var endingHTML = '</div></div>';
-
-
-
-
-    /***
-     *  parse the list of tags, add <li> tags
-     * 
-     * */
-    // if (fieldTags != "") {
-    //     var arrayOfTags = fieldTags.split(',');
-    //     for (let i = 0; i < arrayOfTags.length; i++) {
-    //         listItems += '<li class="tag">' + arrayOfTags[i] + '</li>';
-    //     }
-    //     listOfTags = '<div class="newsroomArticle tags hidden"><ul class="categories">' + listItems + '</ul></div>';
-    // }
-
-
-
-
-    /***
-     *  determine if the article contains full text content
-     * 
-     * */
-    // if (articleFullBody == "") {
-    //     titleLink = '<h3 class="newsroomArticleTitle card-title">' + headline + '</h3>';
-    // } else {
-    //     titleLink = '<h3 class="newsroomArticleTitle card-title"><a href="' + fullTextLink + '">' + headline + '</a></h3>';
-    // }
-
-
-
-
-    /***
-     *  verify Main image and photo credits
-     * 
-     * */
-    // if (frontPageImage == "") {
-    //     thumbNailString = '<span class="newsroomImageWrapper hidden">No Image Provided</span>';
-
-    // } else {
-    //     thumbNailString = '<span class="newsroomImageWrapper"><img src="' + frontPageImage + '" class="articleImage card-img-top" alt="' + frontPageImageCaption + '" /></span>';
-    // }
 
 
 
@@ -140,17 +87,6 @@ try {
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closePanelContainer));
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closeBlock));
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closeOverlay));
-
-
-
-    // document.write('<div class="card-body">');
-    // document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, titleLink));
-    // document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, cardText));
-    // document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, authorByLine));
-    // document.write('</div>'); // close card body
-    // document.write('<div class="card-footer"><medium class="newsroomArticlePublishedDate">' + publishedDate + '</medium></div>');
-    // document.write(listOfTags);
-    // document.write('<div class="hidden"><span class="articlePinned">' + pinned + '</span><span class="catPinned">' + catPin + '</span></div>');
     document.write(endingHTML);
 
 
