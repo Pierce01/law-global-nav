@@ -39,7 +39,6 @@ try {
      *  Declare/Assign local variables with default formatting and values
      * 
      * */
-    // var mobileImage = '<div class="d-block d-md-none"><img class="card-image-bottom my-3" src="' + backgroundImage +'"></div>';
     var titleString = '<h2 id="label' + contentID + '">' + itemTitle + '</h2>';
     var openStandardContent = '<div class="panelText card-text"><div class="standardContent">';
     var closeStandardContent = '</div></div>'
@@ -100,7 +99,6 @@ try {
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closePanelContainer));
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closeBlock));
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, closeOverlay));
-    // document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, mobileImage));
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, endingHTML));
 
 
