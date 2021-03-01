@@ -80,6 +80,10 @@
     .panelWrapper .card .panelText h2 {
         font-size: 2rem; 
     }
+
+    .card-img-overlay .standardContent {
+        padding: 0;
+    }
     
     .panelText.card-text p {
         font-size: 1rem;
