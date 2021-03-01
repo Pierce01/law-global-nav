@@ -111,6 +111,9 @@
 @media only screen and (max-width : 767.99px) {
 
     /* ***  Image Panel Content Type   *** */
+    .panelWrapper .panelText.card-text {
+        padding: 1rem;
+    } 
     /* .panelWrapper .card-img-overlay {
         position: unset;
     }
@@ -128,6 +131,14 @@
     } */
 
 }
+
+/* ***  Small max Defaults   *** */
+@media only screen and (max-width : 575.99px) {
+    .panelWrapper .panelText.card-text {
+        padding: 0;
+    } 
+}
+
 
 /* ***  X Large min Defaults   *** */
 @media only screen and (min-width : 1200px) {
