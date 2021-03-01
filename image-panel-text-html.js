@@ -6,7 +6,7 @@
  *
  *      Document will write once when the page loads
  *
- *      @version 1.19
+ *      @version 1.20
  */
 
 
@@ -69,10 +69,10 @@ try {
      * 
      * */
     if (btnOneLink != "") {
-        btnOneString = '<li class="mx-1 my-auto"><a href="' + btnOneLink + '" class="card-link h-100" title="' + btnOneTitle + '"><span class="d-inline-block align-middle">' + btnOneText + '</span></a></li>';
+        btnOneString = '<li class="mx-1"><a href="' + btnOneLink + '" class="card-link h-100" title="' + btnOneTitle + '"><span class="d-inline-block align-middle">' + btnOneText + '</span></a></li>';
     }
     if (btnTwoLink != "") {
-        btnTwoString = '<li class="mx-1 my-auto"><a href="' + btnTwoLink + '" class="card-link h-100" title="' + btnTwoTitle + '"><span class="d-inline-block align-middle">' + btnTwoText + '</span></a></li>';
+        btnTwoString = '<li class="mx-1"><a href="' + btnTwoLink + '" class="card-link h-100" title="' + btnTwoTitle + '"><span class="d-inline-block align-middle">' + btnTwoText + '</span></a></li>';
     }
 
 
