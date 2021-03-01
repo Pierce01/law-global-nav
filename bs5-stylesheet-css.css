@@ -1,6 +1,5 @@
 /* ***  Defaults   *** */
 
-
 /* ***  Image Panel Content Type   *** */
 .panelWrapper .card .panelText h2 {
     font-size: 2.6rem; 
@@ -13,10 +12,6 @@
 .panelText.card-text p {
     line-height: 1.5;
 }
-
-/* .panelInner .card-text .panelLinks {
-    display: flex;
-} */
 
 .panelInner .card-text .panelLinks {
     display: block;
@@ -39,10 +34,6 @@
 @media only screen and (max-width : 1399.99px) {
 
     /* ***  Image Panel Content Type   *** */
-    /* .panelInner .card-text .panelLinks {
-        display: block;
-    } */
-
     .panelWrapper .card .panelText h2 {
         font-size: 2rem; 
     }
@@ -106,10 +97,6 @@
     .panelInner .card-text .panelLinks {
         display: flex;
     }
-
-    /* .panelInner .card-text .panelLinks li {
-        margin: unset;
-    } */
 }
 
 
@@ -144,14 +131,6 @@
 @media only screen and (min-width : 1200px) {
         
     /* ***  Image Panel Content Type   *** */
-    /* .panelWrapper .panelText.card-text {
-        padding: 70px 60px 70px 60px;
-    } */
-
-    /* .panelInner .card-text .panelLinks  {
-        display: flex;
-        justify-content: space-evenly;
-    } */
 }
 
 
