@@ -117,12 +117,16 @@
 @media only screen and (max-width : 767.99px) {
 
     /* ***  Image Panel Content Type   *** */
+    .panelWrapper .panelText.card-text {
+        padding: 1rem;
+    }
+    
     .panelInner .card-text .panelLinks {
         display: block;
     }
 
-    .panelWrapper .panelText.card-text {
-        padding: 1rem;
+    .panelInner .card-text .panelLinks li {
+        border: 1px;
     }
 }
 
