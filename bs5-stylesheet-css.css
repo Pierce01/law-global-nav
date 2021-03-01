@@ -25,4 +25,6 @@
         font-size: 1rem;
         line-height: 1.5;
     }
+    .panelWrapper .card-img-overlay {
+        position: unset;
 }
