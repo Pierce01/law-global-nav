@@ -31,7 +31,7 @@ div.panelText.card-text p {
         font-size: 2.6rem; 
     }
     
-    div.panelText.card-text p {
+    .panelText.card-text p {
         font-size: 1.4rem;
     }
 }
@@ -45,9 +45,20 @@ div.panelText.card-text p {
         font-size: 2.4rem; 
     }
     
-    div.panelText.card-text p {
+    .panelText.card-text p {
         font-size: 1.2rem;
-    }  
+    }
+
+    .panelText.card-text .standardContent ul {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    .panelInner .card-text .panelLinks a {
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 1.5;
+    }
 }
 
 
@@ -65,6 +76,11 @@ div.panelText.card-text p {
     
     .panelText.card-text p {
         font-size: 1rem;
+    }
+
+    .panelText.card-text .standardContent ul {
+        font-size: unset;
+        line-height: unset;
     }
 }
 
@@ -85,7 +101,7 @@ div.panelText.card-text p {
         font-size: 2rem; 
     }
     
-    div.panelText.card-text p {
+    .panelText.card-text p {
         font-size: 1rem;
     }
 
@@ -101,12 +117,13 @@ div.panelText.card-text p {
 
     .panelInner .panelLinks {
         display: flex;
+        justify-content: space-evenly;
     }
 
-    .panelText.card-text .standardContent ul {
+    /* .panelText.card-text .standardContent ul {
         font-size: unset;
         line-height: unset;
-    }
+    } */
 }
 
 
@@ -114,14 +131,14 @@ div.panelText.card-text p {
 @media only screen and (min-width : 992px) {
 
     /* ***  Image Panel Content Type   *** */
-    .panelInner .panelLinks {
+    /* .panelInner .panelLinks {
         display: block;
-    }
+    } */
 
-    .panelText.card-text .standardContent ul {
+    /* .panelText.card-text .standardContent ul {
         font-size: 1.5rem;
         line-height: 1.5;
-    }
+    } */
 
 }
 
