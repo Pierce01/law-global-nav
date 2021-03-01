@@ -44,6 +44,10 @@ div.panelText.card-text p {
     div.panelText.card-text p {
         font-size: 1.2rem;
     }
+
+    .panelWrapper .panelText {
+        padding: 2rem;
+    }    
 }
 
 
