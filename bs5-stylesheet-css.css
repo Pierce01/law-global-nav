@@ -63,9 +63,18 @@
         line-height: 1.5;
     }
 
+    .panelInner .card-text .panelLinks {
+        padding: 1rem 0 0 0;
+    }
+
+    .panelInner .card-text .panelLinks li {
+        margin: 0.25rem 0 0.25rem 0;
+    }
+
     .panelInner .card-text .panelLinks a {
         font-size: 1.3rem;
         line-height: 1;
+        padding-top: 1rem;
     }
 }
 
@@ -92,7 +101,11 @@
 
     .panelInner .card-text .panelLinks {
         display: flex;
-        padding: 1rem 0 0 0;
+        /* padding: 1rem 0 0 0; */
+    }
+
+    .panelInner .card-text .panelLinks li {
+        margin: unset;
     }
 }
 
