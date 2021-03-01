@@ -120,13 +120,13 @@
     .panelWrapper .panelText.card-text {
         padding: 1rem;
     }
-    
+
     .panelInner .card-text .panelLinks {
         display: block;
     }
 
     .panelInner .card-text .panelLinks li {
-        border: 1px;
+        border: 1px solid #088099;
     }
 }
 
