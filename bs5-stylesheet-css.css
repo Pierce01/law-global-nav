@@ -77,6 +77,10 @@ div.panelText.card-text p {
         position: unset;
     }
 
+    .panelInner .panelLinks {
+        display: flex;
+    }
+
     .panelWrapper .card .panelText h2 {
         font-size: 2rem; 
     }
@@ -93,7 +97,11 @@ div.panelText.card-text p {
     /* ***  Image Panel Content Type   *** */
     .panelWrapper .panelText.card-text {
         padding: 70px 60px 70px 60px;
-    }  
+    }
+
+    .panelInner .panelLinks {
+        display: flex;
+    }
 }
 
 
@@ -102,7 +110,11 @@ div.panelText.card-text p {
 
     /* ***  Image Panel Content Type   *** */
     .panelInner .panelLinks {
-        display: flex;
+        display: block;
+    }
+    .standardContent ul {
+        font-size: 1.5rem;
+        line-height: 1.5;
     }
 
 }
