@@ -6,11 +6,11 @@
     font-size: 2.8rem; 
 }
 
-div.panelText.card-text p {
+.panelText.card-text p {
     font-size: 1.6rem;
 }
 
-div.panelText.card-text p {
+.panelText.card-text p {
     line-height: 1.5;
 }
 
