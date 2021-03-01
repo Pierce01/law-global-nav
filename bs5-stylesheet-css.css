@@ -1,5 +1,11 @@
-/* ***  Medium and Larger Defaults   *** */
-@media only screen and (min-width : 768px) {
+/* ***  Defaults   *** */
+div.panelText.card-text p {
+    line-height: 1.5;
+}
+
+
+/* ***  Large min Defaults   *** */
+@media only screen and (min-width : 992px) {
 
     /* ***  Image Panel Content Type   *** */
     .panelWrapper .card .panelText h2 {
@@ -8,12 +14,43 @@
     
     div.panelText.card-text p {
         font-size: 1.6rem;
-        line-height: 1.5;
     }
 }
 
 
-/* ***  Small and Smaller Defaults   *** */
+/* ***  Large max Defaults   *** */
+@media only screen and (max-width : 992px) {
+
+    /* ***  Image Panel Content Type   *** */
+    /* .panelWrapper .card .panelText h2 {
+        font-size: 2.8rem; 
+    }
+    
+    div.panelText.card-text p {
+        font-size: 1.6rem;
+    }
+
+    .panelInner .card-text .panelLinks li {
+        margin: 1rem;
+    } */
+}
+
+
+/* ***  Medium min Defaults   *** */
+@media only screen and (min-width : 768px) {
+
+    /* ***  Image Panel Content Type   *** */
+    .panelWrapper .card .panelText h2 {
+        font-size: 2.4rem; 
+    }
+    
+    div.panelText.card-text p {
+        font-size: 1.3rem;
+    }
+}
+
+
+/* ***  Small max Defaults   *** */
 @media only screen and (max-width : 767.99px) {
 
     /* ***  Image Panel Content Type   *** */
@@ -23,7 +60,6 @@
     
     div.panelText.card-text p {
         font-size: 1rem;
-        line-height: 1.5;
     }
     .panelWrapper .card-img-overlay {
         position: unset;
