@@ -72,9 +72,12 @@
 /* ***  Large max Defaults   *** */
 @media only screen and (max-width : 991.99px) {
 
-    /* ***  Image Panel Content Type   *** *
+    /* ***  Image Panel Content Type   *** */
+    .panelInner .card-text .panelLinks a {
+        font-size: 1.1rem;
+    }
 
-    .panelWrapper .card .panelText h2 {
+    /* .panelWrapper .card .panelText h2 {
         font-size: 1.5rem; 
     }
     
@@ -85,7 +88,7 @@
     .panelText.card-text .standardContent ul {
         font-size: unset;
         line-height: unset;
-    }
+    } */
 }
 
 
