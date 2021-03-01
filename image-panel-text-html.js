@@ -6,7 +6,7 @@
  *
  *      Document will write once when the page loads
  *
- *      @version 1.18
+ *      @version 1.19
  */
 
 
@@ -47,7 +47,7 @@ try {
     var closePanelInner = '</div>';
     var openPanelContainer = '<div class="panelFlexContainer ' + textLocation + '">'
     var closePanelContainer = '</div>';
-    var imageString = '<img class="card-image-top my-3" src="' + backgroundImage +'">';
+    var imageString = '<img class="card-image-top my-3 d-sm-none d-md-block" src="' + backgroundImage +'">';
     var openOverlay = '<div class="card-img-overlay card-inverse my-3">';
     var closeOverlay = '</div>';
     var openBlock = '<div class="card-block">';
@@ -69,10 +69,10 @@ try {
      * 
      * */
     if (btnOneLink != "") {
-        btnOneString = '<li><a href="' + btnOneLink + '" class="card-link h-100" title="' + btnOneTitle + '"><span class="d-inline-block align-middle">' + btnOneText + '</span></a></li>';
+        btnOneString = '<li><a href="' + btnOneLink + '" class="card-link h-100" title="' + btnOneTitle + '"><span class="d-inline-block align-middle position-absolute top-50 start-50">' + btnOneText + '</span></a></li>';
     }
     if (btnTwoLink != "") {
-        btnTwoString = '<li><a href="' + btnTwoLink + '" class="card-link h-100" title="' + btnTwoTitle + '"><span class="d-inline-block align-middle">' + btnTwoText + '</span></a></li>';
+        btnTwoString = '<li><a href="' + btnTwoLink + '" class="card-link h-100" title="' + btnTwoTitle + '"><span class="d-inline-block align-middle position-absolute top-50 start-50">' + btnTwoText + '</span></a></li>';
     }
 
 
