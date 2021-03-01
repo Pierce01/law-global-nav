@@ -27,12 +27,21 @@
 @media only screen and (max-width : 1399.99px) {
 
     /* ***  Image Panel Content Type   *** */
+    .panelInner .panelLinks {
+        display: block;
+    }
+
     .panelWrapper .card .panelText h2 {
-        font-size: 2.6rem; 
+        font-size: 2.2rem; 
     }
     
     .panelText.card-text p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+    }
+
+    .panelInner .card-text .panelLinks a {
+        font-size: 1.5rem;
+        line-height: 1.5;
     }
 }
 
@@ -42,11 +51,11 @@
 
     /* ***  Image Panel Content Type   *** */
     .panelWrapper .card .panelText h2 {
-        font-size: 2.4rem; 
+        font-size: 2rem; 
     }
     
     .panelText.card-text p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .panelText.card-text .standardContent ul {
@@ -56,8 +65,6 @@
 
     .panelInner .card-text .panelLinks a {
         font-size: 1.3rem;
-        font-weight: 500;
-        line-height: 1.5;
     }
 }
 
@@ -65,10 +72,7 @@
 /* ***  Large max Defaults   *** */
 @media only screen and (max-width : 991.99px) {
 
-    /* ***  Image Panel Content Type   *** */
-    .panelInner .panelLinks {
-        display: block;
-    }
+    /* ***  Image Panel Content Type   *** *
 
     .panelWrapper .card .panelText h2 {
         font-size: 1.5rem; 
@@ -149,5 +153,3 @@
     /* ***  Image Panel Content Type   *** */
 
 }
-
-
