@@ -69,10 +69,10 @@ try {
      * 
      * */
     if (btnOneLink != "") {
-        btnOneString = '<li><a href="' + btnOneLink + '" class="card-link h-100" title="' + btnOneTitle + '"><span class="d-inline-block align-middle position-absolute top-50 start-50">' + btnOneText + '</span></a></li>';
+        btnOneString = '<li><a href="' + btnOneLink + '" class="card-link h-100" title="' + btnOneTitle + '"><span class="d-inline-block align-middle">' + btnOneText + '</span></a></li>';
     }
     if (btnTwoLink != "") {
-        btnTwoString = '<li><a href="' + btnTwoLink + '" class="card-link h-100" title="' + btnTwoTitle + '"><span class="d-inline-block align-middle position-absolute top-50 start-50">' + btnTwoText + '</span></a></li>';
+        btnTwoString = '<li><a href="' + btnTwoLink + '" class="card-link h-100" title="' + btnTwoTitle + '"><span class="d-inline-block align-middle">' + btnTwoText + '</span></a></li>';
     }
 
 
