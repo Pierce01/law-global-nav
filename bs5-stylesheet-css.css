@@ -65,6 +65,7 @@
 
     .panelInner .card-text .panelLinks a {
         font-size: 1.3rem;
+        line-height: 1;
     }
 }
 
@@ -91,7 +92,7 @@
 
     .panelInner .card-text .panelLinks {
         display: flex;
-        padding: 0;
+        padding: 1rem 0 0 0;
     }
 }
 
