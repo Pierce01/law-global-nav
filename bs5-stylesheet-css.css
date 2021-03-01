@@ -73,9 +73,24 @@
 @media only screen and (max-width : 991.99px) {
 
     /* ***  Image Panel Content Type   *** */
-    .panelInner .card-text .panelLinks a {
-        font-size: 1.1rem;
+    .panelWrapper .card-img-overlay {
+        position: unset;
     }
+
+    .panelInner .panelLinks {
+        display: flex;
+    }
+
+    .panelWrapper .card .panelText h2 {
+        font-size: 2rem; 
+    }
+    
+    .panelText.card-text p {
+        font-size: 1rem;
+    }
+    /* .panelInner .card-text .panelLinks a {
+        font-size: 1.1rem;
+    } */
 
     /* .panelWrapper .card .panelText h2 {
         font-size: 1.5rem; 
@@ -96,7 +111,7 @@
 @media only screen and (max-width : 767.99px) {
 
     /* ***  Image Panel Content Type   *** */
-    .panelWrapper .card-img-overlay {
+    /* .panelWrapper .card-img-overlay {
         position: unset;
     }
 
@@ -110,7 +125,7 @@
     
     .panelText.card-text p {
         font-size: 1rem;
-    }
+    } */
 
 }
 
