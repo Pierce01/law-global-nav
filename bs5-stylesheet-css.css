@@ -44,7 +44,7 @@
     } */
 
     .panelWrapper .card .panelText h2 {
-        font-size: 2.2rem; 
+        font-size: 2rem; 
     }
     
     .panelText.card-text p {
@@ -63,7 +63,7 @@
 
     /* ***  Image Panel Content Type   *** */
     .panelWrapper .card .panelText h2 {
-        font-size: 2rem; 
+        font-size: 1.8rem; 
     }
     
     .panelText.card-text p {
@@ -140,9 +140,9 @@
 @media only screen and (min-width : 1200px) {
         
     /* ***  Image Panel Content Type   *** */
-    .panelWrapper .panelText.card-text {
+    /* .panelWrapper .panelText.card-text {
         padding: 70px 60px 70px 60px;
-    }
+    } */
 
     /* .panelInner .card-text .panelLinks  {
         display: flex;
