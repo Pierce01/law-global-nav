@@ -46,7 +46,7 @@ try {
     var closePanelInner = '</div>';
     var openPanelContainer = '<div class="panelFlexContainer ' + textLocation + '">'
     var closePanelContainer = '</div>';
-    var imageString = '<img class="card-image-top my-3 d-sm-none d-md-block" src="' + backgroundImage +'">';
+    var imageString = '<img class="card-image-top my-3" src="' + backgroundImage +'">';
     var openOverlay = '<div class="card-img-overlay card-inverse my-3">';
     var closeOverlay = '</div>';
     var openBlock = '<div class="card-block">';
