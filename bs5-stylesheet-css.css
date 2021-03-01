@@ -3,9 +3,8 @@ div.panelText.card-text p {
     line-height: 1.5;
 }
 
-
-/* ***  Large min Defaults   *** */
-@media only screen and (min-width : 992px) {
+/* ***  XX Large min Defaults   *** */
+@media only screen and (min-width : 1400px) {
 
     /* ***  Image Panel Content Type   *** */
     .panelWrapper .card .panelText h2 {
@@ -14,6 +13,33 @@ div.panelText.card-text p {
     
     div.panelText.card-text p {
         font-size: 1.6rem;
+    }
+}
+
+/* ***  X Large min Defaults   *** */
+@media only screen and (min-width : 1200px) {
+
+    /* ***  Image Panel Content Type   *** */
+    .panelWrapper .card .panelText h2 {
+        font-size: 2.6rem; 
+    }
+    
+    div.panelText.card-text p {
+        font-size: 1.4rem;
+    }
+}
+
+
+/* ***  Large min Defaults   *** */
+@media only screen and (min-width : 992px) {
+
+    /* ***  Image Panel Content Type   *** */
+    .panelWrapper .card .panelText h2 {
+        font-size: 2.4rem; 
+    }
+    
+    div.panelText.card-text p {
+        font-size: 1.2rem;
     }
 }
 
@@ -41,11 +67,11 @@ div.panelText.card-text p {
 
     /* ***  Image Panel Content Type   *** */
     .panelWrapper .card .panelText h2 {
-        font-size: 2.4rem; 
+        font-size: 2.2rem; 
     }
     
     div.panelText.card-text p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 
