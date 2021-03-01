@@ -102,6 +102,11 @@ div.panelText.card-text p {
     .panelInner .panelLinks {
         display: flex;
     }
+
+    .panelText.card-text .standardContent ul {
+        font-size: unset;
+        line-height: unset;
+    }
 }
 
 
@@ -112,7 +117,8 @@ div.panelText.card-text p {
     .panelInner .panelLinks {
         display: block;
     }
-    .standardContent ul {
+
+    .panelText.card-text .standardContent ul {
         font-size: 1.5rem;
         line-height: 1.5;
     }
