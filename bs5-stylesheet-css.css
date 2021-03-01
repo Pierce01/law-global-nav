@@ -48,17 +48,9 @@ div.panelText.card-text p {
 @media only screen and (max-width : 992px) {
 
     /* ***  Image Panel Content Type   *** */
-    /* .panelWrapper .card .panelText h2 {
-        font-size: 2.8rem; 
+    .panelWrapper .card-img-overlay {
+        position: unset;
     }
-    
-    div.panelText.card-text p {
-        font-size: 1.6rem;
-    }
-
-    .panelInner .card-text .panelLinks li {
-        margin: 1rem;
-    } */
 }
 
 
@@ -87,6 +79,4 @@ div.panelText.card-text p {
     div.panelText.card-text p {
         font-size: 1rem;
     }
-    .panelWrapper .card-img-overlay {
-        position: unset;
 }

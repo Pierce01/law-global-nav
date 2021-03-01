@@ -42,7 +42,7 @@ try {
     var titleString = '<h2 id="label' + contentID + '">' + itemTitle + '</h2>';
     var openStandardContent = '<div class="panelText card-text"><div class="standardContent">';
     var closeStandardContent = '</div></div>'
-    var openPanelInner = '<div class="panelInner col-12 col-md-6 col-lg-4 ' + textLocation + '">';
+    var openPanelInner = '<div class="panelInner col-12 col-lg-4 ' + textLocation + '">';
     var closePanelInner = '</div>';
     var openPanelContainer = '<div class="panelFlexContainer ' + textLocation + '">'
     var closePanelContainer = '</div>';
