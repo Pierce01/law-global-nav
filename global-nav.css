@@ -1,3 +1,7 @@
+#globalHeader .dropdown-toggle::after {
+    display: none
+}
+
 #globalHeaderResourcesWrapper {
     font-weight: 600;
 }
@@ -5,6 +9,12 @@
 #globalHeaderResourcesLinks.navbar-nav li a {
     text-decoration: none;
 }
+
+#globalHeaderResourcesLinks.navbar-nav li a:hover {
+    text-decoration: underline;
+}
+
+
 
 
 @media only screen and (min-width: 992px) {
