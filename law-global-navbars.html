@@ -1,6 +1,8 @@
 <header id="globalHeader" class="is-visible" data-nav-status="toggle">
     <div id="globalHeaderTopInner " class="container-fluid">
         <div class="row">
+            <button type="button" class="navbar-toggle collapse primary-menu-button" data-toggle="collapse" data-target=".collapseMe" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="menu-icon"></span></button>
+
 
 
             <div id="mainlogo" class="col-xs-6 col-md-2">
@@ -11,6 +13,21 @@
     
             <div id="globalHeaderResourcesWrapper" class="col-xs-12 col-md-10">
                 <div id="globalHeaderNavigationWrapper" class="collapse navbar-collapse collapseMe">
+
+
+                    <div id="globalHeaderResourcesLinksWrapper" class="col-xs-12 col-sm-12 col-md-9 col-md-pull-3 col-lg-11 col-lg-pull-1">
+                        <ul id="globalHeaderResourcesLinks">
+                        <t4 type="navigation" name="Law - Global Audience-Specific Navigation" id="713" aria-label="Resources for students, employees, alumni and the legal community" />
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" id="headerResourcesMenu" data-toggle="dropdown" aria-label="Open Resources submenu" aria-haspopup="true" aria-expanded="false">
+                                    Resources <span class="fa fa-chevron-down visible-inline blue-arrow" style="color: #1ab9d6;"></span>
+                                </a>
+                                <t4 type="navigation" name="Law - Resources Navigation" id="738" />
+                            </li>
+                        </ul>
+                    </div> <!-- end #globalHeaderResourcesLinksWrapper -->
+
+
                     <div id="googleSearchBox" class="col-xs-12 col-sm-10 col-sm-push-1 col-md-3 col-md-push-9 col-lg-1 col-lg-push-11">
                         <script>
                             (function () {
@@ -27,11 +44,11 @@
                             };
                         </script>
     
-                        <style>
+                        <!-- <style>
                             .search-box {
                                 display: none;
                             }
-                        </style>
+                        </style> -->
     
                         <form action="" class="search-box">
                             <gcse:searchbox-only resultsUrl="https://www.seattleu.edu/newsroom/search" newWindow="false" queryParameterName="q"></gcse:searchbox-only>
@@ -40,23 +57,12 @@
                             <a href="#" id="searchToggle" data-selector="#globalHeaderResourcesWrapper" title="Close search" aria-label="Close search"><i id="searchIcon" class="fas fa-search-plus fa-2x" style="color: white;"></i></a>
                         </div>
                     </div> <!-- end #googleSearchBox -->
-                    <div id="globalHeaderResourcesLinksWrapper" class="col-xs-12 col-sm-12 col-md-9 col-md-pull-3 col-lg-11 col-lg-pull-1">
-                        <ul id="globalHeaderResourcesLinks">
-                        <t4 type="navigation" name="Law - Global Audience-Specific Navigation" id="713" aria-label="Resources for students, employees, alumni and the legal community" />
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" id="headerResourcesMenu" data-toggle="dropdown" aria-label="Open Resources submenu" aria-haspopup="true" aria-expanded="false">
-                                    Resources <span class="fa fa-chevron-down visible-inline blue-arrow" style="color: #1ab9d6;"></span>
-                                </a>
-                                <t4 type="navigation" name="Law - Resources Navigation" id="738" />
-                            </li>
-                        </ul>
-                    </div> <!-- end #globalHeaderResourcesLinksWrapper -->
+
+
+
                     <!-- <a class="give-button" href="#">give 1</a> -->
                 </div> <!-- end #globalHeaderNavigationWrapper -->
             </div> <!-- end #globalHeaderResourcesWrapper -->
-
-
-            <button type="button" class="navbar-toggle collapse primary-menu-button" data-toggle="collapse" data-target=".collapseMe" aria-expanded="false"><span class="sr-only">Toggle navigation</span> <span class="menu-icon"></span></button>
         </div><!-- end .row -->
     </div>
     <!-- end #globalHeaderTopInner -->
