@@ -8,6 +8,10 @@
     #globalHeaderNavigation.navbar-nav {
         flex-direction: row;
     }
+
+    #globalHeaderResourcesLinks.navbar-nav {
+        flex-direction: row;
+    }
 }
 
 
