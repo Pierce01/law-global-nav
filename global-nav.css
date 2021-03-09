@@ -6,11 +6,11 @@
     font-weight: 600;
 }
 
-#globalHeaderResourcesLinks.navbar-nav li a {
+#globalHeaderResourcesLinks li a {
     text-decoration: none;
 }
 
-#globalHeaderResourcesLinks.navbar-nav li a:hover {
+#globalHeaderResourcesLinks li a:hover {
     text-decoration: underline;
 }
 
