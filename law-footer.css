@@ -1,4 +1,8 @@
-footer #footerInner {
-    display: flex;
-    flex-wrap: wrap;
+/* ***** Mobile Up ***** */
+@media screen and (min-width: 767.999px) {
+
+    footer #footerInner {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
