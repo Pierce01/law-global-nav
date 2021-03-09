@@ -6,6 +6,10 @@
         flex-wrap: wrap;
         max-width: none;
     }
+
+    footer #footerInner .footerLinks {
+        text-align: center;
+    }
 }
 
 #footerCallToActionLinks a {
