@@ -1,5 +1,5 @@
 /* ***** Mobile Up ***** */
-@media screen and (min-width: 767.999px) {
+@media screen and (min-width: 991.999px) {
 
     footer #footerInner {
         display: flex;
