@@ -7,3 +7,7 @@
         max-width: none;
     }
 }
+
+#footerCallToActionLinks a {
+    border-radius: 0;
+}
