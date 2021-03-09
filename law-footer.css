@@ -1,11 +1,15 @@
 /* ***** Mobile Up ***** */
-@media screen and (min-width: 991.999px) {
+@media screen and (min-width: 992px) {
 
     footer #footerInner {
         display: flex;
         flex-wrap: wrap;
         max-width: none;
     }
+}
+
+/* Desktop down */
+@media screen and (max-width: 991.98px) {
 
     footer #footerInner .footerLinks {
         text-align: center;
@@ -15,3 +19,5 @@
 #footerCallToActionLinks a {
     border-radius: 0;
 }
+
+/* (min-width: 768px) and  */
