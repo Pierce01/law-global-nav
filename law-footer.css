@@ -30,6 +30,28 @@
     }
 }
 
+/* Large devices (desktops, 992px and up to 1199) */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+    footer .footerLinks {
+        font-size: 1rem;
+    }
+
+    footer .footerLinks .name {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    footer .footerLinks a {
+        font-size: 1rem;
+    }
+
+    footer h4 {
+        font-size: 1.5rem;
+    }
+
+}
+
 #footerCallToActionLinks a {
     border-radius: 0;
 }
