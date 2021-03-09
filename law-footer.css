@@ -6,11 +6,6 @@
         flex-wrap: wrap;
         max-width: none;
     }
-
-    footer #footerContact {
-        margin-left: 1rem;
-        padding-left: 1rem;
-    }
 }
 
 /* Desktop down */
@@ -37,6 +32,11 @@
 
 /* Large devices (desktops, 992px and up to 1199) */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+    footer #footerContact {
+        margin-left: 1rem;
+        padding-left: 1rem;
+    }
 
     footer .footerLinks {
         font-size: 1rem;
