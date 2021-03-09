@@ -11,6 +11,10 @@
 /* Desktop down */
 @media screen and (max-width: 991.98px) {
 
+    footer #organization {
+        text-align: center;
+    }
+
     footer #organization img {
         max-width: 50%;
     }
