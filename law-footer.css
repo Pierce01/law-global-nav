@@ -1,11 +1,6 @@
 /* ***** Mobile Up ***** */
 @media screen and (min-width: 992px) {
 
-    footer h4 {
-        margin: 0 0 15px 0;
-        padding: 0;
-    }
-
     footer #footerInner {
         display: flex;
         flex-wrap: wrap;
@@ -15,6 +10,11 @@
 
 /* Desktop down */
 @media screen and (max-width: 991.98px) {
+
+    footer h4 {
+        margin: 0 0 15px 0;
+        padding: 0;
+    }
 
     footer #footerInner .footerLinks {
         text-align: center;
