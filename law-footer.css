@@ -11,12 +11,17 @@
 /* Desktop down */
 @media screen and (max-width: 991.98px) {
 
+    footer #organization img {
+        max-width: 50%;
+    }
+
     footer h4 {
         margin: 0 0 15px 0;
         padding: 0;
     }
 
     footer #footerInner .footerLinks {
+        margin-bottom: 2rem;
         text-align: center;
     }
 }
