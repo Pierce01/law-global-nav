@@ -1,203 +1,211 @@
 <header id="globalHeader" class="is-visible" data-nav-status="toggle">
-    <div id="globalHeaderTopInner " class="container-fluid">
-        <div class="row globalTopInner">
-
-
-
-            <button type="button" class="navbar-toggle collapse primary-menu-button" data-toggle="collapse" data-target=".collapseMe" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="menu-icon"></span></button>
-            <div id="mainlogo" class="col-xs-6 col-md-2">
-                <a href="<t4 type="navigation" name="Law - Link to Home" id="737" />" aria-label="Link back to Seattle University School of Law Home Page">
-                    <t4 type="media" formatter="image/*" id="1856502" />
-                </a>
-            </div>
-    
-            <div id="globalHeaderResourcesWrapper" class="col-xs-12 col-md-10">
-                <div id="globalHeaderNavigationWrapper" class="collapse navbar-collapse collapseMe">
-                    <div class="row globalHeaderWrapper">
-
-
-                        <div id="globalHeaderResourcesLinksWrapper" class="col-xs-12 col-md-9 col-lg-9">
-                            <ul id="globalHeaderResourcesLinks" class="navbar-nav">
-                            <t4 type="navigation" name="Law - Global Audience-Specific Navigation" id="713" aria-label="Resources for students, employees, alumni and the legal community" />
-
-                                <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" id="headerResourcesMenu" data-bs-toggle="dropdown"  aria-label="Open Resources submenu" aria-haspopup="true" aria-expanded="false">
-                                        Resources
-                                        <span class="fa fa-chevron-down visible-inline blue-arrow" style="color: #1ab9d6;"></span>
-                                    </a>
-                                    <t4 type="navigation" name="Law - Resources Navigation" id="738" />
-                                </li>
-                            </ul>
-                        </div> <!-- end #globalHeaderResourcesLinksWrapper -->
+    <nav class="navbar navbar-expand-md">
+        <div id="globalHeaderTopInner" class="container-fluid d-block">
+            <div class="row globalTopInner">
     
     
-                        <div id="googleSearchBox" class="col-xs-12 col-md-3 col-lg-3">
     
-                            <script>
-                                (function () {
-                                    var cx = "006926349126577435401:g7nrxe2tqza";
-                                    var gcse = document.createElement("script");
-                                    gcse.type = "text/javascript";
-                                    gcse.async = true;
-                                    gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
-                                    var s = document.getElementsByTagName("script")[0];
-                                    s.parentNode.insertBefore(gcse, s);
-                                })();
-                                window.onload = function () {
-                                    document.getElementById("gsc-i-id1").placeholder = "Search";
-                                };
-                            </script>
+                <button type="button" class="navbar-toggle collapse primary-menu-button" data-toggle="collapse" data-target=".collapseMe" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="menu-icon"></span></button>
+                <div id="mainlogo" class="col-xs-6 col-md-2">
+                    <a href="<t4 type='navigation' name='Law - Link to Home' id='737' />" class="navbar-brand" aria-label="Link back to Seattle University School of Law Home Page">
+                        <t4 type="media" formatter="image/*" id="1856502" />
+                    </a>
+                </div>
         
-                            <!-- <style>
-                                .search-box {
-                                    display: none;
-                                }
-                            </style> -->
+                <div id="globalHeaderResourcesWrapper" class="col-xs-12 col-md-10">
+                    <div id="globalHeaderNavigationWrapper" class="collapse navbar-collapse collapseMe">
+                        <!-- <div class="row globalHeaderWrapper"> -->
+    
+    
+                            <div id="globalHeaderResourcesLinksWrapper" class="">
+                                <ul id="globalHeaderResourcesLinks" class="navbar-nav">
+                                <t4 type="navigation" name="Law - Global Audience-Specific Navigation" id="713" aria-label="Resources for students, employees, alumni and the legal community" />
+    
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" id="headerResourcesMenu" data-bs-toggle="dropdown"  aria-label="Open Resources submenu" aria-haspopup="true" aria-expanded="false">
+                                            Resources
+                                            <span class="fa fa-chevron-down visible-inline blue-arrow" style="color: #1ab9d6;"></span>
+                                        </a>
+                                        <t4 type="navigation" name="Law - Resources Navigation" id="738" />
+                                    </li>
+                                </ul>
+                            </div> <!-- end #globalHeaderResourcesLinksWrapper -->
         
-                            <form action="" class="search-box">
-                                <gcse:searchbox-only resultsUrl="https://www.seattleu.edu/newsroom/search" newWindow="false" queryParameterName="q"></gcse:searchbox-only>
-                            </form>
+        
+                            <!-- <form class="d-flex"></form> -->
+                            <div id="googleSearchBox" class="">
+        
+                                <script>
+                                    (function () {
+                                        var cx = "006926349126577435401:g7nrxe2tqza";
+                                        var gcse = document.createElement("script");
+                                        gcse.type = "text/javascript";
+                                        gcse.async = true;
+                                        gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
+                                        var s = document.getElementsByTagName("script")[0];
+                                        s.parentNode.insertBefore(gcse, s);
+                                    })();
+                                    window.onload = function () {
+                                        document.getElementById("gsc-i-id1").placeholder = "Search";
+                                    };
+                                </script>
+            
+                                <!-- <style>
+                                    .search-box {
+                                        display: none;
+                                    }
+                                </style> -->
+            
+                                <form action="" class="search-box d-flex">
+                                    <gcse:searchbox-only resultsUrl="https://www.seattleu.edu/newsroom/search" newWindow="false" queryParameterName="q"></gcse:searchbox-only>
+                                </form>
+    
+    
+                                <!-- <div class="search-button">
+                                    <a href="#" id="searchToggle" data-selector="#globalHeaderResourcesWrapper" title="Close search" aria-label="Close search"><i id="searchIcon" class="fas fa-search-plus fa-2x" style="color: white;"></i></a>
+                                </div> -->
+                            </div> <!-- end #googleSearchBox -->
+                        </div><!-- end .row.globalHeaderWrapper -->
+                        <!-- <a class="give-button" href="#">give 1</a> -->
+                    </div> <!-- end #globalHeaderNavigationWrapper -->
 
 
-                            <!-- <div class="search-button">
-                                <a href="#" id="searchToggle" data-selector="#globalHeaderResourcesWrapper" title="Close search" aria-label="Close search"><i id="searchIcon" class="fas fa-search-plus fa-2x" style="color: white;"></i></a>
-                            </div> -->
-                        </div> <!-- end #googleSearchBox -->
-                    </div><!-- end .row.globalHeaderWrapper -->
-                    <!-- <a class="give-button" href="#">give 1</a> -->
-                </div> <!-- end #globalHeaderNavigationWrapper -->
-            </div> <!-- end #globalHeaderResourcesWrapper -->
-        </div><!-- end .row.globalTopInner -->
-    </div>
-    <!-- end #globalHeaderTopInner -->
+                </div> <!-- end #globalHeaderResourcesWrapper -->
+            <!-- </div>end .row.globalTopInner -->
+        </div><!-- end #globalHeaderTopInner -->
+    </nav>
 
+    
 
-    <div id="globalHeaderMiddleInner"></div>
-    <div id="globalHeaderBottomInner" class="container-fluid">
-        <div id="globalHeaderNavigationWrapper" class="collapse navbar-collapse collapseMe">
-            <ul class="nav navbar-nav" id="globalHeaderNavigation" role="menubar" aria-label="Global Navigation">
-                <!-- ADMISSION START -->
-                <li class="dropdown mega-dropdown" role="menuitem">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Open Admission submenu" role="button" aria-haspopup="true" aria-expanded="false">
-                        Admission<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
-                    </a>
-                    <div class="dropdown-menu mega-dropdown-menu">
-                        <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
-                            <t4 type="navigation" name="Law2 - Global Navigation - Admission Submenu" id="636" />
+    <nav class="navbar">
+        <div id="globalHeaderMiddleInner"></div>
+        <div id="globalHeaderBottomInner" class="container-fluid">
+            <div id="globalHeaderNavigationWrapper" class="collapse navbar-collapse collapseMe">
+                <ul class="nav navbar-nav" id="globalHeaderNavigation" role="menubar" aria-label="Global Navigation">
+                    <!-- ADMISSION START -->
+                    <li class="dropdown mega-dropdown" role="menuitem">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Open Admission submenu" role="button" aria-haspopup="true" aria-expanded="false">
+                            Admission<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
+                        </a>
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+                                <t4 type="navigation" name="Law2 - Global Navigation - Admission Submenu" id="636" />
+                            </div>
+                            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-12 col-md-3">
+                                <t4 type="navigation" name="Law - Global Navigation - Admission Submenu Quicklinks" id="618" />
+                            </div>
                         </div>
-                        <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-12 col-md-3">
-                            <t4 type="navigation" name="Law - Global Navigation - Admission Submenu Quicklinks" id="618" />
+                    </li>
+                    <!-- ADMISSION END -->
+                    <!-- ACADEMICS START -->
+                    <li class="dropdown mega-dropdown" role="menuitem">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Open Academics submenu" role="button" aria-haspopup="true" aria-expanded="false">
+                            Academics<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
+                        </a>
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+                                <t4 type="navigation" name="Law2 - Global Navigation - Academics Submenu" id="641" />
+                            </div>
+                            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-12 col-md-3">
+                                <t4 type="navigation" name="Law - Global Navigation - Academics Submenu Quicklinks" id="620" />
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <!-- ADMISSION END -->
-                <!-- ACADEMICS START -->
-                <li class="dropdown mega-dropdown" role="menuitem">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Open Academics submenu" role="button" aria-haspopup="true" aria-expanded="false">
-                        Academics<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
-                    </a>
-                    <div class="dropdown-menu mega-dropdown-menu">
-                        <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
-                            <t4 type="navigation" name="Law2 - Global Navigation - Academics Submenu" id="641" />
+                    </li>
+                    <!-- ACADEMICS END -->
+                    <!-- STUDENT LIFE START -->
+                    <li class="dropdown mega-dropdown" role="menuitem">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Open Student Life submenu" role="button" aria-haspopup="true" aria-expanded="false">
+                            Student Life<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
+                        </a>
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+                                <t4 type="navigation" name="Law2 - Global Navigation - Student Life Submenu" id="639" />
+                            </div>
+                            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-12 col-md-3">
+                                <t4 type="navigation" name="Law - Global Navigation - Student Life Submenu Quicklinks" id="626" />
+                            </div>
                         </div>
-                        <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-12 col-md-3">
-                            <t4 type="navigation" name="Law - Global Navigation - Academics Submenu Quicklinks" id="620" />
+                    </li>
+                    <!-- STUDENT LIFE END -->
+                    <!-- FACULTY START -->
+                    <li class="dropdown mega-dropdown" role="menuitem">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-label="Open Faculty submenu" aria-haspopup="true" aria-expanded="false">
+                            Faculty<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
+                        </a>
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+                                <t4 type="navigation" name="Law2 - Global Navigation - Faculty Submenu" id="708" />
+                            </div>
+                            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-3">
+                                <t4 type="navigation" name="Law - Global Navigation - Faculty Submenu Quicklinks" id="710" />
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <!-- ACADEMICS END -->
-                <!-- STUDENT LIFE START -->
-                <li class="dropdown mega-dropdown" role="menuitem">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Open Student Life submenu" role="button" aria-haspopup="true" aria-expanded="false">
-                        Student Life<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
-                    </a>
-                    <div class="dropdown-menu mega-dropdown-menu">
-                        <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
-                            <t4 type="navigation" name="Law2 - Global Navigation - Student Life Submenu" id="639" />
+                    </li>
+                    <!-- FACULTY END -->
+                    <!-- CENTERS START -->
+                    <li class="dropdown mega-dropdown" role="menuitem">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Open Centers submenu" role="button" aria-haspopup="true" aria-expanded="false">
+                            Centers<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
+                        </a>
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+                                <t4 type="navigation" name="Law2 - Global Navigation - Centers and Institutes Submenu" id="638" />
+                            </div>
+                            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-3">
+                                <t4 type="navigation" name="Law - Global Navigation - Centers Submenu Quicklinks" id="711" />
+                            </div>
                         </div>
-                        <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-12 col-md-3">
-                            <t4 type="navigation" name="Law - Global Navigation - Student Life Submenu Quicklinks" id="626" />
+                    </li>
+                    <!-- CENTERS END -->
+                    <!-- OUR IMPACT START -->
+                    <li class="dropdown mega-dropdown" role="menuitem">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-label="Open Our Impact submenu" aria-haspopup="true" aria-expanded="false">
+                            Our Impact<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
+                        </a>
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+                                <t4 type="navigation" name="Law2 - Global Navigation - Our Impact Submenu" id="707" />
+                            </div>
+                            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-3">
+                                <t4 type="navigation" name="Law - Global Navigation - Our School Submenu Quicklinks" id="709" />
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <!-- STUDENT LIFE END -->
-                <!-- FACULTY START -->
-                <li class="dropdown mega-dropdown" role="menuitem">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-label="Open Faculty submenu" aria-haspopup="true" aria-expanded="false">
-                        Faculty<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
-                    </a>
-                    <div class="dropdown-menu mega-dropdown-menu">
-                        <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
-                            <t4 type="navigation" name="Law2 - Global Navigation - Faculty Submenu" id="708" />
+                    </li>
+                    <!-- OUR IMPACT END -->
+                    <!-- CAREERS START -->
+                    <li class="dropdown mega-dropdown" role="menuitem">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Open Careers submenu" role="button" aria-haspopup="true" aria-expanded="false">
+                            Careers<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
+                        </a>
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+                                <t4 type="navigation" name="Law2 - Global Navigation - Careers Submenu" id="642" />
+                            </div>
+                            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-12 col-md-3">
+                                <t4 type="navigation" name="Law - Global Navigation - Careers Submenu Quicklinks" id="643" />
+                            </div>
                         </div>
-                        <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-3">
-                            <t4 type="navigation" name="Law - Global Navigation - Faculty Submenu Quicklinks" id="710" />
+                    </li>
+                    <!-- CAREERS END -->
+                    <!-- OUR SCHOOL START -->
+                    <li class="dropdown mega-dropdown" role="menuitem">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Open Our School submenu" role="button" aria-haspopup="true" aria-expanded="false">
+                            Our School<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
+                        </a>
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+                                <t4 type="navigation" name="Law2 - Global Navigation - Our School Submenu" id="640" />
+                            </div>
+                            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-12 col-md-3">
+                                <t4 type="navigation" name="Law - Global Navigation - Our School Submenu Quicklinks" id="628" />
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <!-- FACULTY END -->
-                <!-- CENTERS START -->
-                <li class="dropdown mega-dropdown" role="menuitem">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Open Centers submenu" role="button" aria-haspopup="true" aria-expanded="false">
-                        Centers<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
-                    </a>
-                    <div class="dropdown-menu mega-dropdown-menu">
-                        <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
-                            <t4 type="navigation" name="Law2 - Global Navigation - Centers and Institutes Submenu" id="638" />
-                        </div>
-                        <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-3">
-                            <t4 type="navigation" name="Law - Global Navigation - Centers Submenu Quicklinks" id="711" />
-                        </div>
-                    </div>
-                </li>
-                <!-- CENTERS END -->
-                <!-- OUR IMPACT START -->
-                <li class="dropdown mega-dropdown" role="menuitem">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-label="Open Our Impact submenu" aria-haspopup="true" aria-expanded="false">
-                        Our Impact<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
-                    </a>
-                    <div class="dropdown-menu mega-dropdown-menu">
-                        <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
-                            <t4 type="navigation" name="Law2 - Global Navigation - Our Impact Submenu" id="707" />
-                        </div>
-                        <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-3">
-                            <t4 type="navigation" name="Law - Global Navigation - Our School Submenu Quicklinks" id="709" />
-                        </div>
-                    </div>
-                </li>
-                <!-- OUR IMPACT END -->
-                <!-- CAREERS START -->
-                <li class="dropdown mega-dropdown" role="menuitem">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Open Careers submenu" role="button" aria-haspopup="true" aria-expanded="false">
-                        Careers<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
-                    </a>
-                    <div class="dropdown-menu mega-dropdown-menu">
-                        <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
-                            <t4 type="navigation" name="Law2 - Global Navigation - Careers Submenu" id="642" />
-                        </div>
-                        <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-12 col-md-3">
-                            <t4 type="navigation" name="Law - Global Navigation - Careers Submenu Quicklinks" id="643" />
-                        </div>
-                    </div>
-                </li>
-                <!-- CAREERS END -->
-                <!-- OUR SCHOOL START -->
-                <li class="dropdown mega-dropdown" role="menuitem">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Open Our School submenu" role="button" aria-haspopup="true" aria-expanded="false">
-                        Our School<span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span> <span class="fa fa-chevron-down hidden-xs blue-arrow"></span>
-                    </a>
-                    <div class="dropdown-menu mega-dropdown-menu">
-                        <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
-                            <t4 type="navigation" name="Law2 - Global Navigation - Our School Submenu" id="640" />
-                        </div>
-                        <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-12 col-md-3">
-                            <t4 type="navigation" name="Law - Global Navigation - Our School Submenu Quicklinks" id="628" />
-                        </div>
-                    </div>
-                </li>
-                <!-- OUR SCHOOL END -->
-            </ul>
-            <a class="give-button" aria-label="Give to Seattle University School of Law" href="<t4 type="navigation" name="Law - Link to Give page" id="741" />"><p>GIVE</p></a>
-        </div> <!-- end #globalHeaderNavigationWrapper -->
-    </div> <!-- closes #globalHeaderBottomInner--> 
+                    </li>
+                    <!-- OUR SCHOOL END -->
+                </ul>
+                <a class="give-button" aria-label="Give to Seattle University School of Law" href="<t4 type="navigation" name="Law - Link to Give page" id="741" />"><p>GIVE</p></a>
+            </div> <!-- end #globalHeaderNavigationWrapper -->
+        </div> <!-- closes #globalHeaderBottomInner--> 
+    </nav>
+        
 </header>
