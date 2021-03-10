@@ -1,7 +1,7 @@
 #globalHeader .dropdown-toggle::after {
 
     display: none
-    
+
 }
 
 #globalHeaderResourcesWrapper {
@@ -49,16 +49,22 @@
 @media only screen and (min-width: 992px) {
 
     #globalHeaderNavigationWrapper {
+
         display: contents;
+
     }
 
     #globalHeaderNavigation.navbar-nav {
+
         flex-direction: row;
+
     }
 
     #globalHeaderResourcesLinks.navbar-nav {
+
         align-items: baseline;
         flex-direction: row;
+        
     }
 }
 
