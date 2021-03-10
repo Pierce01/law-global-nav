@@ -106,7 +106,13 @@
 }
 
 /* X Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1366px) {}
+@media screen and (min-width: 1366px) {
+    
+    footer #footerContact {
+        margin-left: 4rem;
+        padding-left: 4rem;
+    }
+}
 
 footer .footerLinks a {
     text-decoration: none;
