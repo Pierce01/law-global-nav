@@ -14,3 +14,4 @@ Upgrade existing nav system to bootstrap 5. Currently built in bootstrap 3
 - [] parse link paths and titles seperately
 - [] apply image height
 - [x] apply text location
+- [] update url for google search bar from edu newsroom
