@@ -1,18 +1,47 @@
 #globalHeader .dropdown-toggle::after {
+
     display: none
+    
 }
 
 #globalHeaderResourcesWrapper {
+
     font-weight: 500;
+
 }
 
 #globalHeaderResourcesLinks li a {
+
     text-decoration: none;
+
 }
 
 #globalHeaderResourcesLinks li a:hover {
+
     text-decoration: underline;
+
 }
+
+#globalHeaderNavigation li.mega-dropdown {
+
+    margin: 0.25rem;
+    padding: 0.25rem;
+}
+
+#globalHeaderNavigation li.dropdown a {
+
+    margin: 0.25rem;
+    padding: 0.25rem;
+    text-decoration: none;
+
+}
+
+#globalHeaderNavigation li.dropdown a:hover {
+
+    text-decoration: underline;
+
+}
+
 
 
 
