@@ -1,3 +1,5 @@
+/* Top Down Default Legacy Stylesheet Overrides for global banner */
+
 #globalHeader .dropdown-toggle::after {
 
     display: none
@@ -63,12 +65,15 @@
 #globalHeaderNavigation li.dropdown a:active {
 
     text-decoration: none;
+    background-color: unset;
+    color: unset;
 
 }
 
 
 
 
+/* Mobile up Legacy Stylesheet Overrides for global banner */
 
 @media only screen and (min-width: 992px) {
 
