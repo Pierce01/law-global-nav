@@ -34,8 +34,8 @@
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
 
     footer #footerContact {
-        margin-left: 2.25rem;
-        padding-left: 2.25rem;
+        margin-left: 2.5rem;
+        padding-left: 2.5rem;
     }
 
     footer #organization {
@@ -69,15 +69,12 @@
 /* Large devices (large desktops, 1200px and up) */
 /* @media screen and (min-width: 1200px) {} */
 
-/* X Large devices (large desktops, 1200px and up) */
-/* @media screen and (min-width: 1366px) {} */
-
-/* Large devices (desktops, 992px and up to 1199) */
+/* X-Large devices (desktops, 1200px and up to 1365) */
 @media screen and (min-width: 1200px) and (max-width: 1365.99px) {
 
     footer #footerContact {
-        margin-left: 2.5rem;
-        padding-left: 2.5rem;
+        margin-left: 3rem;
+        padding-left: 3rem;
     }
 
     footer #organization {
@@ -106,6 +103,17 @@
         font-size: 1.5rem;
     }
 
+}
+
+/* X Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1366px) {}
+
+footer .footerLinks a {
+    text-decoration: none;
+}
+
+footer .footerLinks a:hover {
+    text-decoration: underline;
 }
 
 /* #footerCallToActionLinks a {
