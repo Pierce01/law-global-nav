@@ -16,9 +16,21 @@
 
 }
 
+#globalHeaderResourcesLinks li a:visited {
+
+    text-decoration: none;
+
+}
+
 #globalHeaderResourcesLinks li a:hover {
 
     text-decoration: underline;
+
+}
+
+#globalHeaderResourcesLinks li a:active {
+
+    text-decoration: none;
 
 }
 
@@ -36,9 +48,21 @@
 
 }
 
+#globalHeaderNavigation li.dropdown a:visited {
+
+    text-decoration: none;
+
+}
+
 #globalHeaderNavigation li.dropdown a:hover {
 
     text-decoration: underline;
+
+}
+
+#globalHeaderNavigation li.dropdown a:active {
+
+    text-decoration: none;
 
 }
 
