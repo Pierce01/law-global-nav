@@ -49,6 +49,7 @@
     footer #organization .name {
         font-size: 1.5rem;
         font-weight: 500;
+        margin-top: 1rem;
     }
 
     footer .footerLinks a {
