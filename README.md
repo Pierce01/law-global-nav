@@ -15,3 +15,4 @@ Upgrade existing nav system to bootstrap 5. Currently built in bootstrap 3
 - [x] apply text location
 - [] update url for google search bar from edu newsroom
 - [] add nav to newsroom pagelayout
+- [] sync news and global nav systems
