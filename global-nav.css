@@ -6,9 +6,15 @@
 
 }
 
+#globalHeader #mainlogo {
+    
+    max-height: 5em;
+}
+
 #globalHeaderResourcesWrapper {
 
     font-weight: 500;
+    max-height: 5em;
 
 }
 
