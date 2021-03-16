@@ -46,6 +46,12 @@ a.navbar-brand {
 
 }
 
+#googleSearchBox {
+
+    max-height: 5em;
+
+}
+
 #googleSearchBox input#gsc-i-id1 {
 
     max-height: 1.75em;
