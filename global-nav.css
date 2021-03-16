@@ -11,9 +11,37 @@
     max-height: 5em;
 }
 
+#globalHeaderNavigationWrapper {
+    
+    max-height: 5em;
+}
+
+.globalHeaderWrapper {
+    
+    max-height: 5em;
+}
+
 #globalHeaderResourcesWrapper {
 
     font-weight: 500;
+    max-height: 5em;
+
+}
+
+#globalHeaderResourcesLinksWrapper {
+
+    max-height: 5em;
+
+}
+
+a.navbar-brand {
+
+    max-height: 5em;
+
+}
+
+#globalHeaderResourcesLinks {
+
     max-height: 5em;
 
 }
