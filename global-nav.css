@@ -46,6 +46,12 @@ a.navbar-brand {
 
 }
 
+#googleSearchBox input#gsc-i-id1 {
+
+    max-height: 2em;
+
+}
+
 #globalHeaderResourcesLinks li a {
 
     text-decoration: none;
