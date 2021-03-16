@@ -164,7 +164,7 @@ a.navbar-brand {
 /* Responsice range from 1200 to 1366 */
 @media screen and (min-width: 1200px) and (max-width: 1365.99px) {
 
-    #globalHeaderResourcesWrapper {
+    /* #globalHeaderResourcesWrapper {
 
         font-size: 1rem;
     
@@ -174,13 +174,13 @@ a.navbar-brand {
 
         font-size: 0.9rem;
     
-    }
+    } */
 }
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     
-    #globalHeaderResourcesWrapper {
+    /* #globalHeaderResourcesWrapper {
 
         font-size: 0.8rem;
     
@@ -190,7 +190,7 @@ a.navbar-brand {
 
         font-size: 0.7rem;
     
-    }
+    } */
 }
 
 
