@@ -14,7 +14,7 @@
 
 #globalHeaderNavigationWrapper {
     
-    font-size: 0.8rem;
+    font-size: 1rem;
     max-height: 5em;
     min-height: 5em;
 
@@ -107,7 +107,7 @@ a.navbar-brand {
 
 #globalHeaderNavigation li.dropdown a {
     
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin: 0.5rem 0.25rem 0.5rem 0.25rem;
     padding: 0.5rem 0.25rem 0.5rem 0.25rem;
     text-decoration: none;
@@ -182,7 +182,7 @@ a.navbar-brand {
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     
-    /* #globalHeaderResourcesWrapper {
+    #globalHeaderResourcesWrapper {
 
         font-size: 0.8rem;
     
@@ -192,7 +192,7 @@ a.navbar-brand {
 
         font-size: 0.7rem;
     
-    } */
+    }
 }
 
 
