@@ -19,3 +19,4 @@ Upgrade existing nav system to bootstrap 5. Currently built in bootstrap 3
 - [] add nav to newsroom pagelayout
 - [] sync news and global nav systems
 - [x] add meta defaults
+- [] consider top-zone nav content type to replace hardcoded audience nav
