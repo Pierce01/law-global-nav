@@ -17,6 +17,10 @@
 **/
 
 /* Top Down Default Legacy Stylesheet Overrides for global banner */
+.hidden {
+    display: none;
+}
+
 #globalHeader .dropdown-toggle::after {
     display: none
 }
