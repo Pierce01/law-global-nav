@@ -496,13 +496,13 @@ footer .footerLinks a:hover {
 
 
 /* Galaxy Fold (less than 280px) */
-@media only screen and (max-width: 280px) {}
+@media only screen and (max-width: 279.99px) {}
 
 /* iPhone X (less than 376px) */
-@media only screen and (max-width: 376px) {}
+@media only screen and (max-width: 375.99px) {}
 
 /* Surface Duo (less than 540px) */
-@media only screen and (max-width: 540px) {}
+@media only screen and (max-width: 539.99px) {}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575.98px) {}
