@@ -124,7 +124,7 @@ a.navbar-brand {
 
 
 /* Mobile up Legacy Stylesheet Overrides for global banner */
-@media only screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
 
     #globalHeaderNavigationWrapper {
         display: contents;
@@ -173,7 +173,7 @@ a.navbar-brand {
 **/
 
 /* ***  Medium min Defaults   *** */
-@media only screen and (min-width : 768px) {
+@media screen and (min-width : 768px) {
 
     /* ***  Primary Content Type   *** */
     .primaryContentWrapper {
@@ -372,7 +372,7 @@ footer .footerLinks a:hover {
 
 
 /* ***  XX Large max Defaults   *** */
-@media only screen and (max-width : 1399.99px) {
+@media screen and (max-width : 1399.99px) {
 
     /* ***  Image Panel Content Type   *** */
     .panelWrapper .panelText.card-text h2 {
@@ -391,7 +391,7 @@ footer .footerLinks a:hover {
 
 
 /* ***  X Large max Defaults   *** */
-@media only screen and (max-width : 1199.99px) {
+@media screen and (max-width : 1199.99px) {
 
     /* ***  Image Panel Content Type   *** */
     .panelWrapper .panelText.card-text h2 {
@@ -411,7 +411,7 @@ footer .footerLinks a:hover {
 
 
 /* ***  Large max Defaults   *** */
-@media only screen and (max-width : 991.99px) {
+@media screen and (max-width : 991.99px) {
 
     /* ***  Image Panel Content Type   *** */
     .panelWrapper .card-img-overlay {
@@ -441,7 +441,7 @@ footer .footerLinks a:hover {
 
 
 /* ***  Small max Defaults   *** */
-@media only screen and (max-width : 767.99px) {
+@media screen and (max-width : 767.99px) {
 
     /* ***  Image Panel Content Type   *** */
     .panelWrapper .panelText.card-text {
@@ -498,7 +498,7 @@ footer .footerLinks a:hover {
 @media screen and (max-width: 1199.99px) {}
 
 /* Small devices (landscape phones, 576px and up) */
-@media only screen and (min-width: 576px) and (max-width: 767.99px) {}
+@media screen and (min-width: 576px) and (max-width: 767.99px) {}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 991.99px) {}
@@ -516,10 +516,10 @@ footer .footerLinks a:hover {
 @media screen and (min-width: 576px) {}
 
 /* ***  Medium min Defaults   *** */
-@media only screen and (min-width : 768px) {}
+@media screen and (min-width : 768px) {}
 
 /* ***  Large min Defaults   *** */
-@media only screen and (min-width : 992px) {}
+@media screen and (min-width : 992px) {}
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {}
