@@ -17,7 +17,6 @@
 **/
 
 /* Top Down Default Legacy Stylesheet Overrides for global banner */
-
 #globalHeader .dropdown-toggle::after {
     display: none
 }
@@ -125,66 +124,36 @@ a.navbar-brand {
 
 
 /* Mobile up Legacy Stylesheet Overrides for global banner */
-
 @media only screen and (min-width: 992px) {
 
     #globalHeaderNavigationWrapper {
-
         display: contents;
-
     }
 
     #globalHeaderBottomNavWrapper {
-
         display: contents;
-
     }
 
     #globalHeaderNavigation.navbar-nav {
-
         flex-direction: row;
-
     }
 
     #globalHeaderResourcesLinks.navbar-nav {
-
         align-items: baseline;
         flex-direction: row;
-        
     }
 }
 
-
-
-/* Responsice range from 1200 to 1366 */
-@media screen and (min-width: 1200px) and (max-width: 1365.99px) {
-
-    /* #globalHeaderResourcesWrapper {
-
-        font-size: 1rem;
-    
-    }
-
-    #globalHeaderNavigation li.dropdown a {
-
-        font-size: 0.9rem;
-    
-    } */
-}
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     
     #globalHeaderResourcesWrapper {
-
         font-size: 0.8rem;
-    
     }
 
     #globalHeaderNavigation li.dropdown a {
-
         font-size: 0.7rem;
-    
     }
 }
 
@@ -569,3 +538,6 @@ footer .footerLinks a:hover {
 
 /* ***** Desktop down ***** */
 @media screen and (max-width: 1200px) {}
+
+/* Responsice range from 1200 to 1366 */
+@media screen and (min-width: 1200px) and (max-width: 1365.99px) {}
