@@ -196,6 +196,20 @@ a.navbar-brand {
 **/
 
 
+/* ***** Footer Defaults ***** */
+footer .footerLinks a {
+    text-decoration: none;
+}
+
+footer .footerLinks a:hover {
+    text-decoration: underline;
+}
+
+#footerCallToActionLinks a {
+    border-radius: 0;
+}
+
+
 /* ***** Mobile Up ***** */
 @media screen and (min-width: 992px) {
 
@@ -315,18 +329,6 @@ a.navbar-brand {
         font-weight: 500;
         margin-top: 1rem;
     }
-}
-
-footer .footerLinks a {
-    text-decoration: none;
-}
-
-footer .footerLinks a:hover {
-    text-decoration: underline;
-}
-
-#footerCallToActionLinks a {
-    border-radius: 0;
 }
 
 
