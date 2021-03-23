@@ -19,142 +19,99 @@
 /* Top Down Default Legacy Stylesheet Overrides for global banner */
 
 #globalHeader .dropdown-toggle::after {
-
     display: none
-
 }
 
 #globalHeader #mainlogo {
-    
     max-height: 5em;
     min-height: 5em;
 }
 
 #globalHeaderNavigationWrapper {
-    
     font-size: 1rem;
     max-height: 5em;
     min-height: 5em;
-
 }
 
 .globalHeaderWrapper {
-    
     max-height: 5em;
     min-height: 5em;
-
 }
 
 #globalHeaderResourcesWrapper {
-
     font-weight: 500;
     max-height: 5em;
     min-height: 5em;
-
-
 }
 
 #globalHeaderResourcesLinksWrapper {
-
     max-height: 5em;
     min-height: 5em;
-
-
 }
 
 a.navbar-brand {
-
     max-height: 5em;
     min-height: 5em;
-
-
 }
 
 #globalHeaderResourcesLinks {
-
     max-height: 5em;
     min-height: 5em;
-
-
 }
 
 #googleSearchBox {
-
     max-height: 5em;
     min-height: 5em;
-
-
 }
 
 #googleSearchBox input#gsc-i-id1 {
-
     max-height: 1.75em;
     min-height: 1.75em;
-
 }
 
 #globalHeaderResourcesLinks li a {
-
     text-decoration: none;
-
 }
 
 #globalHeaderResourcesLinks li a:visited {
-
     text-decoration: none;
-
 }
 
 #globalHeaderResourcesLinks li a:hover {
-
     text-decoration: underline;
-
 }
 
 #globalHeaderResourcesLinks li a:active {
-
     text-decoration: none;
-
 }
 
 #globalHeaderNavigation li.mega-dropdown {
-
     margin: 0.5rem 0.25rem 0.5rem 0.25rem;
     padding: 0.5rem 0.25rem 0.5rem 0.25rem;
-
 }
 
 #globalHeaderNavigation li.dropdown a {
-    
     font-size: 0.9rem;
     margin: 0.5rem 0.25rem 0.5rem 0.25rem;
     padding: 0.5rem 0.25rem 0.5rem 0.25rem;
     text-decoration: none;
-
 }
 
 #globalHeaderNavigation li.dropdown a:visited {
-
     text-decoration: none;
-
 }
 
 #globalHeaderNavigation li.dropdown a:hover {
-
     text-decoration: underline;
-
 }
 
 #globalHeaderNavigation li.dropdown a:active {
-
     text-decoration: none;
     background-color: unset;
     color: unset;
-
 }
 
 #globalHeaderBottomNavWrapper {
-
     border: 0;
     clear: both;
     margin: 0;
@@ -162,7 +119,6 @@ a.navbar-brand {
     background-color: #AA0000;
     position: relative;
     z-index: 100;
-
 }
 
 
