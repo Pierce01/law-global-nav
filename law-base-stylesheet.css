@@ -78,9 +78,9 @@ body {
 }
 
 
-.nav-up {
+/* .nav-up {
   xtop: -131px;
-}
+} */
 #globalHeader.is-visible{ top: 0px;}
 /* maybe add back #globalHeader.not-visible{ top: -131px;} */
 
