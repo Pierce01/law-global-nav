@@ -51,6 +51,11 @@
     text-transform: uppercase;
 }
 
+span.fa-chevron-down {
+    position: relative;
+    left: 6px;
+}
+
 
 /*********************
 *
