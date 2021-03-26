@@ -834,9 +834,6 @@ a.give-button p:hover {
     }
 }
 
-#globalHeaderNavigation li.dropdown { 
-    margin: 0;
-}
 
 #globalHeaderNavigation li.dropdown a {
     color: #ffffff;
