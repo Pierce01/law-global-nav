@@ -47,6 +47,10 @@
     border-top:1px solid #ffffff;
 }
 
+#globalHeaderNavigation {
+    text-transform: uppercase;
+}
+
 
 /*********************
 *
@@ -831,17 +835,7 @@ a.give-button p:hover {
 
 /*navigation in white bar */
 
-#globalHeaderNavigation {
-    -webkit-backface-visibility: hidden; 
-    background: rgba(170,0,0,0.75);
-    margin:0;
-    position: relative;
-    z-index: 100;
-    text-transform: uppercase;
-    width:100%;
-    transition: 0.4s;
-    transition-timing-function: ease;
-}
+
 
 @media (max-width:991.999px) {
 
