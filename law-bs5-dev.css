@@ -43,6 +43,10 @@
     color: #ffffff;
 }
 
+#globalHeaderMiddleInner {
+    border-top:1px solid #ffffff;
+}
+
 
 /*********************
 *
@@ -823,9 +827,7 @@ a.give-button p:hover {
 }
 
 
-#globalHeaderMiddleInner {
-    border-top:1px solid #ffffff;
-}
+
 
 /*navigation in white bar */
 
