@@ -30,11 +30,11 @@
     min-height: 5em;
 } */
 
-#globalHeaderNavigationWrapper {
+/* #globalHeaderNavigationWrapper {
     font-size: 1rem;
-    /* max-height: 5em;
-    min-height: 5em; */
-}
+    max-height: 5em;
+    min-height: 5em;
+} */
 
 /* .globalHeaderWrapper {
     max-height: 5em;
@@ -42,6 +42,7 @@
 } */
 
 #globalHeaderResourcesWrapper {
+    font-size: 0.8rem;
     font-weight: 500;
     /* max-height: 5em;
     min-height: 5em; */
@@ -152,9 +153,9 @@
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     
-    #globalHeaderResourcesWrapper {
+    /* #globalHeaderResourcesWrapper {
         font-size: 0.8rem;
-    }
+    } */
 
     #globalHeaderNavigation li.dropdown a {
         font-size: 0.7rem;
