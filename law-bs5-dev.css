@@ -860,186 +860,187 @@ a.give-button p:hover {
 }
 
 #globalHeaderNavigation {
--webkit-backface-visibility: hidden; 
-
-
-background: rgba(170,0,0,0.75);
-
-margin:0;
-
-position: relative;
-z-index: 100;
-text-transform: uppercase;
-width:100%;
-transition: 0.4s;
-transition-timing-function: ease;
-
+    -webkit-backface-visibility: hidden; 
+    background: rgba(170,0,0,0.75);
+    margin:0;
+    position: relative;
+    z-index: 100;
+    text-transform: uppercase;
+    width:100%;
+    transition: 0.4s;
+    transition-timing-function: ease;
 }
 
 @media (max-width:991.999px) {
-#globalHeaderNavigation {
-padding:0;
+
+    #globalHeaderNavigation {
+        padding:0;
+    }
 }
-}
+
 #globalHeaderNavigation li.dropdown { 
-margin: 0;
+    margin: 0;
 }
+
 #globalHeaderNavigation li.dropdown a {
-color: #ffffff;
-font-size: 1.4rem;
-font-weight: 400;
-line-height: 1;
-padding: 25px 24px;
-transition: 0.4s;
-transition-timing-function: ease;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1;
+    padding: 25px 24px;
+    transition: 0.4s;
+    transition-timing-function: ease;
 }
 
-@media screen and (max-width:991.999px) { /* sm */
-#globalHeaderNavigation li.dropdown a {
-font-size: 1.2rem;
-padding: 17px 15px;
-} 
-}
-@media screen and (min-width: 992px) { /* md + lg*/
-#globalHeaderNavigation li.dropdown a {
-font-size: 1.2rem;
-padding: 25px 20px;
-} 
+@media screen and (max-width:991.999px) {
+
+    #globalHeaderNavigation li.dropdown a {
+        font-size: 1.2rem;
+        padding: 17px 15px;
+    } 
 }
 
-#globalHeaderNavigation li.mega-dropdown a.dropdown-toggle{
+@media screen and (min-width: 992px) {
 
-
-background: rgba(170,0,0,0.75);
-
-
+    #globalHeaderNavigation li.dropdown a {
+        font-size: 1.2rem;
+        padding: 25px 20px;
+    } 
 }
 
-#globalHeaderNavigation li.mega-dropdown a.dropdown-toggle:focus{
-color:#000000;
-text-decoration:underline;
+#globalHeaderNavigation li.mega-dropdown a.dropdown-toggle {
+    background: rgba(170,0,0,0.75);
+}
+
+#globalHeaderNavigation li.mega-dropdown a.dropdown-toggle:focus {
+    color:#000000;
+    text-decoration:underline;
 }
 
 #globalHeaderNavigation li.mega-dropdown:hover a.dropdown-toggle,
-#globalHeaderNavigation li.mega-dropdown:focus a.dropdown-toggle{
-background-color: #f7f7f7;
-color:#000000;
-
+#globalHeaderNavigation li.mega-dropdown:focus a.dropdown-toggle {
+    background-color: #f7f7f7;
+    color:#000000;
 }
 
 @media (max-width:991.999px) {
-#globalHeaderNavigationWrapper li.mega-dropdown:hover>a.dropdown-toggle,
-#globalHeaderNavigationWrapper li.mega-dropdown:focus>a.dropdown-toggle{
-color: #aa0000;
+
+    #globalHeaderNavigationWrapper li.mega-dropdown:hover>a.dropdown-toggle,
+    #globalHeaderNavigationWrapper li.mega-dropdown:focus>a.dropdown-toggle {
+        color: #aa0000;
+    }
 }
 
+#globalHeaderNavigation li.mega-dropdown a .fa-angle-right {
+    color: #04a1b9;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    right: 30px;
 }
-#globalHeaderNavigation li.mega-dropdown a .fa-angle-right{
-color: #04a1b9;
-font-size: 2rem;
-font-weight: bold;
-position: absolute;
-right: 30px;
-}
-#globalHeaderNavigation li.mega-dropdown.open a .fa-angle-right{
--webkit-transform: rotate(90deg);
-transform: rotate(90deg);
-transition: 0.5s;
+
+#globalHeaderNavigation li.mega-dropdown.open a .fa-angle-right {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    transition: 0.5s;
 }
 
 li.dropdown.open span.fa-fa-chevron.visible-inline.blue-arrow {
--webkit-transform: rotate(90deg);
-transform: rotate(90deg);
-transition: 0.5s;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    transition: 0.5s;
 }
 
 /* a proud achievement */
 
 #globalHeaderResourcesLinks li.dropdown.open .fa.fa-chevron-down.visible-inline.blue-arrow {
--webkit-transform: rotate(180deg);
-transform: rotate(180deg);
-transition: 0.4s;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: 0.4s;
 }
 
 .fa.fa-chevron-down.visible-inline.blue-arrow span:hover {
-text-decoration: none;
+    text-decoration: none;
 }
 
 /******** mega drop down menu ********/
 
 #globalHeaderNavigation li.mega-dropdown {
-position: static;
-/* z-index: 100;*/
-text-align:center;
+    position: static;
+    text-align:center;
 }
-#globalHeaderNavigation li.mega-dropdown a {
-}
+
+
 @media (max-width:991.999px) {
-#globalHeaderNavigationWrapper li.mega-dropdown {
-margin: 0;
-text-align: left;
-width: 100%;
+
+    #globalHeaderNavigationWrapper li.mega-dropdown {
+        margin: 0;
+        text-align: left;
+        width: 100%;
+    }
 }
-}
+
 #globalHeaderNavigation .mega-dropdown-menu {
-background: #f7f7f7;
-border: none; /* remove? */
-border-radius: 0;
-/* border-top: 2px solid #fdb913; */
-line-height:1.6rem; /* remove? */
-min-height:200px;
-padding: 75px 30px;
-width: 100%;
--webkit-backface-visibility: hidden; /* remove? */
-transition: 0.4s;
-transition-timing-function: ease;
+    background: #f7f7f7;
+    border: none;
+    border-radius: 0;
+    line-height:1.6rem;
+    min-height:200px;
+    padding: 75px 30px;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    transition: 0.4s;
+    transition-timing-function: ease;
 }
 
 @media (max-width:991.999px) {
-#globalHeaderNavigation .mega-dropdown-menu {
-border-top:none;
-float: none;
-padding: 30px 0px;
-overflow: auto;
-position: static;
-}   
+
+    #globalHeaderNavigation .mega-dropdown-menu {
+        border-top:none;
+        float: none;
+        padding: 30px 0px;
+        overflow: auto;
+        position: static;
+    }   
 }
 
 /******** links in mega drop down menu ********/
 
-#globalHeaderNavigation .globalHeaderNavigationMainLinks{
-padding:0;
-}
-#globalHeaderNavigation .globalHeaderNavigationMainLinks ul li {
-max-height: 30px;
-padding: 0px 5px 52px;
-list-style-type: none;
+#globalHeaderNavigation .globalHeaderNavigationMainLinks {
+    padding:0;
 }
 
-@media screen and (min-width: 576px) and (max-width:992px){
 #globalHeaderNavigation .globalHeaderNavigationMainLinks ul li {
-max-height: 30px;
-padding: 0px 20px 65px;
-list-style-type: none;
+    max-height: 30px;
+    padding: 0px 5px 52px;
+    list-style-type: none;
 }
 
+@media screen and (min-width: 576px) and (max-width:992px) {
+
+    #globalHeaderNavigation .globalHeaderNavigationMainLinks ul li {
+    max-height: 30px;
+    padding: 0px 20px 65px;
+    list-style-type: none;
+    }
 }
 
 #globalHeaderNavigation .globalHeaderNavigationMainLinks ul li a {
-border-left: 3px solid #f7f7f7;
-color: #797979;
-display: block;
-font-size: 1.4rem;
-font-weight: 510;
-letter-spacing: 1px;
-padding: 0 60px 0 10px;
-position: relative;
+    border-left: 3px solid #f7f7f7;
+    color: #797979;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 510;
+    letter-spacing: 1px;
+    padding: 0 60px 0 10px;
+    position: relative;
 }
+
 #globalHeaderNavigation .globalHeaderNavigationMainLinks ul li a:hover,
 #globalHeaderNavigation .globalHeaderNavigationMainLinks ul li a:focus {
-border-left: 3px solid #04a9c5;
-text-decoration: none;
-color: #a00;
+    border-left: 3px solid #04a9c5;
+    text-decoration: none;
+    color: #AA0000;
 }
 
 /******** Quicklinks in mega drop down menu ********/
