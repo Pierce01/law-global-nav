@@ -603,12 +603,6 @@ footer .footerLinks a:hover {
 **/
 
 
-
-
-
-
-
-
 #globalHeader #mainlogo a:focus:after {
     content: 'Link to SU Home Page';
     position: absolute;
