@@ -693,103 +693,105 @@ footer .footerLinks a:hover {
 }
 
 .menu-icon.is-clicked:after {
-top: 0;
--webkit-transform: rotate(225deg);
-transform: rotate(225deg);
+    top: 0;
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
 }
 
 .menu-icon.sub-hamburger {
-
--webkit-transform: translateY(-50%);
-transform: translateY(-50%);
-transition: background-color 0.3s;
-background-color: #ab0000;
-bottom: auto;
-display: inline-block;
-height: 2px;
-left: 0;
-position: relative;
-vertical-align: middle;
-width: 25px;
-top: 15px;
-
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: background-color 0.3s;
+    background-color: #ab0000;
+    bottom: auto;
+    display: inline-block;
+    height: 2px;
+    left: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 25px;
+    top: 15px;
 }
 
 .menu-icon.sub-hamburger:before, .menu-icon.sub-hamburger:after {
-content: '';
-width: 100%;
-height: 100%;
-position: absolute;
-background-color: #ab0000;
-right: 0;
-transition: -webkit-transform .8s, top .8s, background-color 0s;
-transition: transform .8s, top .8s, background-color 0s;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #ab0000;
+    right: 0;
+    transition: -webkit-transform .8s, top .8s, background-color 0s;
+    transition: transform .8s, top .8s, background-color 0s;
 }
 
 .menu-icon.sub-hamburger.is-clicked {
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 header.menu-is-open {
-background: #0f72b9;
+    background: #0f72b9;
 }
 
 header.menu-is-open .primary-nav-trigger:focus {
-outline: none;
-transition: all 0.8s ease;
+    outline: none;
+    transition: all 0.8s ease;
 }
 
 
 /* START Give Button */
 a.give-button p {
-background: #ffffff;
-color: #088099; /* default text color */
-transition: 0.3s;
-font-size: 1.3rem;
-font-weight: bold;
-letter-spacing: .2rem;
-line-height: 3;
-text-transform: uppercase;
-text-align: center;
-padding: .5rem 0 .5rem 0;
-margin-top: 1.5vh;
+    background: #ffffff;
+    color: #088099; /* default text color */
+    transition: 0.3s;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    line-height: 3;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .5rem 0 .5rem 0;
+    margin-top: 1.5vh;
 }
 
 a.give-button p:hover {
-background-color: #088099;
-color: #ffffff;
-border: 1px solid #ffffff;
+    background-color: #088099;
+    color: #ffffff;
+    border: 1px solid #ffffff;
 }
 
 @media (min-width: 992px) {
-#globalHeaderNavigationWrapper .give-button {
-display: none;
-}
+
+    #globalHeaderNavigationWrapper .give-button {
+        display: none;
+    }
 }
 /* END Give Button */
 
 
 /* links in red bar */
 #globalHeaderResourcesLinks {
-margin: 0;
-padding: 30px 0px;
-line-height: 40px;
-text-align: right;
-transition: 0.4s;
-transition-timing-function: ease;
+    margin: 0;
+    padding: 30px 0px;
+    line-height: 40px;
+    text-align: right;
+    transition: 0.4s;
+    transition-timing-function: ease;
 }
 
-#globalHeaderResourcesLinks li{
-display: inline-block;
-margin: 0 1rem;
+#globalHeaderResourcesLinks li {
+    display: inline-block;
+    margin: 0 1rem;
 }
+
 #globalHeaderResourcesLinks li a, #globalHeaderResourcesLinks li span{
-color: #ffffff;
-cursor: pointer;
+    color: #ffffff;
+    cursor: pointer;
 }
+
 #globalHeaderResourcesLinks li ul li a {
-color: #333333;
+    color: #333333;
 }
+
 #globalHeaderResourcesLinks li a:hover, #globalHeaderResourcesLinks li a:focus, 
 #globalHeaderResourcesLinks li span:hover, #globalHeaderResourcesLinks li span:focus{
 text-decoration:none;
