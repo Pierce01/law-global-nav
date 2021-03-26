@@ -25,52 +25,52 @@
     display: none
 }
 
-#globalHeader #mainlogo {
+/* #globalHeader #mainlogo {
     max-height: 5em;
     min-height: 5em;
-}
+} */
 
 #globalHeaderNavigationWrapper {
     font-size: 1rem;
-    max-height: 5em;
-    min-height: 5em;
+    /* max-height: 5em;
+    min-height: 5em; */
 }
 
-.globalHeaderWrapper {
+/* .globalHeaderWrapper {
     max-height: 5em;
     min-height: 5em;
-}
+} */
 
 #globalHeaderResourcesWrapper {
     font-weight: 500;
-    max-height: 5em;
-    min-height: 5em;
+    /* max-height: 5em;
+    min-height: 5em; */
 }
 
-#globalHeaderResourcesLinksWrapper {
+/* #globalHeaderResourcesLinksWrapper {
     max-height: 5em;
     min-height: 5em;
-}
+} */
 
-a.navbar-brand {
+/* a.navbar-brand {
     max-height: 5em;
     min-height: 5em;
-}
+} */
 
-#globalHeaderResourcesLinks {
+/* #globalHeaderResourcesLinks {
     max-height: 5em;
     min-height: 5em;
-}
+} */
 
-#googleSearchBox {
+/* #googleSearchBox {
     max-height: 5em;
     min-height: 5em;
-}
+} */
 
-#googleSearchBox input#gsc-i-id1 {
+/* #googleSearchBox input#gsc-i-id1 {
     max-height: 1.75em;
     min-height: 1.75em;
-}
+} */
 
 #globalHeaderResourcesLinks li a {
     text-decoration: none;
@@ -159,6 +159,11 @@ a.navbar-brand {
     #globalHeaderNavigation li.dropdown a {
         font-size: 0.7rem;
     }
+
+    /* .globalHeaderNavigation li.dropdown a {
+        font-size: 1.5rem;
+        padding: 25px 18px;
+    } */
 }
 
 
