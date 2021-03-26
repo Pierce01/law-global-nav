@@ -34,6 +34,10 @@
     max-width: 184px;
 }
 
+#globalHeaderResourcesLinks {
+    text-align: right;
+}
+
 
 
 /*********************
@@ -751,14 +755,7 @@ a.give-button p:hover {
 
 
 /* links in red bar */
-#globalHeaderResourcesLinks {
-    margin: 0;
-    padding: 30px 0px;
-    line-height: 40px;
-    text-align: right;
-    transition: 0.4s;
-    transition-timing-function: ease;
-}
+
 
 #globalHeaderResourcesLinks li {
     display: inline-block;
