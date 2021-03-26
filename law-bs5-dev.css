@@ -25,7 +25,7 @@
 #globalHeader #mainlogo {
     float: left;
     height: 65px;
-    padding: 20px 15px;
+    padding: 20px 30px;
     transition: 0.4s;
     transition-timing-function: ease;
 }
@@ -579,12 +579,6 @@ footer .footerLinks a:hover {
 
 
 
-
-#globalHeader #mainlogo a{
-    display: block;
-    height: 27px;
-    width: 117px;
-}
 
 #globalHeader #mainlogo img{
     color:#fff;
