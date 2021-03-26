@@ -16,8 +16,6 @@
     background:#aa0000;
     position: fixed;
     top: 0px;
-    transition: 0.4s;
-    transition-timing-function: ease;
     width: 100%;
     z-index: 100;
 }
@@ -26,8 +24,6 @@
     float: left;
     height: 65px;
     padding: 20px 30px;
-    transition: 0.4s;
-    transition-timing-function: ease;
 }
 
 #globalHeader #mainlogo img {
