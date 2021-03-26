@@ -51,6 +51,10 @@
     text-transform: uppercase;
 }
 
+#globalHeaderNavigation li.dropdown a {
+    color: #ffffff;
+}
+
 /*********************
 *
 *   Global Navigation
@@ -63,6 +67,8 @@
 #globalHeaderNavigation li.mega-dropdown {
     position: static;
 }
+
+
 
 
 /*********************
@@ -848,15 +854,7 @@ a.give-button p:hover {
 }
 
 
-#globalHeaderNavigation li.dropdown a {
-    color: #ffffff;
-    font-size: 1.4rem;
-    font-weight: 400;
-    line-height: 1;
-    padding: 25px 24px;
-    transition: 0.4s;
-    transition-timing-function: ease;
-}
+
 
 @media screen and (max-width:991.999px) {
 
