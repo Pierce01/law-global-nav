@@ -22,6 +22,14 @@
     z-index: 100;
 }
 
+#globalHeader #mainlogo {
+    float: left;
+    height: 65px;
+    padding: 20px 15px;
+    transition: 0.4s;
+    transition-timing-function: ease;
+}
+
 
 
 /*********************
@@ -33,10 +41,6 @@
 /* Top Down Default Legacy Stylesheet Overrides for global banner */
 .hidden {
     display: none;
-}
-
-#globalHeader #mainlogo {
-    height: 65px;
 }
 
 #globalHeader .dropdown-toggle::after {
@@ -574,13 +578,7 @@ footer .footerLinks a:hover {
 
 
 
-#globalHeader #mainlogo {
-    float:left;
-    height: 83px;
-    padding: 20px 15px;
-    transition: 0.4s;
-    transition-timing-function: ease;
-}
+
 
 #globalHeader #mainlogo a{
     display: block;
