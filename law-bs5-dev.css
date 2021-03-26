@@ -879,9 +879,6 @@ a.give-button p:hover {
 }
 
 #globalHeaderNavigation li.mega-dropdown a .fa-angle-right {
-    color: #04a1b9;
-    font-size: 2rem;
-    font-weight: bold;
     position: absolute;
     right: 30px;
 }
@@ -892,7 +889,7 @@ a.give-button p:hover {
     transition: 0.5s;
 }
 
-li.dropdown.open span.fa-fa-chevron.visible-inline.blue-arrow {
+li.dropdown.open span.fa-fa-chevron.visible-inline {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     transition: 0.5s;
@@ -900,13 +897,13 @@ li.dropdown.open span.fa-fa-chevron.visible-inline.blue-arrow {
 
 /* a proud achievement */
 
-#globalHeaderResourcesLinks li.dropdown.open .fa.fa-chevron-down.visible-inline.blue-arrow {
+#globalHeaderResourcesLinks li.dropdown.open .fa.fa-chevron-down.visible-inline {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
     transition: 0.4s;
 }
 
-.fa.fa-chevron-down.visible-inline.blue-arrow span:hover {
+.fa.fa-chevron-down.visible-inline span:hover {
     text-decoration: none;
 }
 
