@@ -21,6 +21,10 @@
     display: none;
 }
 
+#globalHeader #mainlogo {
+    height: 65px;
+}
+
 #globalHeader .dropdown-toggle::after {
     display: none
 }
@@ -84,6 +88,15 @@
 
 #googleSearchBox {
     padding: 14px 0 14px 0;
+}
+
+.gsc-input {
+    height: 65px;
+}
+
+input.gsc-input {
+    height: unset;
+    width: unset;
 }
 
 
