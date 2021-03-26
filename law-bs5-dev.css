@@ -30,6 +30,10 @@
     transition-timing-function: ease;
 }
 
+#globalHeader #mainlogo img {
+    max-width: 184px;
+}
+
 
 
 /*********************
@@ -580,16 +584,7 @@ footer .footerLinks a:hover {
 
 
 
-#globalHeader #mainlogo img{
-    color:#fff;
-    font-family:'Oswald',sans-serif;
-    font-size:2.8rem;
-    height:50px;
-    max-width: 184px;
-    text-align: left;
-    transition: 0.4s;
-    transition-timing-function: ease;
-}
+
 
 #globalHeader #mainlogo a:focus:after {
     content: 'Link to SU Home Page';
