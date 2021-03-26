@@ -34,6 +34,10 @@
     text-align: right;
 }
 
+#globalHeaderResourcesLinks li {
+    display: inline-block;
+    margin: 0 1rem;
+}
 
 
 /*********************
@@ -753,10 +757,7 @@ a.give-button p:hover {
 /* links in red bar */
 
 
-#globalHeaderResourcesLinks li {
-    display: inline-block;
-    margin: 0 1rem;
-}
+
 
 #globalHeaderResourcesLinks li a, #globalHeaderResourcesLinks li span{
     color: #ffffff;
