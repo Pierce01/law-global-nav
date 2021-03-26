@@ -831,16 +831,6 @@ a.give-button p:hover {
 
 /*navigation in white bar */
 
-#globalHeaderNavigationWrapper {
-    border:0; 
-    clear:both;
-    margin:0; 
-    padding:0;
-    background-color: rgb(170, 0, 0);
-    position: relative;
-    z-index: 100;
-}
-
 #globalHeaderNavigation {
     -webkit-backface-visibility: hidden; 
     background: rgba(170,0,0,0.75);
