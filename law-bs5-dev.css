@@ -114,16 +114,6 @@
     color: unset;
 }
 
-#globalHeaderBottomNavWrapper {
-    border: 0;
-    clear: both;
-    margin: 0;
-    padding: 0;
-    background-color: #AA0000;
-    position: relative;
-    z-index: 100;
-}
-
 /* #googleSearchBox {
     padding: 14px 0 14px 0;
 }
