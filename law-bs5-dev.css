@@ -603,14 +603,7 @@ footer .footerLinks a:hover {
     background:#ffffff;
 }
 
-#globalHeaderResourcesWrapper{
-    font-size: 1.3rem;
-    font-weight: 700;
-    overflow-y: visible; 
-    padding:0;
-    position: relative;
-    z-index: 200;
-}
+
 
 #globalHeaderResources {
     overflow:visible;
