@@ -51,9 +51,6 @@
     text-transform: uppercase;
 }
 
-#globalHeaderNavigation li.dropdown a {
-    color: #ffffff;
-}
 
 /*********************
 *
@@ -113,6 +110,7 @@
 }
 
 #globalHeaderNavigation li.dropdown a {
+    color: #ffffff;
     font-size: 0.9rem;
     margin: 0.5rem 0.25rem 0.5rem 0.25rem;
     padding: 0.5rem 0.25rem 0.5rem 0.25rem;
