@@ -248,29 +248,29 @@ header.menu-is-open .primary-nav-trigger:focus {
     transition: all 0.8s ease;
 }
 /* search box */
-#googleSearchBox{
+/* #googleSearchBox{
   transition: 0.4s;
   transition-timing-function: ease;
-}
+} */
 
 
-.gsc-control-cse{
+/* .gsc-control-cse{
    border: 0px ;
    background-color: transparent;
    padding:0;
-}
+} */
 
- #googleSearchBox td.gsc-input{
+ /* #googleSearchBox td.gsc-input{
   width:100%;
   padding-right:0;
-}
-
+} */
+/* 
  #googleSearchBox input#gsc-i-id1{
   
-   /* for possible alternate header
+   for possible alternate header
 
   background: rgba(170,0,0,0.75);
-  */
+ 
 
   background: #881111 !important;
   border: 1px solid #881111;
@@ -287,7 +287,7 @@ header.menu-is-open .primary-nav-trigger:focus {
   transition: 0.4s;
   transition-timing-function: ease;
   text-indent: 0px !important;
-}
+} */
 
 /* START Give Button */
 a.give-button p {
@@ -317,17 +317,17 @@ a.give-button p:hover {
 }
 /* END Give Button */
 
- @media (min-width:992px) {
+ /* @media (min-width:992px) {
     #googleSearchBox input#gsc-i-id1{
     width: 115%;  
     }
-}
+} */
 
 
-body #googleSearchBox input#gsc-i-id1:focus {
+/* body #googleSearchBox input#gsc-i-id1:focus {
     border: 1px solid #ffffff;
 
-}
+} */
 ::-webkit-input-placeholder { color: #ffffff;}
 ::-moz-placeholder { color: #ffffff; }
 :-ms-input-placeholder { color: #ffffff;}
@@ -335,14 +335,9 @@ body #googleSearchBox input#gsc-i-id1:focus {
 
 
 
-#googleSearchBox button.gsc-search-button {
-  background: #881111;  /*CHANGED TO MATCH HEADER BACKGROUND*/
-  
-  /* for possible alternate header
+/* #googleSearchBox button.gsc-search-button {
+  background: #881111;  
 
-  background: rgba(170,0,0,0.75);
-  
-  */
   border: none;
   color: #ffffff;
   cursor:pointer;
@@ -357,21 +352,21 @@ body #googleSearchBox input#gsc-i-id1:focus {
   position: relative;
   vertical-align:middle;
   -webkit-font-smoothing: antialiased;
-} 
+}  */
 
-#googleSearchBox button.gsc-search-button:before {
+/* #googleSearchBox button.gsc-search-button:before {
   xcontent: "\e003";
-}
+} */
 
 
-#googleSearchBox .gsc-clear-button{ 
+/* #googleSearchBox .gsc-clear-button{ 
   display:none;
-}
+} */
 
-#googleSearchBox .gsc-search-button:hover,
+/* #googleSearchBox .gsc-search-button:hover,
 #googleSearchBox .gsc-search-button:focus {
   color: #fdb913;
-}
+} */
 
 /* links in red bar */
 #globalHeaderResourcesLinks {
@@ -402,9 +397,9 @@ body #googleSearchBox input#gsc-i-id1:focus {
   #globalHeaderResources {
     padding: 17px 30px;
   }
-  #googleSearchBox{
+  /* #googleSearchBox{
     padding: 0;
-  }
+  } */
   #globalHeaderResourcesLinks{
     margin: 0 0 0 -10px;
     text-align:left;
