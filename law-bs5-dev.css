@@ -126,6 +126,28 @@
 
 
 
+
+
+
+/*********************
+*
+*   Global Navigation
+*   Responsive Media Querys
+*
+**/
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    #globalHeaderResourcesWrapper {
+        font-size: 1rem;
+    }
+
+}
+
+
+
 /* Mobile up Legacy Stylesheet Overrides for global banner */
 @media screen and (min-width: 992px) {
 
