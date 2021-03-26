@@ -143,6 +143,10 @@ input.gsc-input {
         align-items: baseline;
         flex-direction: row;
     }
+
+    #googleSearchBox input#gsc-i-id1 {
+        width: 100%;
+    }
 }
 
 
