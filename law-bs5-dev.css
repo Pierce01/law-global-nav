@@ -874,9 +874,7 @@ a.give-button p:hover {
     } 
 }
 
-#globalHeaderNavigation li.mega-dropdown a.dropdown-toggle {
-    background: rgba(170,0,0,0.75);
-}
+
 
 #globalHeaderNavigation li.mega-dropdown a.dropdown-toggle:focus {
     color:#000000;
