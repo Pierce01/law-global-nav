@@ -866,13 +866,6 @@ a.give-button p:hover {
     } 
 }
 
-@media screen and (min-width: 992px) {
-
-    #globalHeaderNavigation li.dropdown a {
-        font-size: 1.2rem;
-        padding: 25px 20px;
-    } 
-}
 
 
 
