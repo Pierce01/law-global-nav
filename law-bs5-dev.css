@@ -39,6 +39,10 @@
     margin: 0 1rem;
 }
 
+#globalHeaderResourcesLinks li a {
+    color: #ffffff;
+}
+
 
 /*********************
 *
@@ -759,7 +763,7 @@ a.give-button p:hover {
 
 
 
-#globalHeaderResourcesLinks li a, #globalHeaderResourcesLinks li span{
+#globalHeaderResourcesLinks li span {
     color: #ffffff;
     cursor: pointer;
 }
