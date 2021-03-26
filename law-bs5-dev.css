@@ -822,40 +822,43 @@ a.give-button p:hover {
 
 
 /* SU Resources menu */
-#globalHeaderResources .dropdown-menu{
-margin: 0;
+#globalHeaderResources .dropdown-menu {
+    margin: 0;
 }
-#globalHeaderResources .dropdown-menu li{
-margin: 0;
-width: 100%;
+
+#globalHeaderResources .dropdown-menu li {
+    margin: 0;
+    width: 100%;
 }
+
 #globalHeaderResources .dropdown-menu>li>a {
-color: #333333;
-font-size: 1.3rem;
-font-weight: 500;
-line-height: inherit;
-padding: 12px 15px;
--webkit-backface-visibility: hidden;
-transition: 0.4s;
-transition-timing-function: ease;
+    color: #333333;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: inherit;
+    padding: 12px 15px;
+    -webkit-backface-visibility: hidden;
+    transition: 0.4s;
+    transition-timing-function: ease;
 }
 
 
-#globalHeaderMiddleInner{
-border-top:1px solid #ffffff;
+#globalHeaderMiddleInner {
+    border-top:1px solid #ffffff;
 }
+
 /*navigation in white bar */
 
 #globalHeaderNavigationWrapper {
-border:0; 
-clear:both;
-margin:0; 
-padding:0;
-background-color: rgb(170, 0, 0);
-xborder-top: 1px solid rgb(170, 20, 20);
-position: relative;
-z-index: 100;
+    border:0; 
+    clear:both;
+    margin:0; 
+    padding:0;
+    background-color: rgb(170, 0, 0);
+    position: relative;
+    z-index: 100;
 }
+
 #globalHeaderNavigation {
 -webkit-backface-visibility: hidden; 
 
