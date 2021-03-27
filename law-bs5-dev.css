@@ -882,7 +882,7 @@ a.give-button p:hover {
 
 
 
-#globalHeaderNavigation li.mega-dropdown a.dropdown-toggle:focus {
+/* #globalHeaderNavigation li.mega-dropdown a.dropdown-toggle:focus {
     color:#000000;
     text-decoration:underline;
 }
@@ -891,7 +891,7 @@ a.give-button p:hover {
 #globalHeaderNavigation li.mega-dropdown:focus a.dropdown-toggle {
     background-color: #f7f7f7;
     color:#000000;
-}
+} */
 
 @media (max-width:991.999px) {
 
