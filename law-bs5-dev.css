@@ -36,7 +36,7 @@
 
 #globalHeaderResourcesLinks li {
     display: inline-block;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
 }
 
 #globalHeaderResourcesLinks li a {
@@ -89,7 +89,7 @@ span.fa-chevron-down {
 }
 
 #globalHeaderResourcesWrapper {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 500;
     padding-top: 30px;
 }
@@ -137,6 +137,8 @@ span.fa-chevron-down {
     color: unset;
 }
 
+
+
 /* #googleSearchBox {
     padding: 14px 0 14px 0;
 }
@@ -168,7 +170,11 @@ input.gsc-input {
 @media screen and (min-width: 1366px) {
 
     #globalHeaderResourcesWrapper {
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+
+    #globalHeaderResourcesLinks li {
+        margin: 0 1rem;
     }
 
 }
@@ -178,7 +184,7 @@ input.gsc-input {
 @media screen and (min-width: 1200px) {
 
     #globalHeaderResourcesWrapper {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
 
