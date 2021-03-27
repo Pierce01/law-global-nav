@@ -89,7 +89,7 @@ span.fa-chevron-down {
 }
 
 #globalHeaderResourcesWrapper {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 500;
     padding-top: 30px;
 }
@@ -173,6 +173,14 @@ input.gsc-input {
 
 }
 
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    #globalHeaderResourcesWrapper {
+        font-size: 0.8rem;
+    }
+}
 
 
 /* Mobile up Legacy Stylesheet Overrides for global banner */
