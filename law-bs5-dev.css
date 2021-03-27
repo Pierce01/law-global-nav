@@ -91,6 +91,7 @@ span.fa-chevron-down {
 #globalHeaderResourcesWrapper {
     font-size: 0.8rem;
     font-weight: 500;
+    padding-top: 30px;
 }
 
 #globalHeaderResourcesLinks li a {
@@ -163,8 +164,8 @@ input.gsc-input {
 **/
 
 
-/* Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
+/* X Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1366px) {
 
     #globalHeaderResourcesWrapper {
         font-size: 1rem;
