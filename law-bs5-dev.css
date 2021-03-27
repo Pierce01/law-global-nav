@@ -137,11 +137,13 @@ span.fa-chevron-down {
     color: unset;
 }
 
-
-
-/* #googleSearchBox {
-    padding: 14px 0 14px 0;
+#googleSearchBox {
+    padding: 5px 0 0 0;
 }
+
+
+
+/* 
 
 .gsc-input {
     height: 65px;
