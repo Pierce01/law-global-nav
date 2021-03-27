@@ -118,6 +118,7 @@ span.fa-chevron-down {
 #globalHeaderNavigation li.dropdown a {
     color: #ffffff;
     font-size: 0.9rem;
+    font-weight: 500;
     margin: 0.5rem 0.25rem 0.5rem 0.25rem;
     padding: 0.5rem 0.25rem 0.5rem 0.25rem;
     text-decoration: none;
@@ -138,7 +139,7 @@ span.fa-chevron-down {
 }
 
 #googleSearchBox {
-    padding: 5px 0 0 0;
+    padding: 5px 30px 0 0;
 }
 
 
