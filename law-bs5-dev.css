@@ -103,7 +103,7 @@ span.fa-chevron-down {
 }
 
 #globalHeaderResourcesLinks li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #globalHeaderResourcesLinks li a:active {
@@ -129,7 +129,7 @@ span.fa-chevron-down {
 }
 
 #globalHeaderNavigation li.dropdown a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #globalHeaderNavigation li.dropdown a:active {
