@@ -1091,11 +1091,11 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
         position:relative;
     }
 
-    #globalHeader .navbar-toggle {
+    /* #globalHeader .navbar-toggle {
         display: block;
         right: 0;
         padding: 11px 10px;
-    }
+    } */
 
     #globalHeader button .glyphicon{
         color:#aa0000;
