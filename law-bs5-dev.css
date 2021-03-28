@@ -151,8 +151,8 @@ span.fa-chevron-down {
     border: 1px solid #881111;
     color: #ffffff;
     display: inline-block;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 400;
     padding: 5px 15px;
     /* width: 100%; */
 }
