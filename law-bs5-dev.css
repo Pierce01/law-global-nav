@@ -167,14 +167,6 @@ span.fa-chevron-down {
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    padding: 0px 12px;
-    position: relative;
-    vertical-align: middle;
-    -webkit-font-smoothing: antialiased;
 }
 
 #googleSearchBox .gsc-clear-button {
