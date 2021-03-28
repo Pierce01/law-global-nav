@@ -152,7 +152,7 @@ span.fa-chevron-down {
     color: #ffffff;
     display: inline-block;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 500;
     padding: 5px 15px;
 }
 
@@ -244,6 +244,14 @@ span.fa-chevron-down {
 
 }
 
+
+/* ***** Desktop down ***** */
+@media screen and (max-width: 1199.99px) {
+
+    #googleSearchBox input#gsc-i-id1 {
+        font-size: 0.7rem;
+    }
+}
 
 
 
