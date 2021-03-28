@@ -154,7 +154,6 @@ span.fa-chevron-down {
     font-size: 1rem;
     font-weight: 400;
     padding: 5px 15px;
-    /* width: 100%; */
 }
 
 #googleSearchBox .gsc-search-button:hover, #googleSearchBox .gsc-search-button:focus {
@@ -172,20 +171,6 @@ span.fa-chevron-down {
 #googleSearchBox .gsc-clear-button {
     display: none;
 }
-
-
-
-
-/* 
-
-.gsc-input {
-    height: 65px;
-}
-
-input.gsc-input {
-    height: unset;
-    width: unset;
-} */
 
 
 
