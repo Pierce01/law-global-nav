@@ -2221,11 +2221,11 @@ svg.arrow.circle.navy {
 }
 
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .callToActionButtonWrapper {
     xwidth: 75%;
   }
-}
+} */
 @media screen and (max-width: 768px) { 
   .callToActionButton {
     margin-bottom: 25px;
