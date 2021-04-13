@@ -181,17 +181,6 @@ _____________________  _____________________________  __________________________
     margin: auto;
 }
 
-@media screen and (min-width: 1200px) { /* lg */
-  qqq.container-fluid #SidebarZone { /* Right Column */
-    padding-right:30px;
-    padding-left:30px;
-  } 
-  qqq.container-fluid #zoneC { /* Left Column */
-    padding-right:30px;
-    padding-left:30px;
-  }   
-}
-
 
 @media screen and (min-width: 768px) { /* sm + md + lg*/
   #pageContentWrapper.container #SidebarZone{
