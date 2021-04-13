@@ -590,9 +590,12 @@ footer .footerLinks a:hover {
 }
 
 
-/* image panel stylesheet */
+/***
+*
+*   legacy image panel stylesheet
+*
+*/
 .panelWrapper {
-    /* padding-top: 30px; */
     position: relative;
   }
   .panelWrapper .panelFlexContainer{
