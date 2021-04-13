@@ -601,7 +601,8 @@ footer .footerLinks a:hover {
 *
 */
 .panelWrapper {
-    position: relative;
+    padding-top: 30px;
+    position:relative;
   }
   .panelWrapper .panelFlexContainer{
       display:flex;
@@ -642,6 +643,7 @@ footer .footerLinks a:hover {
   }
   .panelWrapper .panelText {
       background: #ffffff;
+      padding: 70px 60px;
   }
   @media (max-width: 991px) {
     .panelWrapper .panelText {
@@ -910,7 +912,6 @@ footer .footerLinks a:hover {
     content: '';
     padding-right:0px;
   }
-
 
 
 
