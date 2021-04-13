@@ -629,29 +629,10 @@ _____________________  _____________________________  __________________________
 }
 
 @media screen and (max-width: 1199.999px) { /* xs + sm + md */
-  #MainZone .contentItem{
-    xmargin: 15px 0;
-  }
-}
-@media screen and (min-width: 1200px) { /* lg */
-  #MainZone .contentItem,
-  #SidebarZone .contentItem, 
-  #zoneC .contentItem {
-    xmargin: 30px 0;
-  } 
-}
-
-@media screen and (max-width: 1199.999px) { /* xs + sm + md */
   #MainZone .contentItem:first-of-type,
   #SidebarZone .contentItem:first-of-type{
     margin: 0 0 15px 0;
   } 
-}
-@media screen and (min-width: 1200px) { /* lg */
-  #MainZone .contentItem:first-of-type,
-  #SidebarZone .contentItem:first-of-type{
-    xmargin: 0 0 30px 0;
-  }
 }
 
 @media screen and (max-width: 1199.999px) { /* xs + sm + md */
@@ -660,13 +641,6 @@ _____________________  _____________________________  __________________________
   #zoneC .noGap + .noGap{
     margin: -15px 0 15px 0;
   }  
-}
-@media screen and (min-width: 1200px) { /* lg */
-  #MainZone .noGap + .noGap,
-  #SidebarZone .noGap + .noGap,
-  #zoneC .noGap + .noGap{
-    xmargin: -30px 0 30px 0;
-  }
 }
 
 @media screen and (max-width: 767.999px) { /* xs */
