@@ -592,8 +592,8 @@ footer .footerLinks a:hover {
 
 /* image panel stylesheet */
 .panelWrapper {
-    padding-top: 30px;
-    position:relative;
+    /* padding-top: 30px; */
+    position: relative;
   }
   .panelWrapper .panelFlexContainer{
       display:flex;
