@@ -631,18 +631,18 @@ _____________________  _____________________________  __________________________
   clear: both;
 }
 
-@media screen and (max-width: 1199.999px) { /* xs + sm + md */
+/* @media screen and (max-width: 1199.999px) {
   #MainZone .contentItem{
     xmargin: 15px 0;
   }
-}
-@media screen and (min-width: 1200px) { /* lg */
+} */
+/* @media screen and (min-width: 1200px) {
   #MainZone .contentItem,
   #SidebarZone .contentItem, 
   #zoneC .contentItem {
     xmargin: 30px 0;
   } 
-}
+} */
 
 @media screen and (max-width: 1199.999px) { /* xs + sm + md */
   #MainZone .contentItem:first-of-type,
@@ -650,12 +650,12 @@ _____________________  _____________________________  __________________________
     margin: 0 0 15px 0;
   } 
 }
-@media screen and (min-width: 1200px) { /* lg */
+/* @media screen and (min-width: 1200px) { 
   #MainZone .contentItem:first-of-type,
   #SidebarZone .contentItem:first-of-type{
     xmargin: 0 0 30px 0;
   }
-}
+} */
 
 @media screen and (max-width: 1199.999px) { /* xs + sm + md */
   #MainZone .noGap + .noGap,
@@ -664,13 +664,13 @@ _____________________  _____________________________  __________________________
     margin: -15px 0 15px 0;
   }  
 }
-@media screen and (min-width: 1200px) { /* lg */
+/* @media screen and (min-width: 1200px) {
   #MainZone .noGap + .noGap,
   #SidebarZone .noGap + .noGap,
   #zoneC .noGap + .noGap{
     xmargin: -30px 0 30px 0;
   }
-}
+} */
 
 @media screen and (max-width: 767.999px) { /* xs */
   #MainZone.col-xs-12 .hspace{
