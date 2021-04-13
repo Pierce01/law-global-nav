@@ -637,7 +637,6 @@ footer .footerLinks a:hover {
   }
   .panelWrapper .panelText {
       background: #ffffff;
-      padding: 70px 60px;
   }
   @media (max-width: 991px) {
     .panelWrapper .panelText {
