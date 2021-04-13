@@ -646,30 +646,22 @@ footer .footerLinks a:hover {
     background: #ffffff;
     padding: 70px 60px;
 }
+
 @media (max-width: 991px) {
-.panelWrapper .panelText {
-    background: #ffffff;
-    padding: 20px 0 20px 15px;
-    width: 100%;
+
+    .panelWrapper .panelText {
+        background: #ffffff;
+        padding: 20px 0 20px 15px;
+        width: 100%;
+    }
 }
-}
-.panelWrapper .panelRedDiv,
-.panelWrapper .panelOrangeDiv,
-.panelWrapper .panelGoldDiv,
-.panelWrapper .panelLightGreenDiv,
-.panelWrapper .panelDarkGreenDiv,
-.panelWrapper .panelDarkBlueDiv,
-.panelWrapper .panelLightBlueDiv,
-.panelWrapper .panelGreenDiv,
-.panelWrapper .panelBrownDiv,
-.panelWrapper .panelWhiteDiv,
-.panelWrapper .panelBlackDiv,
-.panelWrapper .panelInner{
-border-bottom:0;
-border-image: 0;
-border-image-slice: 0;  
-border-left:0;
-border-right:0;
+
+.panelWrapper .panelRedDiv .panelWrapper .panelOrangeDiv .panelWrapper .panelGoldDiv .panelWrapper .panelLightGreenDiv .panelWrapper .panelDarkGreenDiv .panelWrapper .panelDarkBlueDiv .panelWrapper .panelLightBlueDiv .panelWrapper .panelGreenDiv .panelWrapper .panelBrownDiv .panelWrapper .panelWhiteDiv .panelWrapper .panelBlackDiv .panelWrapper .panelInner {
+    border-bottom:0;
+    border-image: 0;
+    border-image-slice: 0;  
+    border-left:0;
+    border-right:0;
 }
 
 .panelWrapper .panelRedDiv { border-top:10px solid #aa0000; }
