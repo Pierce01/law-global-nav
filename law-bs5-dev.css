@@ -664,17 +664,17 @@ footer .footerLinks a:hover {
     border-right:0;
 }
 
-.panelWrapper .panelRedDiv { border-top:10px solid #aa0000; }
-.panelWrapper .panelOrangeDiv { border-top:10px solid #ef4135; }
-.panelWrapper .panelGoldDiv { border-top:0px solid #fdb913; }
-.panelWrapper .panelLightGreenDiv { border-top:10px solid #55b31b; }
-.panelWrapper .panelDarkGreenDiv { border-top:10px solid #124a12; }
-.panelWrapper .panelDarkBlueDiv { border-top:10px solid #003282; }
-.panelWrapper .panelLightBlueDiv { border-top:10px solid #04a9c5; }
-.panelWrapper .panelGreenDiv { border-top:10px solid #008765; }
-.panelWrapper .panelBrownDiv { border-top:10px solid #807060; }
-.panelWrapper .panelWhiteDiv { border-top:10px solid #f7f7f7; }
-.panelWrapper .panelBlackDiv { border-top:10px solid #333333; }
+.panelWrapper .panelRedDiv          { border-top:10px solid #aa0000; }
+.panelWrapper .panelOrangeDiv       { border-top:10px solid #ef4135; }
+.panelWrapper .panelGoldDiv         { border-top:0px solid #fdb913; }
+.panelWrapper .panelLightGreenDiv   { border-top:10px solid #55b31b; }
+.panelWrapper .panelDarkGreenDiv    { border-top:10px solid #124a12; }
+.panelWrapper .panelDarkBlueDiv     { border-top:10px solid #003282; }
+.panelWrapper .panelLightBlueDiv    { border-top:10px solid #04a9c5; }
+.panelWrapper .panelGreenDiv        { border-top:10px solid #008765; }
+.panelWrapper .panelBrownDiv        { border-top:10px solid #807060; }
+.panelWrapper .panelWhiteDiv        { border-top:10px solid #f7f7f7; }
+.panelWrapper .panelBlackDiv        { border-top:10px solid #333333; }
 
 .panelInner {
     border-bottom:0;
