@@ -2192,12 +2192,6 @@ svg.arrow.circle.navy {
 	text-decoration: underline;
 }
 
-
-@media screen and (min-width: 1200px) {
-  .callToActionButtonWrapper {
-    xwidth: 75%;
-  }
-}
 @media screen and (max-width: 768px) { 
   .callToActionButton {
     margin-bottom: 25px;
