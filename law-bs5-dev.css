@@ -617,41 +617,51 @@ footer .footerLinks a:hover {
       font-size: 35px;
       font-weight: 500;
       margin: 0 0 30px 0;
-      /*text-align: center;*/
   }
   
-  @media (min-width:766px) and (max-width:768px) {/*1px gap fix*/
+  /*1px gap fix*/
+  @media (min-width:766px) and (max-width:768px) {
+
     .panelWrapper .clearfix{
-      display:block!important; 
+        display:block!important; 
     }
   }
+
   /*only way to get mobile to not take up space set in html tag*/
   @media (max-width: 991.999px) {
-      .panelWrapper .panelFlexContainer{
-          height:auto !important;
-      }
+
+    .panelWrapper .panelFlexContainer {
+        height: auto !important;
+    }
   }
+
   .panelWrapper .panelOverlay {
       background-color: #04a9c5;
       background-size: cover;      
       width: 100%;
   }
+
   @media (max-width: 991px) {
-  .panelWrapper .panelOverlay {
-      height: 300px !important;
+
+    .panelWrapper .panelOverlay {
+        height: 300px !important;
     }
   }
+
   .panelWrapper .panelText {
       background: #ffffff;
       padding: 70px 60px;
   }
+
   @media (max-width: 991px) {
+
     .panelWrapper .panelText {
       background: #ffffff;
       padding: 20px 0 20px 15px;
       width: 100%;
     }
   }
+
   .panelWrapper .panelRedDiv,
   .panelWrapper .panelOrangeDiv,
   .panelWrapper .panelGoldDiv,
@@ -663,12 +673,12 @@ footer .footerLinks a:hover {
   .panelWrapper .panelBrownDiv,
   .panelWrapper .panelWhiteDiv,
   .panelWrapper .panelBlackDiv,
-  .panelWrapper .panelInner{
-    border-bottom:0;
+  .panelWrapper .panelInner {
+    border-bottom: 0;
     border-image: 0;
     border-image-slice: 0;  
-    border-left:0;
-    border-right:0;
+    border-left: 0;
+    border-right: 0;
   }
   
   .panelWrapper .panelRedDiv            { border-top:10px solid #aa0000; }
