@@ -901,14 +901,12 @@ footer .footerLinks a:hover {
   
   }
   .panelInner .panelLinks li:hover a, .panelInner .panelLinks li:focus a,
-  .panelInner .panelLinks li a:hover, .panelInner .panelLinks li a:focus{
+  .panelInner .panelLinks li a:hover, .panelInner .panelLinks li a:focus {
     background: #088099;
-    /* border: 1px solid #088099;*/
     color: #ffffff;
-    /*text-decoration: underline;*/
   }
   
-  .panelInner .panelLinks li:before{
+  .panelInner .panelLinks li:before {
     content: '';
     padding-right:0px;
   }
