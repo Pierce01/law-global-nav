@@ -760,43 +760,42 @@ footer .footerLinks a:hover {
       border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, #ef4135 25.01%, #ef4135 100%);
       border-image-slice: 1;
     }
-    /* .panelWrapper .panelGoldDiv{
-      border: 10px solid #fdb913;
-      border-bottom: 0;
-      border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, #fdb913 25.01%, #fdb913 100%);
-      border-image-slice: 1;
-    } */
-    .panelWrapper .panelLightGreenDiv{
+
+    .panelWrapper .panelLightGreenDiv {
       border: 10px solid #55b31b;
       border-bottom: 0;
       border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, #55b31b 25.01%, #55b31b 100%);
       border-image-slice: 1;
     }
-    .panelWrapper .panelDarkGreenDiv{
+
+    .panelWrapper .panelDarkGreenDiv {
       border: 10px solid #124a12;
       border-bottom: 0;
       border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, #124a12 25.01%, #124a12 100%);
       border-image-slice: 1;
     }
-    .panelWrapper .panelDarkBlueDiv{
+
+    .panelWrapper .panelDarkBlueDiv {
       border: 10px solid #003282;
       border-bottom: 0;
       border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, #003282 25.01%, #003282 100%);
       border-image-slice: 1;
     }
-    .panelWrapper .panelLightBlueDiv{
+
+    .panelWrapper .panelLightBlueDiv {
       border: 10px solid #04a9c5;
       border-bottom: 0;
       border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, #04a9c5 25.01%, #04a9c5 100%);
       border-image-slice: 1;
     }
-    .panelWrapper .panelGreenDiv{
+
+    .panelWrapper .panelGreenDiv {
       border: 10px solid #008765;
       border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, #008765 25.01%, #008765 100%);
       border-image-slice: 1;
       border-bottom: 0;
     }
-    
+
     .panelWrapper .panelBrownDiv {
       border: 10px solid #807060;
       border-bottom: 0;
