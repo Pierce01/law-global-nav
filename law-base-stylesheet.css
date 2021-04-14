@@ -4668,12 +4668,13 @@ table.gsc-search-box td {
  
 */
 
-/* Migrated to bootstrap 5 development stylesheet 20210413 vic - media library file number 2268710 */
+/* updated to bootstrap 5 -  20210413 vic  */
 
 
 /*********************
 *
 *   Image Panel
+*   bs5 specific modifications
 *
 **/
 
@@ -4793,7 +4794,8 @@ table.gsc-search-box td {
 
 /***
 *
-*   legacy image panel bootstrap 3 stylesheet defaults
+*   legacy image panel
+*   bootstrap 3 stylesheet defaults
 *
 */
   .panelWrapper {
