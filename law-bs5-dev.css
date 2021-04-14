@@ -601,6 +601,7 @@ footer .footerLinks a:hover {
 *
 */
     .panelWrapper {
+        padding-top: inherit;
         position: relative;
     }
 
