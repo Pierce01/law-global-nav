@@ -21,6 +21,24 @@
 }
 
 
+/* ***** Mobile Up ***** */
+@media screen and (min-width: 576px) {
+
+    .callToActionWrapper .card-title h2 {
+        font-size: 1.25rem;
+    }
+}
+
+
+/* ***  Medium min Defaults   *** */
+@media screen and (min-width : 768px) {
+
+    .callToActionWrapper .card-title h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
 /* ***  Large min Defaults   *** */
 @media screen and (min-width: 992px) {
 
