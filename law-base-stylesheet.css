@@ -2079,18 +2079,22 @@ svg.arrow.circle.navy {
    ==========================================================================================
 */
 
-.callToActionWrapper{
+.callToActionWrapper {
   background-repeat:no-repeat;
   background-size:cover;
   display:block;
   padding:0;
   margin-bottom: 0px !important;
 }
-.callToActionOverlay{
-  background: rgba(247,247,247,0.75); /*Default white*/
-  width:100%;
-  margin:auto auto;
+
+/*Default white*/
+.callToActionOverlay {
+  background: rgba(247,247,247,0.75);
+  height: -webkit-fill-available;
+  margin: auto auto;
+  width: 100%;
 }
+
 .callToActionWrapper .callToActionOverlayColorGold{
   background: rgba(253,185,19,0.75);
 }
