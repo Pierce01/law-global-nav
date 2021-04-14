@@ -112,6 +112,12 @@
     .callToActionWrapper .card-title h2 {
         font-size: 4.25rem;
     }
+
+    .card-block .callToActionButton a {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        padding: 1rem;
+    }
 }
 
 
