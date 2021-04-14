@@ -81,10 +81,6 @@
 /* ***  Large min Defaults   *** */
 @media screen and (min-width: 992px) {
 
-    .callToActionWrapper .card-title {
-        margin-bottom: 1rem;
-    }
-
     .callToActionWrapper .card-title h2 {
         font-size: 2rem;
     }
@@ -101,7 +97,7 @@
 @media screen and (min-width: 1200px) {
 
     .callToActionWrapper .card-title {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     .callToActionWrapper .card-title h2 {
@@ -120,7 +116,7 @@
 @media screen and (min-width: 1366px) {
 
     .callToActionWrapper .card-title {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .callToActionWrapper .card-title h2 {
@@ -139,7 +135,7 @@
 @media screen and (min-width: 1920px) {
 
     .callToActionWrapper .card-title {
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
     }
 
     .callToActionWrapper .card-title h2 {
