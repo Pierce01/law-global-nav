@@ -24,9 +24,18 @@
 @media screen and (min-width: 1366px) {
 
     .callToActionWrapper .card-title h2 {
+        font-size: 3rem;
+    }
+}
+
+/* XX Large devices (large desktops, 1920px and up) */
+@media screen and (min-width: 1920px) {
+
+    .callToActionWrapper .card-title h2 {
         font-size: 4.25rem;
     }
 }
+
 
 
 /*********************
