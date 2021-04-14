@@ -66,6 +66,10 @@
 /* ***  Medium min Defaults   *** */
 @media screen and (min-width : 768px) {
 
+    .callToActionWrapper .card-title {
+        margin-bottom: 1rem;
+    }
+
     .callToActionWrapper .card-title h2 {
         font-size: 1.5rem;
     }
@@ -80,6 +84,10 @@
 
 /* ***  Large min Defaults   *** */
 @media screen and (min-width: 992px) {
+
+    .callToActionWrapper .card-title {
+        margin-bottom: 2rem;
+    }
 
     .callToActionWrapper .card-title h2 {
         font-size: 2rem;
@@ -96,6 +104,10 @@
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
 
+    .callToActionWrapper .card-title {
+        margin-bottom: 3rem;
+    }
+
     .callToActionWrapper .card-title h2 {
         font-size: 2.5rem;
     }
@@ -110,6 +122,10 @@
 
 /* X Large devices (large desktops, 1366px and up) */
 @media screen and (min-width: 1366px) {
+
+    .callToActionWrapper .card-title {
+        margin-bottom: 4rem;
+    }
 
     .callToActionWrapper .card-title h2 {
         font-size: 3rem;
