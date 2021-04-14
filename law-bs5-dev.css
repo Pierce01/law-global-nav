@@ -602,14 +602,14 @@ footer .footerLinks a:hover {
 */
     .panelWrapper {
         padding-top: 30px;
-        position:relative;
+        position: relative;
     }
 
     .panelWrapper .panelFlexContainer {
-        display:flex;
-        float:right;
+        display: flex;
+        float: right;
         margin-bottom: 30px;
-        width:100%; 
+        width: 100%; 
     }
 
     .panelWrapper h2 {
@@ -624,7 +624,7 @@ footer .footerLinks a:hover {
     @media (min-width:766px) and (max-width:768px) {
 
         .panelWrapper .clearfix{
-            display:block!important; 
+            display: block !important; 
         }
     }
 
@@ -657,9 +657,9 @@ footer .footerLinks a:hover {
     @media (max-width: 991px) {
 
         .panelWrapper .panelText {
-        background: #ffffff;
-        padding: 20px 0 20px 15px;
-        width: 100%;
+            background: #ffffff;
+            padding: 20px 0 20px 15px;
+            width: 100%;
         }
     }
 
