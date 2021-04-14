@@ -698,63 +698,75 @@ footer .footerLinks a:hover {
   }
   
   @media (min-width: 991px) {
+      
     .panelWrapper .topRightPanel, 
     .panelWrapper .centerRightPanel,
-    .panelWrapper .bottomRightPanel{
+    .panelWrapper .bottomRightPanel {
       justify-content: flex-end;
     }
+
     .panelWrapper .topLeftPanel,
     .panelWrapper .centerLeftPanel,
-    .panelWrapper .bottomLeftPanel{
-      justify-content:flex-start;
+    .panelWrapper .bottomLeftPanel {
+      justify-content: flex-start;
     }
+
     .panelWrapper .topCenterPanel,
     .panelWrapper .centerCenterPanel,
-    .panelWrapper .bottomCenterPanel{
+    .panelWrapper .bottomCenterPanel {
       justify-content: center;
     }
+
     .panelFlexContainer .topRightPanel,
     .panelFlexContainer .centerRightPanel,
-    .panelFlexContainer .bottomRightPanel{
-      margin-right:4.1666666%;
+    .panelFlexContainer .bottomRightPanel {
+      margin-right: 4.1666666%;
     }
+
     .panelFlexContainer .topRightPanel,
     .panelFlexContainer .topLeftPanel,
-    .panelFlexContainer .topCenterPanel{
-      margin-top:4.1666666%;
+    .panelFlexContainer .topCenterPanel {
+      margin-top: 4.1666666%;
     }
+
     .panelFlexContainer .bottomRightPanel,
     .panelFlexContainer .bottomLeftPanel,
-    .panelFlexContainer .bottomCenterPanel{
-      align-self:flex-end;
+    .panelFlexContainer .bottomCenterPanel {
+      align-self: flex-end;
     }
+
     .panelFlexContainer .centerRightPanel,
     .panelFlexContainer .centerLeftPanel,
-    .panelFlexContainer .centerCenterPanel{
-      align-self:center;
+    .panelFlexContainer .centerCenterPanel {
+      align-self: center;
     }
+
     .panelFlexContainer .topRightPanel,
     .panelFlexContainer .topCenterPanel,
-    .panelFlexContainer .topLeftPanel{
-      margin-bottom:auto;
+    .panelFlexContainer .topLeftPanel {
+      margin-bottom: auto;
     }
+
     .panelFlexContainer .topLeftPanel,
     .panelFlexContainer .centerLeftPanel,
-    .panelFlexContainer .bottomLeftPanel{
-      margin-left:4.1666666%;
+    .panelFlexContainer .bottomLeftPanel {
+      margin-left: 4.1666666%;
     }
+
     .panelFlexContainer .bottomRightPanel,
     .panelFlexContainer .bottomCenterPanel,
-    .panelFlexContainer .bottomLeftPanel{
-      margin-bottom:4.1666666%;
+    .panelFlexContainer .bottomLeftPanel {
+      margin-bottom: 4.1666666%;
     }
-    .panelWrapper .panelRedDiv{
+
+    .panelWrapper .panelRedDiv {
       border: 10px solid #aa0000;
       border-bottom: 0;
       border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, #aa0000 25.01%, #aa0000 100%);
       border-image-slice: 1;
     }
-    .panelWrapper .panelOrangeDiv{
+
+    .panelWrapper .panelOrangeDiv {
       border: 10px solid #ef4135;
       border-bottom: 0;
       border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, #ef4135 25.01%, #ef4135 100%);
