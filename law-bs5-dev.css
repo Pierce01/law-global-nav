@@ -796,50 +796,59 @@ footer .footerLinks a:hover {
       border-image-slice: 1;
       border-bottom: 0;
     }
-    .panelWrapper .panelBrownDiv{
+    
+    .panelWrapper .panelBrownDiv {
       border: 10px solid #807060;
       border-bottom: 0;
       border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, #807060 25.01%, #807060 100%);
       border-image-slice: 1;    
     }
-    .panelWrapper .panelBlackDiv{
+
+    .panelWrapper .panelBlackDiv {
       border: 10px solid #333333;
       border-bottom: 0;
       border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, #333333 25.01%, #333333 100%);
       border-image-slice: 1;    
     }
-    .panelWrapper .panelWhiteDiv{
+
+    .panelWrapper .panelWhiteDiv {
       border: 10px solid #f7f7f7;
       border-bottom: 0;
       border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, #f7f7f7 25.01%, #f7f7f7 100%);
       border-image-slice: 1;    
     }
+
     .panelWrapper .topRightPanel,
     .panelWrapper .bottomRightPanel,
     .panelWrapper .topCenterPanel,
     .panelWrapper .bottomCenterPanel
     .panelWrapper .centerCenterPanel
-    .panelWrapper .centerRightPanel{
-      float:right;
+    .panelWrapper .centerRightPanel {
+      float: right;
     }
+
     .panelWrapper .topLeftPanel,
     .panelWrapper .bottomLeftPanel
-    .panelWrapper .centerLeftPanel{
-      float:left;
+    .panelWrapper .centerLeftPanel {
+      float: left;
     }
   }
-  @media screen and (max-width: 767.999px) { /* xs */
+
+   /* xs */
+  @media screen and (max-width: 767.999px) {
+
     .panelText h2 {
-     margin: 15px 0 15px 0;
-   }
+        margin: 15px 0 15px 0;
+    }
   }
+
   .panelText p {
     font-size: 1.8rem;
     line-height: 200%;
     margin: 0;  
   }
   
-  .panelInner .panelLinks{
+  .panelInner .panelLinks {
     padding: 30px 0 0 0;
     text-align:center;
     width:100%;
@@ -850,7 +859,7 @@ footer .footerLinks a:hover {
     flex-wrap:wrap;
   }
   
-  .panelInner .panelLinks a{
+  .panelInner .panelLinks a {
     color:#aa0000;
     display:block;
     font-family: "Montserrat", sans-serif;
@@ -863,18 +872,22 @@ footer .footerLinks a:hover {
     text-transform: uppercase;
   }
   
-  .panelInner .panelLinks li{
+  .panelInner .panelLinks li {
     border: 2px solid #088099;
     display: flex;
     flex: 0 1 calc(50% - 7px);
     flex-direction: column;
     justify-content: center;
   }
-  @media screen and (max-width: 767.999px) { /* xs */
-    .panelInner .panelLinks{
+
+  /* xs */
+  @media screen and (max-width: 767.999px) {
+
+    .panelInner .panelLinks {
       padding: 15px 20px 0px 10px;
     }
-    .panelInner .panelLinks li{
+
+    .panelInner .panelLinks li {
       border: none;
       display: block;
       flex: none;
@@ -883,7 +896,8 @@ footer .footerLinks a:hover {
       margin: 7px 0 0 0;
       width: 100%;
     }
-    .panelInner .panelLinks li a{  
+
+    .panelInner .panelLinks li a {  
       border: 1px solid #088099;
       color: #aa0000;
       display: block;
@@ -898,8 +912,8 @@ footer .footerLinks a:hover {
       text-transform: uppercase;
       transition: all 0.2s ease;
     }
-  
   }
+
   .panelInner .panelLinks li:hover a, .panelInner .panelLinks li:focus a,
   .panelInner .panelLinks li a:hover, .panelInner .panelLinks li a:focus {
     background: #088099;
