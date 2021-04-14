@@ -1437,39 +1437,33 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
 @media (max-width: 991.999px) {
 
     #globalHeader { 
-        margin-bottom:0;
+        margin-bottom: 0;
         position:relative;
     }
 
-    /* #globalHeader .navbar-toggle {
-        display: block;
-        right: 0;
-        padding: 11px 10px;
-    } */
-
-    #globalHeader button .glyphicon{
+    #globalHeader button .glyphicon {
         color:#aa0000;
-        display:inline-block;
+        display: inline-block;
         float: right;
         font-size: 18px;
         width: initial;
     }
 
-    #globalHeader button .glyphicon:before{
+    #globalHeader button .glyphicon:before {
         content: '\f0c9';
         font-family: 'fontawesome';
     }
 
     #globalHeader .navbar-collapse.collapse {
-        display: none!important;
+        display: none !important;
     }
 
-    #globalHeader .collapse.in{
-        display:block !important;
+    #globalHeader .collapse.in {
+        display: block !important;
     }
 
     .visible-sm-inline {
-        display:inline !important;
+        display: inline !important;
     }
 }
 
