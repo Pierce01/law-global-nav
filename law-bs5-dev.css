@@ -21,6 +21,24 @@
 }
 
 
+/* ***  Large min Defaults   *** */
+@media screen and (min-width: 992px) {
+
+    .callToActionWrapper .card-title h2 {
+        font-size: 2rem;
+    }
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    .callToActionWrapper .card-title h2 {
+        font-size: 2.5rem;
+    }
+}
+
+
 /* X Large devices (large desktops, 1366px and up) */
 @media screen and (min-width: 1366px) {
 
