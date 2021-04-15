@@ -72,7 +72,7 @@ ul.callToActionButtonWrapper li.callToActionButton {
     }
 
     .callToActionOverlay .card-title.p-3 {
-        padding-top: 0.25rem;
+        padding-top: 0.25rem !important;
     }
 
     #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
