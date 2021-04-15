@@ -24,6 +24,11 @@
     max-width: unset;
 }
 
+ul.callToActionButtonWrapper li.callToActionButton {
+    margin: 0 5px;
+    padding: 0.3rem;
+}
+
 .card-block .callToActionButton a {
     font-size: 0.75rem;
     line-height: 0.75rem;
