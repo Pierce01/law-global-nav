@@ -40,7 +40,7 @@
         font-size: 0.4rem;
     }
 
-    div.card-block ul.callToActionButtonWrapper.standardContent {
+    #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
 }
@@ -53,7 +53,7 @@
         font-size: 0.5rem;
     }
 
-    div.card-block ul.callToActionButtonWrapper.standardContent {
+    #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
 }
@@ -66,14 +66,14 @@
         font-size: 0.75rem;
     }
 
-    div.card-block ul.callToActionButtonWrapper.standardContent {
+    #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
 }
 
 @media screen and (max-width: 767.99px) {
 
-    div.card-block ul.callToActionButtonWrapper.standardContent {
+    #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
 }
@@ -86,7 +86,7 @@
         padding-bottom: 0.25rem!important;
     }
 
-    div.card-block ul.callToActionButtonWrapper.standardContent {
+    #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
 }
