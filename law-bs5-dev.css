@@ -57,10 +57,6 @@
     .callToActionWrapper .card-title h2 {
         font-size: 0.75rem;
     }
-
-    .card-block .callToActionButtonWrapper.standardContent {
-        padding: 0;
-    }
 }
 
 
@@ -69,6 +65,10 @@
 
     .callToActionOverlay .card-title.p-3 {
         padding-bottom: 0.25rem!important;
+    }
+
+    .card-block .callToActionButtonWrapper.standardContent {
+        padding: 0;
     }
 }
 
