@@ -83,6 +83,7 @@
     }
 
     ul.callToActionButtonWrapper li.callToActionButton {
+        margin: 0 10px;
         padding: 0.5rem;
     }
 
@@ -102,6 +103,7 @@
     }
 
     ul.callToActionButtonWrapper li.callToActionButton {
+        margin: 0 15px;
         padding: 1rem;
     }
 
