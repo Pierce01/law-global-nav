@@ -102,9 +102,9 @@
     }
 
     .card-block .callToActionButton a {
-        font-size: 1.15rem;
-        line-height: 1.5rem;
-        padding: 0.5rem;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        padding: 0.15rem;
     }
 }
 
@@ -121,11 +121,11 @@
         padding: 1rem;
     }
 
-    /* .card-block .callToActionButton a {
-        font-size: 1.25rem;
-        line-height: 1.5rem;
-        padding: 0.5rem;
-    } */
+    .card-block .callToActionButton a {
+        font-size: 1.1rem;
+        line-height: 1.25rem;
+        padding: 0.25rem;
+    }
 }
 
 
