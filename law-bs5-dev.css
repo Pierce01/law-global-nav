@@ -64,8 +64,8 @@ ul.callToActionButtonWrapper li.callToActionButton {
 }
 
 
-/* Surface Duo (less than 540px) */
-@media only screen and (max-width: 539.99px) {
+/* xs (less than 575px) */
+@media only screen and (max-width: 575.99px) {
 
     .callToActionWrapper .card-title h2 {
         font-size: 0.75rem;
