@@ -63,7 +63,7 @@
 /* Small Max (less than 992px) */
 @media screen and (max-width: 991.99px) {
 
-    .callToActionOverlay .card-title .p-3 {
+    .callToActionOverlay .card-title.p-3 {
         padding-bottom: 0.25rem!important;
     }
 }
