@@ -71,6 +71,10 @@ ul.callToActionButtonWrapper li.callToActionButton {
         font-size: 0.75rem;
     }
 
+    .callToActionWrapper .card-title {
+        margin-bottom: 0 !important;
+    }
+
     .callToActionOverlay .card-title.p-3 {
         padding-top: 0.25rem !important;
     }
