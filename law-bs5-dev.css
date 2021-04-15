@@ -83,6 +83,10 @@ ul.callToActionButtonWrapper li.callToActionButton {
         padding-left: 0.25rem !important;
         padding-right: 0.25rem !important;
     }
+
+    .callToActionWrapper .card-block.py-1 {
+        padding-top: 0 !important;
+    }
 }
 
 @media screen and (max-width: 767.99px) {
