@@ -71,6 +71,10 @@ ul.callToActionButtonWrapper li.callToActionButton {
         font-size: 0.75rem;
     }
 
+    .callToActionOverlay .card-title.p-3 {
+        padding-top: 0.25rem;
+    }
+
     #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
