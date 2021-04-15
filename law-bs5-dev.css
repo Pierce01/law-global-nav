@@ -133,7 +133,7 @@
 @media screen and (min-width: 1200px) {
 
     .callToActionWrapper .card-title {
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .callToActionWrapper .card-title h2 {
@@ -152,7 +152,7 @@
 @media screen and (min-width: 1366px) {
 
     .callToActionWrapper .card-title {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     .callToActionWrapper .card-title h2 {
@@ -171,7 +171,7 @@
 @media screen and (min-width: 1920px) {
 
     .callToActionWrapper .card-title {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .callToActionWrapper .card-title h2 {
