@@ -71,6 +71,11 @@ ul.callToActionButtonWrapper li.callToActionButton {
         font-size: 0.75rem;
     }
 
+    h2.callToActionHeaderColorWhite.my-2 {
+        margin-bottom: 0.25rem !important;
+        margin-top: 0.25rem !important;
+    }
+
     .callToActionWrapper .card-title {
         margin-bottom: 0 !important;
     }
