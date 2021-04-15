@@ -76,6 +76,11 @@
         font-size: 1.25rem;
     }
 
+    ul.callToActionButtonWrapper li.callToActionButton {
+        margin: 0 10px;
+        padding: 0.5rem;
+    }
+
     .card-block .callToActionButton a {
         font-size: 1rem;
         line-height: 1rem;
