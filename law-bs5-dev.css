@@ -82,7 +82,7 @@
         font-size: 1.5rem;
     }
 
-    .callToActionWrapper li.callToActionButton {
+    ul.callToActionButtonWrapper li.callToActionButton {
         padding: 0.5rem;
     }
 
@@ -101,7 +101,7 @@
         font-size: 2rem;
     }
 
-    .callToActionWrapper li.callToActionButton {
+    ul.callToActionButtonWrapper li.callToActionButton {
         padding: 1rem;
     }
 
