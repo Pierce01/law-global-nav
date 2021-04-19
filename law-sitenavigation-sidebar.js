@@ -70,7 +70,7 @@ try
   if (whatsthemenuloc == 'menuleft') { //jb
     document.write('<nav id="siteNavigationWrapper" aria-labelledby="siteNavigationLabel"><div id="siteNavigation">');
     // Name of section is the title of navigation menu
-    document.write('<div id="siteNavigationTitleWrapper"><div id="siteNavigationTitle"><span><a href="' + navRootLink.getLink() + '" id="siteNavigationLabel" class="navbar-brand">' + navRootLink.getText() + '</a></span><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu"><span class="sr-only">Toggle site navigation menu</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button><div style="clear:both"></div></div></div>');
+    document.write('<div id="siteNavigationTitleWrapper"><div id="siteNavigationTitle"><span><a href="' + navRootLink.getLink() + '" id="siteNavigationLabel" class="navbar-brand">' + navRootLink.getText() + '</a></span><button type="button" class="navbar-toggle collapsed" data-bs-toggle="collapse" data-target="#menu"><span class="sr-only">Toggle site navigation menu</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button><div style="clear:both"></div></div></div>');
 
     switch (navLevel) {
       case 1:
