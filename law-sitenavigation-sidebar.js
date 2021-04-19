@@ -76,11 +76,11 @@ try
 
     switch (navLevel) {
       case 1:
-        document.write(BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, '<t4 type="navigation" id="849"/>',''));
+        document.write(BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, '<t4 type="navigation" id="321"/>',''));
         break;
 
       case 2:
-        document.write(BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, '<t4 type="navigation" id="851"/>',''));
+        document.write(BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, '<t4 type="navigation" id="325"/>',''));
         break;
 
       case 3:
