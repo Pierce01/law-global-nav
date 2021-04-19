@@ -38,7 +38,7 @@ try
       }
       // if SiteConfig is found, get the information in v9/siteconfigmenulocation and assign it to whatsthemenuloc
       if (found) {
-          var FORMATTER = "v9/siteconfigmenulocation"; //Name of content layout in siteconfig
+          var FORMATTER = "law/siteconfigmenulocation"; //Name of content layout in siteconfig
           var templateManager = TemplateManager.getManager();
           var format = templateManager.getFormat(dbStatement, CID, FORMATTER);
           var formatString = format.getFormatting();
