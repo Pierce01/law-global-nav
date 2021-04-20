@@ -8,7 +8,7 @@ try
   importClass(com.terminalfour.template.TemplateManager);//jb
 
 
-  var CID = 5222; // 786 is edu siteconfig and 5222 is law
+  var CID = 786; // 786 is edu siteconfig and 5222 is law
   var whatsthemenuloc = "menuleft"; //default case
   var channel = publishCache.getChannel();
   var found = false;
