@@ -134,7 +134,7 @@
 }
 
 @media only screen and (min-width: 576px) {
-    
+
     /* Keeps accordion on the grid */
     .accordionWrapper {
         margin-left: 15px !important;
@@ -1393,4 +1393,3 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
         opacity: 1 !important;
     }
 }
-
