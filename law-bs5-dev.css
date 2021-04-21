@@ -113,9 +113,9 @@
 .accordionItemList {
     background-color: #fff;
 }
-.accordionWrapper .accordionItem {
+/* .accordionWrapper .accordionItem {
   border-bottom: 1px solid #6f6f6f;
-}
+} */
 .accordionWrapper .accordionItemHeader {  
   height: auto;
 }
