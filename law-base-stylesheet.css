@@ -38,6 +38,9 @@ body {
   }
 }
 
+#pageContentWrapper {
+  padding-bottom: 1px;
+}
 
 @media screen and (min-width: 1200px) { /* lg */
   #pageContentWrapper[class=""] {/* Default state if .container or .container-fluid are not set in the site configuration */ 
