@@ -45,6 +45,7 @@
     text-decoration: none;
     padding: 30px 0;
   }
+
   .accordionWrapper h3.accordionItemHeaderButtonTitle {
       color: #088099;
       font-family: "Montserrat", sans-serif;
@@ -53,14 +54,26 @@
       margin: 0;
       width: 100%;
   }
+
   .accordionWrapper h3.accordionItemHeaderButtonTitle i {
     float: right;
     transition-timing-function: ease;
     transition-duration: .3s;
   }
+
   .accordionWrapper .accordionItemHeaderButton.collapsed h3.accordionItemHeaderButtonTitle i {
     transform: rotate(-90deg);
   }
+
+
+
+  /* ***** Desktop down ***** */
+@media screen and (max-width: 1199.99px) {
+
+    .accordionWrapper h3.accordionItemHeaderButtonTitle {
+        font-size: unset;
+    }
+}
 
 
 /*********************
