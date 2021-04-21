@@ -86,19 +86,16 @@
 .accordionWrapper h2.accordionTitle {
     color: #aa0000;
     font-family: 'Montserrat', sans-serif;
-    xfont-size: 35px;
     font-size: 2.8rem;
     font-weight: 500;
-    xmargin-bottom: 30px;
-    xmargin-left: 0;
     margin: 65px 0 22px 0;
     text-align: center;
     clear: both;
 }
 
 .accordionWrapper {
-  max-width: 1170px;
-  margin: 0 auto;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 /* Keeps accordion on the grid */
@@ -108,9 +105,6 @@
 }
 
 .accordionWrapper .accordionDescription p {
-    xtext-align: center;
-    xfont-size: 19px;
-    xmargin-bottom: 60px;
     color: #333333;
     font-size: 1.6rem;
     line-height: 2;
@@ -126,9 +120,7 @@
 .accordionItemList {
     background-color: #fff;
 }
-/* .accordionWrapper .accordionItem {
-  border-bottom: 1px solid #6f6f6f;
-} */
+
 .accordionWrapper .accordionItemHeader {  
   height: auto;
 }
@@ -142,11 +134,11 @@
 }
 
 @media only screen and (min-width: 576px) {
+    
     /* Keeps accordion on the grid */
     .accordionWrapper {
         margin-left: 15px !important;
         padding-right: 45px;
-        xmargin-bottom: 0; /* allows accordions to stack */
     }
   
     /* Indents nested lists to the left */
