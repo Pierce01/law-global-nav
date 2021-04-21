@@ -30,6 +30,22 @@
     outline: none;
 }
 
+.accordionItemHeader.accordion-header:visited {
+    outline: none;
+}
+
+.accordionItemHeader.accordion-header:hover {
+    outline: none;
+}
+
+.accordionItemHeader.accordion-header:focus {
+    outline: none;
+}
+
+.accordionItemHeader.accordion-header:active {
+    outline: none;
+}
+
 .accordionWrapper .accordionItemHeaderButton {
     height: auto;
     display: flex;
