@@ -14,6 +14,44 @@
 *
 **/
 
+.accordionWrapper {
+    margin: 0 auto;
+    margin-left: 15px !important;
+    max-width: 1170px;
+    padding-right: 45px;
+}
+
+.accordionWrapper h2.accordionTitle {
+    color: #aa0000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin: 65px 0 22px 0;
+    text-align: center;
+    clear: both;
+}
+
+.accordionWrapper h2.accordionTitle:not(:first-of-type) {
+    margin-top: 80px;
+}
+
+.accordionWrapper .accordionDescription p {
+    color: #333333;
+    font-size: 1.6rem;
+    line-height: 2;
+    margin-bottom: 1.6rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.accordionTitle.standardContent {
+    padding-left: 0 !important;
+}
+
+.accordionWrapper .accordionItemHeader {  
+    height: auto;
+}
+
 .accordionItemHeader.accordion-header {
     outline: none;
 }
@@ -65,9 +103,22 @@
     transform: rotate(-90deg);
 }
 
+.accordionWrapper .accordionItemInfo {
+    padding-bottom: 10px;
+}
 
 
-  /* ***** Desktop down ***** */
+
+
+/*********************
+*
+*   Accordion
+*   Media Queries
+*
+**/
+
+
+/* ***** Desktop down ***** */
 @media screen and (max-width: 1199.99px) {
 
     .accordionWrapper h3.accordionItemHeaderButtonTitle {
@@ -76,59 +127,7 @@
 }
 
 
-/*********************
-*
-*   Accordion
-*   Legacy Stylesheet BS3
-*
-**/
-
-.accordionWrapper h2.accordionTitle {
-    color: #aa0000;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.8rem;
-    font-weight: 500;
-    margin: 65px 0 22px 0;
-    text-align: center;
-    clear: both;
-}
-
-.accordionWrapper {
-    margin: 0 auto;
-    margin-left: 15px !important;
-    max-width: 1170px;
-    padding-right: 45px;
-}
-
-.accordionWrapper .accordionDescription p {
-    color: #333333;
-    font-size: 1.6rem;
-    line-height: 2;
-    margin-bottom: 1.6rem;
-    font-weight: 500;
-    text-align: left;
-}
-
-.accordionTitle.standardContent {
-    padding-left: 0 !important;
-}
-
-/* .accordionItemList {
-    background-color: #fff;
-} */
-
-.accordionWrapper .accordionItemHeader {  
-    height: auto;
-}
-
-.accordionWrapper .accordionItemInfo {
-    padding-bottom: 10px;
-}
-
-.accordionWrapper h2.accordionTitle:not(:first-of-type) {
-    margin-top: 80px;
-}
-
+/* ***** xs screen and up ***** */
 @media only screen and (min-width: 576px) {
 
     /* Keeps accordion on the grid */
@@ -142,6 +141,9 @@
         margin-left: .25em !important;
     }
 }
+
+
+
 
 
 
