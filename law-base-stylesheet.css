@@ -1878,99 +1878,11 @@ svg.arrow.circle.navy {
    ===== Accordion ===== Content Type #5190 =================================================
    ==========================================================================================
 */
-.accordionWrapper h2.accordionTitle {
-    color: #aa0000;
-    font-family: 'Montserrat', sans-serif;
-    xfont-size: 35px;
-    font-size: 2.8rem;
-    font-weight: 500;
-    xmargin-bottom: 30px;
-    xmargin-left: 0;
-    margin: 65px 0 22px 0;
-    text-align: center;
-    clear: both;
-}
 
-.accordionWrapper {
-  max-width: 1170px;
-  margin: 0 auto;
-}
 
-/* Keeps accordion on the grid */
-.accordionWrapper {
-    margin-left: 15px !important;
-    padding-right: 45px;
-}
 
-.accordionWrapper .accordionDescription p {
-    xtext-align: center;
-    xfont-size: 19px;
-    xmargin-bottom: 60px;
-    color: #333333;
-    font-size: 1.6rem;
-    line-height: 2;
-    margin-bottom: 1.6rem;
-    font-weight: 500;
-    text-align: left;
-}
 
-.accordionTitle.standardContent {
-    padding-left: 0 !important;
-}
 
-.accordionItemList {
-    background-color: #fff;
-}
-.accordionWrapper .accordionItem {
-  border-bottom: 1px solid #6f6f6f;
-}
-.accordionWrapper .accordionItemHeader {  
-  height: auto;
-}
-.accordionWrapper .accordionItemHeaderButton {
-  height: auto;
-  display:flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 30px 0;
-}
-.accordionWrapper h3.accordionItemHeaderButtonTitle {
-    color: #088099;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2.0rem;
-    font-weight: 500;
-    margin: 0;
-    width: 100%;
-}
-.accordionWrapper h3.accordionItemHeaderButtonTitle i {
-  float: right;
-  transition-timing-function: ease;
-  transition-duration: .3s;
-}
-.accordionWrapper .accordionItemHeaderButton.collapsed h3.accordionItemHeaderButtonTitle i {
-  transform: rotate(-90deg);
-}
-.accordionWrapper .accordionItemInfo {
-  padding-bottom: 10px;
-}
-
-.accordionWrapper h2.accordionTitle:not(:first-of-type) {
-    margin-top: 80px;
-}
-
-@media only screen and (min-width: 576px) {
-    /* Keeps accordion on the grid */
-    .accordionWrapper {
-        margin-left: 15px !important;
-        padding-right: 45px;
-        xmargin-bottom: 0; /* allows accordions to stack */
-    }
-  
-    /* Indents nested lists to the left */
-    .accordionWrapper ol, .accordionWrapper ul {
-        margin-left: .25em !important;
-    }
-}
 
 /* ==========================================================================================
    ===== Law - Box Links MainZone =====  Content Type #5534 =================================
