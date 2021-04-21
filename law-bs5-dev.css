@@ -14,18 +14,6 @@
 *
 **/
 
-/* .accordion-button {
-    flex-shrink: unset;
-    width: unset;
-    height: unset;
-    margin-left: unset;
-    content: "";
-    background-image: unset;
-    background-repeat: unset;
-    background-size: unset;
-    transition: unset;
-} */
-
 .accordionItemHeader.accordion-header {
     outline: none;
 }
