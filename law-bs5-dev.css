@@ -71,7 +71,7 @@
 @media screen and (max-width: 1199.99px) {
 
     .accordionWrapper h3.accordionItemHeaderButtonTitle {
-        font-size: unset;
+        font-size: calc(1.3rem + .6vw);
     }
 }
 
