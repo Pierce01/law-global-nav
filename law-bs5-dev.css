@@ -14,7 +14,7 @@
 *
 **/
 
-.accordion-button {
+/* .accordion-button {
     flex-shrink: unset;
     width: unset;
     height: unset;
@@ -24,7 +24,7 @@
     background-repeat: unset;
     background-size: unset;
     transition: unset;
-}
+} */
 
 .accordionWrapper .accordionItemHeaderButton {
     height: auto;
