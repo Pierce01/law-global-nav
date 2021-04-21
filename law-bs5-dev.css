@@ -14,6 +14,41 @@
 *
 **/
 
+.accordion-button {
+    flex-shrink: unset;
+    width: unset;
+    height: unset;
+    margin-left: unset;
+    content: "";
+    background-image: unset;
+    background-repeat: unset;
+    background-size: unset;
+    transition: unset;
+}
+
+.accordionWrapper .accordionItemHeaderButton {
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 30px 0;
+  }
+  .accordionWrapper h3.accordionItemHeaderButtonTitle {
+      color: #088099;
+      font-family: "Montserrat", sans-serif;
+      font-size: 2.0rem;
+      font-weight: 500;
+      margin: 0;
+      width: 100%;
+  }
+  .accordionWrapper h3.accordionItemHeaderButtonTitle i {
+    float: right;
+    transition-timing-function: ease;
+    transition-duration: .3s;
+  }
+  .accordionWrapper .accordionItemHeaderButton.collapsed h3.accordionItemHeaderButtonTitle i {
+    transform: rotate(-90deg);
+  }
 
 
 /*********************
@@ -72,29 +107,7 @@
 .accordionWrapper .accordionItemHeader {  
   height: auto;
 }
-.accordionWrapper .accordionItemHeaderButton {
-  height: auto;
-  display:flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 30px 0;
-}
-.accordionWrapper h3.accordionItemHeaderButtonTitle {
-    color: #088099;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2.0rem;
-    font-weight: 500;
-    margin: 0;
-    width: 100%;
-}
-.accordionWrapper h3.accordionItemHeaderButtonTitle i {
-  float: right;
-  transition-timing-function: ease;
-  transition-duration: .3s;
-}
-.accordionWrapper .accordionItemHeaderButton.collapsed h3.accordionItemHeaderButtonTitle i {
-  transform: rotate(-90deg);
-}
+
 .accordionWrapper .accordionItemInfo {
   padding-bottom: 10px;
 }
