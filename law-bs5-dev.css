@@ -30,19 +30,23 @@
     outline: none;
 }
 
-.accordionItemHeader.accordion-header:visited {
+.accordionItemHeader.accordion-header a:link {
     outline: none;
 }
 
-.accordionItemHeader.accordion-header:hover {
+.accordionItemHeader.accordion-header a:visited {
     outline: none;
 }
 
-.accordionItemHeader.accordion-header:focus {
+.accordionItemHeader.accordion-header a:hover {
     outline: none;
 }
 
-.accordionItemHeader.accordion-header:active {
+.accordionItemHeader.accordion-header a:focus {
+    outline: none;
+}
+
+.accordionItemHeader.accordion-header a:active {
     outline: none;
 }
 
