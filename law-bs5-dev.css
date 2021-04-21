@@ -26,6 +26,10 @@
     transition: unset;
 } */
 
+.accordionItemHeader.accordion-header {
+    outline: none;
+}
+
 .accordionWrapper .accordionItemHeaderButton {
     height: auto;
     display: flex;
