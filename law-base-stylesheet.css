@@ -23,13 +23,12 @@ body {
   background-color: #ffffff;
   color: #333333;
   font-family: "Montserrat", sans-serif;
-  /* font-size: 10px; base font size, because multiplying by 10 is easy */
   font-size: 62.5%; /* 10/16 =.625 To maximize accessibility, it is generally best to use values that are relative to the user's default font size.*/
   font-weight:400;
-  /* line-height: 20px; */
   line-height: 1.475;
   margin: 0;
-  padding-top: 167px; /* for the fixed header */
+  /* for the fixed header */
+  padding-top: 152px;
 }
 
 
