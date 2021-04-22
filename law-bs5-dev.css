@@ -19,6 +19,18 @@
     overflow-y: hidden;
 }
 
+/* ***** Desktop down ***** */
+@media screen and (max-width: 1199.99px) {
+
+    .imageBanner h1#pageTitle {
+        font-size: calc(1.375rem + 1.5vw);
+    }
+}
+
+
+
+
+
 
 
 /*********************
