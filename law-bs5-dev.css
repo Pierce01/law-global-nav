@@ -11,6 +11,18 @@
 
 /*********************
 *
+*   Image Banner
+*
+**/
+
+.imageBanner {
+    overflow-y: hidden;
+}
+
+
+
+/*********************
+*
 *   Call to Action Feature
 *
 **/
