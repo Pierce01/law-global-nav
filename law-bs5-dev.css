@@ -11,6 +11,23 @@
 
 
 
+
+
+
+
+/*********************
+*
+*   Jumplinks
+*
+**/
+
+.jumpLinksWrapper.standardContent {
+    max-width: none;
+}
+
+
+
+
 /*********************
 *
 *   Spotlight
