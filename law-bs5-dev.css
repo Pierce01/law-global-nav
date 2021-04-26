@@ -26,12 +26,23 @@
 }
 
 
+
 /* ***  Medium min Defaults   *** */
 @media screen and (min-width : 768px) {
 
     .law-detailPage-809077 .standardContent .spotlightCopy p {
         font-size: 1.5rem;
         line-height: 1.5;
+    }
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 767.99px) {
+
+    .spotlightWrapper.standardContent {
+        padding: 15px;
     }
 }
 
