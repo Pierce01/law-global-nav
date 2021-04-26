@@ -200,6 +200,10 @@ ul.callToActionButtonWrapper li.callToActionButton {
         margin: 5px;
         padding: 1rem;
     }
+
+    .callToActionWrapper .card-img-overlay {
+        position: unset;
+    }
 }
 
 
