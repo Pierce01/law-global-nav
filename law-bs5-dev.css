@@ -196,9 +196,12 @@ ul.callToActionButtonWrapper li.callToActionButton {
         width: 80%;
     }
 
-    ul.callToActionButtonWrapper li.callToActionButton a {
+    ul.callToActionButtonWrapper li.callToActionButton {
         margin: 5px;
         padding: 1rem;
+    }
+
+    ul.callToActionButtonWrapper li.callToActionButton a {
         font-size: 1.7rem;
         line-height: 1.7;
     }
