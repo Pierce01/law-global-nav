@@ -21,14 +21,14 @@
     max-width: none;
 }
 
-.spotlightCopy.col-md-7 {
-    width: 60%
-}
-
 
 
 /* ***  Medium min Defaults   *** */
 @media screen and (min-width : 768px) {
+
+    .spotlightCopy.col-md-7 {
+        width: 60%
+    }
 
     .law-detailPage-809077 .standardContent .spotlightCopy p {
         font-size: 1.5rem;
