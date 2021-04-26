@@ -199,6 +199,8 @@ ul.callToActionButtonWrapper li.callToActionButton {
     ul.callToActionButtonWrapper li.callToActionButton {
         margin: 5px;
         padding: 1rem;
+        font-size: 1.5rem;
+        line-height: 1.6;
     }
 
     .callToActionWrapper .card-img-overlay {
