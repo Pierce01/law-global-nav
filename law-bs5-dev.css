@@ -8,15 +8,25 @@
 
 
 
+
+
+
 /*********************
 *
-*   Image Banner
+*   Spotlight
 *
 **/
+
+.spotlightWrapper.standardContent {
+    max-width: none;
+}
 
 .spotlightCopy.col-sm-7 {
     width: 60%
 }
+
+
+
 
 
 
