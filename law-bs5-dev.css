@@ -105,7 +105,7 @@
 
 
 .callToActionWrapper .card-title h2 {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .card-block .callToActionButtonWrapper.standardContent {
@@ -129,10 +129,6 @@ ul.callToActionButtonWrapper li.callToActionButton {
 /* Galaxy Fold (less than 280px) */
 @media only screen and (max-width: 279.99px) {
 
-    .callToActionWrapper .card-title h2 {
-        font-size: 0.4rem;
-    }
-
     #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
@@ -142,10 +138,6 @@ ul.callToActionButtonWrapper li.callToActionButton {
 /* iPhone X (less than 376px) */
 @media only screen and (max-width: 375.99px) {
 
-    .callToActionWrapper .card-title h2 {
-        font-size: 0.5rem;
-    }
-
     #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
@@ -154,10 +146,6 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 /* xs (less than 575px) */
 @media only screen and (max-width: 575.99px) {
-
-    .callToActionWrapper .card-title h2 {
-        font-size: 0.75rem;
-    }
 
     h2.callToActionHeaderColorWhite.my-2 {
         margin-bottom: 0.25rem !important;
@@ -226,20 +214,16 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 
 /* ***** Mobile Up ***** */
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px) {
 
     .callToActionWrapper .card-title h2 {
         font-size: 1.25rem;
     }
-}
+} */
 
 
 /* ***  Medium min Defaults   *** */
 @media screen and (min-width : 768px) {
-
-    .callToActionWrapper .card-title h2 {
-        font-size: 1.5rem;
-    }
 
     ul.callToActionButtonWrapper li.callToActionButton {
         margin: 0 10px;
@@ -256,10 +240,6 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 /* ***  Large min Defaults   *** */
 @media screen and (min-width: 992px) {
-
-    .callToActionWrapper .card-title h2 {
-        font-size: 2rem;
-    }
 
     ul.callToActionButtonWrapper li.callToActionButton {
         margin: 0 15px;
