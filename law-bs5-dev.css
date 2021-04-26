@@ -26,6 +26,15 @@
 }
 
 
+/* ***  Medium min Defaults   *** */
+@media screen and (min-width : 768px) {
+
+    .law-detailPage-809077 .standardContent .spotlightCopy p {
+        font-size: 1.5rem;
+    }
+}
+
+
 
 
 
