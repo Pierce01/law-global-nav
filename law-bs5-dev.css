@@ -191,6 +191,10 @@ ul.callToActionButtonWrapper li.callToActionButton {
     #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
+
+    .card-block .callToActionButtonWrapper.standardContent {
+        width: 50%;
+    }
 }
 
 
