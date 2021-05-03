@@ -22,6 +22,16 @@
     background-color: #f7f7f7;
 }
 
+
+/* ***** Mobile Up ***** */
+@media screen and (min-width: 576px) {
+
+    .studentProfileMasonry.contentItem:last-of-type {
+        max-width: 50%;
+    }
+}
+
+
 /* xs (less than 575px) */
 @media screen and (max-width: 575.99px) {
 
