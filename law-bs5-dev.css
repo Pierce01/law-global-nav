@@ -11,7 +11,6 @@
 
 
 
-
 /*********************
 *
 *   Student Profile
@@ -109,6 +108,14 @@
 .imageBanner h1.pageTitle {
     font-weight: 500;
     font-size: 4rem;
+}
+
+.law-landingPage-notitle-2416209 .imageBannerIntro {
+    padding: 0;
+}
+
+.law-detailPage-notitle-2416212 .imageBannerIntro {
+    padding: 0;
 }
 
 /* ***** Desktop down ***** */
