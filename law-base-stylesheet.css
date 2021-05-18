@@ -18,6 +18,23 @@
   font-style: normal;
 }
 
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
 
 body {
   background-color: #ffffff;
@@ -72,14 +89,14 @@ body {
 #breadcrumbsWrapper{
   clear:both;
   min-height:60px;
-  position:relative;
+  xposition:relative;
 }
 #breadcrumbsWrapper .triangle{
   border-style: solid;
   border-width: 100px 50px 0 0px; /* was 125 60 0 0*/
   border-color: #fdb913 transparent transparent transparent;
   height: 0;
-  position: absolute;
+  xposition: absolute;
   top: -20px;
   width: 0;
   z-index: 1;
@@ -87,24 +104,24 @@ body {
 
 @media screen and (min-width: 1200px) and (max-width: 1307px) {
   #breadcrumbs {
-    margin-left: 60px; /* keep to the right of the tiange as screen shrinks */
-    width: calc(100% - 90px); /* prevent nav#breadcrumbs from falling off right side, add 30px margin to right (90 -60) */
+    xmargin-left: 60px; /* keep to the right of the tiange as screen shrinks */
+    xwidth: calc(100% - 90px); /* prevent nav#breadcrumbs from falling off right side, add 30px margin to right (90 -60) */
   }
 }
 @media screen and (min-width: 820px) and (max-width: 1107px) { 
   #breadcrumbs {
-    margin-left: 60px; /* keep to the right of the tiange as screen shrinks */
-    width: calc(100% - 90px); /* prevent nav#breadcrumbs from falling off right side, add 30px margin to right (90 -60) */
+    xmargin-left: 60px; /* keep to the right of the tiange as screen shrinks */
+    xwidth: calc(100% - 90px); /* prevent nav#breadcrumbs from falling off right side, add 30px margin to right (90 -60) */
   }
 }
 @media screen and (max-width: 820px) { /* xs plus a bit when the trianlge overlaps*/
   #breadcrumbs {
-    margin-left: 30px; /* keep to the right of the tiange as screen shrinks */
-    width: calc(100% - 45px); /* prevent nav#breadcrumbs from falling off right side, add 15px margin to right (45 - 30) */
+    xmargin-left: 30px; /* keep to the right of the tiange as screen shrinks */
+    xwidth: calc(100% - 45px); /* prevent nav#breadcrumbs from falling off right side, add 15px margin to right (45 - 30) */
   }
   #breadcrumbsWrapper .triangle{
-    border-width: 65px 30px 0 0px;
-    top: -15px;
+    xborder-width: 65px 30px 0 0px;
+    xtop: -15px;
   }
 }
 #breadcrumbs {
@@ -116,7 +133,7 @@ body {
   border-radius: 0;
   clear: both;
   font-size: 1.4rem;
-  line-height: 1.4rem;
+  line-height: 1.4;
   list-style: none;
   margin-bottom: 0; /* overrides a bootstrap default 20px*/
   padding: 15px 0 15px 0;
@@ -3375,8 +3392,8 @@ h2.contactBoxTitle {
 .contactBoxInfo p{
   margin:0;
   padding-left: 0;
-  line-height: 3.2rem;
-  font-size:1.6rem;
+  xline-height: 3.2rem;
+  xfont-size:1.6rem;
   color:#666;
 }
 
@@ -5898,6 +5915,131 @@ a:not([href]) {
   }
 }
 
+/* ==========================================================================================
+   ===== Law - Newscenter Story ===== Content Type #5296 ====================================
+   ==========================================================================================
+*
+
+/* News story fulltext layout. Added by Troy 5/1/2021 */
+h1, h2, h3, h4, h5, h6 {
+  hyphens: none;
+}
+
+.newsroomArticleByline {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+
+figure figcaption {
+  margin: 1rem auto 0;
+  caption-side: top;
+  line-height: 1.5rem;
+}
+
+figure figcaption span.image-caption {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: .5rem;
+}
+
+figure figcaption span.image-credit {
+  display: block;
+  font-size: .875rem;
+  font-style: italic;
+}
+
+.newsroomArticleBody .articleText.standardContent p {
+  font-size: 1.4rem;
+  line-height: 1.428571429;
+  color: #333;
+  font-weight: 400;
+  max-width: 60ch;
+}
+
+.icon-text {
+  display: none;
+}
+
+.social a.nav-link {
+  padding-left: 0;
+}
+
+li.nav-item a.nav-link {
+  padding-left: 0;
+}
+
+li.nav-item a.nav-link .icon {
+  padding-left: 0;
+  transition-duration: 250ms;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+
+li.nav-item a.nav-link .icon:hover {
+  padding-left: 0;
+  transform: translateY(-5px);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .icon-text {
+      display: unset;
+      margin-left: .5em;
+      font-size: .75rem;
+      font-family: Montserrat, sans-serif;
+      text-decoration: none;
+      position: relative;
+  }
+  .icon-text {
+      text-decoration: none;
+      position: relative;
+  }
+  .icon-text::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 2px;
+      background: currentColor;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 300ms ease-in;
+  }
+  .icon-text:hover::after {
+      transform: scaleX(1);
+      transform-origin: left;
+  }
+  ul.list-inline.lower-social-icons li, ul.upper-social-icons li {
+      margin-right: 6rem;
+  }
+  li.nav-item a.nav-link .icon:hover {
+      transform: unset;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  ul.upper-social-icons li {
+      margin-right: 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .icon-text {
+      font-size: 1rem;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .social a.nav-link {
+      padding-left: initial;
+  }
+}
+
 /* ========================================================================================== 
    ===== Organizer ===== Content Types: #5274 ========================================== 
    ==========================================================================================
@@ -5916,7 +6058,39 @@ a:not([href]) {
 .primaryContentWrapper{ }
 .primaryContent { }
 
+/* CSS for image captions (Used for floating images in news stories). Added by Troy 5/1/2021 */
+.standardContent figure.image-wrapper {
+  display: inline-block;
+  padding: 15px 20px 5px 0;
+}
 
+.standardContent figure.image-wrapper figcaption {
+  text-align: left;
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.standardContent figure.image-wrapper img {
+  padding: 0;
+}
+
+/* Large mobile devices (425px and up) */
+@media (min-width: 425px) {
+  .standardContent figure.image-wrapper {
+    display: inline-block;
+    padding: 15px 25px 10px 25px;
+  }
+  .standardContent figure.image-wrapper.float-left {
+    float: left;
+    padding-left: 0;
+  }
+
+  .standardContent figure.image-wrapper.float-right {
+    float: right;
+    padding-right: 0;
+  }
+}
 
 /* ==========================================================================================
    ===== QuickLinks ===== Content Type #5185 ================================================= 
@@ -7258,7 +7432,7 @@ div#id977819 .organizer  {
 @media screen and (min-width: 768px) and (max-width: 991.99px) {
 
   .lawFacultyWrapper p.card-text {
-      font-size: 1rem;;
+      font-size: 1rem;
   }
 }
 
@@ -7274,70 +7448,64 @@ div#id977819 .organizer  {
 /* ****** End Bootstrap 5 Organizer layouts - vic 20210425 ****** */
 
 
+/*** START Fulltext Layout ***/
+/* Last update/edit: 5/10/2021 by Troy */
 
+/* START Faculty Profile Breadcrumbs */
+nav#breadcrumbs.facultyProfileBreadcrumbs {
+    margin-top: 1.25em;
+}
 
-/*** START 2020 fulltext content type layout ***/
+#breadcrumbs.facultyProfileBreadcrumbs ol li:last-child {
+  font-weight: 700; /* darken the faculty member's name */
+  color: #000000;
+}
 
+/* Don't increase the font-weight of the last right angel (>) symbol. */
+#breadcrumbs.facultyProfileBreadcrumbs ol li:last-child::before {
+  font-weight: initial; 
+}
+/* END Faculty Profile Breadcrumbs */
+
+/* START Image, Name, Title, Contact Info, CV, Twitter Handle section */
 .facultyProfileTop {
   background-color: #f7f7f7;
   padding: 50px 0 50px 0;
 }
 
-.facultyProfileWrapper .facultyProfilePicture {
-    xmax-width: fit-content;
-}
-
 .facultyProfileWrapper .facultyProfilePicture img {
- 	border-radius: 50%; 
-    max-width: 260px;
+  border-radius: 50%; 
+  max-width: 340px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 3em;
 }
 
-.facultyProfileBreadcrumbs {
-    color: #000000;
-    text-align: left;
-    font-size: 2rem;
-    line-height: 1;
+/* Centers photo, title(s), room, phone, and email at widths under 768px */
+.facultyProfileWrapper .facultyProfilePicture,
+.facultyProfileTitles,
+.facultyProfileInfo {
+	text-align: center;
 }
 
-#breadcrumbs.facultyProfileBreadcrumbs ol {
-    font-size: 1.8rem;
-    line-height: 1.5;
-    /* padding: 15px 0 15px 0; */
-    /* vertical-align: middle; */
-}
-
-.facultyProfileBreadcrumbs a {
-  color: #000000;
-  text-decoration:none;
-}
-
-.facultyProfileBreadcrumbs a:focus, .facultyProfileBreadcrumbs a:hover{
-  color: #fdb913;
-  text-decoration: underline;
-}
-
-.facultyProfileBreadcrumbs li:last-child {
-    color: #333333;
-    font-weight: 700;
+/* Faculty member name */
+.facultyProfileInfo h1 {
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: .5em;
 }
 
 .facultyProfileCV {
-    padding-left: 15px;
-    xwidth: 50%;
-    width: 100%;
-    margin-bottom: 20px;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .facultyProfileTwitter {
-    width: 100%;
+  width: 100%;
 }
+/* END Image, Name, Title, Contact Info, CV, Twitter Handle section */
 
-.facultyProfileInfo h1,
-.facultyProfileTitles {
-	text-align: left;
-    xjustify-content: center;
-}
-
+/* START Faculty Profile Sidebar */
 .facultyProfileSidebar h3 {
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
@@ -7347,11 +7515,7 @@ div#id977819 .organizer  {
 	padding: 25px;
 	background-color: #088099;
 	margin-top: 35px;
-    color: #ffffff;
-}
-
-.primary-profile-sidebar:empty {
-    xdisplay: none;
+  color: #ffffff;
 }
 
 .primary-profile-sidebar h3,
@@ -7360,98 +7524,149 @@ div#id977819 .organizer  {
 }
 
 .primary-profile-sidebar ul li:before {
-	    color: #ffffff; /* bullet color */
+	color: #ffffff; /* bullet color on blue background */
 }
 
 .secondary-profile-sidebar {
 	padding: 25px;
-    border: solid 3px #088099;
-    color: #333333;
-    margin-top: 35px;
+  border: solid 3px #088099;
+  color: #333333;
+  margin-top: 35px;
 }
 
 .secondary-profile-sidebar h3 {
-    color: #333333;
+  color: #333333;
+}
+/* END Faculty Profile Sidebar */
+
+/* Biography, Publications, and Activity headlines */
+.primaryProfileContent h2 {
+  font-size: 2.4rem;  
 }
 
-.facultyProfileWrapper .facultyProfileMiddle {
-	xpadding: 0 15px 0 15px
-}
-
-/* Centers location, phone, and email at widths of 767px and under */
-.facultyProfileInfo {
-	text-align: center;	
-}
-
-/* Centers title at widths of 767px and under */
-.facultyProfileTitles {
-    text-align: center;
-}
-
-/* Centers name at widths of 767px and under */
-.facultyProfileInfo h1 {
-    text-align: center;
-    font-size: 4.5rem;
-}
-
-/* Centers image at widths of 767px and under */
-.facultyProfileWrapper .facultyProfilePicture {
-    text-align: center;
-}
-
-/* Small devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    .facultyProfileCV {
-      width: 50%;
-      padding-left: 15px;
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
-  
-    .facultyProfileTwitter {
-      width: 50%;
-    }
+  .facultyProfileInfo h1 {
+    font-size: 4.5rem;
+  }
+
+  .primaryProfileContent h2 {
+    font-size: 2.75rem;  
+  }
 }
 
-/* Faculty profile - Fulltext layout */
-/* Medium devices (desktops, 992px and up) */
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {   
-  	/* Left aligns location, phone, and email at widths of 768px and up */
-    .facultyProfileInfo {
-        text-align: left;	
-    }
+  /* Left align name, title, room, phone, and email */
+  .facultyProfileInfo h1,
+  .facultyProfileTitles,
+  .facultyProfileInfo {
+    text-align: left;	
+  }
 
-    /* Left aligns title at widths of 768px and up */
-    .facultyProfileTitles {
-        text-align: left;
-    }
+  .facultyProfileWrapper .facultyProfilePicture {
+    text-align: left;
+    max-width: fit-content; /* Reduces unneeded column width from Bootstrap default */
+  }
 
-    /* Left aligns name at widths of 768px and up */
-    .facultyProfileInfo h1 {
-        text-align: left;
-    }
+  .facultyProfileWrapper .facultyProfilePicture img {
+    max-width: 260px;
+  }
 
-    /* Left aligns image at widths of 768px and up */
-    .facultyProfileWrapper .facultyProfilePicture {
-        text-align: left;
-        xmargin-right: 40px;
-    }
+  .facultyProfileCV {
+    width: 50%;
+    margin-bottom: revert;
+  }
+
+  .facultyProfileTwitter {
+    width: 50%;
+  }
+
+  /* Adds a gap between the CV and Twitter boxlinks 
+  depending on if either or both are used. */
+  .cv-twitter:nth-child(1) {
+    margin-right: .75rem;
+  }
+
+  .cv-twitter:nth-child(2) {
+    margin-left: .75rem;
+  }
   
-  	/* reduces unneeded column width from Bootsrap default */
-    .facultyProfileWrapper .facultyProfilePicture {
-    	max-width: fit-content;
-    }
-  
-    .facultyProfileCV {
-      padding-left: 0;
-      margin: 0;
-    }
+  .facultyProfileBiography {
+    max-width: 95%;
+  }
 }
-/*** END 2020 fulltext content type layout ***/
+/*** END Fulltext Layout ***/
 
 /*
 ===== Law - Faculty Profile  ===== Content Type #5143 ================================ END 
 */
+
+/* ========================================================================================== 
+   ===== Law - Student Profile  ===== Content Type #5192 ==================================== 
+   ==========================================================================================
+   Last update/edit: 5/8/2021 by Troy
+*/
+
+/* START Text-HTML layout 
+   Needs #MainZone to display:flex;
+*/
+.flexContainer {
+	background: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch; /* makes all flex items equal to the longest item */
+}
+
+/* Flexbox item */
+.studentProfileWrapper {
+	background: #f7f7f7;
+	width: 262px;
+	margin: 15px;
+  padding: 0 2rem;
+}
+
+.studentProfile img {
+	border-radius: 50%;
+}
+
+.studentProfile.standardContent h3 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 2.3rem;
+}
+/* END Text-HTML layout styles */
+
+/* START full-text layout styles */
+.profile-header {
+	background-color: #088099;
+}
+
+.studentProfileBiography {
+  background-color: hsl(0, 0%, 98%);
+  padding: 2em;
+}
+
+.studentProfileInfo h2 {
+  padding: 0;
+  margin: 0 0 0 0;
+  line-height: 1.25;
+  color: #ffffff;
+}
+
+.studentProfileInfo p {
+  color: #ffffff;
+}
+
+.studentProfileInfo p.studentProfileGraduatingClass {
+  line-height: 1.25 !important;
+}
+/* END full-text layout styles */
+
+/* ===== END Law - Student Profile  ===== Content Type #5192 ============================== */
+
 
 .standardContent.bio-card .bio-links i {
   padding-right: 10px;
@@ -7985,3 +8200,4 @@ span.go {
 div.row.Row1 {
   margin-bottom: 0px;
 }
+
