@@ -19,10 +19,10 @@
         var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
         return v.toString(16);
       });
-      $(items[i]).attr('id', uid);
+      $(items[i]).attr('id', 'id' + uid);
       var classname = $(items[i]).prev().attr("class");
       if (classname && classname.indexOf("currentbranch") > -1) {
-        $(items[i]).addClass("collapse in");
+        $(items[i]).addClass("navbar-collapse collapse in");
       }
       else {
         $(items[i]).addClass("navbar-collapse collapse");
