@@ -4,6 +4,8 @@
  * --Hides sub-menus that are not within the current page's scope
  * --Adds chevrons to menu items with sub-menus
  * --When chevrons are clicked, collapses/expands the sub-menu
+ * 
+ * law-menu.js is specifically for the bootstrap 5
  */
 
  function setupMenu(query) {
@@ -23,7 +25,7 @@
       else {
         $(items[i]).addClass("collapse");
       }
-      $(items[i]).before('<em class="glyphicon glyphicon-chevron-right" data-target="#' + uid + '" data-toggle="collapse"></em>');
+      $(items[i]).before('<em class="glyphicon glyphicon-chevron-right" data-bs-target="#' + uid + '" data-bs-toggle="collapse"></em>');
     }
   }
   
