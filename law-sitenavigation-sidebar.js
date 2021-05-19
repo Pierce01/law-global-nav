@@ -8,7 +8,7 @@ try
   importClass(com.terminalfour.template.TemplateManager);//jb
 
 
-  var CID = 786; // 786 is edu siteconfig and 5222 is law
+  var CID = 5222; // 786 is edu siteconfig and 5222 is law
   var whatsthemenuloc = "menuleft"; //default case
   var channel = publishCache.getChannel();
   var found = false;
@@ -37,13 +37,13 @@ try
           }
       }
       // if SiteConfig is found, get the information in v9/siteconfigmenulocation and assign it to whatsthemenuloc
-      if (found) {
-          var FORMATTER = "law/siteconfigmenulocation"; //Name of content layout in siteconfig
-          var templateManager = TemplateManager.getManager();
-          var format = templateManager.getFormat(dbStatement, CID, FORMATTER);
-          var formatString = format.getFormatting();
-          whatsthemenuloc = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, foundSection, content, language, isPreview, formatString);
-      }
+      // if (found) {
+      //     var FORMATTER = "law/siteconfigmenulocation"; //Name of content layout in siteconfig
+      //     var templateManager = TemplateManager.getManager();
+      //     var format = templateManager.getFormat(dbStatement, CID, FORMATTER);
+      //     var formatString = format.getFormatting();
+      //     whatsthemenuloc = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, foundSection, content, language, isPreview, formatString);
+      // }
       // Recurse up the hierarchy in case Section Customizations is not found
       theSection = theSection.getParent();
   }
