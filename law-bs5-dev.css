@@ -30,6 +30,16 @@
     border: 1px solid transparent;
 } */
 
+/* ***  Medium min Defaults   *** */
+@media screen and (min-width : 768px) {
+
+    #SidebarZone #siteNavigation button.navbar-toggle {
+        display: none;
+    }
+}
+
+
+
 
 
 
