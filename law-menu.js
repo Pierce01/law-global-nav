@@ -25,7 +25,8 @@
         $(items[i]).addClass("navbar-collapse collapse in");
       }
       else {
-        $(items[i]).addClass("navbar-collapse collapse");
+          $(items[i]).addClass("navbar-collapse collapse");
+        }
       }
       $(items[i]).before('<i class="fa fa-chevron-right navbar-toggle" data-bs-toggle="collapse" data-bs-target="#id' + uid + '" aria-controls="id' + uid + '" aria-expanded="false"></i>');
     }
