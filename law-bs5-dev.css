@@ -482,6 +482,26 @@ span.fa-chevron-down {
 
 
 
+
+
+
+/*********************
+*
+*   Sidegbar Navigation
+*
+**/
+
+
+#siteNavigation #menu li i.fa {
+    color: #595959;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+
+
+
+
 /*********************
 *
 *   Global Navigation
