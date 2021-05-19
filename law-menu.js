@@ -27,7 +27,11 @@
       else {
         $(items[i]).addClass("collapse");
       }
-      $(items[i]).before('<em class="glyphicon glyphicon-chevron-right" data-bs-target="#' + uid + '" data-bs-toggle="collapse" aria-expanded="false" aria-controls="' + uid + '"></em>');
+      $(items[i]).before('<i class="fa fa-chevron-right" aria-hidden="true" data-bs-target="#' + uid + '" data-bs-toggle="collapse" aria-expanded="false" aria-controls="' + uid + '"></i>');
     }
   }  
   
+
+  // <i class="fa fa-chevron-right" aria-hidden="true" data-bs-target="#' + uid + '" data-bs-toggle="collapse" aria-expanded="false" aria-controls="' + uid + '"></i>
+
+  // <em class="glyphicon glyphicon-chevron-right" data-bs-target="#' + uid + '" data-bs-toggle="collapse" aria-expanded="false" aria-controls="' + uid + '"></em>
