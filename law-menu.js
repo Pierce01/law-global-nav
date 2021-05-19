@@ -6,6 +6,8 @@
  * --When chevrons are clicked, collapses/expands the sub-menu
  * 
  * law-menu.js is specifically for the bootstrap 5
+ * 
+ *  Media Library item ID: 2448340
  */
 
  function setupMenu(query) {
@@ -25,7 +27,7 @@
       else {
         $(items[i]).addClass("collapse");
       }
-      $(items[i]).before('<em class="glyphicon glyphicon-chevron-right" data-bs-target="#' + uid + '" data-bs-toggle="collapse"></em>');
+      $(items[i]).before('<em class="glyphicon glyphicon-chevron-right" data-bs-target="#' + uid + '" data-bs-toggle="collapse" aria-expanded="false" aria-controls="' + uid + '"></em>');
     }
   }  
   
