@@ -27,9 +27,5 @@
       }
       $(items[i]).before('<em class="glyphicon glyphicon-chevron-right" data-bs-target="#' + uid + '" data-bs-toggle="collapse"></em>');
     }
-  }
-  
-  
-  
-  
+  }  
   
