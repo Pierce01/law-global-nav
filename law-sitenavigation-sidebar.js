@@ -68,7 +68,7 @@ try
   var navRootLink = PathBuilder.getLink(dbStatement, currentSection, publishCache, language, isPreview);
 
   if (whatsthemenuloc == 'menuleft') { //jb
-    document.write('<nav id="siteNavigationWrapper" aria-labelledby="siteNavigationLabel"><div id="siteNavigation" class="navbar-collapse collapse">');
+    document.write('<nav id="siteNavigationWrapper" aria-labelledby="siteNavigationLabel"><div id="siteNavigation">');
     // Name of section is the title of navigation menu
     document.write('<div id="siteNavigationTitleWrapper"><div id="siteNavigationTitle"><span><a href="' + navRootLink.getLink() + '" id="siteNavigationLabel" class="navbar-brand">' + navRootLink.getText() + '</a></span> \
                     <button type="button" class="navbar-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle site navigation menu"> \
