@@ -11,6 +11,29 @@
 
 
 
+
+/*********************
+*
+*   Sidegbar Navigation
+*
+**/
+
+
+#siteNavigation #menu li i.fa {
+    color: #595959;
+    font-size: 1.6rem;
+}
+
+
+#SidebarZone #siteNavigation button.navbar-toggle {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+
+
+
+
 /*********************
 *
 *   Student Profile
@@ -477,24 +500,6 @@ span.fa-chevron-down {
 /* mega dropdowns will get converted to modals */
 #globalHeaderNavigation li.mega-dropdown {
     position: static;
-}
-
-
-
-
-
-
-
-/*********************
-*
-*   Sidegbar Navigation
-*
-**/
-
-
-#siteNavigation #menu li i.fa {
-    color: #595959;
-    font-size: 1.6rem;
 }
 
 
