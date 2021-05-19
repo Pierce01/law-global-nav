@@ -27,7 +27,7 @@
       else {
         $(items[i]).addClass("collapse");
       }
-      $(items[i]).before('<i class="fa fa-chevron-right" aria-hidden="true" data-bs-target="#' + uid + '" data-bs-toggle="collapse" aria-expanded="false" aria-controls="' + uid + '"></i>');
+      $(items[i]).before('<i class="fa fa-chevron-right" data-bs-target="#' + uid + '" data-bs-toggle="collapse" aria-expanded="false" aria-controls="' + uid + '"></i>');
     }
   }  
   
