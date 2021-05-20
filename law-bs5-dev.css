@@ -19,16 +19,20 @@
 **/
 
 
-#siteNavigation #menu li i.fa {
-    color: #595959;
-    font-size: 1.6rem;
-}
-
-
 /* #SidebarZone #siteNavigation button.navbar-toggle {
     background-color: transparent;
     border: 1px solid transparent;
 } */
+
+
+#SidebarZone #siteNavigation #siteNavigationTitleWrapper #siteNavigationTitle a {
+    font-size: unset;
+}
+
+#siteNavigation #menu li i.fa {
+    color: #595959;
+    font-size: 1.6rem;
+}
 
 /* ***  Medium min Defaults   *** */
 @media screen and (min-width : 768px) {
