@@ -26,13 +26,23 @@
 
 
 #SidebarZone #siteNavigation #siteNavigationTitleWrapper #siteNavigationTitle a {
-    font-size: unset;
+    font-size: 1.25rem!important;
+}
+
+#SidebarZone #siteNavigation #menu li a {
+    font-size: 1.25rem;
+}
+
+#SidebarZone #siteNavigation #menu li span.currentsection {
+    font-size: 1.25rem;
 }
 
 #siteNavigation #menu li i.fa {
     color: #595959;
-    font-size: 1.6rem;
+    font-size: 1.25rem;
 }
+
+
 
 /* ***  Medium min Defaults   *** */
 @media screen and (min-width : 768px) {
