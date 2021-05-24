@@ -42,6 +42,10 @@
     font-size: 1.25rem;
 }
 
+#SidebarZone #siteNavigation #siteNavigationTitleWrapper #siteNavigationTitle a.navbar-brand {
+    white-space: break-spaces;
+}
+
 
 
 /* ***  Medium min Defaults   *** */
