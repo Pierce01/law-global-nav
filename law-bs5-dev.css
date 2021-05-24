@@ -35,6 +35,7 @@
 
 #SidebarZone #siteNavigation #menu li span.currentsection {
     font-size: 1.25rem;
+    width: calc(100% - 30px);
 }
 
 #siteNavigation #menu li i.fa {
