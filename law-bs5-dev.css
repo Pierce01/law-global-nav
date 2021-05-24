@@ -1286,6 +1286,10 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     padding:0;
 }
 
+#globalHeaderNavigation .globalHeaderNavigationMainLinks ul {
+    max-height: 350px;
+}
+
 #globalHeaderNavigation .globalHeaderNavigationMainLinks ul li {
     max-height: 30px;
     padding: 0px 5px 52px;
