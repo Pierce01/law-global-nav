@@ -810,7 +810,7 @@ footer .footerLinks a:hover {
     footer #footerInner {
         display: flex;
         flex-wrap: wrap;
-        max-width: none;
+        /* max-width: none; */
     }
 }
 
