@@ -24,6 +24,10 @@
     border: 1px solid transparent;
 } */
 
+.law-calendarPage-867872 #SidebarZone {
+    display: block!important;
+}
+
 
 #SidebarZone #siteNavigation #siteNavigationTitleWrapper #siteNavigationTitle a {
     font-size: 1.25rem!important;
