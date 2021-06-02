@@ -22,9 +22,12 @@
 }
 
 #calendar_events .eventdate {
-    color: #003282;
     padding: 1rem;
     width: max-content;
+}
+
+#calendar_events .eventdate a {
+    color: #003282;
 }
 
 #calendar_events .event-item {
