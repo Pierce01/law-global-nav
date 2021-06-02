@@ -22,16 +22,22 @@
 }
 
 #calendar_events .eventdate {
+    color: #003282;
     width: max-content;
 }
 
 #calendar_events .event-item {
+    background-color: #f7f7f7;
     padding: 1rem;
     margin: 1rem;
 }
 
 #calendar_events .event-item p.title a {
     color:#aa0000;
+}
+
+#calendar_events .event-item p.categories_trigger {
+    padding-bottom: 2rem;
 }
 
 #calendar_box {
