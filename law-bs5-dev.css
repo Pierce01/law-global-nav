@@ -16,10 +16,30 @@
 *
 **/
 
+#calendar_events, #searchoptions-categories, #searchoptions-generic {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+}
+
+#calendar_events .eventdate {
+    width: max-content;
+}
+
 #calendar_events .event-item {
     padding: 1rem;
     margin: 1rem;
 }
+
+#calendar_events .event-item p.title a {
+    color:#aa0000;
+}
+
+#calendar_box {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+
 
 
 
