@@ -36,8 +36,12 @@
     margin: 1rem;
 }
 
-.standardContent #calendar_events .event-item ul li {
+.standardContent #calendar_events ul.no-bullet li.event-item {
     display: flex;
+}
+
+.standardContent #calendar_events ul li:before {
+    opacity: 0;
 }
 
 #calendar_events .event-item p.title a {
