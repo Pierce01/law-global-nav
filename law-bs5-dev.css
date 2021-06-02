@@ -10,6 +10,19 @@
 
 
 
+/*********************
+*
+*   Calendar
+*
+**/
+
+#calendar_events .event-item {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+
 
 
 /*********************
