@@ -34,7 +34,7 @@
 }
 
 .standardContent #calendar_events .event-item ul li {
-    display: list-item;
+    display: flex;
 }
 
 #calendar_events .event-item p.title a {
