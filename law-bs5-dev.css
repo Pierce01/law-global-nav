@@ -18,7 +18,7 @@
 
 #calendar_events, #searchoptions-categories, #searchoptions-generic, #view-switchers, .view_period_switchers {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 #calendar_events .eventdate {
