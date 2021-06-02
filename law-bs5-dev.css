@@ -23,6 +23,7 @@
 
 #calendar_events .eventdate {
     color: #003282;
+    padding: 1rem;
     width: max-content;
 }
 
@@ -30,6 +31,10 @@
     background-color: #f7f7f7;
     padding: 1rem;
     margin: 1rem;
+}
+
+.standardContent #calendar_events .event-item ul li {
+    display: list-item;
 }
 
 #calendar_events .event-item p.title a {
