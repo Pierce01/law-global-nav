@@ -27,7 +27,7 @@
 }
 
 #calendar_events .eventdate a {
-    color: #003282;
+    color:#aa0000;
 }
 
 #calendar_events .event-item {
@@ -53,7 +53,7 @@
 }
 
 #calendar_events .event-item p.title a {
-    color:#aa0000;
+    color: #003282;
 }
 
 #calendar_events .event-item p.categories_trigger {
