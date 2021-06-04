@@ -36,6 +36,14 @@
     margin: 1rem;
 }
 
+#calendar_events .event-date-box .date-stamp.smaller {
+    margin-right: 0;
+    width: auto;
+    margin-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .standardContent #calendar_events ul.no-bullet li.event-item {
     display: flex;
 }
@@ -56,6 +64,7 @@
     margin-bottom: 1rem;
     padding-bottom: 1rem;
 }
+
 
 
 
