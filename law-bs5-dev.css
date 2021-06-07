@@ -85,6 +85,10 @@
     max-width: -webkit-fill-available
 }
 
+.hideByType {
+    display: none!important;
+}
+
 
 
 
