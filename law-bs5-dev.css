@@ -77,6 +77,9 @@
     font-size: 1.5rem;
 }
 
+#searchoptions-categories.event-search-widget fieldset ul.category_form li::marker {
+    display: none;
+}
 
 
 
