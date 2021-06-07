@@ -78,7 +78,7 @@
 }
 
 #searchoptions-categories fieldset ul.category_form li::marker {
-    display: none;
+    color: #088099;
 }
 
 
