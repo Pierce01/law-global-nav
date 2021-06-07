@@ -8,8 +8,6 @@
 
 
 
-
-
 /*********************
 *
 *   Calendar
@@ -142,6 +140,23 @@
     #SidebarZone #siteNavigation button.navbar-toggle {
         display: none;
     }
+}
+
+
+
+
+
+
+/*********************
+*
+*   News Center
+*
+**/
+span.credits a.card-link {
+    color: #088099;
+    font-family: 'Montserrat';
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 
