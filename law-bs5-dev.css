@@ -220,6 +220,10 @@ span.credits a.card-link {
     max-width: none;
 }
 
+#carousel .spotlightWrapper {
+    background-color: #f7f7f7;
+}
+
 
 
 /* ***  Medium min Defaults   *** */
