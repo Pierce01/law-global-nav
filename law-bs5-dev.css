@@ -6,15 +6,17 @@
 **/
 
 
-
-
 /*********************
 *
 *   Calendar
 *
 **/
 
-#calendar_events, #searchoptions-categories, #searchoptions-generic, #view-switchers, .view_period_switchers {
+#calendar_events,
+#searchoptions-categories,
+#searchoptions-generic,
+#view-switchers,
+.view_period_switchers {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
 }
@@ -25,7 +27,7 @@
 }
 
 #calendar_events .eventdate a {
-    color:#aa0000;
+    color: #aa0000;
 }
 
 #calendar_events .event-item {
@@ -88,11 +90,6 @@
 }
 
 
-
-
-
-
-
 /*********************
 *
 *   Sidegbar Navigation
@@ -108,7 +105,6 @@
 .law-calendarPage-867872 #SidebarZone {
     display: block!important;
 }
-
 
 #SidebarZone #siteNavigation #siteNavigationTitleWrapper #siteNavigationTitle a {
     font-size: 1.25rem!important;
@@ -133,18 +129,13 @@
 }
 
 
-
 /* ***  Medium min Defaults   *** */
-@media screen and (min-width : 768px) {
 
+@media screen and (min-width: 768px) {
     #SidebarZone #siteNavigation button.navbar-toggle {
         display: none;
     }
 }
-
-
-
-
 
 
 /*********************
@@ -152,17 +143,13 @@
 *   News Center
 *
 **/
+
 span.credits a.card-link {
     color: #088099;
     font-family: 'Montserrat';
     font-size: 1.25rem;
     font-weight: 500;
 }
-
-
-
-
-
 
 
 /*********************
@@ -177,8 +164,8 @@ span.credits a.card-link {
 
 
 /* ***** Mobile Up ***** */
-@media screen and (min-width: 576px) {
 
+@media screen and (min-width: 576px) {
     .studentProfileMasonry.contentItem:last-of-type {
         max-width: 50%;
     }
@@ -186,15 +173,12 @@ span.credits a.card-link {
 
 
 /* xs (less than 575px) */
-@media screen and (max-width: 575.99px) {
 
+@media screen and (max-width: 575.99px) {
     .studentProfileMasonry.w-50 {
-        width:unset!important;
+        width: unset!important;
     }
 }
-
-
-
 
 
 /*********************
@@ -206,8 +190,6 @@ span.credits a.card-link {
 .jumpLinksWrapper.standardContent {
     max-width: none;
 }
-
-
 
 
 /*********************
@@ -225,20 +207,16 @@ span.credits a.card-link {
 }
 
 #carousel .spotlightCopy h3 {
-    color:  #f7f7f7
+    color: #f7f7f7
 }
 
 
-
-
-
 /* ***  Medium min Defaults   *** */
-@media screen and (min-width : 768px) {
 
+@media screen and (min-width: 768px) {
     .spotlightCopy.col-md-7 {
         width: 60%
     }
-
     .law-detailPage-809077 .standardContent .spotlightCopy p {
         font-size: 1.5rem;
         line-height: 1.5;
@@ -246,17 +224,13 @@ span.credits a.card-link {
 }
 
 
-
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (max-width: 767.99px) {
 
+@media screen and (max-width: 767.99px) {
     .spotlightWrapper.standardContent {
         padding: 15px;
     }
 }
-
-
-
 
 
 /*********************
@@ -282,18 +256,14 @@ span.credits a.card-link {
     padding: 0;
 }
 
-/* ***** Desktop down ***** */
-@media screen and (max-width: 1199.99px) {
 
+/* ***** Desktop down ***** */
+
+@media screen and (max-width: 1199.99px) {
     .imageBanner h1.pageTitle {
         font-size: calc(1.375rem + 1.5vw);
     }
 }
-
-
-
-
-
 
 
 /*********************
@@ -301,8 +271,6 @@ span.credits a.card-link {
 *   Call to Action Feature
 *
 **/
-
-
 
 .callToActionWrapper .card-title h2 {
     font-size: 2rem;
@@ -324,11 +292,9 @@ ul.callToActionButtonWrapper li.callToActionButton {
 }
 
 
-
-
 /* Galaxy Fold (less than 280px) */
-@media only screen and (max-width: 279.99px) {
 
+@media only screen and (max-width: 279.99px) {
     #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
@@ -336,8 +302,8 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 
 /* iPhone X (less than 376px) */
-@media only screen and (max-width: 375.99px) {
 
+@media only screen and (max-width: 375.99px) {
     #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
@@ -345,55 +311,45 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 
 /* xs (less than 575px) */
-@media only screen and (max-width: 575.99px) {
 
+@media only screen and (max-width: 575.99px) {
     h2.callToActionHeaderColorWhite.my-2 {
         margin-bottom: 0.25rem !important;
         margin-top: 0.25rem !important;
     }
-
     .callToActionWrapper .card-title {
         margin-bottom: 0 !important;
     }
-
     .callToActionOverlay .card-title.p-3 {
         padding-top: 0.25rem !important;
     }
-
     #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
-
     .callToActionWrapper .card-block.px-3 {
         padding-left: 0.25rem !important;
         padding-right: 0.25rem !important;
     }
-
     .callToActionWrapper .card-block.py-1 {
         padding-top: 0 !important;
     }
 }
 
 @media screen and (max-width: 767.99px) {
-
     #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
-
     .card-block .callToActionButtonWrapper.standardContent {
         width: 80%;
     }
-
     ul.callToActionButtonWrapper li.callToActionButton {
         margin: 5px;
         padding: 1rem;
     }
-
     ul.callToActionButtonWrapper li.callToActionButton a {
         font-size: 1.7rem;
         line-height: 1.7;
     }
-
     .callToActionWrapper .card-img-overlay {
         position: unset;
     }
@@ -401,12 +357,11 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 
 /* Small Max (less than 992px) */
-@media screen and (max-width: 991.99px) {
 
+@media screen and (max-width: 991.99px) {
     .callToActionOverlay .card-title.p-3 {
         padding-bottom: 0.25rem!important;
     }
-
     #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
@@ -414,6 +369,8 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 
 /* ***** Mobile Up ***** */
+
+
 /* @media screen and (min-width: 576px) {
 
     .callToActionWrapper .card-title h2 {
@@ -423,13 +380,12 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 
 /* ***  Medium min Defaults   *** */
-@media screen and (min-width : 768px) {
 
+@media screen and (min-width: 768px) {
     ul.callToActionButtonWrapper li.callToActionButton {
         margin: 0 10px;
         padding: 0.5rem;
     }
-
     .card-block .callToActionButton a {
         font-size: 1rem;
         line-height: 1.25rem;
@@ -439,13 +395,12 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 
 /* ***  Large min Defaults   *** */
-@media screen and (min-width: 992px) {
 
+@media screen and (min-width: 992px) {
     ul.callToActionButtonWrapper li.callToActionButton {
         margin: 0 15px;
         padding: 1rem;
     }
-
     .card-block .callToActionButton a {
         font-size: 1.1rem;
         line-height: 1.25rem;
@@ -455,12 +410,11 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 
 /* Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
 
+@media screen and (min-width: 1200px) {
     .callToActionWrapper .card-title {
         margin-bottom: 0.5rem;
     }
-
     .callToActionWrapper .card-title h2 {
         font-size: 2.5rem;
     }
@@ -468,16 +422,14 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 
 /* X Large devices (large desktops, 1366px and up) */
-@media screen and (min-width: 1366px) {
 
+@media screen and (min-width: 1366px) {
     .callToActionWrapper .card-title {
         margin-bottom: 1rem;
     }
-
     .callToActionWrapper .card-title h2 {
         font-size: 3rem;
     }
-
     .card-block .callToActionButton a {
         font-size: 1.5rem;
         line-height: 2rem;
@@ -487,29 +439,20 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 
 /* XX Large devices (large desktops, 1920px and up) */
-@media screen and (min-width: 1920px) {
 
+@media screen and (min-width: 1920px) {
     .callToActionWrapper .card-title {
         margin-bottom: 2rem;
     }
-
     .callToActionWrapper .card-title h2 {
         font-size: 4.25rem;
     }
-
     .card-block .callToActionButton a {
         font-size: 1.8rem;
         line-height: 2.4rem;
         padding: 1rem;
     }
 }
-
-
-
-
-
-
-
 
 
 /*********************
@@ -520,65 +463,93 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 
 /* Galaxy Fold (less than 280px) */
+
 @media only screen and (max-width: 279.99px) {}
 
+
 /* iPhone X (less than 376px) */
+
 @media only screen and (max-width: 375.99px) {}
 
+
 /* Surface Duo (less than 540px) */
+
 @media only screen and (max-width: 539.99px) {}
 
+
 /* Extra small devices (portrait phones, less than 576px) */
+
 @media only screen and (max-width: 575.99px) {}
 
+
 /* ***** Desktop down ***** */
+
 @media screen and (max-width: 1199.99px) {}
 
+
 /* ***** XL Desktop down ***** */
+
 @media screen and (max-width: 1399.99px) {}
 
+
 /* Small devices (landscape phones, 576px and up) */
+
 @media screen and (min-width: 576px) and (max-width: 767.99px) {}
 
+
 /* Medium devices (tablets, 768px and up) */
+
 @media screen and (min-width: 768px) and (max-width: 991.99px) {}
 
+
 /* Large devices (desktops, 992px and up) */
+
 @media screen and (min-width: 992px) and (max-width: 1199.99px) {}
 
+
 /* iPad Pro (iPad Pro, 1024px to 1200) */
+
 @media screen and (min-width: 1024px) and (max-width: 1199.99px) {}
 
+
 /* Responsice range from 1200 to 1366 */
+
 @media screen and (min-width: 1200px) and (max-width: 1365.99px) {}
 
+
 /* ***** Mobile Up ***** */
+
 @media screen and (min-width: 576px) {}
 
+
 /* ***  Medium min Defaults   *** */
-@media screen and (min-width : 768px) {}
+
+@media screen and (min-width: 768px) {}
+
 
 /* ***  Large min Defaults   *** */
-@media screen and (min-width : 992px) {}
+
+@media screen and (min-width: 992px) {}
+
 
 /* Large devices (large desktops, 1200px and up) */
+
 @media screen and (min-width: 1200px) {}
 
+
 /* X Large devices (large desktops, 1400px and up) */
+
 @media screen and (min-width: 1400px) {}
 
+
 /* XX Large devices (large desktops, 1920px and up) */
+
 @media screen and (min-width: 1920px) {}
 
+
 /* XXX Large devices (large desktops, 2560px and up) */
+
 @media screen and (min-width: 2560px) {}
-
-
-
-
-
-
-
 
 
 /*********************
@@ -589,7 +560,7 @@ ul.callToActionButtonWrapper li.callToActionButton {
 **/
 
 #globalHeader {
-    background:#aa0000;
+    background: #aa0000;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -620,7 +591,7 @@ ul.callToActionButtonWrapper li.callToActionButton {
 }
 
 #globalHeaderMiddleInner {
-    border-top:1px solid #ffffff;
+    border-top: 1px solid #ffffff;
 }
 
 #globalHeaderNavigation {
@@ -641,13 +612,12 @@ span.fa-chevron-down {
 *
 **/
 
+
 /* mega dropdowns will get converted to modals */
+
 #globalHeaderNavigation li.mega-dropdown {
     position: static;
 }
-
-
-
 
 
 /*********************
@@ -656,7 +626,9 @@ span.fa-chevron-down {
 *
 **/
 
+
 /* Top Down Default Legacy Stylesheet Overrides for global banner */
+
 .hidden {
     display: none;
 }
@@ -715,17 +687,12 @@ span.fa-chevron-down {
 }
 
 
-
-
-
-
 /*********************
 *
 *   Global Navigation
 *   Google Search Box
 *
 **/
-
 
 #googleSearchBox {
     padding: 5px 30px 0 0;
@@ -736,16 +703,17 @@ span.fa-chevron-down {
 }
 
 #googleSearchBox input#gsc-i-id1 {
-    background: #881111 !important;
+    /* background: #881111 !important; */
     border: 1px solid #881111;
-    color: #ffffff;
+    /* color: #ffffff; */
     display: inline-block;
     font-size: 1rem;
     font-weight: 500;
     padding: 5px 15px;
 }
 
-#googleSearchBox .gsc-search-button:hover, #googleSearchBox .gsc-search-button:focus {
+#googleSearchBox .gsc-search-button:hover,
+#googleSearchBox .gsc-search-button:focus {
     color: #fdb913;
 }
 
@@ -762,10 +730,6 @@ span.fa-chevron-down {
 }
 
 
-
-
-
-
 /*********************
 *
 *   Global Navigation
@@ -778,11 +742,6 @@ span.fa-chevron-down {
 }
 
 
-
-
-
-
-
 /*********************
 *
 *   Global Navigation
@@ -792,22 +751,20 @@ span.fa-chevron-down {
 
 
 /* X Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1366px) {
 
+@media screen and (min-width: 1366px) {
     #globalHeaderResourcesWrapper {
         font-size: 1.4rem;
     }
-
     #globalHeaderResourcesLinks li {
         margin: 0 1rem;
     }
-
 }
 
 
 /* Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
 
+@media screen and (min-width: 1200px) {
     #globalHeaderResourcesWrapper {
         font-size: 1.2rem;
     }
@@ -815,25 +772,21 @@ span.fa-chevron-down {
 
 
 /* Mobile up Legacy Stylesheet Overrides for global banner */
-@media screen and (min-width: 992px) {
 
+@media screen and (min-width: 992px) {
     #globalHeaderNavigationWrapper {
         display: contents;
     }
-
     #globalHeaderBottomNavWrapper {
         display: contents;
     }
-
     #globalHeaderNavigation.navbar-nav {
         flex-direction: row;
     }
-
     #globalHeaderResourcesLinks.navbar-nav {
         align-items: baseline;
         flex-direction: row;
     }
-
     #googleSearchBox input#gsc-i-id1 {
         width: 100%;
     }
@@ -841,29 +794,21 @@ span.fa-chevron-down {
 
 
 /* Large devices (desktops, 992px and up) */
-@media screen and (min-width: 992px) and (max-width: 1199.98px) {
 
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
     #globalHeaderNavigation li.dropdown a {
         font-size: 0.7rem;
     }
-
 }
 
 
 /* ***** Desktop down ***** */
-@media screen and (max-width: 1199.99px) {
 
+@media screen and (max-width: 1199.99px) {
     #googleSearchBox input#gsc-i-id1 {
         font-size: 0.7rem;
     }
 }
-
-
-
-
-
-
-
 
 
 /*********************
@@ -872,26 +817,19 @@ span.fa-chevron-down {
 *
 **/
 
-
 .primaryContent.standardContent p {
     line-height: 1.6;
 }
 
-/* ***  Medium min Defaults   *** */
-@media screen and (min-width : 768px) {
 
+/* ***  Medium min Defaults   *** */
+
+@media screen and (min-width: 768px) {
     /* ***  Primary Content Type   *** */
     .primaryContentWrapper {
         padding: 0 1rem 0 1rem;
     }
 }
-
-
-
-
-
-
-
 
 
 /*********************
@@ -902,6 +840,7 @@ span.fa-chevron-down {
 
 
 /* ***** Footer Defaults ***** */
+
 footer .footerLinks a {
     text-decoration: none;
 }
@@ -922,8 +861,8 @@ footer .footerLinks a:hover {
 
 
 /* ***** Mobile Up ***** */
-@media screen and (min-width: 992px) {
 
+@media screen and (min-width: 992px) {
     footer #footerInner {
         display: flex;
         flex-wrap: wrap;
@@ -931,120 +870,100 @@ footer .footerLinks a:hover {
     }
 }
 
-/* Desktop down */
-@media screen and (max-width: 991.98px) {
 
+/* Desktop down */
+
+@media screen and (max-width: 991.98px) {
     footer #organization {
         text-align: center;
     }
-
     footer #organization img {
         max-width: 50%;
     }
-
     footer h4 {
         margin: 0 0 15px 0;
         padding: 0;
     }
-
     footer #footerInner .footerLinks {
         margin-bottom: 2rem;
         text-align: center;
     }
 }
 
-/* Large devices (desktops, 992px and up to 1199) */
-@media screen and (min-width: 992px) and (max-width: 1199.98px) {
 
+/* Large devices (desktops, 992px and up to 1199) */
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
     footer #footerContact {
         margin-left: 2.5rem;
         padding-left: 2.5rem;
     }
-
     footer #organization {
         line-height: 1.5rem;
     }
-
     footer #organization .name {
         font-size: 1.25rem;
         font-weight: 500;
         margin-top: 1rem;
     }
-
     footer .footerLinks {
         font-size: 1rem;
     }
-
     footer .footerLinks a {
         font-size: 0.9rem;
     }
-
     footer h4 {
         font-size: 1.5rem;
     }
-
     #footerCallToActionLinks a {
         font-size: 1.25rem;
     }
-
 }
 
 
-
 /* X-Large devices (desktops, 1200px and up to 1365) */
-@media screen and (min-width: 1200px) and (max-width: 1365.99px) {
 
+@media screen and (min-width: 1200px) and (max-width: 1365.99px) {
     footer #footerContact {
         margin-left: 3rem;
         padding-left: 3rem;
     }
-
     footer #organization {
         line-height: 1.75rem;
     }
-
     footer #organization .name {
         font-size: 1.5rem;
         font-weight: 500;
         margin-top: 1rem;
     }
-
     footer .footerLinks {
         font-size: 1.25rem;
     }
-
     footer .footerLinks a {
         font-size: 1.25rem;
     }
-
     footer h4 {
         font-size: 2rem;
     }
-
     #footerCallToActionLinks a {
         font-size: 1.5rem;
     }
-
 }
 
-/* X Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1366px) {
 
+/* X Large devices (large desktops, 1200px and up) */
+
+@media screen and (min-width: 1366px) {
     footer #footerContact {
         margin-left: 4rem;
         padding-left: 4rem;
     }
-
     footer #organization .name {
         font-size: 1.75rem;
         font-weight: 500;
         margin-top: 1rem;
     }
 }
-
-
-
-
 
 
 /*********************
@@ -1054,7 +973,6 @@ footer .footerLinks a:hover {
 *
 **/
 
-
 #globalHeader #mainlogo a:focus:after {
     content: 'Link to SU Home Page';
     position: absolute;
@@ -1062,27 +980,24 @@ footer .footerLinks a:hover {
     bottom: 0;
 }
 
-#globalHeader .navbar-toggle{
+#globalHeader .navbar-toggle {
     margin: 15px 20px 8px 10px;
     padding: 17px 18px;
-    z-index:101;
+    z-index: 101;
 }
 
-#globalHeader .navbar-toggle .icon-bar{
-    background:#ffffff;
+#globalHeader .navbar-toggle .icon-bar {
+    background: #ffffff;
 }
-
-
 
 #globalHeaderResources {
-    overflow:visible;
+    overflow: visible;
     padding: 0 15px 0 0;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-@media (max-width:434px) { 
-
+@media (max-width:434px) {
     #headerResourcesMenu {
         padding: 10px 0;
         display: inline-block;
@@ -1090,7 +1005,9 @@ footer .footerLinks a:hover {
     }
 }
 
+
 /* hamburger button */
+
 .close-label {
     color: #ffffff;
     position: relative;
@@ -1110,7 +1027,8 @@ footer .footerLinks a:hover {
     width: 25px;
 }
 
-.menu-icon:before, .menu-icon:after {
+.menu-icon:before,
+.menu-icon:after {
     content: '';
     width: 100%;
     height: 100%;
@@ -1133,7 +1051,8 @@ footer .footerLinks a:hover {
     background-color: rgba(255, 255, 255, 0);
 }
 
-.menu-icon.is-clicked:before, .menu-icon.is-clicked:after {
+.menu-icon.is-clicked:before,
+.menu-icon.is-clicked:after {
     background-color: #FFFFFF;
 }
 
@@ -1164,7 +1083,8 @@ footer .footerLinks a:hover {
     top: 15px;
 }
 
-.menu-icon.sub-hamburger:before, .menu-icon.sub-hamburger:after {
+.menu-icon.sub-hamburger:before,
+.menu-icon.sub-hamburger:after {
     content: '';
     width: 100%;
     height: 100%;
@@ -1190,9 +1110,11 @@ header.menu-is-open .primary-nav-trigger:focus {
 
 
 /* START Give Button */
+
 a.give-button p {
     background: #ffffff;
-    color: #088099; /* default text color */
+    color: #088099;
+    /* default text color */
     transition: 0.3s;
     font-size: 1.3rem;
     font-weight: bold;
@@ -1211,18 +1133,16 @@ a.give-button p:hover {
 }
 
 @media (min-width: 992px) {
-
     #globalHeaderNavigationWrapper .give-button {
         display: none;
     }
 }
+
+
 /* END Give Button */
 
 
 /* links in red bar */
-
-
-
 
 #globalHeaderResourcesLinks li span {
     color: #ffffff;
@@ -1233,36 +1153,35 @@ a.give-button p:hover {
     color: #333333;
 }
 
-#globalHeaderResourcesLinks li a:hover, #globalHeaderResourcesLinks li a:focus, 
-#globalHeaderResourcesLinks li span:hover, #globalHeaderResourcesLinks li span:focus {
-    text-decoration:none;
+#globalHeaderResourcesLinks li a:hover,
+#globalHeaderResourcesLinks li a:focus,
+#globalHeaderResourcesLinks li span:hover,
+#globalHeaderResourcesLinks li span:focus {
+    text-decoration: none;
 }
 
 @media (max-width:991.999px) {
-
     #globalHeaderResources {
         padding: 17px 30px;
     }
-
     #globalHeaderResourcesLinks {
         margin: 0 0 0 -10px;
-        text-align:left;
+        text-align: left;
         padding: 8px 0 25px;
     }
 }
 
 @media (max-width: 991.999px) {
-
     #globalHeaderResourcesLinks {
         margin: auto;
-        text-align:center;
+        text-align: center;
         padding: 20px 0 25px;
     }
 }
 
 
-
 /* SU Resources menu */
+
 #globalHeaderResources .dropdown-menu {
     margin: 0;
 }
@@ -1284,31 +1203,20 @@ a.give-button p:hover {
 }
 
 
-
-
 /*navigation in white bar */
 
-
-
 @media (max-width:991.999px) {
-
     #globalHeaderNavigation {
-        padding:0;
+        padding: 0;
     }
 }
 
-
-
-
 @media screen and (max-width:991.999px) {
-
     #globalHeaderNavigation li.dropdown a {
         font-size: 1.2rem;
         padding: 17px 15px;
-    } 
+    }
 }
-
-
 
 
 /* #globalHeaderNavigation li.mega-dropdown a.dropdown-toggle:focus {
@@ -1323,7 +1231,6 @@ a.give-button p:hover {
 } */
 
 @media (max-width:991.999px) {
-
     #globalHeaderNavigationWrapper li.mega-dropdown:hover>a.dropdown-toggle,
     #globalHeaderNavigationWrapper li.mega-dropdown:focus>a.dropdown-toggle {
         color: #aa0000;
@@ -1347,6 +1254,7 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     transition: 0.5s;
 }
 
+
 /* a proud achievement */
 
 #globalHeaderResourcesLinks li.dropdown.open .fa.fa-chevron-down.visible-inline {
@@ -1359,13 +1267,10 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     text-decoration: none;
 }
 
+
 /******** mega drop down menu ********/
 
-
-
-
 @media (max-width:991.999px) {
-
     #globalHeaderNavigationWrapper li.mega-dropdown {
         margin: 0;
         text-align: left;
@@ -1377,8 +1282,8 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     background: #f7f7f7;
     border: none;
     border-radius: 0;
-    line-height:1.6rem;
-    min-height:200px;
+    line-height: 1.6rem;
+    min-height: 200px;
     padding: 75px 30px;
     width: 100%;
     -webkit-backface-visibility: hidden;
@@ -1387,20 +1292,20 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
 }
 
 @media (max-width:991.999px) {
-
     #globalHeaderNavigation .mega-dropdown-menu {
-        border-top:none;
+        border-top: none;
         float: none;
         padding: 30px 0px;
         overflow: auto;
         position: static;
-    }   
+    }
 }
+
 
 /******** links in mega drop down menu ********/
 
 #globalHeaderNavigation .globalHeaderNavigationMainLinks {
-    padding:0;
+    padding: 0;
 }
 
 #globalHeaderNavigation .globalHeaderNavigationMainLinks ul {
@@ -1414,11 +1319,10 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
 }
 
 @media screen and (min-width: 576px) and (max-width:992px) {
-
     #globalHeaderNavigation .globalHeaderNavigationMainLinks ul li {
-    max-height: 30px;
-    /* padding: 0px 20px 65px; */
-    list-style-type: none;
+        max-height: 30px;
+        /* padding: 0px 20px 65px; */
+        list-style-type: none;
     }
 }
 
@@ -1439,6 +1343,7 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     color: #AA0000;
 }
 
+
 /******** Quicklinks in mega drop down menu ********/
 
 #globalHeaderNavigation .globalHeaderNavigationQuickLinks {
@@ -1446,13 +1351,12 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     border-left: 2px solid #04a9c5;
 }
 
-@media screen and (max-width:991.999px) { 
-
+@media screen and (max-width:991.999px) {
     #globalHeaderNavigation .globalHeaderNavigationQuickLinks {
         border-left: none;
         border-top: 2px solid #04a9c5;
         padding: 30px 32px 0;
-    } 
+    }
 }
 
 .globalHeaderNavigationQuickLinks ul {
@@ -1474,66 +1378,61 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     font-size: 1.4rem;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height:1.4rem;
+    line-height: 1.4rem;
     padding: 5px 0;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
 
 #globalHeaderNavigation .globalHeaderNavigationQuickLinks li a:hover,
-#globalHeaderNavigation .globalHeaderNavigationQuickLinks li a:focus{
-    color:#aa0000;  
+#globalHeaderNavigation .globalHeaderNavigationQuickLinks li a:focus {
+    color: #aa0000;
 }
 
 @media (max-width:991.999px) {
-
-    #globalHeaderNavigation .mega-dropdown-menu .globalHeaderNavigationQuickLinks li a{
+    #globalHeaderNavigation .mega-dropdown-menu .globalHeaderNavigationQuickLinks li a {
         padding: 10px 5px 10px 0;
     }
 }
 
 @media (max-width: 991.999px) {
-
-    #globalHeader { 
+    #globalHeader {
         margin-bottom: 0;
-        position:relative;
+        position: relative;
     }
-
     #globalHeader button .glyphicon {
-        color:#aa0000;
+        color: #aa0000;
         display: inline-block;
         float: right;
         font-size: 18px;
         width: initial;
     }
-
     #globalHeader button .glyphicon:before {
         content: '\f0c9';
         font-family: 'fontawesome';
     }
-
     #globalHeader .navbar-collapse.collapse {
         display: none !important;
     }
-
     #globalHeader .collapse.in {
         display: block !important;
     }
-
     .visible-sm-inline {
         display: inline !important;
     }
 }
 
-/******** START Disappearing-Reappearing Menu ********/
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
 
+/******** START Disappearing-Reappearing Menu ********/
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
     .nav-up {
         transition: opacity .4s ease !important;
         opacity: 0 !important;
         pointer-events: none !important;
     }
-
     .nav-down {
         transition: opacity .4s ease !important;
         opacity: 1 !important;
