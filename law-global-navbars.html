@@ -9,7 +9,7 @@
             </div>
             <button type="button" class="navbar-toggle collapse primary-menu-button" data-toggle="collapse" data-target=".collapseMe" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="menu-icon"></span></button>
 
-    
+
             <div id="globalHeaderResourcesWrapper" class="col-xs-12 col-md-10">
                 <div id="globalHeaderNavigationWrapper" class="collapse navbar-collapse collapseMe">
                     <div class="row globalHeaderWrapper">
@@ -17,53 +17,61 @@
 
                         <div id="globalHeaderResourcesLinksWrapper" class="col-xs-12 col-md-9">
                             <ul id="globalHeaderResourcesLinks" class="">
-                            <t4 type="navigation" name="Law - Global Audience-Specific Navigation" id="713" aria-label="Resources for students, employees, alumni and the legal community" />
+                                <t4 type="navigation" name="Law - Global Audience-Specific Navigation" id="713" aria-label="Resources for students, employees, alumni and the legal community" />
 
                                 <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle px-0" id="headerResourcesMenu" data-bs-toggle="dropdown"  aria-label="Open Resources submenu" aria-haspopup="true" aria-expanded="false">Resources<span class="fa fa-chevron-down visible-inline"></span></a>
+                                    <a href="#" class="nav-link dropdown-toggle px-0" id="headerResourcesMenu" data-bs-toggle="dropdown" aria-label="Open Resources submenu" aria-haspopup="true" aria-expanded="false">Resources<span class="fa fa-chevron-down visible-inline"></span></a>
                                     <t4 type="navigation" name="Law - Resources Navigation" id="738" />
                                 </li>
                             </ul>
-                        </div> <!-- end #globalHeaderResourcesLinksWrapper -->
+                        </div>
+                        <!-- end #globalHeaderResourcesLinksWrapper -->
 
-    
+
                         <div id="googleSearchBox" class="col-xs-12 col-md-3 d-flex justify-content-end">
                             <form class="gsc-search-box col-10">
-                              <table class="gsc-search-box">
-                                <tbody>
-                                  <tr>
-                                    <td class="gsc-input">
-                                        <input autocomplete="off" type="text" size="10" class="gsc-input" name="Search" title="Search" id="gsc-i-id1" dir="ltr" placeholder="Search SU Law" spellcheck="false">
-                                        <input type="hidden" name="bgresponse" id="bgresponse">
-                                        <!-- <i class='fas fa-search'></i> -->
-                                    </td>
-                                    <td class="gsc-search-button" onclick="SendSearch('gsc-i-id1');"><button type="submit" value="Search" class="gsc-search-button" title="search"><i class="fas fa-search"></i></button></td>
-                                    <td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                                <table class="gsc-search-box">
+                                    <tbody>
+                                        <tr>
+                                            <td class="gsc-input">
+                                                <input autocomplete="off" type="text" size="10" class="gsc-input" name="Search" title="Search" id="gsc-i-id1" dir="ltr" placeholder="Search SU Law" spellcheck="false">
+                                                <input type="hidden" name="bgresponse" id="bgresponse">
+                                                <!-- <i class='fas fa-search'></i> -->
+                                            </td>
+                                            <td class="gsc-search-button" onclick="SendSearch('gsc-i-id1');"><button type="submit" value="Search" class="gsc-search-button" title="search"><i class="fas fa-search"></i></button></td>
+                                            <td class="gsc-clear-button">
+                                                <div class="gsc-clear-button" title="clear results">&nbsp;</div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </form>
                             <script>
-                              // Add listener to submit search query on form submit
-                              $("form.gsc-search-box").on('submit', function() {
-                                var URL = "//www.seattleu.edu/search/";
-                                window.location.href = URL + "?q=" + encodeURIComponent($("form.gsc-search-box input.gsc-input").val());
-                                return false; // Stops the form from executing its default submit (which reloads the page and breaks our desired functionality)
-                              });
-                            </script> 
-                          </div>
-                    </div><!-- end .row.globalHeaderWrapper -->
-                </div><!-- end #globalHeaderNavigationWrapper -->
-            </div><!-- end #globalHeaderResourcesWrapper -->
-        </div><!-- end .row.globalTopInner -->
-    </div><!-- end #globalHeaderTopInner -->
+                                // Add listener to submit search query on form submit
+                                $("form.gsc-search-box").on('submit', function() {
+                                    var URL = "//stage-law.seattleu.edu/search/";
+                                    window.location.href = URL + "?q=" + encodeURIComponent($("form.gsc-search-box input.gsc-input").val());
+                                    return false; // Stops the form from executing its default submit (which reloads the page and breaks our desired functionality)
+                                });
+                            </script>
+                        </div>
+                    </div>
+                    <!-- end .row.globalHeaderWrapper -->
+                </div>
+                <!-- end #globalHeaderNavigationWrapper -->
+            </div>
+            <!-- end #globalHeaderResourcesWrapper -->
+        </div>
+        <!-- end .row.globalTopInner -->
+    </div>
+    <!-- end #globalHeaderTopInner -->
 
-    
+
 
     <div id="globalHeaderMiddleInner"></div>
     <div id="globalHeaderBottomInner" class="container-fluid">
         <div id="globalHeaderBottomNavWrapper" class="collapse navbar-collapse collapseMe">
-            
+
             <ul class="nav navbar-nav" id="globalHeaderNavigation" role="menubar" aria-label="Global Navigation">
                 <!-- ADMISSION START -->
                 <li class="dropdown mega-dropdown" role="menuitem">
@@ -186,6 +194,8 @@
                 </li>
                 <!-- OUR SCHOOL END -->
             </ul>
-        </div> <!-- end #globalHeaderBottomNavWrapper -->
-    </div> <!-- closes #globalHeaderBottomInner-->         
+        </div>
+        <!-- end #globalHeaderBottomNavWrapper -->
+    </div>
+    <!-- closes #globalHeaderBottomInner-->
 </header>
