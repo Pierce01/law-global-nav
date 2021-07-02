@@ -49,7 +49,7 @@
                             <script>
                                 // Add listener to submit search query on form submit
                                 $("form.gsc-search-box").on('submit', function() {
-                                    var URL = "//stage-law.seattleu.edu/search/";
+                                    var URL = "//www.seattleu.edu/search/";
                                     window.location.href = URL + "?q=" + encodeURIComponent($("form.gsc-search-box input.gsc-input").val());
                                     return false; // Stops the form from executing its default submit (which reloads the page and breaks our desired functionality)
                                 });
