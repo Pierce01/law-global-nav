@@ -288,6 +288,14 @@ ul.callToActionButtonWrapper li.callToActionButton {
     padding: 0.1rem;
 }
 
+.callToActionWrapper .card-img-overlay .callToActionOverlay {
+    height: 100%;
+    height: -moz-available;        
+    height: -webkit-fill-available;
+    height: fill-available;
+    min-height: 100%;
+}
+
 
 /* Galaxy Fold (less than 280px) */
 
