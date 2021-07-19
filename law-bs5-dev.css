@@ -717,6 +717,10 @@ span.fa-chevron-down {
     padding: 5px 15px;
 }
 
+#googleSearchBox input#gsc-i-id1::placeholder {
+    color: #ffffff;
+}
+
 #googleSearchBox .gsc-search-button:hover,
 #googleSearchBox .gsc-search-button:focus {
     color: #fdb913;
