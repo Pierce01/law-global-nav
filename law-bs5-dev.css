@@ -723,7 +723,7 @@ span.fa-chevron-down {
 
 #googleSearchBox input#gsc-i-id1:focus {
     border: 1px solid #ffffff;
-    /* outline-color: #ffffff; */
+    border-radius: 0;
 }
 
 #googleSearchBox .gsc-search-button:hover,
