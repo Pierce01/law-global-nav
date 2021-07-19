@@ -708,9 +708,9 @@ span.fa-chevron-down {
 }
 
 #googleSearchBox input#gsc-i-id1 {
-    /* background: #881111 !important; */
+    background: #881111 !important;
     border: 1px solid #881111;
-    /* color: #ffffff; */
+    color: #ffffff;
     display: inline-block;
     font-size: 1rem;
     font-weight: 500;
