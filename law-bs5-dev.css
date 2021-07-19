@@ -591,6 +591,10 @@ ul.callToActionButtonWrapper li.callToActionButton {
     margin: 0 0.5rem;
 }
 
+#globalHeaderResourcesLinks li.headerResources {
+    margin: 0;
+}
+
 #globalHeaderResourcesLinks li a {
     color: #ffffff;
 }
