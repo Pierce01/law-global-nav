@@ -591,10 +591,6 @@ ul.callToActionButtonWrapper li.callToActionButton {
     margin: 0 0.5rem;
 }
 
-#globalHeaderResourcesLinks li.headerResources {
-    margin: 0;
-}
-
 #globalHeaderResourcesLinks li a {
     color: #ffffff;
 }
@@ -665,6 +661,10 @@ span.fa-chevron-down {
 
 #globalHeaderResourcesLinks li a:active {
     text-decoration: none;
+}
+
+#globalHeaderResourcesLinks li.headerResources {
+    margin: 0;
 }
 
 #globalHeaderNavigation li.mega-dropdown {
