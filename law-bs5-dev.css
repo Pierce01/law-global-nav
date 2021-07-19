@@ -722,11 +722,13 @@ span.fa-chevron-down {
 }
 
 #googleSearchBox input#gsc-i-id1:focus {
+    border: none;
     border-radius: 0;
     outline-color: #ffffff;
 }
 
 #googleSearchBox input#gsc-i-id1:active {
+    border: none;
     border-radius: 0;
     outline-color: #ffffff;
 }
