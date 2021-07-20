@@ -1301,9 +1301,9 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     background: #f7f7f7;
     border: none;
     border-radius: 0;
-    line-height: 1.6rem;
+    /* line-height: 1.6rem; */
     min-height: 200px;
-    padding: 75px 30px;
+    /* padding: 75px 30px; */
     width: 100%;
     -webkit-backface-visibility: hidden;
     transition: 0.4s;
@@ -1332,8 +1332,8 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
 }
 
 #globalHeaderNavigation .globalHeaderNavigationMainLinks ul li {
-    max-height: 30px;
-    padding: 0 1rem 4rem 1rem;
+    /* max-height: 30px;
+    padding: 0 1rem 4rem 1rem; */
     list-style-type: none;
 }
 
