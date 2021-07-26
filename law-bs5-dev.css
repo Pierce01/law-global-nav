@@ -857,6 +857,14 @@ span.fa-chevron-down {
         text-align: left;
         width: 100%;
     }
+
+    #globalHeaderNavigation .mega-dropdown-menu {
+        border-top: none;
+        float: none;
+        padding: 30px 17px;
+        overflow: auto;
+        position: static;
+    }
 }
 
 
