@@ -833,9 +833,9 @@ span.fa-chevron-down {
 /* ***** Desktop down ***** */
 
 @media screen and (max-width: 1199.99px) {
-    #googleSearchBox input#gsc-i-id1 {
+    /* #googleSearchBox input#gsc-i-id1 {
         font-size: 0.7rem;
-    }
+    } */
 }
 
 
