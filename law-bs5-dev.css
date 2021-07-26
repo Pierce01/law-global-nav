@@ -1465,9 +1465,9 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
         content: '\f0c9';
         font-family: 'fontawesome';
     }
-    #globalHeader .navbar-collapse.collapse {
+    /* #globalHeader .navbar-collapse.collapse {
         display: none !important;
-    }
+    } */
     #globalHeader .collapse.in {
         display: block !important;
     }
