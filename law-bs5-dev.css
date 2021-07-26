@@ -851,6 +851,12 @@ span.fa-chevron-down {
     .nav-item.audience-link {
         padding-top: 8px;
     }
+
+    #globalHeaderNavigationWrapper li.mega-dropdown {
+        margin: 0;
+        text-align: left;
+        width: 100%;
+    }
 }
 
 
