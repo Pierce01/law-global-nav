@@ -1059,11 +1059,13 @@ footer .footerLinks a:hover {
 
 .navbar-toggler-icon {
     background-image: none;
+    color: #f7f7f7;
   }
-  .navbar-toggler-icon::before {
+
+.navbar-toggler-icon::before {
     font-family: FontAwesome;
     content: "\f0c9"; 
-  }
+}
 
 .menu-icon {
     -webkit-transform: translateY(-50%);
