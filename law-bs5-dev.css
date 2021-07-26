@@ -1056,6 +1056,14 @@ footer .footerLinks a:hover {
     position: relative;
 }
 
+.navbar-toggler-icon {
+    background-image: none;
+  }
+  .navbar-toggler-icon::before {
+    font-family: FontAwesome;
+    content: "\f0c9"; 
+  }
+
 .menu-icon {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
