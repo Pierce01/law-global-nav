@@ -1228,6 +1228,7 @@ a.give-button p:hover {
 
 @media (max-width: 991.999px) {
     #globalHeaderResourcesLinks {
+        display: inline-grid;
         /* margin-left: 4rem;
         text-align: center; */
         padding: 20px 0 25px;
