@@ -797,6 +797,10 @@ span.fa-chevron-down {
     #globalHeader {
         height: 150px;
     }
+    
+    #globalHeader .navbar-toggle {
+        display: none;
+    }
 
     #globalHeaderNavigationWrapper {
         display: contents;
