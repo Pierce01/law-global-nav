@@ -847,6 +847,10 @@ span.fa-chevron-down {
         position: relative;
         float: right;
     }
+
+    .nav-item.audience-link {
+        padding-top: 8px;
+    }
 }
 
 
