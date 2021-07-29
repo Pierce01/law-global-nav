@@ -1425,6 +1425,10 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     border-left: 2px solid #04a9c5;
 }
 
+#globalHeaderBottomNavWrapper .mega-dropdown-menu .modalWrapper {
+    width: 100%;
+}
+
 @media screen and (max-width:991.999px) {
 
     #globalHeaderNavigation .globalHeaderNavigationMainLinks {
