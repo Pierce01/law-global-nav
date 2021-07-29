@@ -1205,7 +1205,7 @@ a.give-button p:hover {
     border: 1px solid #ffffff;
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
     #globalHeaderNavigationWrapper .give-button {
         display: none;
     }
@@ -1365,6 +1365,13 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     transition-timing-function: ease;
 }
 
+@media screen and (min-width: 992px) {
+
+    #globalHeaderNavigation .globalHeaderNavigationMainLinks ul {
+        max-height: 400px;
+    }
+}
+
 @media (max-width:991.999px) {
     #globalHeaderNavigation .mega-dropdown-menu {
         border-top: none;
@@ -1380,10 +1387,6 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
 
 #globalHeaderNavigation .globalHeaderNavigationMainLinks {
     padding: 0;
-}
-
-#globalHeaderNavigation .globalHeaderNavigationMainLinks ul {
-    max-height: 400px;
 }
 
 #globalHeaderNavigation .globalHeaderNavigationMainLinks ul li {
