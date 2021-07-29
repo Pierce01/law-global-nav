@@ -886,9 +886,9 @@ span.fa-chevron-down {
 
 @media screen and (min-width: 768px) {
     /* ***  Primary Content Type   *** */
-    .primaryContentWrapper {
+    /* .primaryContentWrapper {
         padding: 0 1rem 0 1rem;
-    }
+    } */
 }
 
 
@@ -1512,3 +1512,4 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
         opacity: 1 !important;
     }
 }
+
