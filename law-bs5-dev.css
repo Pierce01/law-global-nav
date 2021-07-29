@@ -1344,13 +1344,6 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
 
 /******** mega drop down menu ********/
 
-@media (max-width:991.999px) {
-    #globalHeaderNavigationWrapper li.mega-dropdown {
-        margin: 0;
-        text-align: left;
-        width: 100%;
-    }
-}
 
 #globalHeaderNavigation .mega-dropdown-menu {
     background: #f7f7f7;
@@ -1372,8 +1365,16 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     }
 }
 
-@media (max-width:991.999px) {
+@media screen and (max-width:991.999px) {
+
+    #globalHeaderNavigationWrapper li.mega-dropdown {
+        margin: 0;
+        text-align: left;
+        width: 100%;
+    }
+
     #globalHeaderNavigation .mega-dropdown-menu {
+        border-bottom: 2px solid #04a9c5;
         border-top: none;
         float: none;
         padding: 30px 0px;
@@ -1381,6 +1382,7 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
         position: static;
     }
 }
+
 
 
 /******** links in mega drop down menu ********/
@@ -1502,6 +1504,15 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
         border-top: 2px solid #04a9c5;
         padding: 30px 32px 0;
     }
+
+    @media (max-width: 991.999px)
+#globalHeaderNavigation .mega-dropdown-menu {
+    border-top: none;
+    float: none;
+    padding: 30px 0px;
+    overflow: auto;
+    position: static;
+    border-bottom: 2px solid #04a9c5;
 }
 
 
