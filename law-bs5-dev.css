@@ -1492,6 +1492,7 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     }
 
     #globalHeaderNavigation .mega-dropdown-menu .globalHeaderNavigationQuickLinks li a {
+        font-size: 0.9rem;
         padding: 10px 5px 10px 0;
     }
 
@@ -1505,14 +1506,15 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
         padding: 30px 32px 0;
     }
 
-    @media (max-width: 991.999px)
-#globalHeaderNavigation .mega-dropdown-menu {
-    border-top: none;
-    float: none;
-    padding: 30px 0px;
-    overflow: auto;
-    position: static;
-    border-bottom: 2px solid #04a9c5;
+
+    #globalHeaderNavigation .mega-dropdown-menu {
+        border-top: none;
+        float: none;
+        padding: 30px 0px;
+        overflow: auto;
+        position: static;
+        border-bottom: 2px solid #04a9c5;
+    }
 }
 
 
