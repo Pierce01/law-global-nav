@@ -118,10 +118,10 @@ else if( currentPageWidth == "md-lg") { /* if md and lg: put content items in Si
 	//console.log("md-lg else if");
     if (siteNavCurrentlyInSidebarZone){ 
       //console.log("siteNavCurrentlyInSidebarZone" + siteNavCurrentlyInSidebarZone);
-		$("#SidebarZone").addClass("col-md-3"); /* do no matter what */
+		$("#SidebarZone").addClass("col-md-4"); /* do no matter what */
         	//if ((SidebarZoneContentItems.length == 0)){ /* no SidebarZone content */
-				$("#MainZone").addClass("col-md-9");
-        $("#SidebarZone").show().append(SidebarZoneContentItems).addClass("col-md-3");
+				$("#MainZone").addClass("col-md-8");
+        $("#SidebarZone").show().append(SidebarZoneContentItems).addClass("col-md-4");
 				//$("#zoneB").hide();
 			//}
             //else if ((zoneBContentItems.length > 0) && (zoneCContentItems.length > 0)){ /* and if something in zone B AND C */
@@ -157,8 +157,8 @@ else if( currentPageWidth == "md-lg") { /* if md and lg: put content items in Si
             }    
         }*/
 		else if (SidebarZoneContentItems.length > 0) { /* if something in SidebarZone*/
-			$("#MainZone").addClass("col-md-9");
-           	$("#SidebarZone").show().append(SidebarZoneContentItems).addClass("col-md-3");
+			$("#MainZone").addClass("col-md-8");
+           	$("#SidebarZone").show().append(SidebarZoneContentItems).addClass("col-md-4");
            	//$("#zoneC").hide(); 
 		}
         //else if (zoneCContentItems.length > 0){ /* if something in zone C Only*/
@@ -212,7 +212,7 @@ function reorganizeContentItems(){
 				siteNavCurrentlyInTopZone = false; 
             	//$("#SidebarZone").show().addClass("col-md-3"); 
           	}
-            $("#MainZone").addClass("col-md-9");
+            $("#MainZone").addClass("col-md-8");
         	//if ((SidebarZoneContentItems.length == 0)){ /* no zone C content, no zone B content */
 			//	$("#MainZone").addClass("col-md-9");
 				//$("#zoneB").hide();
@@ -224,7 +224,7 @@ function reorganizeContentItems(){
             //}
 			//else if (zoneBContentItems.length > 0) { /* if something in zone B Only*/
 			//	$("#zoneA").addClass("col-md-6"); /* since the menu is in Zone C */
-              	$("#SidebarZone").show().append(SidebarZoneContentItems).addClass("col-md-3");
+              	$("#SidebarZone").show().append(SidebarZoneContentItems).addClass("col-md-4");
 			//}
           	//else if (zoneCContentItems.length > 0){ /* if something in zone C Only*/
 			//	$("#zoneA").addClass("col-md-9");
@@ -238,13 +238,13 @@ function reorganizeContentItems(){
             	//$("#zoneC").hide(); 
 			}
           	else if ((SidebarZoneContentItems.length > 0)){ /* if something in SidebarZone */
-              $("#SidebarZone").show().addClass("col-md-3").append(SidebarZoneContentItems);
+              $("#SidebarZone").show().addClass("col-md-4").append(SidebarZoneContentItems);
              // if ($("#zoneC").length){
              //     $("#zoneA").addClass("col-md-6");
               //    $("#zoneC").show().addClass("col-md-3").append(zoneCContentItems);	
               //}
               //else{
-                  $("#MainZone").addClass("col-md-9");
+                  $("#MainZone").addClass("col-md-8");
               //    $("#SidebarZone").append(SidebarZoneContentItems);	
               //} 	
             }
