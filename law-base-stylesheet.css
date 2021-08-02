@@ -395,9 +395,9 @@ _____________________  _____________________________  __________________________
     content: '\f0c9';
     font-family: 'fontawesome';
   }
-  #siteNavigation .navbar-collapse.collapse {
+  /* #siteNavigation .navbar-collapse.collapse {
       display: none!important;
-  }
+  } */
   #siteNavigation .navbar-nav>li>a {
       padding-top: 15px;
       padding-bottom: 15px;
