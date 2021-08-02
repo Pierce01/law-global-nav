@@ -876,6 +876,17 @@ span.fa-chevron-down {
         float: right;
         z-index: 101;
     }
+
+    #siteNavigation button {
+        background-color: unset;
+        display: block;
+        /* margin: 0; */
+        position: absolute;
+        /* top: 0; */
+        /* width: 50px; */
+        right: 0;
+        /* padding: 15px 10px; */
+    }
 }
 
 
