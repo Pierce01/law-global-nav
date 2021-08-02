@@ -18,11 +18,12 @@
   font-style: normal;
 }
 
-/* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  xmargin-top: 0; /* prevents collapsing margins */
+  margin: 0; /* test */
 }
 
 /* Remove default margin */
@@ -41,11 +42,13 @@ body {
   color: #333333;
   font-family: "Montserrat", sans-serif;
   font-size: 62.5%; /* 10/16 =.625 To maximize accessibility, it is generally best to use values that are relative to the user's default font size.*/
+  xfont-size: 10px;
   font-weight:400;
   line-height: 1.45;
   margin: 0;
   /* for the fixed header */
   padding-top: 152px;
+  min-width: fit-content; /* prevents overflow of long strings in mobile views */
 }
 
 
@@ -143,6 +146,7 @@ body {
 #breadcrumbs ol li{
   display: inline-block;
   color:#666666; 
+  margin-bottom: 0;
 }
 #breadcrumbs ol li a{
   color:#666666; 
@@ -192,16 +196,55 @@ _____________________  _____________________________  __________________________
   
 */
 
-#MainZone { 
-  padding: 0px;
+/* ========================================================================================== 
+   ===== Global #MainZone styles ============================================================
+   ========================================================================================== 
+*/
+
+#MainZone {
+  padding: 0 1.5rem; /* creates side space on mobile views. */
 }
 
-/* For Detail Page layout */
+@media (min-width: 992px) {
+#MainZone { 
+    padding: 0;
+  }
+}
+
+#MainZone .primaryContent.standardContent a:link {
+    color: #088099; /* Light Blue */
+    text-decoration: none;
+}
+
+#MainZone .primaryContent.standardContent a:visited {
+    color: #088099; /* Light Blue */
+    text-decoration: none;
+}
+
+#MainZone .primaryContent.standardContent a:hover {
+    color: #aa0000; /* SU Red */
+    text-decoration: underline;
+}
+
+#MainZone .primaryContent.standardContent a:active {
+    color: #088099; /* Light Blue */
+    text-decoration: underline;
+}
+
+/* ========================================================================================== 
+   ===== Global Detail Page styles ==========================================================
+   ========================================================================================== 
+*/
+
 .maxWidth1170px {
     max-width: 1170px;
     margin: auto;
 }
 
+.maxWidth1400px {
+    max-width: 1400px;
+    margin: auto;
+}
 
 @media screen and (min-width: 768px) { /* sm + md + lg*/
   #pageContentWrapper.container #SidebarZone{
@@ -218,6 +261,21 @@ _____________________  _____________________________  __________________________
 
 #TopZone {
   padding:0;
+}
+
+*/
+
+/* ========================================================================================== 
+   ===== Global #SidebarZone styles ============================================================
+   ========================================================================================== 
+*/
+
+/* Hides overflow and adds ellipsis (for long email addresses) */
+#SidebarZone .primaryContentWrapper a {
+    display: inline-block !important;
+    text-overflow: ellipsis !important;
+    width: -webkit-fill-available !important;
+    overflow: hidden !important; 
 }
 
 
@@ -651,22 +709,22 @@ _____________________  _____________________________  __________________________
 
 @media screen and (max-width: 767.999px) { /* xs */
   #MainZone.col-xs-12 .hspace{
-    padding: 0 15px;
+    xpadding: 0 15px;
   }
 }
 @media screen and (max-width: 1199.999px) { /* xs + sm + md */
   #MainZone.col-md-12 .hspace,
   #MainZone.col-md-9 .hspace{
-    padding: 0 15px;
+    xpadding: 0 15px;
   }
   #MainZone.col-sm-8 .hspace{
-    padding: 0 0 0 15px;
+    xpadding: 0 0 0 15px;
   }
   #SidebarZone .hspace{
     padding: 0 15px 0 0 ;
   }  
   #zoneC .hspace{
-    padding: 0 0 0 15px;
+    xpadding: 0 0 0 15px;
   }
 }
 @media screen and (min-width: 1200px) { /* lg */
@@ -690,42 +748,60 @@ _____________________  _____________________________  __________________________
 /* primaryContent, Secondary Content, Supplemental Content, Jumbotron, knowledge base, dual column, feature content, news, form */
 
 .standardContent { 
-    max-width: 1170px; /* eliminates crazy-long text columns */
+    xmax-width: 1170px; /* eliminates crazy-long text columns */
+    max-width: 1400px; /* Largest breakpoint for Bootstrap 5 */
     margin: 0 auto; /* and centers them, if necessary */
 }
 
 @media screen and (max-width:767.999px){
   #MainZone.col-xs-12 .standardContent { 
-     padding: 0 15px;
+     xpadding: 0 15px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991.999px) { /* sm */
   #MainZone.col-sm-12 .standardContent { 
-     padding: 0 15px;
+     xpadding: 0 15px;
   }
 }
 
 /* -------------------------- Headings -------------------------- */
+
+h1, h2, h3, h4, h5 {
+  xmargin: 3rem 0 1.38rem;
+  margin: 1.25rem 0 1.38rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
 
 .standardContent h1 {
   color: #aa0000;
   xfont-family: "Roboto Slab", sans-serif;
   xfont-family: "Oswald", "Montserrat", sans-serif;
   font-family: "Montserrat", sans-serif;
-  font-size: 4.8rem;
-  line-height: 100%;
-  margin-bottom: 10px;
+  xfont-size: 4.8rem;
+  xline-height: 100%;
+  xmargin-bottom: 10px;
   padding: 0;
   text-decoration: none;
+  
+  xfont-size: 4.209rem; /* perfect fourth */
+  font-size: 3.052rem;  /* major third */
+  line-height: 1;
 }
 .standardContent h2 { /* major headings */
   color: #aa0000;
   clear:both; /* acts as a clearing element */
   font-family: "Montserrat", sans-serif;
   xfont-family: "Oswald", "Montserrat", sans-serif;
-  font-size:2.8rem;
+  xfont-size:2.8rem;
   font-weight: 495;
-  margin:30px 0 22px -0; 
+  xmargin:30px 0 22px -0; 
+  
+  xfont-size: 3.157rem;
+  xfont-size: 2.441rem; /* Major scale */
+  font-size: 2rem;
+  margin-bottom: .5rem;
 } 
 .standardContent h2 a { /* links in major headings */
   color: #aa0000;
@@ -739,10 +815,14 @@ _____________________  _____________________________  __________________________
   xfont-family: "Roboto Slab", sans-serif;
   xfont-family: "Oswald", "Montserrat", sans-serif;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.1rem;
+  xfont-size: 2.1rem;
   xfont-weight: 400;
   font-weight: 500;
-  margin:15px 0 3px 0; 
+  xmargin: 15px 0 3px 0;
+  xfont-size: 2.369rem;
+  xfont-size: 1.953rem; /* Major scale */
+  font-size: 1.75rem;
+  margin-bottom: .3rem;
 } 
 .standardContent h3 a{ /* links in minor headings */
   color: #aa0000;
@@ -756,8 +836,12 @@ _____________________  _____________________________  __________________________
   xfont-family: "Roboto Slab", sans-serif;
   xfont-family: "Oswald", "Montserrat", sans-serif;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.8rem;
-  margin:8px 0 3px 0; 
+  xfont-size: 1.8rem;
+  xmargin:8px 0 3px 0; 
+  
+  xfont-size: 1.777rem;
+  font-size: 1.563rem;
+  margin-bottom: .3rem;
 } 
 .standardContent h4 a { 
   color: #aa0000;
@@ -771,8 +855,12 @@ _____________________  _____________________________  __________________________
   xfont-family: "Roboto Slab", sans-serif;
   xfont-family: "Oswald", "Montserrat", sans-serif;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
-  margin:8px 0 3px 0; 
+  xfont-size: 1.6rem;
+  xmargin:8px 0 3px 0; 
+  
+  xfont-size: 1.333rem;
+  font-size: 1.25rem;
+  margin-bottom: .2rem;
 } 
 .standardContent h5 a { 
   color: #aa0000;
@@ -786,8 +874,8 @@ _____________________  _____________________________  __________________________
   xfont-family: "Roboto Slab", serif;
   xfont-family: "Oswald", "Montserrat", sans-serif;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
-  line-height:2;
+  xfont-size: 1.6rem;
+  xline-height:2;
   text-decoration:none;
 } 
 .standardContent h6 a:hover, .standardContent h6 a:focus { 
@@ -811,15 +899,16 @@ _____________________  _____________________________  __________________________
 /* -------------------------- Paragraphs and inline text -------------------------- */
 .standardContent p {
   color:#333333;
-  font-size: 1.4rem;
+  xfont-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.5;
-  max-width: 70ch;
-  margin-bottom: 1.6rem;
+  xmax-width: 70ch;
+  xmargin-bottom: 1.6rem;
   font-weight: 500;
+  margin-bottom: 1rem;
 }
 
-#SidebarZone .standardContent p,
-#zoneC .standardContent p {
+#SidebarZone .standardContent p {
     line-height: 1.5;
 }
 /* -------------------------- Links -------------------------- */
@@ -834,11 +923,12 @@ _____________________  _____________________________  __________________________
 /* -------------------------- Lists -------------------------- */
 .standardContent ul, 
 .standardContent ol { 
-  font-size: 1.4rem;
+  xfont-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.45;
   list-style-type:none;
-  margin-bottom: 20px;
-    margin-left: 0px; /* indent, but not that much */
+  xmargin-bottom: 2.2rem;
+  margin-left: 0px; /* indent, but not that much */
   display: table;/* align 2nd line text, pt 1  */
   font-weight: 500;
   padding-left: 3px; /* indent, but not that much. Good for unordered lists. */
@@ -867,6 +957,43 @@ _____________________  _____________________________  __________________________
 /* ie can't handle the font-family while getting a display property. Using no-flexboxlegacy as a proxy for IE */
 .no-flexboxlegacy #MainZone .standardContent ul li:before, .no-flexboxlegacy #SidebarZone .standardContent ul li:before, .no-flexboxlegacy #zoneC .standardContent ul li:before{
   display:inline !important;
+}
+
+/* START list item spacing */
+.standardContent ul li, 
+.standardContent ol li {
+  xline-height: 1.65;
+  margin-bottom: .5em;
+  list-style-position: inside !important;
+}
+
+.standardContent ul li ul li,
+.standardContent ul li ol li,
+.standardContent ol li ul li,
+.standardContent ol li ol li {
+  line-height: 1.65;
+  list-style-position: inside !important;
+}
+
+
+.primaryContent.standardContent ul li, 
+.primaryContent.standardContent ol li {
+  line-height: 1.65;
+  list-style-position: inside !important;
+}
+
+.primaryContent.standardContent ul li ul li,
+.primaryContent.standardContent ul li ol li,
+.primaryContent.standardContent ol li ul li,
+.primaryContent.standardContent ol li ol li {
+  line-height: 1.65;
+  list-style-position: inside !important;
+} list-style-position: inside !important;
+/* END list item spacing */
+
+/* headlines in lists */
+.standardContent ul h3 {
+  margin-top: 0;
 }
 
 /* List style classes */
@@ -1141,6 +1268,11 @@ ul.arrowLinks li::before{
   border: none;
 }
 
+table caption {
+ caption-side: top;
+ color: #aa0000;
+}
+
 /* affects curriculum tables only*/
 .standardContent .tableCurriculum,
 .standardContent .tableCurriculum th,
@@ -1182,10 +1314,10 @@ ul.boxlinks li:before{
   color: #a90400;
   display: block;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   font-weight:500;
   height:100%;
-  line-height: 1.6rem;
+  line-height: 1.25;
   padding: 15px;
   text-align: center;
   text-decoration: none;
@@ -1298,6 +1430,15 @@ img.img-responsive {
     padding: 0;
 }
 
+/* Sidebar: Remove padding from image */
+p.sidebar-image > img {
+    xpadding: 0;
+}
+
+p.sidebar-image > a {
+    xpadding: 0;
+}
+
 /* Makes sidebar images full bleed */
 @media only screen and (min-width: 576px) {
     #SidebarZone img {
@@ -1308,6 +1449,7 @@ img.img-responsive {
         padding: 0;
       }
 }
+
 
 /* ==========================================================================================================*/
 /* ============================================ Content Types ===============================================*/
@@ -2008,7 +2150,19 @@ svg.arrow.circle.navy {
   padding-bottom: 10px;
 }
 
+/* anchor styles inside the accordion item */
+.accordionItemInfo.standardContent a {
+  color: #088099;
+  text-decoration: none;
+}
 
+.accordionItemInfo.standardContent a:hover {
+  text-decoration: underline;
+}
+
+.accordionItemInfo.standardContent a:active {
+  color: #003282;
+}
 
 
 /*********************
@@ -2043,9 +2197,42 @@ svg.arrow.circle.navy {
   }
 }
 
+/* ==========================================================================================
+   ===== Law - Back to Top =====  Content Type #5427 ========================================
+   ==========================================================================================
+*/
 
+.backToTopLink #backToTopLink {
+  background-color: #aa0000;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+  padding: 2rem;
+  text-transform: uppercase;
+}
 
+.backToTopLink {
+  bottom: 40px;
+  /* display: block; */
+  display: none;
+  position: fixed;
+  right: 20px;
+  will-change: scroll-position;
+  z-index: 9999;
+}
 
+.progressContainerWrapper {
+  bottom: 0;
+  /* display: block; */
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
 
 /* ==========================================================================================
    ===== Law - Box Links MainZone =====  Content Type #5534 =================================
@@ -3461,8 +3648,8 @@ h2.contactBoxSingleTitle {
 .contactBoxSingleInfo p {
     margin: 0;
     padding-left: 0;
-    line-height: 3.2rem;
-    font-size: 1.6rem;
+    line-height: 1.5;
+    font-size: 1.2rem;
     color:unset !important;
 }
 
@@ -3614,12 +3801,16 @@ h2.contactBoxSingleTitle {
 }
 
 .dc-headline h2 {
-    font-size: 4.5rem;
+    font-size: xxx-large;
 }
 /* END optional centered headline above dual columns */
 
 article.dualColumn a {
     text-decoration: none;
+}
+
+article.dualColumn a:visited {
+    color: #088099; /* Light Blue */
 }
 
 article.dualColumn a:hover {
@@ -3658,7 +3849,8 @@ article.tripleColumn a:hover {
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
     .tc-headline h2 {
-        font-size: 4rem;
+        xfont-size: 4rem;
+        font-size: xxx-large;
         margin-bottom: .75em;
     }
 }
@@ -3858,11 +4050,23 @@ article.tripleColumn a:hover {
 */
 
 .focusBoxWrapper {
-  margin-bottom:2rem;
+  margin-bottom: 2rem;
 }
 
 .focusBox {
-  padding: 3rem;
+  xpadding: 3rem;
+  padding: 1rem;
+}
+
+#SidebarZone .focusBoxContent p {
+  font-size: 1rem;
+}
+
+#SidebarZone .focusBoxContent h2, 
+#SidebarZone .focusBoxContent h3, 
+#SidebarZone .focusBoxContent h4, 
+#SidebarZone .focusBoxContent h5 {
+  margin-top: 0;
 }
 
 .focusboxWrapper .focusBox img {
@@ -3914,7 +4118,8 @@ article.tripleColumn a:hover {
 .focusBoxWrapper .colorBlue .focusBoxContent ol,
 .focusBoxWrapper .colorBlue .focusBoxContent blockquote,
 .focusBoxWrapper .colorBlue .focusBoxContent cite,
-.focusBoxWrapper .colorBlue .focusBoxContent i.fa { 
+.focusBoxWrapper .colorBlue .focusBoxContent i.fa,
+#SidebarZone .focusBox.colorBlue hr { 
   color:#ffffff;
 }
 .focusBoxWrapper .colorBlue .focusBoxContent a:link { color:#ffffff; }
@@ -4265,11 +4470,11 @@ ul.arrowLinks a:focus {
   font-weight: 400;
   margin: 30px 0 3px 0;
 }
-.formPlaceholder form h3{ /* identical to standard content */
+.formPlaceholder form h3 { /* identical to standard content */
   color: #aa0000;
-  font-size: 2.1rem;
-  font-weight: 400;
-  margin:15px 0 3px 0; 
+  font-size: 1.953rem;
+  xfont-weight: 400;
+  margin: 3rem 0 0 0; 
 }
 .formPlaceholder form h4{ /* identical to standard content */
   color: #aa0000;
@@ -5723,7 +5928,7 @@ table.gsc-search-box td {
    Last revised 9/30/19 by Jason   
 */
 .jumpLinksWrapper{
-  margin-bottom:60px;
+  xmargin-bottom:60px;
   overflow:auto;
   padding:30px;
 }
@@ -5737,13 +5942,14 @@ table.gsc-search-box td {
   border-right: 0;
   padding: 15px 0;
   list-style-type: none;
-  margin:o auto;
+  margin: auto;
   padding:15px 0;
   text-align: center;
 }
 .jumpLinksWrapper ol li {
     display: inline-block;
     padding: 0px 30px;
+    margin-bottom: 0;
 }
 .jumpLinksWrapper ol li:before{
   display:inline;
@@ -5771,7 +5977,6 @@ a:not([href]) {
 }
 
 
-
 /* ==========================================================================================
    ===== Image Banner ===== Content Type #5196 ============================================== 
    ==========================================================================================
@@ -5790,6 +5995,7 @@ a:not([href]) {
   justify-content: center;
   position:relative;
 }
+
 .imageBannerOverlay{
   height: 300px; /* could be overriden by content item */
   left:0;
@@ -5799,24 +6005,25 @@ a:not([href]) {
   z-index: 1;
 }
 
- 
-
-.imageBanner h1, .imageBannerWrapper+h1{
-  color:#ffffff;
+.imageBanner h1, .imageBannerWrapper+h1 {
+  width: 100%;
+  color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 5rem;
   font-weight: 300;
   margin: 0;
-  text-align:center;
-  text-shadow: #000000 0 0 8px;
-  width:100%;
+  text-align: center;
+  xtext-shadow: #000000 0 0 8px;
+  xtext-shadow: 1px 1px 2px #000; /* Ingeniux */
+  text-shadow: 2px 2px 1px #000, -1px -1px 1px #000;
 }
-.BannerZone{
+
+.BannerZone {
   position:relative;
 }
 
 .imageBannerCenterIntroText {
-  max-width: 1170px; 
+  max-width: 1400px; 
   margin: auto;
   padding: 2vw;
 }
@@ -5850,7 +6057,7 @@ a:not([href]) {
 }
 .imageBannerIntro {
   font-weight: 300;
-  padding: 60px 0 30px 0;
+  padding: 4.5em 0 3em 0;
   text-align: center;   
 }
 .imageBannerIntro h5{
@@ -5864,6 +6071,7 @@ a:not([href]) {
   line-height: 1.45;
   font-weight: 300;
   text-align: center;
+  xpadding: 0 2rem 0;
 }
 
 .imageBannerIntro a { 
@@ -5898,9 +6106,10 @@ a:not([href]) {
     text-align: center;
     font-size: 2rem;
     line-height: 1;
-
+    text-shadow: 1px 1px 2px #000; /* Ingeniux */
 }
-.imageBannerBreadcrumbs a{
+
+.imageBannerBreadcrumbs a {
   color: #ffffff;
   text-decoration:none;
 }
@@ -6058,6 +6267,11 @@ li.nav-item a.nav-link .icon:hover {
 .primaryContentWrapper{ }
 .primaryContent { }
 
+@media (min-width: 768px)
+.primaryContentWrapper {
+    padding: 0 !important;/* Overwrite styles from ? */
+}
+
 /* CSS for image captions (Used for floating images in news stories). Added by Troy 5/1/2021 */
 .standardContent figure.image-wrapper {
   display: inline-block;
@@ -6066,7 +6280,7 @@ li.nav-item a.nav-link .icon:hover {
 
 .standardContent figure.image-wrapper figcaption {
   text-align: left;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-style: italic;
   margin-top: 8px;
 }
@@ -6132,11 +6346,11 @@ li.nav-item a.nav-link .icon:hover {
 .quicklinks ul {
   list-style-type: none;
   position:relative;
-  padding: 1rem 0 1rem 0;
+  padding: .5rem 0 .5rem 0;
 }
 .quicklinks li {
   display: list-item;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-bottom: 15px;
   position: relative;
 }
@@ -6148,10 +6362,10 @@ li.nav-item a.nav-link .icon:hover {
  border: 2px solid #088099;
  display: block;
  font-family: "Montserrat", sans-serif;
- font-size: 1.7rem;
+ font-size: 1.4rem;
  font-weight: 500;
  height: 100%;
- line-height: 1.6rem;
+ line-height: 1.25;
  padding: 15px;
  text-align: center;
  text-decoration: none;
@@ -6220,7 +6434,7 @@ li.nav-item a.nav-link .icon:hover {
 .quoteBox p{ /* ::REQUIRED:: actual quote, sans the source or other information */
   color: #ffffff;
   font-size: 1.8em;
-  line-height: 3.2rem;
+  line-height: 2;
   padding:30px;
   margin:0;
   min-height:65px;
@@ -6508,7 +6722,7 @@ li.nav-item a.nav-link .icon:hover {
   font-family: "Montserrat", sans-serif;
   font-weight:500;
   font-size:1.8rem;
-  line-height: 2;
+  line-height: 1.5;
   margin-bottom:30px;
 }
 
@@ -6582,6 +6796,12 @@ li.nav-item a.nav-link .icon:hover {
   .spotlightCopy {
    padding: 46px 10px;  
   }
+}
+
+
+/* temporary */
+.spotlightWrapper.standardContent {
+    max-width: 1400px;
 }
 
 
@@ -7605,7 +7825,7 @@ nav#breadcrumbs.facultyProfileBreadcrumbs {
 /* ========================================================================================== 
    ===== Law - Student Profile  ===== Content Type #5192 ==================================== 
    ==========================================================================================
-   Last update/edit: 5/8/2021 by Troy
+   Last update/edit: 5/24/2021 by Troy
 */
 
 /* START Text-HTML layout 
@@ -7641,23 +7861,25 @@ nav#breadcrumbs.facultyProfileBreadcrumbs {
 
 /* START full-text layout styles */
 .profile-header {
-	background-color: #088099;
+	background-color: hsl(0, 0%, 98%);
+}
+
+.studentProfilePageImage img {
+  min-width: 200px;
 }
 
 .studentProfileBiography {
-  background-color: hsl(0, 0%, 98%);
-  padding: 2em;
+  background-color: #ffffff;
 }
 
 .studentProfileInfo h2 {
   padding: 0;
   margin: 0 0 0 0;
   line-height: 1.25;
-  color: #ffffff;
 }
 
 .studentProfileInfo p {
-  color: #ffffff;
+  color: #333333;
 }
 
 .studentProfileInfo p.studentProfileGraduatingClass {
@@ -8200,4 +8422,3 @@ span.go {
 div.row.Row1 {
   margin-bottom: 0px;
 }
-
