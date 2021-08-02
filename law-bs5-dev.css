@@ -880,9 +880,10 @@ span.fa-chevron-down {
     #siteNavigation.sidebarNav button {
         background-color: unset;
         display: block;
+        margin: 0;
+        padding: 5px 15px 0 0;
         position: absolute;
         right: 0;
-        padding: 5px 15px 0 0;
     }
 }
 
