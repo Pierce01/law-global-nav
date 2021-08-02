@@ -450,11 +450,13 @@ _____________________  _____________________________  __________________________
 #siteNavigation #menu li em.collapsed{
   transform: rotate(0deg);
 }
-@media screen and (max-width: 767.999px){
-  body #siteNavigation #menu li a { /* All links in the sitenav menu */
+/* All links in the sitenav menu */
+/* @media screen and (max-width: 767.999px){
+  body #siteNavigation #menu li a { 
     padding:10px 35px 10px 25px;
   }
-}
+} */
+
 #siteNavigation #menu li a:hover,
 #siteNavigation #menu li a:focus{
   color: #088099;
@@ -548,9 +550,9 @@ _____________________  _____________________________  __________________________
 }
 
 @media screen and (max-width: 991.999px){
-  #siteNavigation #menu li a {
+  /* #siteNavigation #menu li a {
     padding:10px 35px 10px 15px;
-  }
+  } */
   #siteNavigation #menu li span.currentsection{
     padding:10px 15px;
   }
