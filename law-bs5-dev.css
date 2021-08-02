@@ -106,26 +106,35 @@
     display: block!important;
 }
 
-#SidebarZone #siteNavigation #siteNavigationTitleWrapper #siteNavigationTitle a {
+#siteNavigation.sidebarNav #siteNavigationTitleWrapper #siteNavigationTitle a {
     font-size: 1.25rem!important;
 }
 
-#SidebarZone #siteNavigation #menu li a {
+#siteNavigation.sidebarNav #menu li a {
     font-size: 1.25rem;
 }
 
-#SidebarZone #siteNavigation #menu li span.currentsection {
+#siteNavigation.sidebarNav #menu li span.currentsection {
     font-size: 1.25rem;
     width: calc(100% - 30px);
 }
 
-#siteNavigation #menu li i.fa {
+#siteNavigation.sidebarNav #menu li i.fa {
     color: #595959;
     font-size: 1.25rem;
 }
 
-#SidebarZone #siteNavigation #siteNavigationTitleWrapper #siteNavigationTitle a.navbar-brand {
+#siteNavigation.sidebarNav #siteNavigationTitleWrapper #siteNavigationTitle a.navbar-brand {
     white-space: break-spaces;
+}
+
+/* from law base stylesheet  */
+/* .collapse:not(.show) {
+    display: none;
+} */
+
+#siteNavigation.sidebarNav .navbar-collapse.collapse:not(.show) {
+    display: none;
 }
 
 
