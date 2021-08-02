@@ -432,7 +432,9 @@ _____________________  _____________________________  __________________________
   position:relative; /* to allow <span> (arrow) to be positioned within this block */
   border-bottom: 1px solid #B7B7B7;
 }
-#siteNavigation #menu li a{ /* all links in all menu items */
+
+/* all links in all menu items */
+/* #siteNavigation #menu li a{ 
   color: #595959;
   display:inline-block;
   font-size: 1.6rem;
@@ -442,7 +444,8 @@ _____________________  _____________________________  __________________________
   position:relative;
   text-decoration:none;
   width: calc(100% - 30px);
-}
+} */
+
 #siteNavigation #menu li em{
   transform: rotate(90deg);
 }
