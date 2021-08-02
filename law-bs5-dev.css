@@ -877,15 +877,12 @@ span.fa-chevron-down {
         z-index: 101;
     }
 
-    #siteNavigation button {
+    #siteNavigation.sidebarNav button {
         background-color: unset;
         display: block;
-        /* margin: 0; */
         position: absolute;
-        /* top: 0; */
-        /* width: 50px; */
         right: 0;
-        /* padding: 15px 10px; */
+        padding: 5px 15px 0 0;
     }
 }
 
