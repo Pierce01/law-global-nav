@@ -866,7 +866,7 @@ span.fa-chevron-down {
         position: static;
     }
 
-    #SidebarZone #siteNavigationWrapper .navbar-toggle {
+    #siteNavigationWrapper .navbar-toggle {
         background-color: unset;
         margin: 20px 30px 8px 10px;
         display: block;
@@ -1090,7 +1090,14 @@ footer .footerLinks a:hover {
     background-image: none;
     color: #f7f7f7;
     font-size: 1.5rem;
-  }
+}
+
+/* Sidebar toggler */
+#siteNavigationWrapper .navbar-toggler-icon {
+    background-image: none;
+    color: #000000;
+    font-size: 1.5rem;
+}
 
 .navbar-toggler-icon::before {
     font-family: FontAwesome;
