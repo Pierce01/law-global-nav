@@ -434,17 +434,17 @@ _____________________  _____________________________  __________________________
 }
 
 /* all links in all menu items */
-/* #siteNavigation #menu li a{ 
+#siteNavigation #menu li a { 
   color: #595959;
-  display:inline-block;
+  display: inline-block;
   font-size: 1.6rem;
   font-weight: 500;
-  line-height:1.6em;
-  padding: 10px 7px 10px 0;
-  position:relative;
-  text-decoration:none;
+  line-height: 1.6em;
+  /* padding: 10px 7px 10px 0; */
+  position: relative;
+  text-decoration: none;
   width: calc(100% - 30px);
-} */
+}
 
 #siteNavigation #menu li em{
   transform: rotate(90deg);
