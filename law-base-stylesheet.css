@@ -434,7 +434,7 @@ _____________________  _____________________________  __________________________
   border-bottom: 1px solid #B7B7B7;
 }
 /* focus affects on mobile sidebar menu items */
-#TopZone .sidebarNav #siteNavigation #menu li { 
+#TopZone #siteNavigation #menu li { 
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid #B7B7B7;
