@@ -428,23 +428,23 @@ _____________________  _____________________________  __________________________
 /* ------------------- Navigation menu items --------------------- */
 /* position relative to allow <span> (arrow) to be positioned within this block */
 /* affects all menu items in desktop */
-#SidebarZone #siteNavigation #menu li {
+#siteNavigation #menu li {
   display: block;
   position: relative;
   border-bottom: 1px solid #B7B7B7;
 }
 /* focus affects on mobile sidebar menu items */
-#TopZone #siteNavigation #menu li { 
+/* #TopZone #siteNavigation #menu li { 
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid #B7B7B7;
-}
+} */
 
 /* all links in all menu items */
   /* padding: 10px 7px 10px 0; */
 #siteNavigation #menu li a { 
   color: #595959;
-  display: inline-block;
+  display: block;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.6em;
