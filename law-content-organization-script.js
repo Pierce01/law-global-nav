@@ -83,6 +83,7 @@ zoneBandCContentItems.sort(function(a, b){
 if ($("#SidebarZone #siteNavigationWrapper").length){
 	siteNavOriginallyInSidebarZone = true;
 	siteNavCurrentlyInSidebarZone = true;
+	$("#SidebarZone #siteNavigationWrapper #siteNavigationTitle button").attr("aria-expanded","true");
 }
 else if ($("#TopZone #siteNavigationWrapper").length){
 	siteNavOriginallyInTopZone = true;
