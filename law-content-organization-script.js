@@ -84,6 +84,7 @@ if ($("#SidebarZone #siteNavigationWrapper").length){
 	siteNavOriginallyInSidebarZone = true;
 	siteNavCurrentlyInSidebarZone = true;
 	$("#SidebarZone #siteNavigationWrapper #siteNavigationTitle button").attr("aria-expanded","true");
+	$("#SidebarZone #siteNavigationWrapper ul#menu").addClass("show");
 }
 else if ($("#TopZone #siteNavigationWrapper").length){
 	siteNavOriginallyInTopZone = true;
