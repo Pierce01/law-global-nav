@@ -121,6 +121,7 @@
 
 #siteNavigation.sidebarNav #menu li i.fa {
     color: #595959;
+    display: inline-block;
     font-size: 1.25rem;
 }
 
