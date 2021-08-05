@@ -22,10 +22,10 @@
       $(items[i]).attr('id', 'id' + uid);
       var classname = $(items[i]).prev().attr("class");
       if (classname && classname.indexOf("currentbranch") > -1) {
-        $(items[i]).addClass("list-group nav navbar-nav collapse navbar-collapse in");
+        $(items[i]).addClass("sidebarItem collapse navbar-collapse in");
       }
       else {
-          $(items[i]).addClass("list-group nav navbar-nav collapse navbar-collapse");
+          $(items[i]).addClass("sidebarItem collapse navbar-collapse");
         }
       $(items[i]).before('<i class="fa fa-chevron-right navbar-toggle" data-bs-toggle="collapse" data-bs-target="#id' + uid + '" aria-controls="id' + uid + '" aria-expanded="false"></i>');
     }
