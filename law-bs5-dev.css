@@ -90,64 +90,6 @@
 }
 
 
-/*********************
-*
-*   Sidegbar Navigation
-*
-**/
-
-
-/* #SidebarZone #siteNavigation button.navbar-toggle {
-    background-color: transparent;
-    border: 1px solid transparent;
-} */
-
-.law-calendarPage-867872 #SidebarZone {
-    display: block!important;
-}
-
-#siteNavigation.sidebarNav #siteNavigationTitleWrapper #siteNavigationTitle a {
-    font-size: 1.25rem!important;
-}
-
-#siteNavigation.sidebarNav #menu li a {
-    font-size: 1.25rem;
-}
-
-#siteNavigation.sidebarNav #menu li span.currentsection {
-    font-size: 1.25rem;
-    width: calc(100% - 30px);
-}
-
-#siteNavigation.sidebarNav #menu li i.fa {
-    color: #595959;
-    display: inline-block;
-    font-size: 1.25rem;
-    padding: 0;
-    margin: 5px;
-}
-
-#siteNavigation.sidebarNav #siteNavigationTitleWrapper #siteNavigationTitle a.navbar-brand {
-    white-space: break-spaces;
-}
-
-/* from law base stylesheet  */
-/* .collapse:not(.show) {
-    display: none;
-} */
-
-#siteNavigation.sidebarNav .navbar-collapse.collapse:not(.show) {
-    display: none;
-}
-
-
-/* ***  Medium min Defaults   *** */
-
-@media screen and (min-width: 768px) {
-    #SidebarZone #siteNavigation button.navbar-toggle {
-        display: none;
-    }
-}
 
 
 /*********************
@@ -896,6 +838,68 @@ span.fa-chevron-down {
         padding: 5px 15px 0 0;
         position: absolute;
         right: 0;
+    }
+}
+
+
+
+
+/*********************
+*
+*   Sidegbar Navigation
+*
+**/
+
+
+/* #SidebarZone #siteNavigation button.navbar-toggle {
+    background-color: transparent;
+    border: 1px solid transparent;
+} */
+
+.law-calendarPage-867872 #SidebarZone {
+    display: block!important;
+}
+
+#siteNavigation.sidebarNav #siteNavigationTitleWrapper #siteNavigationTitle a {
+    font-size: 1.25rem!important;
+}
+
+#siteNavigation.sidebarNav #menu li a {
+    font-size: 1.25rem;
+}
+
+#siteNavigation.sidebarNav #menu li span.currentsection {
+    font-size: 1.25rem;
+    width: calc(100% - 30px);
+}
+
+#siteNavigation.sidebarNav #menu li i.fa {
+    color: #595959;
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 0;
+    margin: 5px;
+}
+
+#siteNavigation.sidebarNav #siteNavigationTitleWrapper #siteNavigationTitle a.navbar-brand {
+    white-space: break-spaces;
+}
+
+/* from law base stylesheet  */
+/* .collapse:not(.show) {
+    display: none;
+} */
+
+#siteNavigation.sidebarNav .navbar-collapse.collapse:not(.show) {
+    display: none;
+}
+
+
+/* ***  Medium min Defaults   *** */
+
+@media screen and (min-width: 768px) {
+    #SidebarZone #siteNavigation button.navbar-toggle {
+        display: none;
     }
 }
 
