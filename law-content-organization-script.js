@@ -96,7 +96,7 @@ if(currentPageWidth == "xs"){ /* xs */
 	if (siteNavCurrentlyInSidebarZone){ 
 		moveNavToTopZone();
 	}
-    $("SidebarZone").hide();
+    $("#SidebarZone").hide();
     //$("#zoneC").hide()
 }
 else if( currentPageWidth == "sm" ){/* if sm: put SidebarZone content items in SidebarZone. */
