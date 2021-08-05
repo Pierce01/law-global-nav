@@ -74,7 +74,7 @@ try {
         document.write('<nav id="siteNavigationWrapper" aria-labelledby="siteNavigationLabel"><div id="siteNavigation" class="sidebarNav">');
         // Name of section is the title of navigation menu
         document.write('<div id="siteNavigationTitleWrapper"><div id="siteNavigationTitle"><span><a href="' + navRootLink.getLink() + '" id="siteNavigationLabel" class="navbar-brand">' + navRootLink.getText() + '</a></span> \
-                    <button type="button" class="navbar-toggle collapsed border-0" data-bs-toggle="collapse" data-bs-target="#menu" aria-expanded="false" aria-label="Toggle site navigation menu"> \
+                    <button type="button" class="navbar-toggle collapsed border-0" data-bs-toggle="collapse" data-bs-target="#menu" aria-expanded="false" aria-controls="menu" aria-label="Toggle site navigation menu"> \
                     <span class="navbar-toggler-icon"></span></button><div style="clear:both"></div></div></div>');
 
         switch (navLevel) {
