@@ -414,6 +414,33 @@ ul.callToActionButtonWrapper li.callToActionButton {
 }
 
 
+
+
+
+/*********************
+*
+*   Primary Content
+*
+**/
+
+.primaryContent.standardContent p {
+    line-height: 1.6;
+}
+
+
+/* ***  Medium min Defaults   *** */
+
+@media screen and (min-width: 768px) {
+    /* ***  Primary Content Type   *** */
+    /* .primaryContentWrapper {
+        padding: 0 1rem 0 1rem;
+    } */
+}
+
+
+
+
+
 /*********************
 *
 *   Reference Breakpoints
@@ -904,28 +931,6 @@ span.fa-chevron-down {
 }
 
 
-
-
-
-/*********************
-*
-*   Primary Content
-*
-**/
-
-.primaryContent.standardContent p {
-    line-height: 1.6;
-}
-
-
-/* ***  Medium min Defaults   *** */
-
-@media screen and (min-width: 768px) {
-    /* ***  Primary Content Type   *** */
-    /* .primaryContentWrapper {
-        padding: 0 1rem 0 1rem;
-    } */
-}
 
 
 /*********************
