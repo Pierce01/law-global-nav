@@ -284,6 +284,7 @@ _____________________  _____________________________  __________________________
    ==========================================================================================
    Sub nav
    Last revised 2/16/18 by Aubrey  
+   In development by vic aug 2021
 */
 
 #siteNavigation {
@@ -301,7 +302,7 @@ _____________________  _____________________________  __________________________
 
 #siteNavigation #siteNavigationTitleWrapper #siteNavigationTitle a,
 #siteNavigation #siteNavigationTitleWrapper #siteNavigationTitle a:visited {
-  border-bottom: 1px solid #B7B7B7;
+  /* border-bottom: 1px solid #B7B7B7; */
   color: #333333;
   display:block;
   font-weight: bold;

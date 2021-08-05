@@ -822,6 +822,10 @@ ul.callToActionButtonWrapper li.callToActionButton {
     display: block!important;
 }
 
+#siteNavigation.sidebarNav #siteNavigationTitleWrapper #siteNavigationTitle {
+    border-bottom: 1px solid #B7B7B7;
+}
+
 #siteNavigation.sidebarNav #siteNavigationTitleWrapper #siteNavigationTitle a {
     font-size: 1.1rem!important;
 }
