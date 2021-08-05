@@ -538,72 +538,7 @@ ul.callToActionButtonWrapper li.callToActionButton {
 @media screen and (min-width: 2560px) {}
 
 
-/*********************
-*
-*   Global Navigation
-*   from stylesheet
-*
-**/
 
-#globalHeader {
-    background: #aa0000;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 100;
-}
-
-#globalHeader #mainlogo {
-    float: left;
-    height: 97px;
-    padding: 20px 30px;
-}
-
-#globalHeader #mainlogo img {
-    max-width: 184px;
-}
-
-#globalHeaderResourcesLinks {
-    text-align: right;
-}
-
-#globalHeaderResourcesLinks li {
-    display: inline-block;
-    margin: 0 0.5rem;
-}
-
-#globalHeaderResourcesLinks li a {
-    color: #ffffff;
-}
-
-#globalHeaderMiddleInner {
-    border-top: 1px solid #ffffff;
-}
-
-#globalHeaderNavigation {
-    text-transform: uppercase;
-}
-
-span.fa-chevron-down {
-    position: relative;
-    left: 6px;
-}
-
-
-/*********************
-*
-*   Global Navigation
-*   from stylesheet
-*   mega dropdown
-*
-**/
-
-
-/* mega dropdowns will get converted to modals */
-
-#globalHeaderNavigation li.mega-dropdown {
-    position: static;
-}
 
 
 /*********************
@@ -1065,6 +1000,81 @@ footer .footerLinks a:hover {
         margin-top: 1rem;
     }
 }
+
+
+
+
+
+
+/*********************
+*
+*   Global Navigation
+*   from stylesheet
+*
+**/
+
+#globalHeader {
+    background: #aa0000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+#globalHeader #mainlogo {
+    float: left;
+    height: 97px;
+    padding: 20px 30px;
+}
+
+#globalHeader #mainlogo img {
+    max-width: 184px;
+}
+
+#globalHeaderResourcesLinks {
+    text-align: right;
+}
+
+#globalHeaderResourcesLinks li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+#globalHeaderResourcesLinks li a {
+    color: #ffffff;
+}
+
+#globalHeaderMiddleInner {
+    border-top: 1px solid #ffffff;
+}
+
+#globalHeaderNavigation {
+    text-transform: uppercase;
+}
+
+span.fa-chevron-down {
+    position: relative;
+    left: 6px;
+}
+
+
+/*********************
+*
+*   Global Navigation
+*   from stylesheet
+*   mega dropdown
+*
+**/
+
+
+/* mega dropdowns will get converted to modals */
+
+#globalHeaderNavigation li.mega-dropdown {
+    position: static;
+}
+
+
+
 
 
 /*********************
