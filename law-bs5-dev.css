@@ -831,6 +831,7 @@ ul.callToActionButtonWrapper li.callToActionButton {
 }
 
 #siteNavigation.sidebarNav #menu li a {
+    border-bottom: 1px solid #B7B7B7;
     font-size: 1.1rem;
     line-height: 1em;
     padding: 15px 0 15px 0;
