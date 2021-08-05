@@ -22,7 +22,7 @@
       $(items[i]).attr('id', 'id' + uid);
       var classname = $(items[i]).prev().attr("class");
       if (classname && classname.indexOf("currentbranch") > -1) {
-        $(items[i]).addClass("sidebarItem collapse navbar-collapse in");
+        $(items[i]).addClass("sidebarItem collapse navbar-collapse show");
       }
       else {
           $(items[i]).addClass("sidebarItem collapse navbar-collapse");
