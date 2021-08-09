@@ -127,15 +127,17 @@ body {
     xtop: -15px;
   }
 }
+
 #breadcrumbs {
   clear:both;
   padding: 0;
 }
+
 #breadcrumbs ol{
   background-color: inherit;
   border-radius: 0;
   clear: both;
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 1.4;
   list-style: none;
   margin-bottom: 0; /* overrides a bootstrap default 20px*/
