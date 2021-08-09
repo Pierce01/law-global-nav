@@ -562,15 +562,19 @@ _____________________  _____________________________  __________________________
   transition: transform .4s ease;;
 }
 
-@media screen and (max-width: 991.999px){
+@media screen and (max-width: 991.999px) {
+  
   /* #siteNavigation #menu li a {
     padding:10px 35px 10px 15px;
   } */
-  #siteNavigation #menu li span.currentsection{
+
+  #siteNavigation #menu li span.currentsection {
     padding:10px 15px;
   }
-  #siteNavigation #menu .multilevel-linkul-0 li a,
-  #siteNavigation #menu .multilevel-linkul-0 span.currentsection{ /* first submenu*/
+
+  /* first submenu*/
+  /* #siteNavigation #menu .multilevel-linkul-0 li a,
+  #siteNavigation #menu .multilevel-linkul-0 span.currentsection{
     padding: 10px 35px 10px 25px;
     color: #797979;
     display: inline;
@@ -579,25 +583,35 @@ _____________________  _____________________________  __________________________
     line-height: 1.2em;
     position: relative;
     text-decoration: none;
-  }
+  } */
+
+  /* second submenu*/
   #siteNavigation #menu .multilevel-linkul-1 li a,
-  #siteNavigation #menu .multilevel-linkul-1 span.currentsection{ /* second submenu*/
+  #siteNavigation #menu .multilevel-linkul-1 span.currentsection {
     padding: 10px 0 10px 35px;
   }
+
+  /* third submenu*/
   #siteNavigation #menu .multilevel-linkul-2 li a,
-  #siteNavigation #menu .multilevel-linkul-2 span.currentsection{ /* third submenu*/
+  #siteNavigation #menu .multilevel-linkul-2 span.currentsection {
     padding: 10px 0 10px 45px;
   }
-  #siteNavigation #menu .multilevel-linkul-3 li a{ /* fourth submenu*/
+
+  /* fourth submenu*/
+  #siteNavigation #menu .multilevel-linkul-3 li a {
     padding: 10px 0 10px 55px;
   }
-  #siteNavigation #menu .multilevel-linkul-4 li a{ /* fifth submenu*/
+
+  /* fifth submenu*/
+  #siteNavigation #menu .multilevel-linkul-4 li a {
     padding: 10px 0 10px 65px;
   }
+
   #siteNavigation #menu .glyphicon{
     padding:10px;
   }
 }
+
 @media screen and (max-width: 767.999px){
   #siteNavigation #menu .currentbranch0 {
     left:0;
