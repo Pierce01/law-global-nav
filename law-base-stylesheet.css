@@ -612,7 +612,7 @@ _____________________  _____________________________  __________________________
   }
 }
 
-@media screen and (max-width: 767.999px){
+/* @media screen and (max-width: 767.999px){
   #siteNavigation #menu .currentbranch0 {
     left:0;
     margin:0;
@@ -620,7 +620,7 @@ _____________________  _____________________________  __________________________
     padding: 10px 35px 10px 25px;
     width:inherit;
   }
-}
+} */
 /*horizontal site nav */
 @media (min-width: 991.999px) {
   .horizontalSiteNav {
