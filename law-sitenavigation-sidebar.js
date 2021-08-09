@@ -40,23 +40,14 @@ try {
                 if (content.getContentTypeID() == CID) found = true;
             }
         }
-        // if SiteConfig is found, get the information in v9/siteconfigmenulocation and assign it to whatsthemenuloc
-        // if (found) {
-        //     var FORMATTER = "law/siteconfigmenulocation"; //Name of content layout in siteconfig
-        //     var templateManager = TemplateManager.getManager();
-        //     var format = templateManager.getFormat(dbStatement, CID, FORMATTER);
-        //     var formatString = format.getFormatting();
-        //     whatsthemenuloc = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, foundSection, content, language, isPreview, formatString);
-        // }
+
         // Recurse up the hierarchy in case Section Customizations is not found
         theSection = theSection.getParent();
     }
 
 
     while (navRootFound == false && navLevel > 0) {
-        //document.write("Current level: " + navLevel + "<br />");
-        //document.write("section name: " + currentSection.getName('en') + "<br />");
-        //document.write("Number of content items: " + currentSection.getContent().length + "<br /><br />");
+
         for (var i = 0; i < currentSection.getContent().length; i++) {
             if (currentSection.getContent()[i].toString().indexOf("NavRoot") > -1) {
                 navRootFound = true;
