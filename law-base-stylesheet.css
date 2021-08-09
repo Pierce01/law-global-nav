@@ -482,7 +482,9 @@ _____________________  _____________________________  __________________________
     padding:10px 10px 10px 30px;
   }
 }
-#siteNavigation #menu li span.currentsection{
+
+#siteNavigation #menu li span.currentsection {
+  border-bottom: 1px solid #B7B7B7;
   color: #aa0000;
   display: inline-block;
   font-size: 1.6rem;
@@ -490,6 +492,7 @@ _____________________  _____________________________  __________________________
   line-height: 1.6em;
   padding: 10px 7px 10px 0
 }
+
 #siteNavigation #menu li span.currentsection a{  /* neccessary because on fulltext and form thank you pages currentsection has a link */
   border-bottom: none;
   color:#aa0000; 
