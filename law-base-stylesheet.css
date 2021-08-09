@@ -563,7 +563,7 @@ _____________________  _____________________________  __________________________
 }
 
 @media screen and (max-width: 991.999px) {
-  
+
   /* #siteNavigation #menu li a {
     padding:10px 35px 10px 15px;
   } */
@@ -617,7 +617,6 @@ _____________________  _____________________________  __________________________
     left:0;
     margin:0;
     padding-left:0;
-    /*padding: 5px 0 5px 15px;*/
     padding: 10px 35px 10px 25px;
     width:inherit;
   }
