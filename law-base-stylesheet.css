@@ -5114,6 +5114,10 @@ table.gsc-search-box td {
   .panelWrapper .panelText.card-text {
       padding: 0;
   } 
+
+  .panelWrapper .card-block .panelText.card-text {
+    padding: 1rem;
+} 
 }
 
 
