@@ -165,6 +165,22 @@ span.credits a.card-link {
     color: #ffffff;
 }
 
+#carousel .spotlightWrapper .spotlightBioLink {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightBioLink {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightBioLink:hover {
+    color: #000000;
+}
+
+#carousel .spotlightWrapper .spotlightBioLink:active {
+    color: #000000;
+}
+
 
 /* ***  Medium min Defaults   *** */
 
