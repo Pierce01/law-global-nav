@@ -153,12 +153,12 @@ span.credits a.card-link {
 **/
 
 
-#carousel .spotlightWrapper {
+#carousel .spotlightWrapper .spotlight  {
     background-color: #088099;
 }
 
 #carousel .spotlightCopy h3 {
-    color: #f7f7f7
+    color: #FFFFFF
 }
 
 
