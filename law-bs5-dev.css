@@ -150,6 +150,20 @@ span.credits a.card-link {
 }
 
 
+
+/*********************
+*
+*   Carousel
+*   defaults
+*
+**/
+
+
+.carouselWrapper .carousel-control-next, .carouselWrapper .carousel-control-prev {
+    color: #EF4135;
+}
+
+
 /*********************
 *
 *   Spotlight
