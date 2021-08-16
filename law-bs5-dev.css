@@ -153,6 +153,7 @@ span.credits a.card-link {
 /*********************
 *
 *   Spotlight
+*   defaults
 *
 **/
 
@@ -182,6 +183,79 @@ span.credits a.card-link {
 }
 
 #carousel .spotlightWrapper .spotlightBioLink:active {
+    color: #000000;
+}
+
+
+/*********************
+*
+*   Spotlight
+*   color palettes
+*   light blue
+*
+**/
+
+#carousel .spotlightWrapper .spotlight.spotlightPaletteLightBlue  {
+    background-color: #088099;
+}
+
+#carousel .spotlightWrapper .spotlightCopy.spotlightPaletteLightBlue h3 {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightCopyBody {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink:hover {
+    color: #000000;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink:active {
+    color: #000000;
+}
+
+/*********************
+*
+*   Spotlight
+*   color palettes
+*   red
+*
+**/
+
+#carousel .spotlightWrapper .spotlight.spotlightPaletteLightBlue  {
+    background-color: #088099;
+}
+
+#carousel .spotlightWrapper .spotlightCopy.spotlightPaletteLightBlue h3 {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightCopyBody {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink:hover {
+    color: #000000;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink:active {
     color: #000000;
 }
 
