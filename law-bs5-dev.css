@@ -195,7 +195,7 @@ span.credits a.card-link {
     background-color: #088099;
 }
 
-#carousel .spotlightWrapper .spotlightCopy.spotlightPaletteLightBlue h3 {
+#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightCopy h3 {
     color: #ffffff;
 }
 
@@ -227,7 +227,7 @@ span.credits a.card-link {
     background-color: #AA0000;
 }
 
-#carousel .spotlightWrapper .spotlightCopy.spotlightPaletteRedWhite h3 {
+#carousel .spotlightWrapper .spotlightPaletteRedWhite .spotlightCopy h3 {
     color: #ffffff;
 }
 
@@ -260,7 +260,7 @@ span.credits a.card-link {
     background-color: #003282;
 }
 
-#carousel .spotlightWrapper .spotlightCopy.spotlightPaletteNavyWhite h3 {
+#carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightCopy h3 {
     color: #ffffff;
 }
 
@@ -294,7 +294,7 @@ span.credits a.card-link {
     background-color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightCopy.spotlightPaletteWhiteRedBlackBlue h3 {
+#carousel .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightCopy h3 {
     color: #AA0000;
 }
 
