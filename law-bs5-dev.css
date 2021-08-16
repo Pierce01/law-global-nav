@@ -286,6 +286,39 @@ span.credits a.card-link {
 *
 *   Spotlight
 *   color palettes
+*   yellow tint
+*
+**/
+
+#carousel .spotlightWrapper .spotlight.spotlightPaletteYellowRedBlackNavy  {
+    background-color: #f7f7f7;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightCopy h3 {
+    color: #AA0000;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightCopyBody {
+    color: #000000;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightBioLink {
+    color: #003282;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightBioLink:hover {
+    color: #000000;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightBioLink:active {
+    color: #000000;
+}
+
+
+/*********************
+*
+*   Spotlight
+*   color palettes
 *   white
 *
 **/
