@@ -349,6 +349,40 @@ span.credits a.card-link {
 
 
 
+/*********************
+*
+*   Spotlight
+*   color palettes
+*   black yellow
+*
+**/
+
+#carousel .spotlightWrapper .spotlight.spotlightPaletteBlackWhiteYellow  {
+    background-color: #000000;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightCopy h3 {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightCopyBody {
+    color: #FDB913;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightBioLink {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightBioLink:hover {
+    color: #FDB913;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightBioLink:active {
+    color: #FDB913;
+}
+
+
+
 /* ***  Medium min Defaults   *** */
 
 @media screen and (min-width: 768px) {
