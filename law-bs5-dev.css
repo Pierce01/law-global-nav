@@ -159,7 +159,11 @@ span.credits a.card-link {
 **/
 
 
-.carouselWrapper .carousel-control-next-icon, .carouselWrapper .carousel-control-prev-icon {
+.carouselWrapper .carousel-control-next, .carouselWrapper .carousel-control-prev {
+    color: #EF4135;
+}
+
+.carouselWrapper span.carousel-control-next-icon, .carouselWrapper span.carousel-control-prev-icon {
     color: #EF4135;
 }
 
