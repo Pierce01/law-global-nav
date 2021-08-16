@@ -65,6 +65,10 @@
     padding-bottom: 1rem;
 }
 
+ul.category_form {
+    padding-left: 0;
+}
+
 #searchoptions-generic fieldset {
     margin-bottom: 1rem;
 }
@@ -78,7 +82,7 @@
 }
 
 #searchoptions-categories fieldset ul.category_form li::marker {
-    color: #088099;
+    color: #ffffff;
 }
 
 #searchoptions-generic #search_field input#keywords {
