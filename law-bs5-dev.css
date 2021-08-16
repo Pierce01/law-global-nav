@@ -160,12 +160,16 @@ span.credits a.card-link {
 
 
 .carouselWrapper .carousel-control-next, .carouselWrapper .carousel-control-prev {
+    border-color: #EF4135;
     color: #EF4135;
+    fill: #EF4135;
+
 }
 
 .carouselWrapper span.carousel-control-next-icon, .carouselWrapper span.carousel-control-prev-icon {
+    border-color: #EF4135;
+    color: #EF4135;
     fill: #EF4135;
-    /* color: #EF4135; */
 }
 
 
