@@ -174,10 +174,6 @@ span.credits a.card-link {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightBioLink {
-    color: #ffffff;
-}
-
 #carousel .spotlightWrapper .spotlightBioLink:hover {
     color: #000000;
 }
@@ -211,10 +207,6 @@ span.credits a.card-link {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink {
-    color: #ffffff;
-}
-
 #carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink:hover {
     color: #000000;
 }
@@ -240,10 +232,6 @@ span.credits a.card-link {
 }
 
 #carousel .spotlightWrapper .spotlightPaletteRedWhite .spotlightCopyBody {
-    color: #ffffff;
-}
-
-#carousel .spotlightWrapper .spotlightPaletteRedWhite .spotlightBioLink {
     color: #ffffff;
 }
 
@@ -284,10 +272,6 @@ span.credits a.card-link {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightBioLink {
-    color: #ffffff;
-}
-
 #carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightBioLink:hover {
     color: #FDB913;
 }
@@ -295,6 +279,41 @@ span.credits a.card-link {
 #carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightBioLink:active {
     color: #FDB913;
 }
+
+
+
+/*********************
+*
+*   Spotlight
+*   color palettes
+*   white
+*
+**/
+
+#carousel .spotlightWrapper .spotlight.spotlightPaletteWhiteRedBlackBlue  {
+    background-color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightCopy.spotlightPaletteWhiteRedBlackBlue h3 {
+    color: #AA0000;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightCopyBody {
+    color: #000000;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightBioLink {
+    color: #088099;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightBioLink:hover {
+    color: #000000;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightBioLink:active {
+    color: #000000;
+}
+
 
 
 /* ***  Medium min Defaults   *** */
