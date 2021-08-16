@@ -231,31 +231,68 @@ span.credits a.card-link {
 *
 **/
 
-#carousel .spotlightWrapper .spotlight.spotlightPaletteLightBlue  {
-    background-color: #088099;
+#carousel .spotlightWrapper .spotlight.spotlightPaletteRedWhite  {
+    background-color: #AA0000;
 }
 
-#carousel .spotlightWrapper .spotlightCopy.spotlightPaletteLightBlue h3 {
+#carousel .spotlightWrapper .spotlightCopy.spotlightPaletteRedWhite h3 {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightCopyBody {
+#carousel .spotlightWrapper .spotlightPaletteRedWhite .spotlightCopyBody {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink {
+#carousel .spotlightWrapper .spotlightPaletteRedWhite .spotlightBioLink {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink {
+#carousel .spotlightWrapper .spotlightPaletteRedWhite .spotlightBioLink {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink:hover {
+#carousel .spotlightWrapper .spotlightPaletteRedWhite .spotlightBioLink:hover {
     color: #000000;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink:active {
+#carousel .spotlightWrapper .spotlightPaletteRedWhite .spotlightBioLink:active {
+    color: #000000;
+}
+
+
+/*********************
+*
+*   Spotlight
+*   color palettes
+*   navy
+*
+**/
+
+#carousel .spotlightWrapper .spotlight.spotlightPaletteNavyWhite  {
+    background-color: #003282;
+}
+
+#carousel .spotlightWrapper .spotlightCopy.spotlightPaletteNavyWhite h3 {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightCopyBody {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightBioLink {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightBioLink {
+    color: #ffffff;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightBioLink:hover {
+    color: #000000;
+}
+
+#carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightBioLink:active {
     color: #000000;
 }
 
