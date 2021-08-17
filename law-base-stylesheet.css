@@ -3103,9 +3103,9 @@ svg.arrow.circle.navy {
 */
 
 
-.carouselImageWrapper {
+/* .carouselImageWrapper {
     display: none !important;
-}
+} */
 .carouselImageWrapper.slick-slide {
     display:block !important;
 }
