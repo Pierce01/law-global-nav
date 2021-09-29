@@ -1123,7 +1123,7 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 /* ***** Footer Defaults ***** */
 
-footer .footerLinks a {
+/* footer .footerLinks a {
     text-decoration: none;
 }
 
@@ -1139,23 +1139,23 @@ footer .footerLinks a:hover {
     background: #000000;
     color: #b3b3b3;
     font-size: 1.2rem;
-}
+} */
 
 
 /* ***** Mobile Up ***** */
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     footer #footerInner {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap; */
         /* max-width: none; */
-    }
-}
+    /* }
+}  */
 
 
 /* Desktop down */
 
-@media screen and (max-width: 991.98px) {
+/* @media screen and (max-width: 991.98px) {
     footer #organization {
         text-align: center;
     }
@@ -1170,12 +1170,12 @@ footer .footerLinks a:hover {
         margin-bottom: 2rem;
         text-align: center;
     }
-}
+} */
 
 
 /* Large devices (desktops, 992px and up to 1199) */
 
-@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+/* @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     footer #footerContact {
         margin-left: 2.5rem;
         padding-left: 2.5rem;
@@ -1200,12 +1200,12 @@ footer .footerLinks a:hover {
     #footerCallToActionLinks a {
         font-size: 1.25rem;
     }
-}
+} */
 
 
 /* X-Large devices (desktops, 1200px and up to 1365) */
 
-@media screen and (min-width: 1200px) and (max-width: 1365.99px) {
+/* @media screen and (min-width: 1200px) and (max-width: 1365.99px) {
     footer #footerContact {
         margin-left: 3rem;
         padding-left: 3rem;
@@ -1230,12 +1230,12 @@ footer .footerLinks a:hover {
     #footerCallToActionLinks a {
         font-size: 1.5rem;
     }
-}
+} */
 
 
 /* X Large devices (large desktops, 1200px and up) */
 
-@media screen and (min-width: 1366px) {
+/* @media screen and (min-width: 1366px) {
     footer #footerContact {
         margin-left: 4rem;
         padding-left: 4rem;
@@ -1245,7 +1245,7 @@ footer .footerLinks a:hover {
         font-weight: 500;
         margin-top: 1rem;
     }
-}
+} */
 
 
 
