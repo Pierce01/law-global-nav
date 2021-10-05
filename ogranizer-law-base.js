@@ -1,12 +1,12 @@
 /***
 *     @author Victor Chimenti, MSCS
 *     @file organizerLawBase.js
-*     @see  ID: 1607015
+*     @see  ID: 3050646
 *     organizer law base
 *       Law School Standard Mainzone Organizer
 *       List Displays
 *
-*     @version 4.0
+*     @version 4.1
 */
 
 
