@@ -96,6 +96,32 @@ ul.category_form {
 
 
 
+
+/*********************
+*
+*   Feature Curated Events Wrapper
+*
+**/
+
+.featuredCuratedEventsWrapper .curatedEventsList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+/* ***  Large min Defaults   *** */
+
+@media screen and (min-width: 992px) {
+    .featuredCuratedEventsWrapper .curatedEventsList {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
 /*********************
 *
 *   News Center
