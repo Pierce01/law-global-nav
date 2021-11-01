@@ -32,6 +32,12 @@
   <meta name="country" content="United States" />
   <meta name="Language" content="en" />
   <meta name="robots" content="noindex" />
+  <script>
+    if (document.querySelector('meta[name="twitter:url"]').content) {
+        document.write('<link rel="canonical" href="' + document.querySelector('meta[name="twitter:url"]').content + '" >');
+    }
+  </script>
+
   
 
   <!-- Style and navigation -->
