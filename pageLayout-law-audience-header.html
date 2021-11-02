@@ -31,8 +31,11 @@
         <meta name="Language" content="en" />
         <meta name="robots" content="noindex" />
         <script>
-            if (document.querySelector('meta[name="twitter:url"]').content) {
-                document.write('<link rel="canonical" href="' + document.querySelector('meta[name="twitter:url"]').content + '" >');
+            let absoluteURL = (document.querySelector('meta[name="twitter:url"]')) ?
+                document.querySelector('meta[name="twitter:url"]').content :
+                null;
+            if (absoluteURL) {
+                document.write('<link rel="canonical" href="' + absoluteURL + '" >');
             }
         </script>
 
