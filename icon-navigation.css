@@ -1,0 +1,102 @@
+body {
+    background-color: #f7f7f7;
+  }
+  
+  .audience-specific-container {
+    margin-top: 2.5rem;
+  }
+  
+  ul.audience-icon-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: initial !important; /* overrides bootstrap styles */
+  }
+  
+  ul.audience-icon-links li {
+    flex-basis: 8rem; /* controls the icon width */
+    flex-grow: 1;
+    max-width: 9rem;
+    list-style: none;
+    text-align: center;
+    border-right: none;
+    align-content: center;
+  
+    /* flex styles for children */
+    display: flex;
+    flex-direction: column; /* forces text below image */
+    justify-content: center;
+    justify-content: flex-start;
+  }
+  
+  .audience-icon-links img {
+    margin-bottom: 0.75rem;
+  }
+  
+  span.audience-menu-text {
+    font-size: 1.3rem;
+    line-height: 1.3em;
+    font-weight: 500;
+  }
+  
+  /* controls image and anchor text */
+  ul.audience-icon-links a {
+    text-decoration: none;
+    color: #088099;
+  }
+  
+  .audience-icon-links a:hover {
+    color: #333333;
+  }
+  
+  .audience-icon-links a img:hover,
+  .audience-icon-links a img:active {
+    color: #333333;
+  }
+  
+  ul.audience-icon-links {
+    margin: 0;
+  }
+  
+  ul.audience-icon-links .audience-menu-text:hover {
+    text-decoration: underline;
+  }
+  
+  span.divider {
+    display: none;
+  }
+  
+  /* X-Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* wrapper */
+    .audience-specific-container {
+      position: relative; /* needed to allow Z-index positioning */
+      z-index: 1;
+      margin-top: -2rem;
+      margin-bottom: 2.5rem;
+    }
+  
+    ul.audience-icon-links {
+      flex-wrap: nowrap;
+      gap: 1rem;
+      background: #ffffff;
+      padding: 2rem;
+      padding-left: 2rem !important;
+    }
+  
+    .audience-icon-links img {
+      max-width: 7rem;
+  
+      /* sets how replacement element (img) should be resized to fit its container. */
+      object-fit: cover; /* maintains its aspect ratio while filling the element’s entire content box */
+  
+      margin: 0 auto 1em;
+    }
+  
+    span.divider {
+      display: inline;
+      border-right: 2px #999999 solid;
+    }
+  
+  }
