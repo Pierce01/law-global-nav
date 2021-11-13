@@ -11,8 +11,8 @@ try {
     with(FullListOutputImports) {
         var defaultDomain, getMirrorSource, customCanonicalURL;
         defaultDomain = {};
-        defaultDomain[1] = 'https://www.seattleu.edu';
-        defaultDomain[8] = 'https://www.seattleu.edu';
+        defaultDomain[1] = 'https://law.seattleu.edu';
+        defaultDomain[8] = 'https://law.seattleu.edu';
         getMirrorSource = true;
         customCanonicalURL = '<t4 type="navigation" id="<!-- INSERT ID -->"/>';
 
@@ -98,10 +98,10 @@ try {
             myMicrosite = publishCache.getMicroSiteFromChild(cachedSection);
             channel = myMicrosite ? myMicrosite : publishCache.getChannel();
             try {
-                publishURL = 'https://www.seattleu.edu';
+                publishURL = 'https://law.seattleu.edu';
                 // publishURL = String(channel.getChannelPublishURL());
             } catch (e) {
-                publishURL = 'https://www.seattleu.edu';
+                publishURL = 'https://law.seattleu.edu';
             }
             if (publishURL != '') {
                 domain = String(publishURL);
