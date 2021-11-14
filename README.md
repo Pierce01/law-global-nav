@@ -1,13 +1,13 @@
-# law-global-nav
+# Law Global Navigation
 
-Upgrade existing nav system to bootstrap 5. Currently built in bootstrap 3
+Bootstrap 5 Navigation, Scripts and Page Layouts
 
-## TODO:
+## TODO
 
 - [x] format home header
 - [x] format home footer
-- [] format landing header
-- [] format landing footer
+- [x] format landing header
+- [x] format landing footer
 - [] mobile footer
 - [] mobile header
 - [x] convert imgage panel to js layout
