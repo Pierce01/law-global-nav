@@ -661,7 +661,17 @@ body {
     border-bottom: none;
 }
 
-#siteNavigation .multilevel-linkul-0 .navbar-collapse {
+#siteNavigation .list-group-item {
+    /* position: relative; */
+    /* display: block; */
+    /* padding: 0.5rem 1rem; */
+    /* color: #212529; */
+    /* text-decoration: none; */
+    /* background-color: #fff; */
+    border: none;
+}
+
+#siteNavigation #menu.navbar-collapse {
     align-items: unset;
 }
 
