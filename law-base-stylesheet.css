@@ -7561,6 +7561,10 @@ li.nav-item a.nav-link .icon:hover {
     width: 100%!important;
   }
 
+  .lawFacultyWrapper figure {
+    display: contents;
+  }
+
   .lawFacultyWrapper img.card-img {
     padding: 0;
   }
