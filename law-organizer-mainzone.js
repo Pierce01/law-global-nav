@@ -14,6 +14,9 @@ try {
 	// Import Organizer base from media library
 	var base = readMedia(3050646);
 	eval(String(base));
+
+	var titleField = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, '<t4 type="content" name="Title" output="selective-output" modifiers="striptags,htmlentities" format="$value" />');
+
 	// Set content wrapper, if any
 	var header, midder, footer;
 	var choice = String(content.get('Content type and layout').publish());
@@ -21,6 +24,7 @@ try {
 	default:
 		header = '\
 			<div class="organizerWrapper contentItem" id="id' + content.getID() + '" data-position-default="Main" data-position-selected="Main">\
+				<div class="titleWrapper standardContent col-xs-12"><h2 class="organizerTitle text-center">' + titleField + '</h2></div> \
 				<div class="organizer standardContent">\
                   <div class="organizerExtra"></div>\
 		';
