@@ -7561,12 +7561,22 @@ li.nav-item a.nav-link .icon:hover {
     width: 100%!important;
   }
 
+  .lawFacultyWrapper .card {
+    background-color: #f7f7f7;
+    border: 2px solid #f7f7f7;
+    border-radius: 0;
+  }
+  
   .lawFacultyWrapper figure {
     display: contents;
   }
 
   .lawFacultyWrapper img.card-img {
     padding: 0;
+  }
+
+  .lawFacultyWrapper img.rounded-circle {
+    border-radius: 0!important;
   }
 
   .lawFacultyWrapper p.card-text {
