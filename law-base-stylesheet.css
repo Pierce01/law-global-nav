@@ -7557,9 +7557,15 @@ li.nav-item a.nav-link .icon:hover {
 
 
 /*** Detail Page customizations ***/
+.law-detailPage-809077 .lawFacultyWrapper h3.card-title {
+  font-size: 1.5rem;
+}
+
 .law-detailPage-809077 .lawFacultyWrapper p.card-text {
   font-size: 1rem;
 }
+
+
 
 
 @media screen and (max-width: 991.99px) {
@@ -7590,6 +7596,10 @@ li.nav-item a.nav-link .icon:hover {
 
   .lawFacultyWrapper p.card-text {
     font-size: 1.25rem;
+  }
+
+  .law-detailPage-809077 .lawFacultyWrapper h3.card-title {
+    font-size: 1.8rem;
   }
 
   .law-detailPage-809077 .lawFacultyWrapper p.card-text {
