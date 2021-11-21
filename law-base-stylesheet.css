@@ -7528,170 +7528,8 @@ li.nav-item a.nav-link .icon:hover {
 /* ========================================================================================== 
    ===== Law - Faculty Profile  ===== Content Type #5143 ============================== START 
    ==========================================================================================
-   Original CSS written in 2019. Last update/edit: 11/25/2020. 
 */
 
-/* commented out by vic 20210425 */
-
-/* .facultyProfileWrapper {
-
-
-}
-
-.facultyProfileWrapper h1 {
-  font-family: "Montserrat", sans-serif;
-}
-
-.facultyProfileWrapper .facultyProfilePicture {
-  
-}
-
-.facultyProfileWrapper .facultyProfilePicture img {
-  xmax-width: 100%;
-  xpadding: 0;
-}
-
-.facultyProfileBiography h2 {
-   margin: 30px 0 10px 0;
-}
-
-.facultyProfileWrapper .facultyProfileRoom,
-.facultyProfileWrapper .facultyProfilePhone,
-.facultyProfileWrapper .facultyProfileEmail {
-  xtext-align: right;
-  padding-left: 0;
-}
-
-.facultyProfileWrapper .facultyProfileBiography {
-  
-}
-
-.facultyProfileWrapper .facultyProfileMiddle {
-  xbackground-color: #f7f7f7;
-  margin-top: 30pxl
-} */
-
-/* .facultyListItemWrapper {
-   flex: 1 1 calc(100% - 30px);
-   align-self: flex-start;
-   margin: 15px;
-   max-width: 233.5px;
-} */
-  
-/* 
-div#id977819 .organizer  {
-   display: flex;
-   flex-wrap: wrap;
-   xjustify-content: center;
-} */
-
-
-/* .facultyListItemWrapper a {
-   display: block;
-   text-decoration: none;
-}
-
-.facultyListItemWrapper a:hover {
-   box-shadow: 0px 0px 15px #888;
-   text-decoration: underline;
-   color: #333333;
-} */
-
-/* .facultyListItem {
-   text-align: center;
-   display: flex;
-   flex-wrap: wrap;
-   align-items: flex-end;
-}
-
-.facultyListItemPhoto {
-   background-position: center;
-   background-size: cover;
-   align-self: flex-end;
-   min-height: 277px;
-   flex: 1 1 100%;
-}
-
-.facultyListItemText {
-   align-self: flex-start;
-   width: 100%;
-} */
-
-/* .facultyListItemPhoto img {
-   padding: 0;
-   min-height: 150px;
-   object-fit: cover;
-} */
-
-/* .facultyListItem h3  {
-   color: #333333;
-   font-family: Montserrat;
-   font-size: 2rem;
-   margin: 10px 0 0 0; 
-} */
-
-/* .facultyListItemText p {
-   font-size: 1.4rem;
-   text-align: center;
-   line-height: 1.8rem;
-} */
-
-/* START New CSS 11/5/2020 */
-/* .facultyPhoto img {
-    border-radius: 50%;
-} */
-
-/* #facultyFilter .form-check-label {
-    font-size: 2rem;
-    color: #333333;
-    text-transform: uppercase;
-} */
-
-/* form#facultyFilter {
-    padding-top: 5vh;
-} */
-/* END New CSS 11/5/2020 */
-
-/* Faculty profile - Landing page layout */
-/* Small devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { */
-    /* START - Faculty landing radio labels */
-	/* #facultyFilter .form-check-inline {
-	     justify-content: center;
-	} */
-  
-	/* #facultyFilter label::after {
-	     content: "|";
-	     padding-left: 20px;
-	     padding-right: 20px;
-	} */
-  
-	/* #facultyFilter label:last-child::after {
-		content: "";
-	} */
-
-	/* .facultyListItemWrapper {
-   		xflex: 1 1 calc(50% - 30px);
-    } */
-
-	/* END - Faculty landing radio labels */ 
-/* } */
-
-/* Medium devices (desktops, 992px and up) */
-/* @media (min-width: 992px) {
-	.facultyListItemWrapper {
-   	  xflex: 1 1 calc(100% - 30px);
-    }
-} */
-
-
-/* end commented out by vic 20210425 */
-
-
-
-
-
-/* ****** Bootstrap 5 Organizer layouts - vic 20210425 ****** */
 
 /* Medium devices (tablets, 768px and up to 991) */
 @media screen and (min-width: 768px) and (max-width: 991.99px) {
@@ -7710,7 +7548,10 @@ div#id977819 .organizer  {
   }
 }
 
-/* ****** End Bootstrap 5 Organizer layouts - vic 20210425 ****** */
+
+
+
+
 
 
 /*** START Fulltext Layout ***/
