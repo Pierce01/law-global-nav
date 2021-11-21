@@ -7560,6 +7560,10 @@ li.nav-item a.nav-link .icon:hover {
   text-decoration: underline;
 }
 
+.lawFacultyWrapper .listwrapper {
+  background-color: #f7f7f7;
+}
+
 
 /*** Detail Page customizations ***/
 .law-detailPage-809077 .lawFacultyWrapper h3.card-title {
