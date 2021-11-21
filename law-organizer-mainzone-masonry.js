@@ -24,10 +24,9 @@ try {
     header ='<div class="masonryOrganizerWrapper contentItem" id="id' + content.getID() + '" \
                 data-position-default="Main" data-position-selected="Main"> \
                 <div class="titleWrapper standardContent col-xs-12"><h2 class="organizerTitle text-center">' + titleField + '</h2></div> \
-                <div class="masonryOrganizer standardContent card-group"> \
-                <div class="masonryOrganizerExtra"></div>';
-    midder = '<span></span>';
-    footer = '</div><div class="masonryOrganizer ToggleExtra boxlinks" style="display:none">Show More</div></div>';
+                <div class="masonryOrganizer standardContent card-group">';
+    midder = '';
+    footer = '';
 
     // Write content
     main(header, midder, footer);
