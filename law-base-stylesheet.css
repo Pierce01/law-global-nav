@@ -7534,7 +7534,6 @@ li.nav-item a.nav-link .icon:hover {
 /* expand small images to fill available space on all browsers */
 
 .lawFacultyWrapper img.card-img {
-  padding: 0;
   width: 100%;
   width: -moz-available;
   width: -webkit-fill-available;
