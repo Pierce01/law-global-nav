@@ -26,7 +26,7 @@ try {
                 <div class="titleWrapper standardContent col-xs-12"><h2 class="organizerTitle text-center">' + titleField + '</h2></div> \
                 <div class="masonryOrganizer standardContent card-group">';
     midder = '';
-    footer = '';
+    footer = '</div></div>';
 
     // Write content
     main(header, midder, footer);
