@@ -7534,10 +7534,15 @@ li.nav-item a.nav-link .icon:hover {
 /* expand small images to fill available space on all browsers */
 
 .lawFacultyWrapper img.card-img {
+  margin: 0;
   width: 100%;
   width: -moz-available;
   width: -webkit-fill-available;
   width: fill-available;
+}
+
+.lawFacultyWrapper figure {
+  margin: 0;
 }
 
 .lawFacultyWrapper a.emailAddress {
