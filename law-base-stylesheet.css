@@ -7559,14 +7559,16 @@ li.nav-item a.nav-link .icon:hover {
 
   .lawFacultyWrapper.w-50 {
     width: 100%!important;
+    margin: 0 0 2rem 0;
   }
 
   .lawFacultyWrapper .card {
     background-color: #f7f7f7;
     border: 2px solid #f7f7f7;
     border-radius: 0;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   }
-  
+
   .lawFacultyWrapper figure {
     display: contents;
   }
