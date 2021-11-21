@@ -7542,6 +7542,7 @@ li.nav-item a.nav-link .icon:hover {
 }
 
 .lawFacultyWrapper figure {
+  display: contents;
   margin: 0;
 }
 
@@ -7589,10 +7590,6 @@ li.nav-item a.nav-link .icon:hover {
     border: 2px solid #f7f7f7;
     border-radius: 0;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-  }
-
-  .lawFacultyWrapper figure {
-    display: contents;
   }
 
   .lawFacultyWrapper img.card-img {
