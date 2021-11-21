@@ -7541,23 +7541,38 @@ li.nav-item a.nav-link .icon:hover {
   width: fill-available;
 }
 
+@media screen and (max-width: 991.99px) {
+
+  .lawFacultyWrapper.w-50 {
+    width: 100%!important;
+  }
+
+  .lawFacultyWrapper img.card-img {
+    padding: 0;
+  }
+
+  .lawFacultyWrapper p.card-text {
+    font-size: 1rem;
+  }
+}
+
 
 /* Medium devices (tablets, 768px and up to 991) */
-@media screen and (min-width: 768px) and (max-width: 991.99px) {
+/* @media screen and (min-width: 768px) and (max-width: 991.99px) {
 
   .lawFacultyWrapper p.card-text {
       font-size: 1rem;
   }
-}
+} */
 
 
 /* Below md breakpoint max-width: 767.99px and down) */
-@media screen and (max-width: 767.99px) {
+/* @media screen and (max-width: 767.99px) {
 
   .lawFacultyWrapper.w-50 {
       width: 100%!important;
   }
-}
+} */
 
 
 
