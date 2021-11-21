@@ -7540,6 +7540,21 @@ li.nav-item a.nav-link .icon:hover {
   width: fill-available;
 }
 
+.lawFacultyWrapper a.emailAddress {
+  color: #088099;
+  text-decoration: none;
+}
+
+.lawFacultyWrapper a.emailAddress:hover {
+  color: #088099;
+  text-decoration: underline;
+}
+
+.lawFacultyWrapper a.emailAddress:focus {
+  color: #088099;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 991.99px) {
 
   .lawFacultyWrapper.w-50 {
