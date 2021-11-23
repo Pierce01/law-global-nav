@@ -9367,6 +9367,9 @@ li.nav-item a.nav-link .icon:hover {
     font-size: 1rem;
 }
 
+
+/*** Media Queries Faculty Profile ***/
+
 @media screen and (max-width: 991.99px) {
     .lawFacultyWrapper.w-50 {
         width: 100%!important;
@@ -9441,7 +9444,7 @@ nav#breadcrumbs.facultyProfileBreadcrumbs {
 }
 
 
-/* Centers photo, title(s), room, phone, and email at widths under 768px */
+/* Centers photo, title, room, phone, and email at widths under 768px */
 
 .facultyProfileWrapper .facultyProfilePicture,
 .facultyProfileTitles,
