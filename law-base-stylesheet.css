@@ -9405,11 +9405,11 @@ li.nav-item a.nav-link .icon:hover {
 /*** Mobile Up ***/
 
 @media screen and (min-width: 992px) {
-    .lawFacultyWrapper.col {
+    article.lawFacultyWrapper.col {
         flex: unset;
     }
-    .lawFacultyWrapper.flex-fill {
-        flex: unset;
+    article.lawFacultyWrapper.flex-fill {
+        flex: unset!important;
     }
 }
 
