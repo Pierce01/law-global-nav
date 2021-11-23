@@ -9398,9 +9398,10 @@ li.nav-item a.nav-link .icon:hover {
     }
 }
 
+@media screen and (min-width: 992px) {}
 
-/*** START Fulltext Layout ***/
 
+/*** START Fulltext Layout ***?
 
 /* Last update/edit: 5/10/2021 by Troy */
 
