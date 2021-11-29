@@ -4816,8 +4816,6 @@ article.tripleColumn a:hover {
     background-color: #f7f7f7;
 }
 
-.featuredCuratedEvents {}
-
 .featuredCuratedEventsWrapper .curatedEventsTitle h2 {
     color: #ffffff;
     font-family: "Roboto Slab", serif;
@@ -4844,7 +4842,7 @@ article.tripleColumn a:hover {
     background: #ffffff;
     display: flex;
     margin: 0 0 1px 0;
-    padding: 30px;
+    padding: 0.5rem;
     position: relative;
     /* height: 200px; */
 }
@@ -4894,7 +4892,7 @@ article.tripleColumn a:hover {
 
 .featuredCuratedEventsWrapper li.featuredCuratedEventItem .eventInformation {
     color: #333333;
-    padding: 0 30px;
+    padding: 0 0.5rem;
     line-height: 2rem;
 }
 
