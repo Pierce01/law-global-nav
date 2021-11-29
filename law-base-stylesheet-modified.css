@@ -7104,6 +7104,9 @@ input[type="file"]:focus {
         line-height: 1;
         padding-top: 1rem;
     }
+    .panelWrapper.contentItem.g-0:first-of-type {
+        margin: 0;
+    }
 }
 
 
