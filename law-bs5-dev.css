@@ -199,9 +199,21 @@ span.credits a.card-link {
 **/
 
 
-/* .spotlightWrapper.carousel-item {
-    padding
-} */
+.spotlightWrapper.carousel-item p.spotlightCopyBody {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    padding-right: 1rem;
+}
+
+.spotlightWrapper.carousel-item .spotlightCopyCitation {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+
 
 
 
