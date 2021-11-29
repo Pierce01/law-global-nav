@@ -201,14 +201,24 @@ span.credits a.card-link {
 
 .spotlightWrapper.carousel-item p.spotlightCopyBody {
     font-size: 1.5rem;
-    margin: 0 1rem;
-    padding: 0 1rem 3rem 1rem;
+    margin: 0 1rem 0 0;
+    padding: 0 1rem 3rem 0;
 }
 
 .spotlightWrapper.carousel-item .spotlightCopyCitation {
     font-size: 1rem;
-    margin: 0 1rem;
-    padding: 0 1rem;
+    margin: 0 1rem 0 0;
+    padding: 0 1rem 0 0;
+}
+
+
+
+@media screen and (max-width: 992.99px) {
+
+    .spotlightWrapper.carousel-item .spotlightCopy {
+        margin: 1rem 1rem 0 1rem;
+        padding: 1rem;
+    }
 }
 
 
