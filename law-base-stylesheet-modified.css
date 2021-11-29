@@ -7047,7 +7047,7 @@ input[type="file"]:focus {
      Updated to Bootstrap 5 -  20210413 vic
   */
 
-.panelWrapper.contentItem.g-0:first-of-type {
+/* .panelWrapper.contentItem.g-0:first-of-type {
     margin: 0;
 }
 
@@ -7071,12 +7071,12 @@ input[type="file"]:focus {
 .panelText.card-text p {
     font-size: 1.4rem;
     line-height: 1.5;
-}
+} */
 
 
 /* ***  XX Large max Defaults   *** */
 
-@media screen and (max-width: 1399.99px) {
+/* @media screen and (max-width: 1399.99px) {
     .panelWrapper .panelText.card-text h2 {
         font-size: 2rem;
     }
@@ -7087,12 +7087,12 @@ input[type="file"]:focus {
         font-size: 1.25rem;
         line-height: 1.25;
     }
-}
+} */
 
 
 /* ***  X Large max Defaults   *** */
 
-@media screen and (max-width: 1199.99px) {
+/* @media screen and (max-width: 1199.99px) {
     .panelWrapper .panelText.card-text h2 {
         font-size: 1.8rem;
     }
@@ -7107,12 +7107,12 @@ input[type="file"]:focus {
     .panelWrapper.contentItem.g-0:first-of-type {
         margin: 0;
     }
-}
+} */
 
 
 /* ***  Large max Defaults   *** */
 
-@media screen and (max-width: 991.99px) {
+/* @media screen and (max-width: 991.99px) {
     .panelWrapper .card-img-overlay {
         position: unset;
     }
@@ -7131,12 +7131,12 @@ input[type="file"]:focus {
     .panelInner .panelText.card-text .panelLinks {
         padding: 1rem 0 1rem 0;
     }
-}
+} */
 
 
 /* ***  Small max Defaults   *** */
 
-@media screen and (max-width: 767.99px) {
+/* @media screen and (max-width: 767.99px) {
     .panelWrapper .panelText.card-text {
         padding: 1rem;
     }
@@ -7146,11 +7146,11 @@ input[type="file"]:focus {
     .panelInner .panelText.card-text .panelLinks li {
         border: 1px solid #088099;
     }
-}
+} */
 
 
 /* ***  X Small max Defaults   *** */
-
+/* 
 @media only screen and (max-width: 575.99px) {
     .panelWrapper .panelText.card-text {
         padding: 0;
@@ -7158,7 +7158,7 @@ input[type="file"]:focus {
     .panelWrapper .card-block .panelText.card-text {
         padding: 1rem;
     }
-}
+} */
 
 
 /***
@@ -7168,7 +7168,7 @@ input[type="file"]:focus {
   *
   */
 
-.panelWrapper {
+/* .panelWrapper {
     padding-top: inherit;
     position: relative;
 }
@@ -7186,21 +7186,21 @@ input[type="file"]:focus {
     font-size: 35px;
     font-weight: 500;
     margin: 0 0 30px 0;
-}
+} */
 
 
 /*1px gap fix*/
 
-@media (min-width: 766px) and (max-width: 768px) {
+/* @media (min-width: 766px) and (max-width: 768px) {
     .panelWrapper .clearfix {
         display: block !important;
     }
-}
+} */
 
 
 /*only way to get mobile to not take up space set in html tag*/
 
-@media (max-width: 991.999px) {
+/* @media (max-width: 991.999px) {
     .panelWrapper .panelFlexContainer {
         height: auto !important;
     }
@@ -7302,16 +7302,16 @@ input[type="file"]:focus {
     border-right: 0;
     margin: 0;
     padding: 0;
-}
+} */
 
 
 /* hack to hide banner in IE/Edge */
 
-.flexboxtweener .panelWrapper .panelInner {
+/* .flexboxtweener .panelWrapper .panelInner {
     border: 0;
-}
+} */
 
-@media (min-width: 991px) {
+/* @media (min-width: 991px) {
     .panelWrapper .topRightPanel,
     .panelWrapper .centerRightPanel,
     .panelWrapper .bottomRightPanel {
@@ -7432,12 +7432,12 @@ input[type="file"]:focus {
     .panelWrapper .bottomLeftPanel .panelWrapper .centerLeftPanel {
         float: left;
     }
-}
+} */
 
 
 /* xs */
 
-@media screen and (max-width: 767.999px) {
+/* @media screen and (max-width: 767.999px) {
     .panelText h2 {
         margin: 15px 0 15px 0;
     }
@@ -7479,12 +7479,12 @@ input[type="file"]:focus {
     flex: 0 1 calc(50% - 7px);
     flex-direction: column;
     justify-content: center;
-}
+} */
 
 
 /* xs */
 
-@media screen and (max-width: 767.999px) {
+/* @media screen and (max-width: 767.999px) {
     .panelInner .panelLinks {
         padding: 15px 20px 0px 10px;
     }
@@ -7525,7 +7525,7 @@ input[type="file"]:focus {
 .panelInner .panelLinks li:before {
     content: "";
     padding-right: 0px;
-}
+} */
 
 
 /* ==========================================================================================
