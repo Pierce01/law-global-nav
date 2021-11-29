@@ -7047,6 +7047,10 @@ input[type="file"]:focus {
      Updated to Bootstrap 5 -  20210413 vic
   */
 
+.panelWrapper.contentItem.g-0:first-of-type {
+    margin: 0;
+}
+
 .panelWrapper .panelText.card-text {
     padding: 2rem;
 }
@@ -9228,7 +9232,7 @@ li.nav-item a.nav-link .icon:hover {
 .spotlightWrapper .spotlightSource {
     border-left: 3px solid transparent;
     /*Default*/
-    font-size: 1.4em;
+    /* font-size: 1.4em; */
     font-weight: bold;
     padding: 3px 3px 3px 2px;
 }
@@ -9284,9 +9288,9 @@ li.nav-item a.nav-link .icon:hover {
     border-left: 3px solid #f7f7f7;
 }
 
-.spotlightWrapper .spotlightAffiliation {
+/* .spotlightWrapper .spotlightAffiliation {
     font-size: 1.4em;
-}
+} */
 
 
 /*Medium Displays*/
