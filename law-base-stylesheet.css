@@ -6387,11 +6387,11 @@ table.gsc-search-box td {
     .panelFlexContainer .bottomRightPanel {
         margin-right: 4.1666666%;
     }
-    .panelFlexContainer .topRightPanel,
+    /* .panelFlexContainer .topRightPanel,
     .panelFlexContainer .topLeftPanel,
     .panelFlexContainer .topCenterPanel {
         margin-top: 4.1666666%;
-    }
+    } */
     .panelFlexContainer .bottomRightPanel,
     .panelFlexContainer .bottomLeftPanel,
     .panelFlexContainer .bottomCenterPanel {
