@@ -4846,7 +4846,7 @@ article.tripleColumn a:hover {
     margin: 0 0 1px 0;
     padding: 30px;
     position: relative;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .featuredCuratedEventsWrapper li.featuredCuratedEventItem:before {
