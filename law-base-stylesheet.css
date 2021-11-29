@@ -6105,6 +6105,10 @@ table.gsc-search-box td {
 *
 **/
 
+.panelWrapper.contentItem.g-0:first-of-type {
+    margin: 0;
+}
+
 .panelWrapper .panelText.card-text {
     padding: 2rem;
 }
