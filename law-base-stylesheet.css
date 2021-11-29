@@ -3706,6 +3706,17 @@ svg.arrow.circle.navy {
     display: none !important;
 } */
 
+
+.carouselImageWrapper.carousel-item .card-body {
+    background-color: #f7f7f7;
+}
+
+.carouselImageWrapper.carousel-item .card-text {
+    color: #000000;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
 .carouselImageWrapper.slick-slide {
     display: block !important;
 }
@@ -3744,7 +3755,7 @@ svg.arrow.circle.navy {
     margin: 0;
 }
 
-.carouselImageCaption a {}
+
 
 
 /*========= Positioning Styles =========*/
