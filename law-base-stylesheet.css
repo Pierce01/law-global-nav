@@ -4842,7 +4842,7 @@ article.tripleColumn a:hover {
     background: #ffffff;
     display: flex;
     margin: 0 0 1px 0;
-    padding: 0.5rem;
+    padding: 1rem;
     position: relative;
     /* height: 200px; */
 }
@@ -4904,13 +4904,13 @@ article.tripleColumn a:hover {
 }
 
 .featuredCuratedEventsWrapper li.featuredCuratedEventItem .eventInformation .eventDateAndTime {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
 .featuredCuratedEventsWrapper li.featuredCuratedEventItem .eventInformation .eventTitle {
     color: #aa0000;
-    font-size: 1.8rem;
+    font-size: 1.25rem;
 }
 
 .featuredCuratedEventsWrapper li.featuredCuratedEventItem .eventInformation .eventTitle a {
