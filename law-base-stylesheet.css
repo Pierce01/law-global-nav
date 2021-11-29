@@ -8177,6 +8177,13 @@ li.nav-item a.nav-link .icon:hover {
    
 */
 
+.spotlightWrapper.carousel-item img.img-fluid{
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+}
+
 .spotlightWrapper {
     background-color: #ffffff;
     overflow: hidden;
