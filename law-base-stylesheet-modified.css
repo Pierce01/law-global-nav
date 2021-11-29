@@ -5645,10 +5645,10 @@ nav#breadcrumbs.facultyProfileBreadcrumbs {
      ==========================================================================================
      creates featured box for curated events in ZoneA, including options for an image 
      background and color overlay
-     Last revised 08/20/18 by Aubrey   
+     Last revised 20211129 vic 
   */
 
-.featuredCuratedEventsWrapper {
+/* .featuredCuratedEventsWrapper {
     background: linear-gradient(rgba(8, 128, 153, 0.8), rgba(8, 128, 153, 0.8)), url(../assets/cityinred19.jpg);
     background-position: center;
     background-repeat: repeat;
@@ -5657,7 +5657,6 @@ nav#breadcrumbs.facultyProfileBreadcrumbs {
 }
 
 @media screen and (max-width: 991.999px) {
-    /* xs + sm */
     .featuredCuratedEventsWrapper {
         padding: 15px;
     }
@@ -5722,7 +5721,6 @@ nav#breadcrumbs.facultyProfileBreadcrumbs {
 }
 
 @media screen and (max-width: 991.999px) {
-    /* xs + sm */
     .featuredCuratedEventsWrapper .curatedEventsList {
         display: inherit;
     }
@@ -5735,14 +5733,13 @@ nav#breadcrumbs.facultyProfileBreadcrumbs {
     padding: 30px;
     position: relative;
     height: 200px;
-}
+} */
 
-.featuredCuratedEventsWrapper li.featuredCuratedEventItem:before {
+/* .featuredCuratedEventsWrapper li.featuredCuratedEventItem:before {
     display: none;
 }
 
 @media screen and (max-width: 767.999px) {
-    /* xs */
     .featuredCuratedEventsWrapper li.featuredCuratedEventItem {
         flex: 0 1 33%;
         flex-direction: column;
@@ -5787,7 +5784,6 @@ nav#breadcrumbs.facultyProfileBreadcrumbs {
 }
 
 @media screen and (max-width: 767.999px) {
-    /* xs */
     .featuredCuratedEventsWrapper li.featuredCuratedEventItem .eventInformation {
         text-align: center;
     }
@@ -5820,7 +5816,7 @@ nav#breadcrumbs.facultyProfileBreadcrumbs {
     line-height: 1.4em;
     text-align: center;
     font-weight: bold;
-}
+} */
 
 
 /* ==========================================================================================
