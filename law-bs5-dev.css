@@ -201,14 +201,14 @@ span.credits a.card-link {
 
 .spotlightWrapper.carousel-item p.spotlightCopyBody {
     font-size: 1.5rem;
-    margin-right: 1rem;
-    padding-right: 1rem;
+    margin: 0 1rem;
+    padding: 0 1rem 3rem 1rem;
 }
 
 .spotlightWrapper.carousel-item .spotlightCopyCitation {
-    font-size: 1.5rem;
-    margin-right: 1rem;
-    padding-right: 1rem;
+    font-size: 1rem;
+    margin: 0 1rem;
+    padding: 0 1rem;
 }
 
 
