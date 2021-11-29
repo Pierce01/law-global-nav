@@ -8467,7 +8467,7 @@ li.nav-item a.nav-link .icon:hover {
 .spotlightWrapper .spotlightSource {
     border-left: 3px solid transparent;
     /*Default*/
-    font-size: 1.4em;
+    /* font-size: 1.4em; */
     font-weight: bold;
     padding: 3px 3px 3px 2px;
 }
@@ -8523,9 +8523,9 @@ li.nav-item a.nav-link .icon:hover {
     border-left: 3px solid #f7f7f7;
 }
 
-.spotlightWrapper .spotlightAffiliation {
+/* .spotlightWrapper .spotlightAffiliation {
     font-size: 1.4em;
-}
+} */
 
 
 /*Medium Displays*/
