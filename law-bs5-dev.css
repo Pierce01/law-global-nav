@@ -491,6 +491,14 @@ span.credits a.card-link {
     color: #55B31B;
 }
 
+.spotlightWrapper .spotlightPaletteBlackWhiteGreen .spotlightSource {
+    color: #ffffff;
+}
+
+.spotlightWrapper .spotlightPaletteBlackWhiteGreen .spotlightAffiliation {
+    color: #ffffff;
+}
+
 
 
 /* ***  Medium min Defaults   *** */
