@@ -255,15 +255,15 @@ span.credits a.card-link {
     color: #000000;
 }
 
-.spotlightWrapper .spotlightSource {
+/* .spotlightWrapper .spotlightSource {
     color: #ffffff;
 }
 
 .spotlightWrapper .spotlightAffiliation {
     color: #ffffff;
-}
+} */
 
-.spotlightWrapper a .spotlightSource:hover {
+/* .spotlightWrapper a .spotlightSource:hover {
     color: #000000;
 }
 
@@ -277,7 +277,7 @@ span.credits a.card-link {
 
 .spotlightWrapper a .spotlightAffiliation:active {
     color: #000000;
-}
+} */
 
 
 /*********************
@@ -312,7 +312,7 @@ span.credits a.card-link {
     color: #000000;
 }
 
-.spotlightWrapper .spotlightPaletteLightBlue .spotlightSource {
+/* .spotlightWrapper .spotlightPaletteLightBlue .spotlightSource {
     color: #ffffff;
 }
 
@@ -334,7 +334,7 @@ span.credits a.card-link {
 
 .spotlightWrapper .spotlightPaletteLightBlue a .spotlightAffiliation:active {
     color: #000000;
-}
+} */
 
 
 
@@ -370,7 +370,7 @@ span.credits a.card-link {
     color: #000000;
 }
 
-.spotlightWrapper .spotlightPaletteRedWhite .spotlightSource {
+/* .spotlightWrapper .spotlightPaletteRedWhite .spotlightSource {
     color: #ffffff;
 }
 
@@ -392,7 +392,7 @@ span.credits a.card-link {
 
 .spotlightWrapper .spotlightPaletteRedWhite a .spotlightAffiliation:active {
     color: #000000;
-}
+} */
 
 
 /*********************
@@ -427,7 +427,7 @@ span.credits a.card-link {
     color: #FDB913;
 }
 
-.spotlightWrapper .spotlightPaletteNavyWhite .spotlightSource {
+/* .spotlightWrapper .spotlightPaletteNavyWhite .spotlightSource {
     color: #ffffff;
 }
 
@@ -449,7 +449,7 @@ span.credits a.card-link {
 
 .spotlightWrapper .spotlightPaletteNavyWhite a .spotlightAffiliation:active {
     color: #FDB913;
-}
+} */
 
 
 
@@ -485,7 +485,7 @@ span.credits a.card-link {
     color: #000000;
 }
 
-.spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightSource {
+/* .spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightSource {
     color: #003282;
 }
 
@@ -507,7 +507,7 @@ span.credits a.card-link {
 
 .spotlightWrapper .spotlightPaletteYellowRedBlackNavy a .spotlightAffiliation:active {
     color: #000000;
-}
+} */
 
 
 /*********************
@@ -542,7 +542,7 @@ span.credits a.card-link {
     color: #000000;
 }
 
-.spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightSource {
+/* .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightSource {
     color: #088099;
 }
 
@@ -564,7 +564,7 @@ span.credits a.card-link {
 
 .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue a .spotlightAffiliation:active {
     color: #000000;
-}
+} */
 
 
 
@@ -601,7 +601,7 @@ span.credits a.card-link {
     color: #FDB913;
 }
 
-.spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightSource {
+/* .spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightSource {
     color: #ffffff;
 }
 
@@ -623,7 +623,7 @@ span.credits a.card-link {
 
 .spotlightWrapper .spotlightPaletteBlackWhiteYellow a .spotlightAffiliation:active {
     color: #FDB913;
-}
+} */
 
 
 /*********************
@@ -658,7 +658,7 @@ span.credits a.card-link {
     color: #55B31B;
 }
 
-.spotlightWrapper .spotlightPaletteBlackWhiteGreen .spotlightSource {
+/* .spotlightWrapper .spotlightPaletteBlackWhiteGreen .spotlightSource {
     color: #ffffff;
 }
 
@@ -680,7 +680,7 @@ span.credits a.card-link {
 
 .spotlightWrapper .spotlightPaletteBlackWhiteGreen a .spotlightAffiliation:active {
     color: #55B31B;
-}
+} */
 
 
 
