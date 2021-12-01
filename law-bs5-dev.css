@@ -570,11 +570,11 @@ span.credits a.card-link {
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media screen and (max-width: 767.99px) {
+/* @media screen and (max-width: 767.99px) {
     .spotlightWrapper.standardContent {
         padding: 15px;
     }
-}
+} */
 
 
 /*********************
