@@ -201,24 +201,24 @@ span.credits a.card-link {
 
 .spotlightWrapper p.spotlightCopyBody {
     font-size: 1.5rem;
-    margin: 0 1rem 0 0;
-    padding: 0 1rem 3rem 0;
+    margin: 0;
+    padding: 0 0 3rem 0;
 }
 
 .spotlightWrapper .spotlightCopyCitation {
     font-size: 1rem;
-    margin: 0 1rem 0 0;
-    padding: 0 1rem 0 0;
+    /* margin: 0 1rem 0 0;
+    padding: 0 1rem 0 0; */
 }
 
 
-@media screen and (max-width: 992.99px) {
+/* @media screen and (max-width: 992.99px) {
 
     .spotlightWrapper .spotlightCopy {
         margin: 1rem 1rem 0 1rem;
         padding: 1rem;
     }
-}
+} */
 
 
 
@@ -558,9 +558,9 @@ span.credits a.card-link {
 /* ***  Medium min Defaults   *** */
 
 @media screen and (min-width: 768px) {
-    .spotlightCopy.col-md-7 {
+    /* .spotlightCopy.col-md-7 {
         width: 60%
-    }
+    } */
     .law-detailPage-809077 .standardContent .spotlightCopy p {
         font-size: 1.5rem;
         line-height: 1.5;
