@@ -227,27 +227,27 @@ span.credits a.card-link {
 
 
 
-#carousel .spotlightWrapper .spotlight  {
+.spotlightWrapper .spotlight  {
     background-color: #088099;
 }
 
-#carousel .spotlightWrapper .spotlightCopy h3 {
+.spotlightWrapper .spotlightCopy h3 {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightCopyBody {
+.spotlightWrapper .spotlightCopyBody {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightBioLink {
+.spotlightWrapper .spotlightBioLink {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightBioLink:hover {
+.spotlightWrapper .spotlightBioLink:hover {
     color: #000000;
 }
 
-#carousel .spotlightWrapper .spotlightBioLink:active {
+.spotlightWrapper .spotlightBioLink:active {
     color: #000000;
 }
 
@@ -260,27 +260,27 @@ span.credits a.card-link {
 *
 **/
 
-#carousel .spotlightWrapper .spotlight.spotlightPaletteLightBlue  {
+.spotlightWrapper .spotlight.spotlightPaletteLightBlue  {
     background-color: #088099;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightCopy h3 {
+.spotlightWrapper .spotlightPaletteLightBlue .spotlightCopy h3 {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightCopyBody {
+.spotlightWrapper .spotlightPaletteLightBlue .spotlightCopyBody {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink {
+.spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink:hover {
+.spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink:hover {
     color: #000000;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink:active {
+.spotlightWrapper .spotlightPaletteLightBlue .spotlightBioLink:active {
     color: #000000;
 }
 
@@ -292,27 +292,27 @@ span.credits a.card-link {
 *
 **/
 
-#carousel .spotlightWrapper .spotlight.spotlightPaletteRedWhite  {
+.spotlightWrapper .spotlight.spotlightPaletteRedWhite  {
     background-color: #AA0000;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteRedWhite .spotlightCopy h3 {
+.spotlightWrapper .spotlightPaletteRedWhite .spotlightCopy h3 {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteRedWhite .spotlightCopyBody {
+.spotlightWrapper .spotlightPaletteRedWhite .spotlightCopyBody {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteRedWhite .spotlightBioLink {
+.spotlightWrapper .spotlightPaletteRedWhite .spotlightBioLink {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteRedWhite .spotlightBioLink:hover {
+.spotlightWrapper .spotlightPaletteRedWhite .spotlightBioLink:hover {
     color: #000000;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteRedWhite .spotlightBioLink:active {
+.spotlightWrapper .spotlightPaletteRedWhite .spotlightBioLink:active {
     color: #000000;
 }
 
@@ -325,27 +325,27 @@ span.credits a.card-link {
 *
 **/
 
-#carousel .spotlightWrapper .spotlight.spotlightPaletteNavyWhite  {
+.spotlightWrapper .spotlight.spotlightPaletteNavyWhite  {
     background-color: #003282;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightCopy h3 {
+.spotlightWrapper .spotlightPaletteNavyWhite .spotlightCopy h3 {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightCopyBody {
+.spotlightWrapper .spotlightPaletteNavyWhite .spotlightCopyBody {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightBioLink {
+.spotlightWrapper .spotlightPaletteNavyWhite .spotlightBioLink {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightBioLink:hover {
+.spotlightWrapper .spotlightPaletteNavyWhite .spotlightBioLink:hover {
     color: #FDB913;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteNavyWhite .spotlightBioLink:active {
+.spotlightWrapper .spotlightPaletteNavyWhite .spotlightBioLink:active {
     color: #FDB913;
 }
 
@@ -359,27 +359,27 @@ span.credits a.card-link {
 *
 **/
 
-#carousel .spotlightWrapper .spotlight.spotlightPaletteYellowRedBlackNavy  {
+.spotlightWrapper .spotlight.spotlightPaletteYellowRedBlackNavy  {
     background-color: #f7f7f7;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightCopy h3 {
+.spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightCopy h3 {
     color: #AA0000;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightCopyBody {
+.spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightCopyBody {
     color: #000000;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightBioLink {
+.spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightBioLink {
     color: #003282;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightBioLink:hover {
+.spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightBioLink:hover {
     color: #000000;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightBioLink:active {
+.spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightBioLink:active {
     color: #000000;
 }
 
@@ -392,27 +392,27 @@ span.credits a.card-link {
 *
 **/
 
-#carousel .spotlightWrapper .spotlight.spotlightPaletteWhiteRedBlackBlue  {
+.spotlightWrapper .spotlight.spotlightPaletteWhiteRedBlackBlue  {
     background-color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightCopy h3 {
+.spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightCopy h3 {
     color: #AA0000;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightCopyBody {
+.spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightCopyBody {
     color: #000000;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightBioLink {
+.spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightBioLink {
     color: #088099;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightBioLink:hover {
+.spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightBioLink:hover {
     color: #000000;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightBioLink:active {
+.spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightBioLink:active {
     color: #000000;
 }
 
@@ -426,27 +426,27 @@ span.credits a.card-link {
 *
 **/
 
-#carousel .spotlightWrapper .spotlight.spotlightPaletteBlackWhiteYellow  {
+.spotlightWrapper .spotlight.spotlightPaletteBlackWhiteYellow  {
     background-color: #000000;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightCopy h3 {
+.spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightCopy h3 {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightCopyBody {
+.spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightCopyBody {
     color: #FDB913;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightBioLink {
+.spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightBioLink {
     color: #ffffff;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightBioLink:hover {
+.spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightBioLink:hover {
     color: #FDB913;
 }
 
-#carousel .spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightBioLink:active {
+.spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightBioLink:active {
     color: #FDB913;
 }
 
