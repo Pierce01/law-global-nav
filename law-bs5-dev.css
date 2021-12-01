@@ -211,6 +211,14 @@ span.credits a.card-link {
     padding: 0 1rem 0 0;
 }
 
+/* .spotlightWrapper.announcement img.card-img-top {
+    padding: 2rem 2rem 0 2rem;
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+} */
+
 
 
 @media screen and (max-width: 992.99px) {
