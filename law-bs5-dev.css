@@ -465,6 +465,14 @@ span.credits a.card-link {
     color: #000000;
 }
 
+.spotlightWrapper .spotlightPaletteYellowRedBlackNavy a .spotlightSource:active {
+    color: #000000;
+}
+
+.spotlightWrapper .spotlightPaletteYellowRedBlackNavy a .spotlightAffiliation:hover {
+    color: #000000;
+}
+
 .spotlightWrapper .spotlightPaletteYellowRedBlackNavy a .spotlightAffiliation:active {
     color: #000000;
 }
@@ -514,9 +522,18 @@ span.credits a.card-link {
     color: #000000;
 }
 
+.spotlightWrapper .spotlightPaletteWhiteRedBlackBlue a .spotlightSource:active {
+    color: #000000;
+}
+
+.spotlightWrapper .spotlightPaletteWhiteRedBlackBlue a .spotlightAffiliation:hover {
+    color: #000000;
+}
+
 .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue a .spotlightAffiliation:active {
     color: #000000;
 }
+
 
 
 
@@ -561,6 +578,14 @@ span.credits a.card-link {
 }
 
 .spotlightWrapper .spotlightPaletteBlackWhiteYellow a .spotlightSource:hover {
+    color: #FDB913;
+}
+
+.spotlightWrapper .spotlightPaletteBlackWhiteYellow a .spotlightSource:active {
+    color: #FDB913;
+}
+
+.spotlightWrapper .spotlightPaletteBlackWhiteYellow a .spotlightAffiliation:hover {
     color: #FDB913;
 }
 
@@ -613,9 +638,18 @@ span.credits a.card-link {
     color: #55B31B;
 }
 
+.spotlightWrapper .spotlightPaletteBlackWhiteGreen a .spotlightSource:active {
+    color: #55B31B;
+}
+
+.spotlightWrapper .spotlightPaletteBlackWhiteGreen a .spotlightAffiliation:hover {
+    color: #55B31B;
+}
+
 .spotlightWrapper .spotlightPaletteBlackWhiteGreen a .spotlightAffiliation:active {
     color: #55B31B;
 }
+
 
 
 
