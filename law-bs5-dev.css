@@ -576,6 +576,13 @@ span.credits a.card-link {
     }
 } */
 
+@media screen and (max-width: 1199.999px) {
+
+    #MainZone .spotlightWrapper.contentItem:first-of-type, #SidebarZone .spotlightWrapper.contentItem:first-of-type {
+        margin: 0;
+    }    
+}
+
 
 /*********************
 *
