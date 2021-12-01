@@ -263,6 +263,14 @@ span.credits a.card-link {
     color: #ffffff;
 }
 
+.spotlightWrapper a .spotlightSource:hover {
+    color: #000000;
+}
+
+.spotlightWrapper a .spotlightAffiliation:active {
+    color: #000000;
+}
+
 
 /*********************
 *
@@ -302,6 +310,14 @@ span.credits a.card-link {
 
 .spotlightWrapper .spotlightPaletteLightBlue .spotlightAffiliation {
     color: #ffffff;
+}
+
+.spotlightWrapper .spotlightPaletteLightBlue a .spotlightSource:hover {
+    color: #000000;
+}
+
+.spotlightWrapper .spotlightPaletteLightBlue a .spotlightAffiliation:active {
+    color: #000000;
 }
 
 
@@ -344,6 +360,14 @@ span.credits a.card-link {
 
 .spotlightWrapper .spotlightPaletteRedWhite .spotlightAffiliation {
     color: #ffffff;
+}
+
+.spotlightWrapper .spotlightPaletteRedWhite a .spotlightSource:hover {
+    color: #000000;
+}
+
+.spotlightWrapper .spotlightPaletteRedWhite a .spotlightAffiliation:active {
+    color: #000000;
 }
 
 
