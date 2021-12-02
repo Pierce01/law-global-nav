@@ -9036,12 +9036,11 @@ li.nav-item a.nav-link .icon:hover {
     background-color: #333333;
 } */
 
-.spotlightImage {
+
+/* .spotlightImage {
     align-items: center;
-    /* background: linear-gradient(to right, rgba(247, 247, 247, 0) 57.5%, rgba(247, 247, 247, 1) 57.51%);*/
     display: flex;
     justify-content: center;
-    /* padding-left: 15%;*/
 }
 
 .spotlightImage img {
@@ -9050,7 +9049,7 @@ li.nav-item a.nav-link .icon:hover {
     margin: 30px auto;
     max-width: 300px;
     position: relative;
-}
+} */
 
 .spotlightAccentColorRed .spotlightImage img {
     border-right: 10px solid #aa0000;
