@@ -8195,7 +8195,7 @@ li.nav-item a.nav-link .icon:hover {
 .spotlightWrapper .spotlightCopyBody {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: 3rem;
 }
@@ -8220,6 +8220,7 @@ li.nav-item a.nav-link .icon:hover {
     height: auto;
     max-height: 300px;
     max-width: fit-content;
+    padding: 2rem;
     position: relative;
     width: 100%;
     width: -moz-available;
