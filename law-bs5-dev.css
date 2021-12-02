@@ -202,6 +202,10 @@ span.credits a.card-link {
     text-transform: uppercase;
 }
 
+.spotlightWrapper .spotlightCopy {
+    padding: 3rem;
+}
+
 .spotlightWrapper .spotlightCopyBody {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
