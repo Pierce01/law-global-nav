@@ -9224,7 +9224,8 @@ li.nav-item a.nav-link .icon:hover {
     background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4wLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSLzIwMDEvUkVDLVNWRy0yMDAxMDkwNC9EVEQvc3ZnMTAuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4wIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSI0MS43NDJweCIgaGVpZ2h0PSIyNy44MjhweCIgdmlld0JveD0iLTAuMjkzIDAgNDEuNzQyIDI3LjgyOCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAtMC4yOTMgMCA0MS43NDIgMjcuODI4Ig0KCSB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMzMzMyIgc3Ryb2tlLXdpZHRoPSI0IiBkPSJNMjYuMTIxLDEuNDE0bDEyLjUsMTIuNWwtMTIuNSwxMi41Ii8+DQo8cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMzMzMzMzMiIHN0cm9rZS13aWR0aD0iNCIgZD0iTTEzLjYyMSwxLjQxNGwxMi41LDEyLjVsLTEyLjUsMTIuNSIvPg0KPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjQiIGQ9Ik0xLjEyMSwxLjQxNGwxMi41LDEyLjVsLTEyLjUsMTIuNSIvPg0KPC9zdmc+DQo=");
 } */
 
-.spotlightCopy {
+
+/* .spotlightCopy {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9252,14 +9253,11 @@ li.nav-item a.nav-link .icon:hover {
 
 .spotlightWrapper .spotlightSource {
     border-left: 3px solid transparent;
-    /*Default*/
-    /* font-size: 1.4em; */
     font-weight: bold;
     padding: 3px 3px 3px 2px;
-}
+} */
 
 @media screen and (max-width: 991.999px) {
-    /* xs + sm */
     .spotlightWrapper .spotlightSource {
         border-left: none;
     }
