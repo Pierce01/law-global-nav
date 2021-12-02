@@ -194,41 +194,6 @@ span.credits a.card-link {
 *
 **/
 
-.spotlightWrapper h3 {
-    font-family: "Oswald", sans-serif;
-    font-size: 2rem;
-    margin-top: 0;
-    margin-bottom: 3rem;
-    text-transform: uppercase;
-}
-
-.spotlightWrapper .spotlightCopy {
-    padding: 3rem;
-}
-
-.spotlightWrapper .spotlightCopyBody {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    margin-bottom: 3rem;
-}
-
-.spotlightWrapper .spotlightSource {
-    font-weight: bold;
-}
-
-.spotlightWrapper .spotlightCopyCitation {
-    font-size: 1rem;
-}
-
-@media screen and (max-width: 1199.999px) {
-    #MainZone .spotlightWrapper.contentItem:first-of-type,
-    #SidebarZone .spotlightWrapper.contentItem:first-of-type {
-        margin: 0;
-    }
-}
-
 
 /* .spotlightWrapper p.spotlightCopyBody {
     font-size: 1.5rem;
