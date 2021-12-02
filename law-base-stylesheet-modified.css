@@ -9257,7 +9257,8 @@ li.nav-item a.nav-link .icon:hover {
     padding: 3px 3px 3px 2px;
 } */
 
-@media screen and (max-width: 991.999px) {
+
+/* @media screen and (max-width: 991.999px) {
     .spotlightWrapper .spotlightSource {
         border-left: none;
     }
@@ -9305,7 +9306,7 @@ li.nav-item a.nav-link .icon:hover {
 
 .spotlightAccentColorWhite .spotlightSource {
     border-left: 3px solid #f7f7f7;
-}
+} */
 
 
 /* .spotlightWrapper .spotlightAffiliation {
