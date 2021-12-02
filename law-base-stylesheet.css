@@ -8186,6 +8186,9 @@ li.nav-item a.nav-link .icon:hover {
 }
 
 .spotlightWrapper .spotlightCopy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 3rem;
 }
 
