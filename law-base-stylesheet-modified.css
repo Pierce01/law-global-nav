@@ -9107,7 +9107,8 @@ li.nav-item a.nav-link .icon:hover {
     border-bottom: 10px solid #333333;
 } */
 
-.spotlightArrow {
+
+/* .spotlightArrow {
     position: absolute;
     width: 15%;
     border-top: 4px solid #ffffff;
@@ -9116,7 +9117,6 @@ li.nav-item a.nav-link .icon:hover {
 }
 
 @media screen and (max-width: 991.999px) {
-    /* xs + sm */
     .spotlightArrow {
         display: none;
     }
@@ -9133,7 +9133,7 @@ li.nav-item a.nav-link .icon:hover {
     content: "\00a0 ";
     position: absolute;
     top: -15px;
-}
+} */
 
 .spotlightAccentColorRed .spotlightArrow {
     border-top: 4px solid #aa0000;
