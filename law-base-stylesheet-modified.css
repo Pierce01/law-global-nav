@@ -9316,7 +9316,8 @@ li.nav-item a.nav-link .icon:hover {
 
 /*Medium Displays*/
 
-@media screen and (max-width: 993px) {
+
+/* @media screen and (max-width: 993px) {
     .spotlightImage img {
         left: 0;
     }
@@ -9324,13 +9325,13 @@ li.nav-item a.nav-link .icon:hover {
         padding: 0px 10px;
         text-align: left;
     }
-}
+} */
 
 
 /*Extra Small Displays*/
 
-@media screen and (max-width: 766.999px) {
-    /* xs */
+
+/* @media screen and (max-width: 766.999px) {
     .spotlight {
         display: inline-block;
     }
@@ -9351,31 +9352,34 @@ li.nav-item a.nav-link .icon:hover {
         display: block;
         text-align: center;
     }
-}
+} */
 
 
 /* Small Displays */
 
-@media (min-width: 768px) and (max-width: 992.999px) {
+
+/* @media (min-width: 768px) and (max-width: 992.999px) {
     .spotlightCopy {
         padding: 46px 10px;
     }
-}
+} */
 
 
 /* temporary */
 
-.spotlightWrapper.standardContent {
+
+/* .spotlightWrapper.standardContent {
     max-width: 1400px;
-}
+} */
 
 
 /* Overwrites 2288710 */
 
-.law-detailPage-809077 .standardContent .spotlightCopy p {
+
+/* .law-detailPage-809077 .standardContent .spotlightCopy p {
     font-size: 1.2rem !important;
     line-height: 1.5 !important;
-}
+} */
 
 
 /* ========================================================================================== 
