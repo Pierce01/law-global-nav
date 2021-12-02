@@ -8167,17 +8167,43 @@ li.nav-item a.nav-link .icon:hover {
 }
 
 
-/* ==========================================================================================
-   ===== Spotlight ===== Content Type #5201 ================================================== 
-   ==========================================================================================
-   Photo with quote on color or image background.
+/* ============================================================================
+   ===== Law - Spotlight ===== Content Type #5201 =============================
+
+   ===== Law - Carousel Spotlight ===== Content Type #5607 ====================
+   ============================================================================
+   Photo with quote on color background. Carousel version requires
+   Law - Carousel while Base version is standalone Mainzone only
    
 */
 
+.spotlightWrapper h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
 
-/* .spotlightWrapper.carousel-item .spotlight {
-    display: inline-block;
-} */
+.spotlightWrapper .spotlightCopy {
+    padding: 3rem;
+}
+
+.spotlightWrapper .spotlightCopyBody {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.spotlightWrapper .spotlightSource {
+    font-weight: bold;
+}
+
+.spotlightWrapper .spotlightCopyCitation {
+    font-size: 1rem;
+}
 
 .spotlightWrapper .spotlightImage img {
     width: 100%;
@@ -8194,6 +8220,13 @@ li.nav-item a.nav-link .icon:hover {
     position: relative;
 }
 
+@media screen and (max-width: 1199.999px) {
+    #MainZone .spotlightWrapper.contentItem:first-of-type,
+    #SidebarZone .spotlightWrapper.contentItem:first-of-type {
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 991.99px) {
     .spotlightWrapper .spotlight {
         display: block;
@@ -8206,19 +8239,6 @@ li.nav-item a.nav-link .icon:hover {
         min-height: 400px;
     }
 }
-
-
-/* .spotlightImage {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-} */
-
-
-/* .spotlightWrapper {
-    background-color: #ffffff;
-    overflow: hidden;
-} */
 
 
 /* ========================================================================================== 
