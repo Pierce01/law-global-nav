@@ -5648,6 +5648,7 @@ nav#breadcrumbs.facultyProfileBreadcrumbs {
      Last revised 20211129 vic 
   */
 
+
 /* .featuredCuratedEventsWrapper {
     background: linear-gradient(rgba(8, 128, 153, 0.8), rgba(8, 128, 153, 0.8)), url(../assets/cityinred19.jpg);
     background-position: center;
@@ -5734,6 +5735,7 @@ nav#breadcrumbs.facultyProfileBreadcrumbs {
     position: relative;
     height: 200px;
 } */
+
 
 /* .featuredCuratedEventsWrapper li.featuredCuratedEventItem:before {
     display: none;
@@ -7047,6 +7049,7 @@ input[type="file"]:focus {
      Updated to Bootstrap 5 -  20210413 vic
   */
 
+
 /* .panelWrapper.contentItem.g-0:first-of-type {
     margin: 0;
 }
@@ -7076,6 +7079,7 @@ input[type="file"]:focus {
 
 /* ***  XX Large max Defaults   *** */
 
+
 /* @media screen and (max-width: 1399.99px) {
     .panelWrapper .panelText.card-text h2 {
         font-size: 2rem;
@@ -7091,6 +7095,7 @@ input[type="file"]:focus {
 
 
 /* ***  X Large max Defaults   *** */
+
 
 /* @media screen and (max-width: 1199.99px) {
     .panelWrapper .panelText.card-text h2 {
@@ -7111,6 +7116,7 @@ input[type="file"]:focus {
 
 
 /* ***  Large max Defaults   *** */
+
 
 /* @media screen and (max-width: 991.99px) {
     .panelWrapper .card-img-overlay {
@@ -7136,6 +7142,7 @@ input[type="file"]:focus {
 
 /* ***  Small max Defaults   *** */
 
+
 /* @media screen and (max-width: 767.99px) {
     .panelWrapper .panelText.card-text {
         padding: 1rem;
@@ -7150,6 +7157,8 @@ input[type="file"]:focus {
 
 
 /* ***  X Small max Defaults   *** */
+
+
 /* 
 @media only screen and (max-width: 575.99px) {
     .panelWrapper .panelText.card-text {
@@ -7167,6 +7176,7 @@ input[type="file"]:focus {
   *   bootstrap 3 stylesheet defaults
   *
   */
+
 
 /* .panelWrapper {
     padding-top: inherit;
@@ -7191,6 +7201,7 @@ input[type="file"]:focus {
 
 /*1px gap fix*/
 
+
 /* @media (min-width: 766px) and (max-width: 768px) {
     .panelWrapper .clearfix {
         display: block !important;
@@ -7199,6 +7210,7 @@ input[type="file"]:focus {
 
 
 /*only way to get mobile to not take up space set in html tag*/
+
 
 /* @media (max-width: 991.999px) {
     .panelWrapper .panelFlexContainer {
@@ -7307,9 +7319,11 @@ input[type="file"]:focus {
 
 /* hack to hide banner in IE/Edge */
 
+
 /* .flexboxtweener .panelWrapper .panelInner {
     border: 0;
 } */
+
 
 /* @media (min-width: 991px) {
     .panelWrapper .topRightPanel,
@@ -7437,6 +7451,7 @@ input[type="file"]:focus {
 
 /* xs */
 
+
 /* @media screen and (max-width: 767.999px) {
     .panelText h2 {
         margin: 15px 0 15px 0;
@@ -7483,6 +7498,7 @@ input[type="file"]:focus {
 
 
 /* xs */
+
 
 /* @media screen and (max-width: 767.999px) {
     .panelInner .panelLinks {
@@ -8939,13 +8955,13 @@ li.nav-item a.nav-link .icon:hover {
      
   */
 
-.spotlightWrapper {
+
+/* .spotlightWrapper {
     background-color: #ffffff;
     overflow: hidden;
 }
 
 @media screen and (min-width: 992px) {
-    /* md + lg*/
     .spotlight {
         display: flex;
         min-height: 400px;
@@ -8973,9 +8989,10 @@ li.nav-item a.nav-link .icon:hover {
 .spotlightImageFilter:active {
     -webkit-filter: brightness(0.8);
     filter: brightness(0.8);
-}
+} */
 
-.spotlightBackgroundColorRed {
+
+/* .spotlightBackgroundColorRed {
     background-color: #aa0000;
 }
 
@@ -9017,7 +9034,7 @@ li.nav-item a.nav-link .icon:hover {
 
 .spotlightBackgroundColorBlack {
     background-color: #333333;
-}
+} */
 
 .spotlightImage {
     align-items: center;
@@ -9290,6 +9307,7 @@ li.nav-item a.nav-link .icon:hover {
 .spotlightAccentColorWhite .spotlightSource {
     border-left: 3px solid #f7f7f7;
 }
+
 
 /* .spotlightWrapper .spotlightAffiliation {
     font-size: 1.4em;
