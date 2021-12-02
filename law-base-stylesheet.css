@@ -8215,12 +8215,20 @@ li.nav-item a.nav-link .icon:hover {
     border: 10px solid transparent;
     border-radius: 50%;
     height: auto;
+    max-height: 300px;
     position: relative;
     width: 100%;
     width: -moz-available;
     width: -webkit-fill-available;
     width: fill-available;
 }
+
+
+/* .spotlightImage img {
+    height: auto;
+    max-height: 300px;
+    width: 100%;
+} */
 
 
 /* .spotlightImage img {
