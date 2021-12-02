@@ -9051,7 +9051,8 @@ li.nav-item a.nav-link .icon:hover {
     position: relative;
 } */
 
-.spotlightAccentColorRed .spotlightImage img {
+
+/* .spotlightAccentColorRed .spotlightImage img {
     border-right: 10px solid #aa0000;
     border-bottom: 10px solid #aa0000;
 }
@@ -9104,7 +9105,7 @@ li.nav-item a.nav-link .icon:hover {
 .spotlightAccentColorBlack .spotlightImage img {
     border-right: 10px solid #333333;
     border-bottom: 10px solid #333333;
-}
+} */
 
 .spotlightArrow {
     position: absolute;
