@@ -8228,20 +8228,6 @@ li.nav-item a.nav-link .icon:hover {
     width: fill-available;
 }
 
-
-/* .spotlightImage img {
-    height: auto;
-    max-height: 300px;
-    width: 100%;
-} */
-
-
-/* .spotlightImage img {
-    border: 10px solid transparent;
-    border-radius: 50%;
-    position: relative;
-} */
-
 @media screen and (max-width: 1199.999px) {
     #MainZone .spotlightWrapper.contentItem:first-of-type,
     #SidebarZone .spotlightWrapper.contentItem:first-of-type {
