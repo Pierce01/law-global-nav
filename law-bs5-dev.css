@@ -190,30 +190,6 @@ span.credits a.card-link {
 /*********************
 *
 *   Spotlight
-*   defaults
-*
-**/
-
-
-/* .spotlightWrapper p.spotlightCopyBody {
-    font-size: 1.5rem;
-    margin: 0;
-    padding: 0 0 3rem 0;
-} */
-
-
-/* @media screen and (max-width: 992.99px) {
-
-    .spotlightWrapper .spotlightCopy {
-        margin: 1rem 1rem 0 1rem;
-        padding: 1rem;
-    }
-} */
-
-
-/*********************
-*
-*   Spotlight
 *   Palettes
 *
 **/
@@ -241,32 +217,6 @@ span.credits a.card-link {
 .spotlightWrapper .spotlightBioLink:active {
     color: #000000;
 }
-
-
-/* .spotlightWrapper .spotlightSource {
-    color: #ffffff;
-}
-
-.spotlightWrapper .spotlightAffiliation {
-    color: #ffffff;
-} */
-
-
-/* .spotlightWrapper a .spotlightSource:hover {
-    color: #000000;
-}
-
-.spotlightWrapper a .spotlightSource:active {
-    color: #000000;
-}
-
-.spotlightWrapper a .spotlightAffiliation:hover {
-    color: #000000;
-}
-
-.spotlightWrapper a .spotlightAffiliation:active {
-    color: #000000;
-} */
 
 
 /*********************
@@ -302,31 +252,6 @@ span.credits a.card-link {
 }
 
 
-/* .spotlightWrapper .spotlightPaletteLightBlue .spotlightSource {
-    color: #ffffff;
-}
-
-.spotlightWrapper .spotlightPaletteLightBlue .spotlightAffiliation {
-    color: #ffffff;
-}
-
-.spotlightWrapper .spotlightPaletteLightBlue a .spotlightSource:hover {
-    color: #000000;
-}
-
-.spotlightWrapper .spotlightPaletteLightBlue a .spotlightSource:active {
-    color: #000000;
-}
-
-.spotlightWrapper .spotlightPaletteLightBlue a .spotlightAffiliation:hover {
-    color: #000000;
-}
-
-.spotlightWrapper .spotlightPaletteLightBlue a .spotlightAffiliation:active {
-    color: #000000;
-} */
-
-
 /*********************
 *
 *   Spotlight
@@ -358,31 +283,6 @@ span.credits a.card-link {
 .spotlightWrapper .spotlightPaletteRedWhite .spotlightBioLink:active {
     color: #000000;
 }
-
-
-/* .spotlightWrapper .spotlightPaletteRedWhite .spotlightSource {
-    color: #ffffff;
-}
-
-.spotlightWrapper .spotlightPaletteRedWhite .spotlightAffiliation {
-    color: #ffffff;
-}
-
-.spotlightWrapper .spotlightPaletteRedWhite a .spotlightSource:hover {
-    color: #000000;
-}
-
-.spotlightWrapper .spotlightPaletteRedWhite a .spotlightSource:active {
-    color: #000000;
-}
-
-.spotlightWrapper .spotlightPaletteRedWhite a .spotlightAffiliation:hover {
-    color: #000000;
-}
-
-.spotlightWrapper .spotlightPaletteRedWhite a .spotlightAffiliation:active {
-    color: #000000;
-} */
 
 
 /*********************
@@ -418,31 +318,6 @@ span.credits a.card-link {
 }
 
 
-/* .spotlightWrapper .spotlightPaletteNavyWhite .spotlightSource {
-    color: #ffffff;
-}
-
-.spotlightWrapper .spotlightPaletteNavyWhite .spotlightAffiliation {
-    color: #ffffff;
-}
-
-.spotlightWrapper .spotlightPaletteNavyWhite a .spotlightSource:hover {
-    color: #FDB913;
-}
-
-.spotlightWrapper .spotlightPaletteNavyWhite a .spotlightSource:active {
-    color: #FDB913;
-}
-
-.spotlightWrapper .spotlightPaletteNavyWhite a .spotlightAffiliation:hover {
-    color: #FDB913;
-}
-
-.spotlightWrapper .spotlightPaletteNavyWhite a .spotlightAffiliation:active {
-    color: #FDB913;
-} */
-
-
 /*********************
 *
 *   Spotlight
@@ -474,31 +349,6 @@ span.credits a.card-link {
 .spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightBioLink:active {
     color: #000000;
 }
-
-
-/* .spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightSource {
-    color: #003282;
-}
-
-.spotlightWrapper .spotlightPaletteYellowRedBlackNavy .spotlightAffiliation {
-    color: #003282;
-}
-
-.spotlightWrapper .spotlightPaletteYellowRedBlackNavy a .spotlightSource:hover {
-    color: #000000;
-}
-
-.spotlightWrapper .spotlightPaletteYellowRedBlackNavy a .spotlightSource:active {
-    color: #000000;
-}
-
-.spotlightWrapper .spotlightPaletteYellowRedBlackNavy a .spotlightAffiliation:hover {
-    color: #000000;
-}
-
-.spotlightWrapper .spotlightPaletteYellowRedBlackNavy a .spotlightAffiliation:active {
-    color: #000000;
-} */
 
 
 /*********************
@@ -534,31 +384,6 @@ span.credits a.card-link {
 }
 
 
-/* .spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightSource {
-    color: #088099;
-}
-
-.spotlightWrapper .spotlightPaletteWhiteRedBlackBlue .spotlightAffiliation {
-    color: #088099;
-}
-
-.spotlightWrapper .spotlightPaletteWhiteRedBlackBlue a .spotlightSource:hover {
-    color: #000000;
-}
-
-.spotlightWrapper .spotlightPaletteWhiteRedBlackBlue a .spotlightSource:active {
-    color: #000000;
-}
-
-.spotlightWrapper .spotlightPaletteWhiteRedBlackBlue a .spotlightAffiliation:hover {
-    color: #000000;
-}
-
-.spotlightWrapper .spotlightPaletteWhiteRedBlackBlue a .spotlightAffiliation:active {
-    color: #000000;
-} */
-
-
 /*********************
 *
 *   Spotlight
@@ -592,31 +417,6 @@ span.credits a.card-link {
 }
 
 
-/* .spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightSource {
-    color: #ffffff;
-}
-
-.spotlightWrapper .spotlightPaletteBlackWhiteYellow .spotlightAffiliation {
-    color: #ffffff;
-}
-
-.spotlightWrapper .spotlightPaletteBlackWhiteYellow a .spotlightSource:hover {
-    color: #FDB913;
-}
-
-.spotlightWrapper .spotlightPaletteBlackWhiteYellow a .spotlightSource:active {
-    color: #FDB913;
-}
-
-.spotlightWrapper .spotlightPaletteBlackWhiteYellow a .spotlightAffiliation:hover {
-    color: #FDB913;
-}
-
-.spotlightWrapper .spotlightPaletteBlackWhiteYellow a .spotlightAffiliation:active {
-    color: #FDB913;
-} */
-
-
 /*********************
 *
 *   Spotlight
@@ -648,53 +448,6 @@ span.credits a.card-link {
 .spotlightWrapper .spotlightPaletteBlackWhiteGreen .spotlightBioLink:active {
     color: #55B31B;
 }
-
-
-/* .spotlightWrapper .spotlightPaletteBlackWhiteGreen .spotlightSource {
-    color: #ffffff;
-}
-
-.spotlightWrapper .spotlightPaletteBlackWhiteGreen .spotlightAffiliation {
-    color: #ffffff;
-}
-
-.spotlightWrapper .spotlightPaletteBlackWhiteGreen a .spotlightSource:hover {
-    color: #55B31B;
-}
-
-.spotlightWrapper .spotlightPaletteBlackWhiteGreen a .spotlightSource:active {
-    color: #55B31B;
-}
-
-.spotlightWrapper .spotlightPaletteBlackWhiteGreen a .spotlightAffiliation:hover {
-    color: #55B31B;
-}
-
-.spotlightWrapper .spotlightPaletteBlackWhiteGreen a .spotlightAffiliation:active {
-    color: #55B31B;
-} */
-
-
-/* ***  Medium min Defaults   *** */
-
-
-/* @media screen and (min-width: 768px) {
-
-    .law-detailPage-809077 .standardContent .spotlightCopy p {
-        font-size: 1.5rem;
-        line-height: 1.5;
-    }
-} */
-
-
-/* Small devices (landscape phones, 576px and up) */
-
-
-/* @media screen and (max-width: 767.99px) {
-    .spotlightWrapper.standardContent {
-        padding: 15px;
-    }
-} */
 
 
 /*********************
