@@ -7021,6 +7021,9 @@ table.gsc-search-box td {
     font-size: 50px;
 }
 
+.iconInfographic .infographicItemIcon .fa-user-lock {
+    font-size: 40px;
+}
 
 /*Homepage Infographic custom CSS, potential for reuse */
 
