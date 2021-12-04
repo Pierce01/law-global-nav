@@ -6663,7 +6663,6 @@ table.gsc-search-box td {
 .infographicItemNumber {
     color: #aa0000;
     display: block;
-    xfont-family: 'Roboto Slab', serif;
     font-family: 'Montserrat', serif;
     font-size: 5.2rem;
     font-weight: bold;
@@ -6678,7 +6677,6 @@ table.gsc-search-box td {
     color: #ffffff;
     display: inline-block;
     font-size: 52px;
-    /* not rem because its a graphic element*/
     height: 80px;
     line-height: 100%;
     margin: 10px 0;
@@ -6692,10 +6690,18 @@ table.gsc-search-box td {
     display: block;
 }
 
-.infographicSummary {}
+.iconInfographic .infographicTitle {
+    background-color: #f7f7f7;
+}
 
-.infographicSummary p {
-    padding: 10px;
+.iconInfographic .infographicSummary {
+    background-color: #f7f7f7;
+}
+
+
+.iconInfographic .infographicSummary p {
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 
