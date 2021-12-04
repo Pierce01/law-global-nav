@@ -6,6 +6,13 @@
 **/
 
 
+/*** Law - Video Development ID: 5609  ***/
+.developmentVideo iframe {
+    width: 100vw;
+    height: calc(100vw/1);
+}
+
+
 /*********************
 *
 *   Calendar
