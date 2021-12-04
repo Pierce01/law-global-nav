@@ -6978,6 +6978,11 @@ table.gsc-search-box td {
     color: #333333;
 }
 
+.iconInfographic .infographic .colorWhite {
+    background-color: #fff;
+    color: #333333;
+}
+
 .infographic .colorWhite .infographicItemNumber,
 .infographic .colorWhite .infographicItemHeader {
     color: #aa0000;
