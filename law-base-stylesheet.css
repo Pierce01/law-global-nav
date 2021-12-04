@@ -6637,8 +6637,6 @@ table.gsc-search-box td {
     text-align: center;
 }
 
-.infographicTitle h2 {}
-
 .infographicItem {
     padding: 15px;
 }
@@ -7017,6 +7015,10 @@ table.gsc-search-box td {
 
 .infographicItemIcon .fa-trophy {
     font-size: 70px;
+}
+
+.iconInfographic .infographicItemIcon .fa-troph {
+    font-size: 60px;
 }
 
 
