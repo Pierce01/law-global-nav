@@ -8640,6 +8640,44 @@ li.nav-item a.nav-link .icon:hover {
    Created by vic 20211204
 */
 
+.autoplay iframe {
+    width: 100vw;
+    height: calc(100vw/1.9);
+}
+
+.autoplay .card-img-overlay h2 {
+    font-weight: 500;
+}
+
+.autoplay .card-img-overlay p {
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 991.99px) {
+
+    .autoplay .card-img-overlay {
+        padding: 0;
+        position: unset;
+    }
+
+    .autoplay .card-img-overlay .card-header {
+        margin: 0!important;
+        padding: 0!important;
+    }
+
+    .autoplay .card-img-overlay .container {
+        margin-top: 0!important;
+        padding-top: 0!important;
+    }
+
+    .autoplay .card-img-overlay .card-body .text-white {
+        color: #000000!important;
+    }
+}
+
+
+
 
 /* ========================================================================================== 
    ===== Video  ===== Content Type #5189 ============================================ 
