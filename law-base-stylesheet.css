@@ -6176,7 +6176,9 @@ table.gsc-search-box td {
 /* ***  Large max Defaults   *** */
 
 @media screen and (max-width: 991.99px) {
+
     .panelWrapper .card-img-overlay {
+        padding: 0;
         position: unset;
     }
     .panelWrapper .panelText.card-text h2 {
@@ -6219,7 +6221,7 @@ table.gsc-search-box td {
         padding: 0;
     }
     .panelWrapper .card-block .panelText.card-text {
-        padding: 1rem;
+        padding: 0;
     }
 }
 
