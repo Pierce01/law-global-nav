@@ -8645,6 +8645,11 @@ li.nav-item a.nav-link .icon:hover {
     height: calc(100vw/1.9);
 }
 
+.detailPage .autoplay iframe {
+    width: 100%;
+    height: calc(100vw/4.15);
+}
+
 .autoplay .card-img-overlay h2 {
     font-weight: 500;
 }
