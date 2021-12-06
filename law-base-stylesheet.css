@@ -8640,11 +8640,11 @@ li.nav-item a.nav-link .icon:hover {
    Created by vic 20211204
 */
 
-.videopage #BannerZone .row {
+.videopage #BannerZone.row {
     margin: 0;
 }
 
-.videopage #BannerZone .row .imageBannerWrapper {
+.videopage #BannerZone.row .imageBannerWrapper {
     padding: 0;
 }
 
