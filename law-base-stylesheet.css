@@ -8700,6 +8700,10 @@ li.nav-item a.nav-link .icon:hover {
         z-index: 0;
     }
 
+    .bannerVideo.ytv.autoplay iframe {
+        width: inherit;
+    }
+
     .autoplay.contentItem:first-of-type {
         margin-bottom: 0;
         top: 0;
