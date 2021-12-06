@@ -8640,6 +8640,14 @@ li.nav-item a.nav-link .icon:hover {
    Created by vic 20211204
 */
 
+.videopage #BannerZone .row {
+    margin: 0;
+}
+
+.videopage #BannerZone .row .imageBannerWrapper {
+    padding: 0;
+}
+
 .bannerVideo.ytv.autoplay {
     margin: -4rem 0 -8rem 0;
     z-index: -1;
