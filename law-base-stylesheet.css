@@ -8665,6 +8665,11 @@ li.nav-item a.nav-link .icon:hover {
         margin-bottom: -8rem;
         top: -5.5%;
     }
+
+    .autoplay.contentItem:first-of-type {
+        margin-bottom: -8rem!important;
+        top: -5.5%;
+    }
 }
 
 
