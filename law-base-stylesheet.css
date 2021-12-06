@@ -8640,6 +8640,10 @@ li.nav-item a.nav-link .icon:hover {
    Created by vic 20211204
 */
 
+body.videopage {
+    min-width: auto;
+}
+
 .videopage #BannerZone.row {
     margin: 0;
 }
@@ -8654,7 +8658,7 @@ li.nav-item a.nav-link .icon:hover {
 }
 
 .autoplay iframe {
-    width: 100vw;
+    width: 100%;
     height: calc(100vw/1.9);
 }
 
