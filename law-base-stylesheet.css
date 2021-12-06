@@ -8640,9 +8640,8 @@ li.nav-item a.nav-link .icon:hover {
    Created by vic 20211204
 */
 
-.bannerVideo.autoplay {
-    margin-bottom: -8rem;
-    top: -4%;
+.bannerVideo.ytv.autoplay {
+    margin: -4rem 0 -8rem 0;
     z-index: -1;
 }
 
@@ -8661,7 +8660,7 @@ li.nav-item a.nav-link .icon:hover {
 
 @media screen and (max-width: 1399.999px) {
 
-    .bannerVideo.autoplay {
+    .bannerVideo.ytv.autoplay {
         top: -5.25%;
     }
 }
@@ -8669,7 +8668,7 @@ li.nav-item a.nav-link .icon:hover {
 
 @media screen and (max-width: 1199.999px) {
 
-    .bannerVideo.autoplay {
+    .bannerVideo.ytv.autoplay {
         margin-bottom: 0 0 -8rem 0;
         top: -5.5%;
     }
@@ -8687,7 +8686,7 @@ li.nav-item a.nav-link .icon:hover {
 
 @media screen and (max-width: 991.99px) {
 
-    .bannerVideo.autoplay {
+    .bannerVideo.ytv.autoplay {
         margin-bottom: 0;
         top: 0;
         z-index: 0;
