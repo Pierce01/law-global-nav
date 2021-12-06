@@ -8662,13 +8662,18 @@ li.nav-item a.nav-link .icon:hover {
 @media screen and (max-width: 1199.999px) {
 
     .autoplay {
-        margin-bottom: -8rem;
+        margin-bottom: 0 0 -8rem 0;
         top: -5.5%;
     }
 
     .autoplay.contentItem:first-of-type {
-        margin-bottom: -8rem!important;
+        margin: 0 0 -8rem 0!important;
         top: -5.5%;
+    }
+
+    .autoplay .card-img-overlay .card-header {
+        margin-top: 2rem!important;
+        padding: 0!important;
     }
 }
 
@@ -8676,6 +8681,13 @@ li.nav-item a.nav-link .icon:hover {
 @media screen and (max-width: 991.99px) {
 
     .autoplay {
+        margin-bottom: 0;
+        top: 0;
+        z-index: 0;
+    }
+
+    .autoplay.contentItem:first-of-type {
+        margin-bottom: 0;
         top: 0;
         z-index: 0;
     }
