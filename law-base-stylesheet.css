@@ -8703,11 +8703,11 @@ body.videopage {
     }
 
     .bannerVideo.ytv.autoplay .card-img-overlay .card-header .fs-1 {
-        font-size: unset!important;
+        font-size: 30px!important;
     }
 
     .bannerVideo.ytv.autoplay .card-img-overlay .card-text.fs-3 {
-        font-size: unset!important;
+        font-size: 20px!important;
     }
 
 }
