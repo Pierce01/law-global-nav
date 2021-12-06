@@ -8659,6 +8659,14 @@ li.nav-item a.nav-link .icon:hover {
     font-weight: 500;
 }
 
+@media screen and (max-width: 1399.999px) {
+
+    .autoplay {
+        top: -5.25%;
+    }
+}
+
+
 @media screen and (max-width: 1199.999px) {
 
     .autoplay {
