@@ -8641,10 +8641,9 @@ body.videopage {
     min-width: auto;
 }
 
-
-/* .videopage #BannerZone.row {
+.videopage #BannerZone.row {
     margin: 0;
-} */
+}
 
 .videopage #BannerZone.row .imageBannerWrapper {
     padding: 0;
@@ -8690,6 +8689,12 @@ body.videopage {
     .autoplay .card-img-overlay .card-header {
         margin-top: 2rem!important;
         padding: 0!important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .bannerVideo.vbv.autoplay {
+        margin-top: -1rem;
     }
 }
 
