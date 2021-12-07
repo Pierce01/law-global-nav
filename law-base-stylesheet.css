@@ -8730,6 +8730,7 @@ body.videopage {
 }
 
 .bannerVideo.vbv.autoplay {
+    margin-top: -1rem;
     margin-bottom: -5rem;
     z-index: -1;
 }
@@ -8767,11 +8768,11 @@ body.videopage {
     }
 }
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     .bannerVideo.vbv.autoplay {
         margin-top: -1rem;
     }
-}
+} */
 
 @media screen and (min-width: 992px) and (max-width: 1199.999px) {
     .bannerVideo.vbv.autoplay .mt-5 {
