@@ -8776,10 +8776,18 @@ body.videopage {
 }
 
 
-@media screen and (max-width: 575.99px) {
+@media screen and (min-width: 299.99px) and (max-width: 575.99px) {
 
     .bannerVideo.vbv.autoplay .card-img-overlay {
         margin-top: -4rem;
+    }
+
+}
+
+@media screen and (min-width: 399.99px) and (max-width: 492.99px) {
+
+    .bannerVideo.vbv.autoplay .card-img-overlay {
+        margin-top: -4.5rem;
     }
 
 }
