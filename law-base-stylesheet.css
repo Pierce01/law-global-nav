@@ -8657,6 +8657,11 @@ body.videopage {
     z-index: -1;
 }
 
+.bannerVideo.vbv.autoplay {
+    margin-bottom: -5rem;
+    z-index: -1;    
+}
+
 .autoplay iframe {
     width: 100%;
     height: calc(100vw/1.9);
@@ -8719,6 +8724,11 @@ body.videopage {
         margin-bottom: 0;
         top: 0;
         z-index: 0;
+    }
+
+    .bannerVideo.vbv.autoplay {
+        margin-bottom: 0;
+        z-index: 0;    
     }
 
     .bannerVideo.ytv.autoplay iframe {
