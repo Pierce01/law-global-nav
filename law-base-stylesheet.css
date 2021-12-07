@@ -8639,6 +8639,29 @@ li.nav-item a.nav-link .icon:hover {
 */
 
 
+.embeddedVideoWrapper.ytv .embeddedVideoInner {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+
+.embeddedVideoWrapper.ytv iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.embeddedVideoWrapper.ytv h3.videoTitle {
+    color: #AA0000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+
 
 /* ========================================================================================== 
    ===== Law - Video Autoplay  ===== Content Type #5610 ===================================== 
