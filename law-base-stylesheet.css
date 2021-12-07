@@ -8676,6 +8676,14 @@ li.nav-item a.nav-link .icon:hover {
     text-decoration: underline;
 }
 
+.embeddedVideoWrapper.ytv .card-body p {
+    color: #000000;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+
 
 
 
