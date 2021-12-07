@@ -8699,6 +8699,12 @@ body.videopage {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.999px) {
+    .bannerVideo.vbv.autoplay .mt-5 {
+        margin-top: 0rem!important;
+    }
+    .bannerVideo.vbv.autoplay .card-img-overlay .card-header .m-3 {
+        margin-top: 0rem!important;
+    }
     .bannerVideo.ytv.autoplay .card-img-overlay .mt-5 {
         margin-top: 1rem!important;
     }
