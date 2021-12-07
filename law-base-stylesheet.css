@@ -8685,7 +8685,7 @@ li.nav-item a.nav-link .icon:hover {
 
 .embeddedVideoWrapper.ytv .card-footer {
     background-color: #807060;
-    border-color: #807060;
+    /* border-color: #807060; */
 }
 
 .embeddedVideoWrapper.ytv .card-footer p {
