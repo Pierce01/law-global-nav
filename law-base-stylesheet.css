@@ -8686,13 +8686,13 @@ li.nav-item a.nav-link .icon:hover {
     line-height: 1.6;
 }
 
-.embeddedVideoWrapper.ytv .card-footer {
+/* .embeddedVideoWrapper.ytv .card-footer {
     background-color: #807060;
     border-color: #807060;
-}
+} */
 
 .embeddedVideoWrapper.ytv .card-footer p {
-    color: #fff;
+    color: #000000;
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.6;
