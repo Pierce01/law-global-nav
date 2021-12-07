@@ -8661,6 +8661,22 @@ li.nav-item a.nav-link .icon:hover {
     font-weight: 500;
 }
 
+.embeddedVideoWrapper.ytv .videoLink a {
+    color: #088099;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.embeddedVideoWrapper.ytv .videoLink a:hover {
+    text-decoration: underline;
+}
+
+.embeddedVideoWrapper.ytv .videoLink a:active {
+    text-decoration: underline;
+}
+
+
 
 
 /* ========================================================================================== 
