@@ -8630,14 +8630,12 @@ li.nav-item a.nav-link .icon:hover {
 }
 
 
-
 /* ========================================================================================== 
    ===== Law - Video Mainzone YouTube  ===== Content Type #5614 ============================= 
    ==========================================================================================
    YouTube Video that loops without controls and with minimal branding
    Created by vic 20211207
 */
-
 
 .embeddedVideoWrapper.ytv {
     border-color: #807060;
@@ -8702,9 +8700,6 @@ li.nav-item a.nav-link .icon:hover {
 }
 
 
-
-
-
 /* ========================================================================================== 
    ===== Law - Video Autoplay  ===== Content Type #5610 ===================================== 
    ==========================================================================================
@@ -8741,7 +8736,8 @@ body.videopage {
 }
 
 .autoplay .card-img-overlay h2 {
-    font-weight: 500;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
 }
 
 .autoplay .card-img-overlay p {
@@ -8767,6 +8763,7 @@ body.videopage {
         padding: 0!important;
     }
 }
+
 
 /* @media screen and (min-width: 992px) {
     .bannerVideo.vbv.autoplay {
