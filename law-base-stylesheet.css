@@ -7653,7 +7653,7 @@ a:not([href]) {
 @media (min-width: 992px) {
 
     .masonryOrganizer.card-group > .mainHeroItem.card {
-        margin-bottom: 0;
+        margin-bottom: 1rem;
         flex: auto;
     }
 
