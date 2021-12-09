@@ -7689,6 +7689,10 @@ a:not([href]) {
         margin-bottom: 1rem;
         padding: 0;
     }
+
+    .masonryOrganizer .mainHeroItem .card-body h3 {
+        font-size: 1.25rem;
+    }
 }
 
 
