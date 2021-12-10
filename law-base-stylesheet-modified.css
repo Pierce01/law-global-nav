@@ -84,8 +84,8 @@ p {
     --su-red: #aa0000;
     --taupe-brown: #807060;
     --su-white: #fff;
-    --yellow: #fdb913;
-    --yellow-tint: #f7f7f7;
+    --su-yellow: #fdb913;
+    --su-yellow-tint: #f7f7f7;
 }
 
 body {
@@ -2171,11 +2171,11 @@ ul.arrowLinks li::before {
 }
 
 .btn-yellow {
-    --btn-clr: var(--yellow, #fdb913);
+    --btn-clr: var(--su-yellow, #fdb913);
 }
 
 .btn-yellow-tint {
-    --btn-clr: var(--yellow-tint, #f7f7f7);
+    --btn-clr: var(--su-yellow-tint, #f7f7f7);
 }
 
 .btn:hover,
