@@ -3026,17 +3026,14 @@ svg.arrow.circle.navy {
     }
 }
 
-@media screen and (max-width: 992px) and (min-width: 767px) {
-    /*Small Displays*/
+/* @media screen and (max-width: 992px) and (min-width: 767px) {
     #pageContentWrapper #MainZone .callToActionWrapper .callToActionButton {
-        /* No Side Bars */
         flex-basis: calc(50% - 7px);
     }
     x#pageContentWrapper #MainZone.col-sm-8 .callToActionWrapper .callToActionButton {
-        /* 1 Side Bar */
         flex-basis: 100%;
     }
-}
+} */
 
 @media screen and (max-width: 767px) {
     /*Extra Small Displays*/
