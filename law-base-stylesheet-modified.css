@@ -83,7 +83,7 @@ p {
     --su-black: #333333;
     --su-red: #aa0000;
     --taupe-brown: #807060;
-    --white: #ffffff;
+    --su-white: #fff;
     --yellow: #fdb913;
     --yellow-tint: #f7f7f7;
 }
@@ -2167,7 +2167,7 @@ ul.arrowLinks li::before {
 }
 
 .btn-white {
-    --btn-clr: var(--white, #ffffff);
+    --btn-clr: var(--su-white, #ffffff);
 }
 
 .btn-yellow {
