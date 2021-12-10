@@ -336,7 +336,7 @@ ul.callToActionButtonWrapper li.callToActionButton {
     }
 }
 
-@media screen and (max-width: 767.99px) {
+@media screen and (max-width: 991.98px) {
     #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
@@ -359,14 +359,14 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 /* Small Max (less than 992px) */
 
-@media screen and (max-width: 991.99px) {
+/* @media screen and (max-width: 991.99px) {
     .callToActionOverlay .card-title.p-3 {
         padding-bottom: 0.25rem!important;
     }
     #MainZone.col-xs-12 div.card-block ul.callToActionButtonWrapper.standardContent {
         padding: 0;
     }
-}
+} */
 
 
 /* ***** Mobile Up ***** */
