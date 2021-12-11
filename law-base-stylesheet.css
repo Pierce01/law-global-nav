@@ -8844,6 +8844,7 @@ body.videopage {
 .autoplay .card-img-overlay h2 {
     font-weight: 700;
     font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
 }
 
 .autoplay .card-img-overlay p {
@@ -8873,6 +8874,10 @@ body.videopage {
 @media screen and (min-width: 992px) {
     .autoplay .card-img-overlay h2 {
         font-size: 5rem!important;
+    }
+
+    .autoplay .card-img-overlay p {
+        font-weight: 900;
     }
     /* .bannerVideo.vbv.autoplay {
         margin-top: -1rem;
