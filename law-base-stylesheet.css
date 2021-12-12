@@ -6139,7 +6139,7 @@ table.gsc-search-box td {
 
 /* ***  XX Large max Defaults   *** */
 
-@media screen and (max-width: 1399.99px) {
+@media screen and (max-width: 1399.98px) {
     .panelWrapper .panelText.card-text h2 {
         font-size: 2rem;
     }
@@ -6155,7 +6155,7 @@ table.gsc-search-box td {
 
 /* ***  X Large max Defaults   *** */
 
-@media screen and (max-width: 1199.99px) {
+@media screen and (max-width: 1199.98px) {
     .panelWrapper .panelText.card-text h2 {
         font-size: 1.8rem;
     }
@@ -6172,7 +6172,7 @@ table.gsc-search-box td {
 
 /* ***  Large max Defaults   *** */
 
-@media screen and (max-width: 991.99px) {
+@media screen and (max-width: 991.98px) {
     .panelWrapper .card-img-overlay {
         padding: 0;
         position: unset;
@@ -6197,7 +6197,7 @@ table.gsc-search-box td {
 
 /* ***  Small max Defaults   *** */
 
-@media screen and (max-width: 767.99px) {
+@media screen and (max-width: 767.98px) {
     .panelWrapper .panelText.card-text {
         padding: 1rem;
     }
@@ -6212,7 +6212,7 @@ table.gsc-search-box td {
 
 /* ***  X Small max Defaults   *** */
 
-@media only screen and (max-width: 575.99px) {
+@media only screen and (max-width: 575.98px) {
     .panelWrapper .panelText.card-text {
         padding: 0;
     }
@@ -6252,16 +6252,16 @@ table.gsc-search-box td {
 
 /*1px gap fix*/
 
-@media (min-width:766px) and (max-width:768px) {
+/* @media (min-width:766px) and (max-width:768px) {
     .panelWrapper .clearfix {
         display: block !important;
     }
-}
+} */
 
 
 /*only way to get mobile to not take up space set in html tag*/
 
-@media (max-width: 991.999px) {
+@media (max-width: 991.98px) {
     .panelWrapper .panelFlexContainer {
         height: auto !important;
     }
@@ -6273,7 +6273,7 @@ table.gsc-search-box td {
     width: 100%;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
     .panelWrapper .panelOverlay {
         height: 300px !important;
     }
@@ -6284,7 +6284,7 @@ table.gsc-search-box td {
     padding: 70px 60px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
     .panelWrapper .panelText {
         background: #ffffff;
         padding: 20px 0 20px 15px;
@@ -6372,7 +6372,7 @@ table.gsc-search-box td {
     border: 0;
 }
 
-@media (min-width: 991px) {
+@media (min-width: 992px) {
     .panelWrapper .topRightPanel,
     .panelWrapper .centerRightPanel,
     .panelWrapper .bottomRightPanel {
@@ -6498,7 +6498,7 @@ table.gsc-search-box td {
 
 /* xs */
 
-@media screen and (max-width: 767.999px) {
+@media screen and (max-width: 767.98px) {
     .panelText h2 {
         margin: 15px 0 15px 0;
     }
@@ -6545,7 +6545,7 @@ table.gsc-search-box td {
 
 /* xs */
 
-@media screen and (max-width: 767.999px) {
+@media screen and (max-width: 767.98px) {
     .panelInner .panelLinks {
         padding: 15px 20px 0px 10px;
     }
@@ -6623,7 +6623,7 @@ table.gsc-search-box td {
     padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
     .infographic {
         display: block;
     }
