@@ -6169,6 +6169,12 @@ table.gsc-search-box td {
     }
 }
 
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .panelWrapper .panelText.card-text {
+        padding: 1.5rem;
+    }
+}
+
 
 /* ***  Large max Defaults   *** */
 
@@ -6590,9 +6596,10 @@ table.gsc-search-box td {
 
 
 /* ==========================================================================================
-   ===== Infographic ===== Content Type #5179 ================================================ 
+   ===== Infographic ===== Content Type #5179 ===============================================
+   ===== Icon Infographic ===== Content Type #5608 ========================================== 
    ==========================================================================================
-   Set of up to three statistics using numbers or FontAwesome icons with a header and text for each.
+   Set of up to five statistics using numbers or FontAwesome icons with a header and text.
 
 */
 
