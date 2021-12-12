@@ -6698,11 +6698,13 @@ table.gsc-search-box td {
 }
 
 .iconInfographic .cardinfographicItem p {
+    word-break: break-word;
     word-wrap: break-word;
 
 }
 
 .iconInfographic .cardinfographicItem span {
+    word-break: break-word;
     word-wrap: break-word;
     
 }
@@ -6719,7 +6721,7 @@ table.gsc-search-box td {
     }
 
     .iconInfographic .cardinfographicItem .infographicItemNumber span {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }
 
