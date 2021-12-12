@@ -6708,6 +6708,22 @@ table.gsc-search-box td {
 }
 
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .iconInfographic .cardinfographicItem p {
+        font-size: 1rem;    
+    }
+    
+    .iconInfographic .cardinfographicItem span {
+        font-size: 1rem;
+    }
+
+    .iconInfographic .cardinfographicItem .infographicItemNumber span {
+        font-size: 4rem;
+    }
+}
+
+
 /* color options */
 
 .infographic .color {
