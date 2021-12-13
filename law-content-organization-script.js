@@ -107,10 +107,10 @@ if (currentPageWidth == "xs") {
 } else if (currentPageWidth == "md-lg") {
     /* if md and lg: put content items in SidebarZone */
     if (siteNavCurrentlyInSidebarZone) {
-        $("#SidebarZone").addClass("col-md-4"); /* do no matter what */
+        $("#SidebarZone").addClass("col-lg-4"); /* do no matter what */
         //if ((SidebarZoneContentItems.length == 0)){ /* no SidebarZone content */
-        $("#MainZone").addClass("col-md-8");
-        $("#SidebarZone").show().append(SidebarZoneContentItems).addClass("col-md-4");
+        $("#MainZone").addClass("col-lg-8");
+        $("#SidebarZone").show().append(SidebarZoneContentItems).addClass("col-lg-4");
 
     } else {
         /* menu is in the topzone or nonexistent */
@@ -121,8 +121,8 @@ if (currentPageWidth == "xs") {
             $("#SidebarZone").hide();
         } else if (SidebarZoneContentItems.length > 0) {
             /* if something in SidebarZone*/
-            $("#MainZone").addClass("col-md-8");
-            $("#SidebarZone").show().append(SidebarZoneContentItems).addClass("col-md-4");
+            $("#MainZone").addClass("col-lg-8");
+            $("#SidebarZone").show().append(SidebarZoneContentItems).addClass("col-lg-4");
         }
 
     }
