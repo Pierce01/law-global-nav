@@ -68,7 +68,7 @@ body {
     margin: 0;
     /* for the fixed header */
     padding-top: 152px;
-    min-width: fit-content;
+    min-width: auto;
     /* prevents overflow of long strings in mobile views */
 }
 
@@ -3025,6 +3025,7 @@ svg.arrow.circle.navy {
         flex-basis: calc(50% - 7px);
     }
 }
+
 
 /* @media screen and (max-width: 992px) and (min-width: 767px) {
     #pageContentWrapper #MainZone .callToActionWrapper .callToActionButton {
@@ -6258,6 +6259,7 @@ table.gsc-search-box td {
 
 /*1px gap fix*/
 
+
 /* @media (min-width:766px) and (max-width:768px) {
     .panelWrapper .clearfix {
         display: block !important;
@@ -6707,26 +6709,20 @@ table.gsc-search-box td {
 .iconInfographic .cardinfographicItem p {
     word-break: break-word;
     word-wrap: break-word;
-
 }
 
 .iconInfographic .cardinfographicItem span {
     word-break: break-word;
     word-wrap: break-word;
-    
 }
 
-
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
     .iconInfographic .cardinfographicItem p {
-        font-size: 1rem;    
+        font-size: 1rem;
     }
-    
     .iconInfographic .cardinfographicItem span {
         font-size: 1rem;
     }
-
     .iconInfographic .cardinfographicItem .infographicItemNumber span {
         font-size: 4rem;
     }
@@ -7634,13 +7630,11 @@ a:not([href]) {
 }
 
 
-
-
-
 /* ==========================================================================================
    ===== Law - Newscenter Story ===== Content Type #5296 ====================================
    ==========================================================================================
 */
+
 
 /* Mainzone Hero Grid Feed */
 
@@ -7673,63 +7667,48 @@ a:not([href]) {
     margin: 0;
 }
 
-
-@media (min-width: 992px) and (max-width: 1199.98px){
-
+@media (min-width: 992px) and (max-width: 1199.98px) {
     .masonryOrganizer .mainHeroItem .card-body h3 {
         font-size: 1.15rem;
         margin: 0.75rem 0 0.5rem 0;
     }
 }
 
-
 @media (min-width: 992px) {
-
-    .masonryOrganizer.card-group > .mainHeroItem.card {
+    .masonryOrganizer.card-group>.mainHeroItem.card {
         margin-bottom: 1rem;
         flex: auto;
     }
-
     .masonryOrganizer .mainHeroItem {
         padding: 0.5rem;
     }
-
     .masonryOrganizer .mainHeroItem .card-body h3 {
         font-size: 1.25rem;
         margin: 1rem 0 0.5rem 0;
     }
 }
 
-
 @media (max-width: 991.98px) {
-
-    .masonryOrganizerWrapper  {
+    .masonryOrganizerWrapper {
         padding-bottom: 1rem;
     }
-
     .masonryOrganizer.card-group {
         flex-direction: column;
         flex: auto;
         padding: 0;
     }
-
     .masonryOrganizer .mainHeroItem {
         margin: auto;
         width: -webkit-fill-available;
     }
-
     .masonryOrganizer .mainHeroItem {
         margin-bottom: 1rem;
         padding: 0;
     }
-
     .masonryOrganizer .mainHeroItem .card-body h3 {
         font-size: 1.25rem;
     }
 }
-
-
-
 
 
 /* News story fulltext layout. Added by Troy 5/1/2021 */
@@ -7868,7 +7847,6 @@ li.nav-item a.nav-link .icon:hover {
 }
 
 
-
 /* ========================================================================================== 
    ===== Law - Masonry Organizer ===== Content Types: #5538 ================================= 
    ==========================================================================================
@@ -7880,15 +7858,12 @@ li.nav-item a.nav-link .icon:hover {
 }
 
 
-
-
-
-
 /* ========================================================================================== 
    ===== Organizer ===== Content Types: #5274 ========================================== 
    ==========================================================================================
    Automatically sorts, paginates, and displays content of a given type from a given section 
 */
+
 
 /* .organizerWrapper {} */
 
@@ -8908,7 +8883,6 @@ body.videopage {
     .autoplay .card-img-overlay h2 {
         font-size: 5rem!important;
     }
-
     .autoplay .card-img-overlay p {
         font-weight: 900;
     }
