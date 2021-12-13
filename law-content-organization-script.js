@@ -166,9 +166,9 @@ function reorganizeContentItems() {
                 siteNavCurrentlyInTopZone = false;
                 //$("#SidebarZone").show().addClass("col-md-3"); 
             }
-            $("#MainZone").addClass("col-md-8");
+            $("#MainZone").addClass("col-lg-8");
 
-            $("#SidebarZone").show().append(SidebarZoneContentItems).addClass("col-md-4");
+            $("#SidebarZone").show().append(SidebarZoneContentItems).addClass("col-lg-4");
 
         } else {
             /* menu is in the topzone or otherwise nonexistent */
@@ -178,9 +178,9 @@ function reorganizeContentItems() {
                 $("#SidebarZone").hide();
             } else if ((SidebarZoneContentItems.length > 0)) {
                 /* if something in SidebarZone */
-                $("#SidebarZone").show().addClass("col-md-4").append(SidebarZoneContentItems);
+                $("#SidebarZone").show().addClass("col-lg-4").append(SidebarZoneContentItems);
 
-                $("#MainZone").addClass("col-md-8");
+                $("#MainZone").addClass("col-lg-8");
                 //    $("#SidebarZone").append(SidebarZoneContentItems);	
             }
         }
