@@ -8015,6 +8015,17 @@ li.nav-item a.nav-link .icon:hover {
     text-decoration: underline;
 }
 
+.standardContent .quicklinks ul li::before {
+    font-family: unset;
+    font-size: unset;
+    content: "";
+    color: unset;
+    padding-right: unset;
+    display: none;
+    position: unset;
+    top: unset;
+}
+
 
 /* ========================================================================================== 
    ===== Quote ===== Content Type #5199 ============================================== 
