@@ -7638,6 +7638,10 @@ a:not([href]) {
 
 /* Mainzone Hero Grid Feed */
 
+.masonryOrganizerWrapper h2.organizerTitle {
+    margin: 2rem 0 2.5rem 0;
+}
+
 .masonryOrganizer.card-group {
     display: flex;
     flex: 0 0 100%;
