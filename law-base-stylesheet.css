@@ -6618,6 +6618,14 @@ table.gsc-search-box td {
     width: 100%;
 }
 
+.imageInfographic .infographicItemHeader {
+    padding-bottom: 8px;
+}
+
+.imageInfographic .infographicItemText {
+    padding-top: 15px;
+}
+
 #SidebarZone .infographic,
 #zoneC .infographic {
     display: block;
