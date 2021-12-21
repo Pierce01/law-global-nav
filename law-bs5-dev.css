@@ -734,10 +734,10 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 @media screen and (min-width: 1200px) {
     #globalHeaderResourcesWrapper {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     #googleSearchBox input#gsc-i-id1 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
