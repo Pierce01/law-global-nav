@@ -21,24 +21,19 @@
     font-weight: 500;
 }
 
-
 @media screen and (max-width: 991.99px) {
-
     .developmentVideo .card-img-overlay {
         padding: 0;
         position: unset;
     }
-
     .developmentVideo .card-img-overlay .card-header {
         margin: 0!important;
         padding: 0!important;
     }
-
     .developmentVideo .card-img-overlay .container {
         margin-top: 0!important;
         padding-top: 0!important;
     }
-
     .developmentVideo .card-img-overlay .card-body .text-white {
         color: #000000!important;
     }
@@ -359,6 +354,7 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 /* Small Max (less than 992px) */
 
+
 /* @media screen and (max-width: 991.99px) {
     .callToActionOverlay .card-title.p-3 {
         padding-bottom: 0.25rem!important;
@@ -381,6 +377,7 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 
 /* ***  Medium min Defaults   *** */
+
 
 /* @media screen and (min-width: 768px) {
     ul.callToActionButtonWrapper li.callToActionButton {
@@ -592,7 +589,7 @@ ul.callToActionButtonWrapper li.callToActionButton {
 }
 
 #globalHeaderResourcesWrapper {
-    font-size: 0.95rem;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
@@ -772,6 +769,9 @@ ul.callToActionButtonWrapper li.callToActionButton {
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     #globalHeaderNavigation li.dropdown a {
         font-size: 0.7rem;
+    }
+    #globalHeaderResourcesWrapper {
+        font-size: 0.85rem;
     }
 }
 
