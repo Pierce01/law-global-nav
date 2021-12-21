@@ -650,7 +650,7 @@ ul.callToActionButtonWrapper li.callToActionButton {
 **/
 
 #googleSearchBox {
-    padding: 2px 2px 0 0;
+    padding: 2px 10px 0 10px;
 }
 
 #googleSearchBox td.gsc-input {
@@ -781,6 +781,9 @@ ul.callToActionButtonWrapper li.callToActionButton {
     }
     #googleSearchBox input#gsc-i-id1 {
         font-size: 0.85rem;
+    }
+    #googleSearchBox {
+        padding: 2px 2px 0 0;
     }
 }
 
