@@ -796,7 +796,7 @@ ul.callToActionButtonWrapper li.callToActionButton {
     } */
 }
 
-@media screen and (max-width: 991.99px) {
+@media screen and (max-width: 991.98px) {
     #globalHeader .navbar-toggle {
         display: block;
         right: 0;
@@ -818,6 +818,12 @@ ul.callToActionButtonWrapper li.callToActionButton {
         padding: 30px 17px;
         overflow: auto;
         position: static;
+    }
+    #globalHeaderNavigationWrapper.collapse:not(.show) {
+        display: none;
+    }
+    #globalHeaderBottomNavWrapper.collapse:not(.show) {
+        display: none;
     }
     #siteNavigationWrapper .navbar-toggle {
         background-color: unset;
