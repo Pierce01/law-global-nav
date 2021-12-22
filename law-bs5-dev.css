@@ -21,7 +21,7 @@
     font-weight: 500;
 }
 
-@media screen and (max-width: 991.99px) {
+@media screen and (max-width: 991.98px) {
     .developmentVideo .card-img-overlay {
         padding: 0;
         position: unset;
@@ -518,7 +518,7 @@ ul.callToActionButtonWrapper li.callToActionButton {
 
 /* Medium devices (tablets, 768px and up) */
 
-@media screen and (min-width: 768px) and (max-width: 991.99px) {}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {}
 
 
 /* Large devices (desktops, 992px and up) */
@@ -1344,7 +1344,7 @@ a.give-button p:hover {
     text-decoration: none;
 }
 
-@media (max-width:991.999px) {
+@media screen and (max-width:991.98px) {
     #globalHeaderResources {
         padding: 17px 30px;
     }
@@ -1355,7 +1355,7 @@ a.give-button p:hover {
     }
 }
 
-@media (max-width: 991.999px) {
+@media screen and (max-width: 991.98px) {
     #globalHeaderResourcesLinks {
         display: inline-grid;
         /* margin-left: 4rem;
@@ -1390,13 +1390,13 @@ a.give-button p:hover {
 
 /*navigation in white bar */
 
-@media (max-width:991.999px) {
+@media (max-width:991.98px) {
     #globalHeaderNavigation {
         padding: 0;
     }
 }
 
-@media screen and (max-width:991.999px) {
+@media screen and (max-width:991.98px) {
     #globalHeaderNavigation li.dropdown a {
         font-size: 1.2rem;
         padding: 17px 15px;
@@ -1415,7 +1415,7 @@ a.give-button p:hover {
     color:#000000;
 } */
 
-@media (max-width:991.999px) {
+@media (max-width:991.98px) {
     #globalHeaderNavigationWrapper li.mega-dropdown:hover>a.dropdown-toggle,
     #globalHeaderNavigationWrapper li.mega-dropdown:focus>a.dropdown-toggle {
         color: #aa0000;
@@ -1474,7 +1474,7 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     }
 }
 
-@media screen and (max-width:991.999px) {
+@media screen and (max-width:991.98px) {
     #globalHeaderNavigationWrapper li.mega-dropdown {
         margin: 0;
         text-align: left;
@@ -1569,7 +1569,7 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     color: #aa0000;
 }
 
-@media screen and (max-width:991.999px) {
+@media screen and (max-width:991.98px) {
     #globalHeader {
         margin-bottom: 0;
         position: relative;
