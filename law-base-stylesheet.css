@@ -6725,6 +6725,10 @@ table.gsc-search-box td {
     word-wrap: break-word;
 }
 
+.imageInfographic .infographicItemHeader p {
+    font-size: 3rem;
+}
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .iconInfographic .cardinfographicItem p {
         font-size: 1rem;
