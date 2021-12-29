@@ -6737,6 +6737,15 @@ table.gsc-search-box td {
     }
 }
 
+@media screen and (max-width: 991.98px) {
+    .imageInfographic .infographic {
+        display: block;
+    }
+    .imageInfographic .card-group>.card {
+        margin-bottom: 0.75rem;
+    }
+}
+
 
 /* color options */
 
