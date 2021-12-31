@@ -6752,6 +6752,7 @@ table.gsc-search-box td {
     }
     .imageInfographic .card-group>.card {
         margin-bottom: 0.75rem;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
     }
     .imageInfographic .cardinfographicItem .infographicMedia img {
         height: 256px;
