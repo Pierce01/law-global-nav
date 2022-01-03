@@ -12,7 +12,7 @@ try {
 
 
     //do not output breadcrumbs on top-level Law pages
-    if (sectionDepth > 2) {
+    if (sectionDepth && channel && sectionDepth > 2) {
         
         //write the surrounding HTML for the breadcrumbs
         document.write('<div class="imageBannerBreadcrumbs">');
