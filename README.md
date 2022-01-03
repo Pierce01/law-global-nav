@@ -30,3 +30,4 @@ Bootstrap 5 Navigation, Scripts and Page Layouts
 - [] debug sidebar nav icons on mobile
 - [] tune news center pagelayouts for mobile
 - [] banner overlay in firefox
+- [] hover link to homepage in nav brand
