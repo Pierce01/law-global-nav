@@ -16,15 +16,16 @@ try{
     
         //loop though section parents and append section names seperated by slashes
       for (i = 0; i < sectionDepth; i++) { //loop through parent sections until rwaches current section level
-           sectionNames[i] = (section.getName('en')); //name of the section in English ('en')
-           sectionIDs[i] = section.getID(); //id of the section (integer)
-  
+
+        sectionNames[i] = (section.getName('en')); //name of the section in English ('en')
+        sectionIDs[i] = section.getID(); //id of the section (integer)
         section = section.getParent(); //make the section the parent section. this makes T4 ascend the site structure every loop
-      
+
         currentLoopSection  = com.terminalfour.publish.utils.TreeTraversalUtils.findSection(channel, section, sectionIDs[i], language);
         currentLoopLinkObject = com.terminalfour.publish.PathBuilder.getLink(dbStatement, section, currentLoopSection, publishCache,language,true);
         currentLoopSectionPath = currentLoopLinkObject.getLink();
         sectionLinks[i] = currentLoopSectionPath; //link of the section
+
       } //end the array builiding loop
     
       //reverse the names and links arrays to make the breadcrumbs start with ancestors first, then descend
