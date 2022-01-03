@@ -18,7 +18,7 @@ try {
         document.write('<div class="imageBannerBreadcrumbs">');
     
         //loop though section parents and append section names seperated by slashes
-        for (i = 0; i < sectionDepth; i++) {
+        for (let i = 0; i < sectionDepth; i++) {
 
             sectionNames[i] = (section.getName('en')); //name of the section in English ('en')
             let sectionID = section.getID(); //id of the section (integer)
@@ -43,7 +43,7 @@ try {
 
 
         // omit the current name and link section with -1
-        for (j = 0; j < sectionNames.length-1; j++) {
+        for (let j = 0; j < sectionNames.length-1 && j < sectionLinks.length-1; j++) {
 
             document.write('<a href="' + sectionLinks[j] + '">' + sectionNames[j] + '</a>');
 
