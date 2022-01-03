@@ -8396,7 +8396,7 @@ li.nav-item a.nav-link .icon:hover {
     border-radius: 50%;
     height: auto;
     max-height: 300px;
-    max-width: fit-content;
+    max-width: 300px;
     padding: 2rem;
     position: relative;
     width: 100%;
