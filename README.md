@@ -8,16 +8,24 @@ Bootstrap 5 Navigation, Scripts and Page Layouts
 - [x] format home footer
 - [x] format landing header
 - [x] format landing footer
-- [] mobile footer
-- [] mobile header
+- [x] mobile footer
+- [x] mobile header
 - [x] convert imgage panel to js layout
 - [x] apply card-overlay to solve bg image
-- [] add logic for selective output - links and link text
-- [] parse link paths and titles seperately
+- [x] add logic for selective output - links and link text
+- [x] parse link paths and titles seperately
 - [x] apply text location
 - [] update url for google search bar from edu newsroom
 - [x] add nav to newsroom pagelayout
-- [] sync news and global nav systems
+- [x] sync news and global nav systems
 - [x] add meta defaults
-- [] consider top-zone nav content type to replace hardcoded audience nav
-- [] add sidebar list item classes
+- [x] consider top-zone nav content type to replace hardcoded audience nav
+- [x] add sidebar list item classes
+
+### Go Live
+
+- [] Breadcrumb null pointer in banner see alumni page
+- [] Footer headings in logical order
+- [] RM h5 labels from modal quicklinks
+- [] debug sidebar nav icons on mobile
+- [] tune news center pagelayouts for mobile
