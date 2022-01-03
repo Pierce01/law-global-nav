@@ -2,7 +2,7 @@ try {
 
     var channel = publishCache.getChannel(); //Channel information
     var sectionNames=[]; // array of names of parent sections
-    var sectionIDs=[]; // array of IDs of parent sections
+    // var sectionIDs=[]; // array of IDs of parent sections
     var sectionLinks=[]; // array of paths (links) of parent sections
     var sectionDepth = section.getLevel(channel); // level of the current section
     
@@ -12,7 +12,7 @@ try {
 
 
     //do not output breadcrumbs on top-level Law pages
-    if (sectionDepth && channel && sectionDepth > 2) {
+    if (sectionDepth > 2) {
         
         //write the surrounding HTML for the breadcrumbs
         document.write('<div class="imageBannerBreadcrumbs">');
@@ -21,12 +21,12 @@ try {
         for (i = 0; i < sectionDepth; i++) {
 
             sectionNames[i] = (section.getName('en')); //name of the section in English ('en')
-            sectionIDs[i] = section.getID(); //id of the section (integer)
+            let sectionID = section.getID(); //id of the section (integer)
             section = section.getParent(); //make the section the parent section. this makes T4 ascend the site structure every loop
 
-            currentLoopSection  = com.terminalfour.publish.utils.TreeTraversalUtils.findSection(channel, section, sectionIDs[i], language);
-            currentLoopLinkObject = com.terminalfour.publish.PathBuilder.getLink(dbStatement, section, currentLoopSection, publishCache, language, true);
-            currentLoopSectionPath = currentLoopLinkObject.getLink();
+            let currentLoopSection  = com.terminalfour.publish.utils.TreeTraversalUtils.findSection(channel, section, sectionID, language);
+            let currentLoopLinkObject = com.terminalfour.publish.PathBuilder.getLink(dbStatement, section, currentLoopSection, publishCache, language, true);
+            let currentLoopSectionPath = currentLoopLinkObject.getLink();
             
             //link of the section
             sectionLinks[i] = currentLoopSectionPath;
