@@ -6741,6 +6741,14 @@ table.gsc-search-box td {
 }
 
 /* Image Infographic */
+ 
+.imageInfographic .infographicTitle {
+    background-color: #fff;
+}
+
+.imageInfographic h2.imageInfographicHeader {
+    color: #aa0000;
+}
 
 .imageInfographic .infographicItemHeader {
     padding-bottom: 8px;
