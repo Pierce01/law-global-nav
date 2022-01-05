@@ -6769,6 +6769,7 @@ table.gsc-search-box td {
 .imageInfographic .infographicItemText p {
     color: #aa0000;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .imageInfographic .cardinfographicItem .infographicMedia img {
