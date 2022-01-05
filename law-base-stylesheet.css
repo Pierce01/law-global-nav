@@ -6742,13 +6742,11 @@ table.gsc-search-box td {
 
 /* Image Infographic */
  
-/* .imageInfographic .infographicTitle {
-    background-color: #fff;
-} */
-
 .imageInfographic h2.imageInfographicHeader {
     background-color: #fff;
     color: #aa0000;
+    font-size: 3rem;
+    font-weight: 500;
 }
 
 .imageInfographic .infographicItemHeader {
