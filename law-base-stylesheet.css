@@ -6702,11 +6702,15 @@ table.gsc-search-box td {
 /* Icon Infographic */
 
 .iconInfographic .infographicTitle {
-    background-color: #f7f7f7;
+    background-color: #fff;
+}
+
+.iconInfographic .infographicTitle h2 {
+    color: #aa0000;
 }
 
 .iconInfographic .infographicSummary {
-    background-color: #f7f7f7;
+    background-color: #fff;
 }
 
 .iconInfographic .infographicSummary p {
