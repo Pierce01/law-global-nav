@@ -1,22 +1,22 @@
 #mapBlock {
 	background-color: #088099; 
-	border-bottom:8px solid #088099;
+	border-bottom: 8px solid #088099;
 }
 
 #POIText {
-    padding:60px 8.3333%;
+    padding: 60px 8.3333%;
     text-align: center;
     font-size: 1.2rem;
     font-weight: bold;
 }
 
 #POIText h2 {
-	color:#ffffff;
+	color: #ffffff;
     margin: 0 0 15px 0;
 }
 
 #POIText p {
-	color:#ffffff;
+	color: #ffffff;
     margin:0;
 }
 
@@ -26,41 +26,41 @@
 
 #POITextBox {
 	overflow: hidden;
-	position:relative;
-	z-index:100;
+	position: relative;
+	z-index: 100;
 	width: 356px;
-	background-color:#ffffff;
-	padding:0px 25px 0px 25px;
-	border-left:5px solid #ef4135;
-	display:none;
-	margin-bottom:10px;
+	background-color: #ffffff;
+	padding: 0 25px 0px 25px;
+	border-left: 5px solid #ef4135;
+	display: none;
+	margin-bottom: 10px;
 	-webkit-box-shadow: 2px 2px 2px 0px #a9a9a9;
 	-moz-box-shadow: 2px 2px 2px 0px #a9a9a9;
 	box-shadow: 2px 2px 2px 0px #a9a9a9;
 }
 
 #POITextBox h5 {
-	color:#ef4135;
+	color: #ef4135;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
-	font-weight:400;
-	font-size:1.6rem;
-	padding-top:0px;
+	font-weight: 400;
+	font-size: 1.6rem;
+	padding-top: 0;
 }
 
 #POITextBox p {
-	color:#333333;
+	color: #333333;
 	font-family: 'Montserrat', sans-serif;
-	font-weight:300;
-	font-size:1.4rem;
+	font-weight: 300;
+	font-size: 1.4rem;
 }
 
 #POITextBox a {
-	color:#008765;
-	text-decoration:underline;
+	color: #008765;
+	text-decoration: underline;
 }
 
 #POITextBox a:hover {
-	color:#333333;
-	text-decoration:underline;
+	color: #333333;
+	text-decoration: underline;
 }
