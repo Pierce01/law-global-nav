@@ -6731,6 +6731,9 @@ table.gsc-search-box td {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .iconInfographic .infographicTitle h2 {
+        font-size: 2rem;
+    }
     .iconInfographic .cardinfographicItem p {
         font-size: 1rem;
     }
