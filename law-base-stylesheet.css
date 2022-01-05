@@ -6707,6 +6707,8 @@ table.gsc-search-box td {
 
 .iconInfographic .infographicTitle h2 {
     color: #aa0000;
+    font-size: 3rem;
+    font-weight: 500;
 }
 
 .iconInfographic .infographicSummary {
