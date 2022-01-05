@@ -6758,7 +6758,21 @@ table.gsc-search-box td {
     height: 124px;
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .imageInfographic .infographicItemHeader p {
+        font-size: 3rem;
+    }
+    
+    .imageInfographic .infographicItemText p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .imageInfographic .cardinfographicItem .infographicMedia img {
+        height: 256px;
+    }
+}
 
 @media screen and (max-width: 991.98px) {
     .imageInfographic .infographic {
@@ -6768,9 +6782,6 @@ table.gsc-search-box td {
         margin-bottom: 0.75rem;
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
     }
-    /* .imageInfographic .cardinfographicItem .infographicMedia img {
-        height: 256px;
-    } */
 }
 
 
