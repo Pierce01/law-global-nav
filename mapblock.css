@@ -11,10 +11,16 @@
 }
 
 #POIText h2 {
-	color: #ffffff;
+	color: #fff;
 	font-size: 3rem;
 	font-weight: bold;
     margin: 0 0 15px 0;
+}
+
+#POIText h3 {
+	color: #fff;
+	font-size: 2rem;
+	font-weight: bold;
 }
 
 #POIText p {
