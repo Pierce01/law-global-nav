@@ -1993,16 +1993,16 @@ p.sidebar-image>a {
 
 /* =============================== Alert banner ================================ */
 
-#campusAlertWrapper h1 {
+.campusAlertWrapper h1 {
     font-family: 'Roboto Slab', sans-serif;
     font-size: 30px;
     margin: 0 0 15px 0;
     text-transform: uppercase;
 }
 
-#campusAlertWrapper h1:before,
-#campusAlertWrapper h1:after,
-#campusAlertWrapper .moreLink:after {
+.campusAlertWrapper h1:before,
+.campusAlertWrapper h1:after,
+.campusAlertWrapper .moreLink:after {
     color: #ffffff;
     font-family: "seattle-u" !important;
     font-style: normal !important;
@@ -2017,35 +2017,35 @@ p.sidebar-image>a {
     top: 3px;
 }
 
-#campusAlertWrapper h1:before {
+.campusAlertWrapper h1:before {
     content: "b ";
 }
 
-#campusAlertWrapper h1:after {
+.campusAlertWrapper h1:after {
     content: " a";
 }
 
-#campusAlertWrapper h1 a {
+.campusAlertWrapper h1 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-#campusAlertWrapper h1 a:hover,
-#campusAlertWrapper h1 a:focus {
+.campusAlertWrapper h1 a:hover,
+.campusAlertWrapper h1 a:focus {
     text-decoration: underline;
 }
 
-#campusAlertWrapper p a {
+.campusAlertWrapper p a {
     text-decoration: underline;
     color: #ffffff;
 }
 
-#campusAlertWrapper p {
+.campusAlertWrapper p {
     font-size: 14px;
     line-height: 23px;
 }
 
-#campusAlertWrapper .moreLink {
+.campusAlertWrapper .moreLink {
     display: inline-block;
     background-color: #ffffff;
     font-family: 'Roboto Slab';
@@ -2053,7 +2053,7 @@ p.sidebar-image>a {
     text-transform: uppercase;
 }
 
-#campusAlertWrapper .moreLink a {
+.campusAlertWrapper .moreLink a {
     border: 1px solid #333333;
     color: #333333;
     display: inline-block;
@@ -2061,7 +2061,7 @@ p.sidebar-image>a {
     text-decoration: none;
 }
 
-#campusAlertWrapper .moreLink a:after {
+.campusAlertWrapper .moreLink a:after {
     color: #aa0000;
     content: ' b';
     font-family: 'seattle-u';
@@ -2070,32 +2070,32 @@ p.sidebar-image>a {
     top: 2px;
 }
 
-#campusAlertWrapper .moreLink a:hover {
+.campusAlertWrapper .moreLink a:hover {
     background-color: #333333;
     border: 1px solid #ffffff;
     color: #fdb913;
     text-decoration: none;
 }
 
-#campusAlertWrapper .moreLink a:hover:after {
+.campusAlertWrapper .moreLink a:hover:after {
     color: #ffffff;
 }
 
 
 /* button style adjustments for advisory and informational buttons*/
 
-#campusAlertWrapper.alertAdvisory .moreLink a,
-#campusAlertWrapper.alertInformational .moreLink a {}
+.campusAlertWrapper.alertAdvisory .moreLink a,
+.campusAlertWrapper.alertInformational .moreLink a {}
 
-#campusAlertWrapper.alertAdvisory .moreLink a:hover,
-#campusAlertWrapper.alertInformational .moreLink a:hover {}
+.campusAlertWrapper.alertAdvisory .moreLink a:hover,
+.campusAlertWrapper.alertInformational .moreLink a:hover {}
 
-#campusAlertWrapper.alertAdvisory .moreLink a:after,
-#campusAlertWrapper.alertInformational .moreLink a:after {}
+.campusAlertWrapper.alertAdvisory .moreLink a:after,
+.campusAlertWrapper.alertInformational .moreLink a:after {}
 
-#campusAlertWrapper.alertAdvisory .moreLink a:hover:after,
-#campusAlertWrapper.alertInformational .moreLink a:after:hover,
-#campusAlertWrapper.alertSubtle .moreLink a:after:hover {
+.campusAlertWrapper.alertAdvisory .moreLink a:hover:after,
+.campusAlertWrapper.alertInformational .moreLink a:after:hover,
+.campusAlertWrapper.alertSubtle .moreLink a:after:hover {
     color: #ffffff;
 }
 
