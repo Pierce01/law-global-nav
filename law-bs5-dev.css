@@ -1501,7 +1501,7 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     list-style-type: none;
 }
 
-#globalHeaderNavigation .globalHeaderNavigationMainLinks ul li:first-child {
+#globalHeaderNavigation .globalHeaderNavigationMainLinks ul li:first-child a {
     color:#000000;
     font-weight: bold;
 }
