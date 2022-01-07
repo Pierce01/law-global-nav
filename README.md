@@ -24,7 +24,7 @@ Bootstrap 5 Navigation, Scripts and Page Layouts
 
 ### Go Live
 
-- [] Breadcrumb null pointer in banner see alumni page
+- [x] Evaluate Breadcrumb null pointer in banner see alumni page
 - [] Footer headings in logical order
 - [] RM h5 labels from modal quicklinks
 - [] debug sidebar nav icons on mobile
