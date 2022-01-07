@@ -6819,6 +6819,12 @@ table.gsc-search-box td {
     height: 124px;
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1365.99px) {
+    .imageInfographic .infographicItemText p {
+        font-size: 1.5rem;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .imageInfographic .infographicItemHeader p {
         font-size: 3rem;
