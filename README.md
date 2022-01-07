@@ -32,3 +32,4 @@ Bootstrap 5 Navigation, Scripts and Page Layouts
 - [] banner overlay in firefox
 - [] hover link to homepage in nav brand
 - [] wrap icon nav items in anchors
+- [] Convert Strategic Location h5 in poitext box to h3
