@@ -1498,9 +1498,11 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
 }
 
 #globalHeaderNavigation .globalHeaderNavigationMainLinks ul li {
-    /* max-height: 30px;
-    padding: 0 1rem 4rem 1rem; */
     list-style-type: none;
+}
+
+#globalHeaderNavigation .globalHeaderNavigationMainLinks ul li:first-child {
+    font-weight: bold;
 }
 
 @media screen and (min-width: 576px) and (max-width:992px) {
