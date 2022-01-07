@@ -8963,10 +8963,6 @@ body.videopage {
     min-width: auto;
 }
 
-.videopage #COVIDbanner .infographicItemText .mb-0 {
-    margin-bottom: unset!important;
-}
-
 .videopage #BannerZone.row {
     margin: 0;
 }
@@ -9052,6 +9048,10 @@ body.videopage {
 }
 
 @media screen and (max-width: 991.99px) {
+
+    .videopage #COVIDbanner .infographicItemText .mb-0 {
+        margin-bottom: 1rem!important;
+    }
     .bannerVideo.ytv.autoplay {
         margin-bottom: 0;
         top: 0;
