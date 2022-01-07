@@ -1,5 +1,5 @@
-{/* <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl51bxzHfJlGn9--0VhBtEMpDHknYu6sI&callback=initialize" async></script>
-<script> */}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl51bxzHfJlGn9--0VhBtEMpDHknYu6sI&callback=initialize" async></script>
+<script>
 
 // The script tags must be uncommented for T4
 function modifyTextBox(type, header, text) {
@@ -570,4 +570,4 @@ function initialize() {
         })
     }
 }
-{/* </script> */}
+</script>

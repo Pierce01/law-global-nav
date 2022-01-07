@@ -35,3 +35,4 @@ Bootstrap 5 Navigation, Scripts and Page Layouts
 - [] Convert Strategic Location h5 in poitext box to h3
 - [x] install covid banner
 - [] Implement emergnecy alert system
+- [] Replace footer h4 headings with .h4
