@@ -1556,6 +1556,14 @@ li.dropdown.open span.fa-fa-chevron.visible-inline {
     margin: 0 0 15px 0;
 }
 
+#globalHeaderNavigation .globalHeaderNavigationQuickLinks .h5 {
+    color: #aa0000;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+}
+
 #globalHeaderNavigation .globalHeaderNavigationQuickLinks li a {
     display: block;
     color: #333333;
