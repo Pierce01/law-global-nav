@@ -8963,6 +8963,10 @@ body.videopage {
     min-width: auto;
 }
 
+.videopage #COVIDbanner .infographicItemText .mb-0 {
+    margin-bottom: unset!important;
+}
+
 .videopage #BannerZone.row {
     margin: 0;
 }
