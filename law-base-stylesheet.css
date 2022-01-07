@@ -102,8 +102,8 @@ body {
 
 #COVIDbanner .infographicItem {
     padding: 0 !important;
-    background-color: #003282;
-    /* background-color: #088099; */
+    /* background-color: #003282; */
+    background-color: #088099;
     /* background-color: #000000; */
 }
 
@@ -121,8 +121,9 @@ body {
 }
 
 #COVIDbanner .infographicItemHeader a:focus, #COVIDbanner .infographicItemHeader a:hover {
-    /* color: #000000; */
-    color: #FDB913;
+    /* color:#fff; */
+    color: #000000;
+    /* color: #FDB913; */
 }
 
 #COVIDbanner .infographicItemText.standardContent p a {
@@ -132,7 +133,9 @@ body {
 
 #COVIDbanner .infographicItemText.standardContent p a:hover {
     /* color:#fff; */
-    color: #FDB913;
+    color: #000000;
+    /* color: #FDB913; */
+
     /* text-decoration:underline; */
 }
 
