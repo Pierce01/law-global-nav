@@ -26,10 +26,11 @@ Bootstrap 5 Navigation, Scripts and Page Layouts
 
 - [x] Evaluate Breadcrumb null pointer in banner see alumni page
 - [] Footer headings in logical order
-- [] RM h5 labels from modal quicklinks
+- [x] RM h5 labels from modal quicklinks
 - [] debug sidebar nav icons on mobile
 - [] tune news center pagelayouts for mobile
 - [] banner overlay in firefox
 - [] hover link to homepage in nav brand
 - [] wrap icon nav items in anchors
 - [] Convert Strategic Location h5 in poitext box to h3
+- [] Implement emergnecy alert system
