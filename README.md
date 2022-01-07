@@ -33,4 +33,5 @@ Bootstrap 5 Navigation, Scripts and Page Layouts
 - [] hover link to homepage in nav brand
 - [] wrap icon nav items in anchors
 - [] Convert Strategic Location h5 in poitext box to h3
+- [x] install covid banner
 - [] Implement emergnecy alert system
