@@ -99,20 +99,25 @@ body {
 
 
 /*****COVID19********/
+
 #COVIDbanner .infographicItem {
     padding: 0 !important;
 }
-@media screen and (min-width:768px) {
-#COVIDbanner .infographicItem {
-    padding: 0 !important;
+
+@media screen and (min-width: 768px) {
+    #COVIDbanner .infographicItem {
+        padding: 0 !important;
+    }
 }
-}
+
 #COVIDbanner .infographicItemHeader a {
-  color:#fff;
-  text-decoration:underline;
+    color:#fff;
+    font-size: 1.5rem;
+    text-decoration:underline;
 }
+
 #COVIDbanner .infographicItemHeader a:focus, #COVIDbanner .infographicItemHeader a:hover {
-  color:#000;
+    color:#000;
 }
 
 
