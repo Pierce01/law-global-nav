@@ -9024,10 +9024,6 @@ body.videopage {
     .autoplay .card-img-overlay p {
         font-weight: 900;
     }
-    .bannerVideo.vbv .opacity-75 {
-        opacity: unset!important;
-    }
-
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.999px) {
@@ -9085,6 +9081,9 @@ body.videopage {
         z-index: 1;
         background-color: #fff;
         border-radius: initial;
+    }
+    .bannerVideo.vbv .opacity-75 {
+        opacity: unset!important;
     }
     .autoplay .card-img-overlay .card-header {
         margin: 0!important;
