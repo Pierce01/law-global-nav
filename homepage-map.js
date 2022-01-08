@@ -177,6 +177,11 @@ function initialize() {
     };
 
 
+    // call overlay
+    let overlay = new SULawOverlay(bounds, map);
+    // overlay.setMap(map);
+
+
 
 
 
@@ -1037,9 +1042,6 @@ function initialize() {
     }
 
 
-    // call overlay
-    let overlay = new SULawOverlay(bounds);
-    overlay.setMap(map);
 
     let toggleButton = document.createElement("button");
 
