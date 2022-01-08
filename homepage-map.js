@@ -558,7 +558,7 @@ function initialize() {
             }
         },
 
-        // Markers for Law start, alphabetized
+        // Markers for Law start
         {
             title: "Kilpatrick Townsend & Stockton, LLP",
             position: {
@@ -623,6 +623,75 @@ function initialize() {
             icon: icons['businessIcon'].icon,
             _listener: {
                 type: 1,
+                text: "Davis Wright Tremaine LLP"
+            }
+        },
+
+        // Markers for Government start
+        {
+            title: "Kilpatrick Townsend & Stockton, LLP",
+            position: {
+                lat: 47.610832411471996,
+                lng: -122.33467179989323
+            },
+            icon: icons['governmentIcon'].icon,
+            _listener: {
+                type: 2,
+                text: "Kilpatrick Townsend & Stockton, LLP"
+            }
+        }, {
+            title: "Miller Nash LLP",
+            position: {
+                lat: 47.61479537333885,
+                lng: -122.35494277256925
+            },
+            icon: icons['governmentIcon'].icon,
+            _listener: {
+                type: 2,
+                text: "Miller Nash LLP"
+            }
+        }, {
+            title: "Perkins Coie LLP",
+            position: {
+                lat: 47.607281861324104,
+                lng: -122.33574408441389
+            },
+            icon: icons['governmentIcon'].icon,
+            _listener: {
+                type: 2,
+                text: "Perkins Coie LLP"
+            }
+        }, {
+            title: "Foster Garvey PC",
+            position: {
+                lat: 47.60654029747484,
+                lng: -122.33536574772079
+            },
+            icon: icons['governmentIcon'].icon,
+            _listener: {
+                type: 2,
+                text: "Foster Garvey PC"
+            }
+        }, {
+            title: "K&L Gates LLP",
+            position: {
+                lat: 47.60585017139619,
+                lng: -122.33292859897965
+            },
+            icon: icons['governmentIcon'].icon,
+            _listener: {
+                type: 2,
+                text: "K&L Gates LLP"
+            }
+        }, {
+            title: "Davis Wright Tremaine LLP",
+            position: {
+                lat: 47.6064282594055,
+                lng: -122.33127829094107
+            },
+            icon: icons['governmentIcon'].icon,
+            _listener: {
+                type: 2,
                 text: "Davis Wright Tremaine LLP"
             }
         }
