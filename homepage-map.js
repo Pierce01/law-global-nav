@@ -131,11 +131,11 @@ function initialize() {
 
         draw() {
 
-            const overlayProjection = this.getProjection();
-            const sw = overlayProjection.fromLatLngToDivPixel(
+            let overlayProjection = this.getProjection();
+            let sw = overlayProjection.fromLatLngToDivPixel(
               this.bounds.getSouthWest()
             );
-            const ne = overlayProjection.fromLatLngToDivPixel(
+            let ne = overlayProjection.fromLatLngToDivPixel(
               this.bounds.getNorthEast()
             );
       
@@ -194,7 +194,7 @@ function initialize() {
 
 
     // call overlay
-    let overlay = new SULawOverlay(bounds, image);
+    let overlay = new SULawOverlay(bounds);
     overlay.setMap(map);
 
 
