@@ -157,10 +157,10 @@ function initialize() {
         }, {
             title: "Bill & Melinda Gates Foundation",
             position: {
-                lat: 47.623200,
-                lng: -122.346601
+                lat: 47.62334211727529,
+                lng: -122.3465826939411
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 1,
                 text: "The largest transparently operated private foundation in the world with an endowment of more than $44 billion. <a href='http://gatesfoundation.org/jobs/' title='Career Page' target='_blank'>Career Page</a>"
