@@ -118,8 +118,8 @@ function initialize() {
         onAdd() {
 
             this.div = document.createElement("div");
-            this.div.style.borderStyle = "none";
-            this.div.style.borderWidth = "0px";
+            this.div.style.borderStyle = "solid";
+            this.div.style.borderWidth = "1px";
             this.div.style.position = "absolute";
       
             let panes = this.getPanes();
@@ -191,6 +191,11 @@ function initialize() {
             }
         }
     }
+
+
+    // call overlay
+    let overlay = new SULawOverlay(bounds, image);
+    overlay.setMap(map);
 
 
     //Map style end
