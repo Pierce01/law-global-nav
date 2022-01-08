@@ -753,18 +753,17 @@ function initialize() {
                 text: "The Seattle Great Wheel"
             }
         }, {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "Paramount Theatre",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.613479629443376,
+                lng: -122.33171800466893
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "Paramount Theatre"
             }
-        },
-        {
+        }, {
             title: "Museum of Pop Culture (MoPOP)",
             position: {
                 lat: 47.62149511793311,
