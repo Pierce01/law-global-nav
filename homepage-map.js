@@ -694,6 +694,28 @@ function initialize() {
                 type: 2,
                 text: "Municipal Court of Seattle"
             }
+        }, {
+            title: "King County Superior Court",
+            position: {
+                lat: 47.60244940185411,
+                lng: -122.33091150089022
+            },
+            icon: icons['governmentIcon'].icon,
+            _listener: {
+                type: 2,
+                text: "King County Superior Court"
+            }
+        }, {
+            title: "King County Prosecuting Attorney",
+            position: {
+                lat: 47.60281160991659,
+                lng: -122.33012270887335
+            },
+            icon: icons['governmentIcon'].icon,
+            _listener: {
+                type: 2,
+                text: "King County Prosecuting Attorney"
+            }
         }
     ]
 
