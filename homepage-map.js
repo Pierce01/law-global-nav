@@ -1,5 +1,5 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl51bxzHfJlGn9--0VhBtEMpDHknYu6sI&callback=initialize" async></script>
-<script>
+{/* <script> */}
 
 // The script tags must be uncommented for T4
 function modifyTextBox(type, header, text) {
@@ -102,6 +102,9 @@ function initialize() {
         },
         businessIcon: {
             icon: 'https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/pinlet_outline_v4-2-medium.png,assets/icons/poi/tactile/pinlet_v4-2-medium.png,assets/icons/poi/quantum/pinlet/dot_pinlet-2-medium.png&highlight=e3a611,fdb913,ffffff?scale=1'
+        }
+        governmentIcon: {
+            icon: 'https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/pinlet_outline_v4-2-medium.png,assets/icons/poi/tactile/pinlet_v4-2-medium.png,assets/icons/poi/quantum/pinlet/dot_pinlet-2-medium.png&highlight=e3a611,ef4135,ffffff?scale=1'
         }
     }
 
@@ -570,4 +573,4 @@ function initialize() {
         })
     }
 }
-</script>
+{/* </script> */}
