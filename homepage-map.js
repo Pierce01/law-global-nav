@@ -106,11 +106,26 @@ function initialize() {
 
     // Overlay class
     class SULawOverlay extends google.maps.OverlayView {
+
         bounds;
         div;
         constructor(bounds) {
             super();
             this.bounds = bounds;
+        }
+
+
+        onAdd() {
+
+            this.div = document.createElement("div");
+            this.div.style.borderStyle = "none";
+            this.div.style.borderWidth = "0px";
+            this.div.style.position = "absolute";
+      
+            // Add the element to the "overlayLayer" pane.
+            let panes = this.getPanes();
+      
+            panes.overlayLayer.appendChild(this.div);
         }
     }
 
