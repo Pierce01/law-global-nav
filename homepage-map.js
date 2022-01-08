@@ -578,7 +578,7 @@ function initialize() {
             },
             icon: icons['businessIcon'].icon,
             _listener: {
-                type: 0,
+                type: 1,
                 text: "Miller Nash LLP"
             }
         }, {
@@ -589,7 +589,7 @@ function initialize() {
             },
             icon: icons['businessIcon'].icon,
             _listener: {
-                type: 0,
+                type: 1,
                 text: "Perkins Coie LLP"
             }
         }, {
@@ -600,7 +600,7 @@ function initialize() {
             },
             icon: icons['businessIcon'].icon,
             _listener: {
-                type: 0,
+                type: 1,
                 text: "Foster Garvey PC"
             }
         }, {
@@ -611,19 +611,19 @@ function initialize() {
             },
             icon: icons['businessIcon'].icon,
             _listener: {
-                type: 0,
+                type: 1,
                 text: "K&L Gates LLP"
             }
         }, {
-            title: "Miller Nash LLP",
+            title: "Davis Wright Tremaine LLP",
             position: {
-                lat: 47.61479537333885,
-                lng: -122.35494277256925
+                lat: 47.6064282594055,
+                lng: -122.33127829094107
             },
             icon: icons['businessIcon'].icon,
             _listener: {
-                type: 0,
-                text: "Miller Nash LLP"
+                type: 1,
+                text: "Davis Wright Tremaine LLP"
             }
         }
     ]
