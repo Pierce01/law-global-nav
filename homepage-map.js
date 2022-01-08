@@ -567,19 +567,63 @@ function initialize() {
             },
             icon: icons['businessIcon'].icon,
             _listener: {
-                type: 0,
-                text: "Home of the Seattle Seahawks and Seattle Sounders. It has incredible views of Downtown Seattle and has twice held the Guinness World Record for loudest crowd roar at an outdoor stadium."
+                type: 1,
+                text: "Kilpatrick Townsend & Stockton, LLP"
             }
         }, {
-            title: "Chinatown-International District",
+            title: "Miller Nash LLP",
             position: {
-                lat: 47.597814,
-                lng: -122.323777
+                lat: 47.61479537333885,
+                lng: -122.35494277256925
             },
-            icon: icons['leisureIcon'].icon,
+            icon: icons['businessIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Also known as 'the CID,' this district is the center of Seattle’s Asian-American community, and one of eight historic neighborhoods recognized by the city. Seattle just wouldn’t be Seattle without its art, cuisine, and festivals."
+                text: "Miller Nash LLP"
+            }
+        }, {
+            title: "Miller Nash LLP",
+            position: {
+                lat: 47.61479537333885,
+                lng: -122.35494277256925
+            },
+            icon: icons['businessIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Miller Nash LLP"
+            }
+        }, {
+            title: "Miller Nash LLP",
+            position: {
+                lat: 47.61479537333885,
+                lng: -122.35494277256925
+            },
+            icon: icons['businessIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Miller Nash LLP"
+            }
+        }, {
+            title: "Miller Nash LLP",
+            position: {
+                lat: 47.61479537333885,
+                lng: -122.35494277256925
+            },
+            icon: icons['businessIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Miller Nash LLP"
+            }
+        }, {
+            title: "Miller Nash LLP",
+            position: {
+                lat: 47.61479537333885,
+                lng: -122.35494277256925
+            },
+            icon: icons['businessIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Miller Nash LLP"
             }
         }
     ]
