@@ -471,8 +471,8 @@ function initialize() {
         }, {
             title: "Pike Place Market",
             position: {
-                lat: 47.608718,
-                lng: -122.340688
+                lat: 47.60966167864134,
+                lng: -122.34215175466264
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
@@ -513,10 +513,10 @@ function initialize() {
                 text: "Locals call it, SAM. But tourists call it, Wow! With nearly 25,000 pieces in its collection, SAM also operates the Seattle Asian Art Museum and the Olympic Sculpture Park."
             }
         }, {
-            title: "Seattle Center",
+            title: "Space Needle",
             position: {
-                lat: 47.622175,
-                lng: -122.352228
+                lat: 47.62051644456711,
+                lng: -122.34927241589827
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
@@ -547,7 +547,7 @@ function initialize() {
             }
         }, {
             title: "Washington Park Arboretum",
-            osition: {
+            position: {
                 lat: 47.639815,
                 lng: -122.315328
             },
@@ -720,15 +720,233 @@ function initialize() {
 
         // New Attractions
         {
-            title: "Washington Park Arboretum",
-            osition: {
-                lat: 47.639815,
-                lng: -122.315328
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "If you love plant life and verdant scenery, then you’ll want to visit the Arboretum just off the shores of Lake Washington. Here, you’ll find 230 acres of plants, many of which are found nowhere else in the region."
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        }, {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        },
+        {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        }, {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        },
+        {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        }, {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        },
+        {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        }, {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        },
+        {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        }, {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        },
+        {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        }, {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        },
+        {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        }, {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        },
+        {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        }, {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        },
+        {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        }, {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        },
+        {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
+            }
+        }, {
+            title: "Museum of Pop Culture (MoPOP)",
+            position: {
+                lat: 47.62149511793311,
+                lng: -122.34812595749383
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Museum of Pop Culture (MoPOP)"
             }
         }
     ]
