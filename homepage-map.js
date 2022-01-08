@@ -101,6 +101,16 @@ function initialize() {
         new google.maps.LatLng(47.60926626487299, -122.29954475716657)
     );
 
+
+    // Overlay class
+    class SULawOverlay extends google.maps.OverlayView {
+        bounds;
+        div;
+        constructor(bounds) {
+          super();
+          this.bounds = bounds;
+    }
+
     //Map style end
     //Map markers start
     //Map marker url list start
