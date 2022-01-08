@@ -917,9 +917,8 @@ function initialize() {
                 type: 0,
                 text: "Boon Boona Coffee"
             }
-        },
-        {
-            title: "Museum of Pop Culture (MoPOP)",
+        }, {
+            title: "HoneyHole Sandwiches",
             position: {
                 lat: 47.62149511793311,
                 lng: -122.34812595749383
@@ -927,7 +926,7 @@ function initialize() {
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "HoneyHole Sandwiches"
             }
         }, {
             title: "Museum of Pop Culture (MoPOP)",
