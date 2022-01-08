@@ -131,7 +131,7 @@ function initialize() {
     }
 
     SULawOverlay.prototype = new google.maps.OverlayView();
-    var map = new google.maps.Map(document.getElementById('SeattlePOIMap'), {
+    let map = new google.maps.Map(document.getElementById('SeattlePOIMap'), {
         center: seattleu,
         streetViewControl: false,
         mapTypeControl: false,
