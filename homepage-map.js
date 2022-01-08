@@ -127,6 +127,32 @@ function initialize() {
       
             panes.overlayLayer.appendChild(this.div);
         }
+
+
+
+        draw() {
+            // We use the south-west and north-east
+            // coordinates of the overlay to peg it to the correct position and size.
+            // To do this, we need to retrieve the projection from the overlay.
+            const overlayProjection = this.getProjection();
+            // Retrieve the south-west and north-east coordinates of this overlay
+            // in LatLngs and convert them to pixel coordinates.
+            // We'll use these coordinates to resize the div.
+            const sw = overlayProjection.fromLatLngToDivPixel(
+              this.bounds.getSouthWest()
+            );
+            const ne = overlayProjection.fromLatLngToDivPixel(
+              this.bounds.getNorthEast()
+            );
+      
+            // Resize the div to fit the indicated dimensions.
+            if (this.div) {
+              this.div.style.left = sw.x + "px";
+              this.div.style.top = ne.y + "px";
+              this.div.style.width = ne.x - sw.x + "px";
+              this.div.style.height = sw.y - ne.y + "px";
+            }
+          }
     }
 
 
