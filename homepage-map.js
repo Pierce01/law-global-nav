@@ -127,16 +127,18 @@ function initialize() {
         var div = document.createElement("div");
         div.style.borderStyle = "none";
         div.style.borderWidth = "0px";
+        div.style.height = "25%";
+        div.style.width = "25%";
         div.style.position = "absolute"; // Create the img element and attach it to the div.
     
-        var img = document.createElement("img");
-        console.log(this.image_);
-        img.src = this.image_;
-        img.style.width = "100%";
-        img.style.height = "100%";
-        img.style.position = "absolute";
-        div.appendChild(img);
-        this.div_ = div; // Add the element to the "overlayLayer" pane.
+        // var img = document.createElement("img");
+        // console.log(this.image_);
+        // img.src = this.image_;
+        // img.style.width = "100%";
+        // img.style.height = "100%";
+        // img.style.position = "absolute";
+        // div.appendChild(img);
+        // this.div_ = div; 
     
         var panes = this.getPanes();
         panes.overlayLayer.appendChild(div);
@@ -172,11 +174,8 @@ function initialize() {
     SULawOverlay.prototype.onRemove = function() {
         this.div_.parentNode.removeChild(this.div_);
         this.div_ = null;
-      };
-        exports.overlay = new USGSOverlay(bounds, srcImage, map);
-          exports.USGSOverlay = USGSOverlay;
-    
-      }
+    };
+
 
 
 
