@@ -155,6 +155,41 @@ function initialize() {
                 delete this.div;
             }
         }
+
+
+
+        hide() {
+            if (this.div) {
+              this.div.style.visibility = "hidden";
+            }
+        }
+
+
+        show() {
+            if (this.div) {
+                this.div.style.visibility = "visible";
+            }
+        }
+
+
+        toggle() {
+            if (this.div) {
+                if (this.div.style.visibility === "hidden") {
+                this.show();
+                } else {
+                this.hide();
+                }
+            }
+        }
+
+
+        toggleDOM(map) {
+            if (this.getMap()) {
+                this.setMap(null);
+            } else {
+                this.setMap(map);
+            }
+        }
     }
 
 
