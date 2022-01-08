@@ -120,6 +120,8 @@ function initialize() {
             this.div = document.createElement("div");
             this.div.style.borderStyle = "solid";
             this.div.style.borderWidth = "1px";
+            this.div.style.fillColor = "#aa0000";
+
             this.div.style.position = "absolute";
       
             let panes = this.getPanes();
@@ -127,7 +129,7 @@ function initialize() {
             panes.overlayLayer.appendChild(this.div);
         }
 
-
+        
 
         draw() {
 
