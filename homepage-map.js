@@ -629,48 +629,48 @@ function initialize() {
 
         // Markers for Government start
         {
-            title: "Kilpatrick Townsend & Stockton, LLP",
+            title: "U.S. District Court",
             position: {
-                lat: 47.610832411471996,
-                lng: -122.33467179989323
+                lat: 47.61485768515088,
+                lng: -122.33634848604706
             },
             icon: icons['governmentIcon'].icon,
             _listener: {
                 type: 2,
-                text: "Kilpatrick Townsend & Stockton, LLP"
+                text: "U.S. District Court"
             }
         }, {
-            title: "Miller Nash LLP",
+            title: "U.S. Attorneys Office",
             position: {
-                lat: 47.61479537333885,
-                lng: -122.35494277256925
+                lat: 47.61499820459141,
+                lng: -122.3364219371591
             },
             icon: icons['governmentIcon'].icon,
             _listener: {
                 type: 2,
-                text: "Miller Nash LLP"
+                text: "U.S. Attorneys Office"
             }
         }, {
-            title: "Perkins Coie LLP",
+            title: "U.S. Appeals Court",
             position: {
-                lat: 47.607281861324104,
-                lng: -122.33574408441389
+                lat: 47.60732566451988,
+                lng: -122.33121577059535
             },
             icon: icons['governmentIcon'].icon,
             _listener: {
                 type: 2,
-                text: "Perkins Coie LLP"
+                text: "U.S. Appeals Court"
             }
         }, {
-            title: "Foster Garvey PC",
+            title: "WA Attorney General",
             position: {
-                lat: 47.60654029747484,
-                lng: -122.33536574772079
+                lat: 47.605782811814045,
+                lng: -122.33020904474388
             },
             icon: icons['governmentIcon'].icon,
             _listener: {
                 type: 2,
-                text: "Foster Garvey PC"
+                text: "WA Attorney General"
             }
         }, {
             title: "K&L Gates LLP",
