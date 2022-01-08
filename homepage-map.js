@@ -928,17 +928,6 @@ function initialize() {
                 type: 0,
                 text: "HoneyHole Sandwiches"
             }
-        }, {
-            title: "Museum of Pop Culture (MoPOP)",
-            position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
-            },
-            icon: icons['leisureIcon'].icon,
-            _listener: {
-                type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
-            }
         }
     ]
 
