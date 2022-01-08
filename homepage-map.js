@@ -716,6 +716,20 @@ function initialize() {
                 type: 2,
                 text: "King County Prosecuting Attorney"
             }
+        },
+
+        // New Attractions
+        {
+            title: "Washington Park Arboretum",
+            osition: {
+                lat: 47.639815,
+                lng: -122.315328
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "If you love plant life and verdant scenery, then you’ll want to visit the Arboretum just off the shores of Lake Washington. Here, you’ll find 230 acres of plants, many of which are found nowhere else in the region."
+            }
         }
     ]
 
