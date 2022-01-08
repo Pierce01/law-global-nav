@@ -227,8 +227,8 @@ function initialize() {
         }, {
             title: "F5",
             position: {
-                lat: 47.622207,
-                lng: -122.363252
+                lat: 47.60541655907867,
+                lng: -122.3308068654024
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
