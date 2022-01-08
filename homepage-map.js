@@ -807,86 +807,85 @@ function initialize() {
                 type: 2,
                 text: "Seattle City Hall"
             }
-        },
-        {
-            title: "Museum of Pop Culture (MoPOP)",
+        }, {
+            title: "Cal Anderson Park",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.61703047280376,
+                lng: -122.31913976705523
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "Cal Anderson Park"
             }
         }, {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "Caffé Vita",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.61399278718919,
+                lng: -122.31904268926019
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "Caffé Vita"
             }
         },
         {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "Garage Bowling & Billiards",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.61225130971746,
+                lng: -122.32048938626008
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "Garage Bowling & Billiards"
             }
         }, {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "Whole Foods Market",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.61144081846337,
+                lng: -122.32134711744843
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "Whole Foods Market"
             }
         },
         {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "Elysian Capitol Hill Brewery",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.613950374046986,
+                lng: -122.31589537874025
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "Elysian Capitol Hill Brewery"
             }
         }, {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "Skillet Diner",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.61313093694759,
+                lng: -122.31389887377334
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "Skillet Diner"
             }
         },
         {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "Trader Joe's",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.61601799387743,
+                lng: -122.30971394623907
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "Trader Joe's"
             }
         }, {
             title: "Museum of Pop Culture (MoPOP)",
