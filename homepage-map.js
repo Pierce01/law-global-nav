@@ -140,7 +140,7 @@ function initialize() {
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "Nearly 13,000 employees and Highest Customer Satisfaction as ranked by J.D. Power and Associates for ten consecutive years. <a href='http://alaskaair.jobs/' title='Career page' target='_blank'>Career page.</a>"
             }
         }, {
@@ -151,7 +151,7 @@ function initialize() {
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "The largest internet-based retailer in the world and fourth most valuable public company. <a href='http://amazon.jobs/' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -162,7 +162,7 @@ function initialize() {
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "The largest transparently operated private foundation in the world with an endowment of more than $44 billion. <a href='http://gatesfoundation.org/jobs/' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -171,9 +171,9 @@ function initialize() {
                 lat: 47.654121,
                 lng: -122.204875
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "Manages the popular wireless technology for data exchanges over short distances. <a href='https://www.bluetooth.com/careers' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -182,9 +182,9 @@ function initialize() {
                 lat: 47.535826,
                 lng: -122.314193
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "While no longer headquartered in Seattle, it’s still a major employer, recently opening a $1 billion factory. <a href='http://boeing.com/careers' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -193,9 +193,9 @@ function initialize() {
                 lat: 47.548608,
                 lng: -122.050324
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "America’s largest membership-only warehouse club also hires in bulk. <a href='http://costco.com/jobs.html' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -204,9 +204,9 @@ function initialize() {
                 lat: 47.616560,
                 lng: -122.201533
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "The brand that scaled Mt. Everest and defined a lifestyle category is still a major force in fashion and retail with a thriving online store and 370 locations worldwide. <a href='http://careers.eddiebauer.com' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -215,9 +215,9 @@ function initialize() {
                 lat: 47.627682,
                 lng: -122.374251
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "Owns and operates more than 200 travels sites in more than 75 countries including Hotels.com, Hotwire.com, trivago, Orbitz and Travelocity. <a href='http://lifeatexpedia.com' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -226,9 +226,9 @@ function initialize() {
                 lat: 47.622207,
                 lng: -122.363252
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "If you know about application delivery networking, then you know about F5 Networks and its products like BIG-IP and BIG-IQ. <a href='http://f5.com/careers' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -237,9 +237,9 @@ function initialize() {
                 lat: 47.627104,
                 lng: -122.331497
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "Known locally as The Hutch, the renowned center’s main campus consists of 13 buildings on 15 acres in Seattle’s South Lake Union neighborhood.  <a href='http://fredhutch.org/careers' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -248,9 +248,9 @@ function initialize() {
                 lat: 47.639142,
                 lng: -122.128362
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "Microsoft is one of the world’s most valuable companies and the global leader in software. It also owns Skype and LinkedIn. <a href='http://careers.microsoft.com' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -259,9 +259,9 @@ function initialize() {
                 lat: 47.650908,
                 lng: -122.139175
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "One of the world’s largest video game companies and creator of some of the best-known game franchises, such as Mario and Pokémon. <a href='http://nintendo.com/corp/jobs.jsp' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -270,9 +270,9 @@ function initialize() {
                 lat: 47.612358,
                 lng: -122.336652
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "The luxury retailer was founded in Seattle in 1901 and today employees more than 72,000 people. It’s flagship store and headquarters is a Seattle landmark. <a href='http://about.nordstrom.com/careers' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -281,9 +281,9 @@ function initialize() {
                 lat: 47.616604,
                 lng: -122.199735
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "PACCAR is one of the world’s largest manufacturers of medium- and heavy-duty trucks and was awarded the National Medal of Technology at the White House in 2006 for its work on reduced fuel consumption. <a href='http://paccar.com/careers' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -292,9 +292,9 @@ function initialize() {
                 lat: 47.618238,
                 lng: -122.339349
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "PATH is an innovative, nonprofit health organization with 1,600 employees in more than 70 offices around the world. <a href='http://path.org/jobs' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -305,18 +305,18 @@ function initialize() {
             },
             icon: icons['businessIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "Referred to simply as the Port, this government agency runs Seattle’s seaport and airport, generating more than 200,000 jobs and $20 billion in business revenue. <a href='http://portseattle.org/jobs' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
-            title: "REI Seattle Flagship Store",
+            title: "REI",
             position: {
-                lat: 47.620165,
-                lng: -122.329641
+                lat: 47.62035357329306,
+                lng: -122.3297526784556
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "One of only four REI flagship stores in the U.S., and a must-go destination for outdoor and recreational enthusiasts. <a href='http://rei.jobs' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -325,9 +325,9 @@ function initialize() {
                 lat: 47.608211,
                 lng: -122.338025
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "Founded in 1936, this global asset management firm has nearly $244 billion in assets under management. <a href='http://russellinvestments.com/careers' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -336,9 +336,9 @@ function initialize() {
                 lat: 47.580903,
                 lng: -122.335374
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "No other company is as synonymous with Seattle or coffee like Starbucks, which has nearly 24,000 locations worldwide. <a href='http://starbucks.com/careers/corporate-careers' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -347,9 +347,9 @@ function initialize() {
                 lat: 47.647837,
                 lng: -122.338009
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "Founded in 2003, this cutting-edge software company produces interactive data visualization products focused on business intelligence. <a href='http://careers.tableau.com' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -358,9 +358,9 @@ function initialize() {
                 lat: 47.578615,
                 lng: -122.165567
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "The third largest wireless carrier in the U.S. with 72.6 million customers. It also owns MetroPCS. <a href='http://tmobile.com/careers' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -369,9 +369,9 @@ function initialize() {
                 lat: 47.614063,
                 lng: -122.194635
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "Valve is the video game developer behind critically acclaimed titles like <i>Half-Life</i>, and the creator of the popular distribution platform Steam. At one time, it was the most profitable company per employee in the United States. <a href='http://valvesoftware.com/jobs' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -380,9 +380,9 @@ function initialize() {
                 lat: 47.600221,
                 lng: -122.332870
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "Pronounced 'warehouser,' this Seattle giant is one of the world’s largest private owners or timberlands, growing and harvesting trees in renewable cycles.  <a href='http://weyerhaeuser.com/careers' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
@@ -391,9 +391,9 @@ function initialize() {
                 lat: 47.607375,
                 lng: -122.337348
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
-                type: 1,
+                type: 0,
                 text: "Created by former Microsoft execs and Expedia founders, Zillow is part of the largest real-estate advertising network on the web. <a href='http://zillow.com/jobs' title='Career Page' target='_blank'>Career Page</a>"
             }
         },
