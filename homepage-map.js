@@ -967,6 +967,7 @@ function initialize() {
         constructor(bounds) {
             super();
             this.bounds = bounds;
-    };
+        }
+    }
 }
 {/* </script> */}
