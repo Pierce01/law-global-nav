@@ -562,10 +562,10 @@ function initialize() {
         {
             title: "Kilpatrick Townsend & Stockton, LLP",
             position: {
-                lat: 47.595043,
-                lng: -122.331596
+                lat: 47.610832411471996,
+                lng: -122.33467179989323
             },
-            icon: icons['leisureIcon'].icon,
+            icon: icons['businessIcon'].icon,
             _listener: {
                 type: 0,
                 text: "Home of the Seattle Seahawks and Seattle Sounders. It has incredible views of Downtown Seattle and has twice held the Guinness World Record for loudest crowd roar at an outdoor stadium."
