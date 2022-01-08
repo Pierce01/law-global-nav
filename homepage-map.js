@@ -37,7 +37,7 @@ function initialize() {
         streetViewControl: false,
         mapTypeControl: false,
         fullscreenControl: false,
-        zoom: 14,
+        zoom: 15,
         //Map style from Snazzy Maps (Blue Water) start
         styles: [{
             "featureType": "administrative",
