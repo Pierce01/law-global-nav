@@ -673,26 +673,26 @@ function initialize() {
                 text: "WA Attorney General"
             }
         }, {
-            title: "K&L Gates LLP",
+            title: "Seattle City Attorney",
             position: {
-                lat: 47.60585017139619,
-                lng: -122.33292859897965
+                lat: 47.60468433307673,
+                lng: -122.33046658810142
             },
             icon: icons['governmentIcon'].icon,
             _listener: {
                 type: 2,
-                text: "K&L Gates LLP"
+                text: "Seattle City Attorney"
             }
         }, {
-            title: "Davis Wright Tremaine LLP",
+            title: "Municipal Court of Seattle",
             position: {
-                lat: 47.6064282594055,
-                lng: -122.33127829094107
+                lat: 47.60402414833061,
+                lng: -122.32918549503297
             },
             icon: icons['governmentIcon'].icon,
             _listener: {
                 type: 2,
-                text: "Davis Wright Tremaine LLP"
+                text: "Municipal Court of Seattle"
             }
         }
     ]
