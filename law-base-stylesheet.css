@@ -9024,9 +9024,10 @@ body.videopage {
     .autoplay .card-img-overlay p {
         font-weight: 900;
     }
-    /* .bannerVideo.vbv.autoplay {
-        margin-top: -1rem;
-    } */
+    .bannerVideo.vbv .opacity-75 {
+        opacity: unset!important;
+    }
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.999px) {
