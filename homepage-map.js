@@ -786,26 +786,26 @@ function initialize() {
                 text: "The 5th Avenue Theatre"
             }
         }, {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "Seattle Public Library",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.60670928319733,
+                lng: -122.33250449226306
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "Seattle Public Library"
             }
         }, {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "Seattle City Hall",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.60390694582192,
+                lng: -122.32984872272466
             },
-            icon: icons['leisureIcon'].icon,
+            icon: icons['governmentIcon'].icon,
             _listener: {
-                type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                type: 2,
+                text: "Seattle City Hall"
             }
         },
         {
