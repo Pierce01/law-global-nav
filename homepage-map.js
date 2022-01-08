@@ -764,29 +764,28 @@ function initialize() {
                 text: "Paramount Theatre"
             }
         }, {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "Washington State Convention Center",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.61182281794571,
+                lng: -122.3314233962692
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "Washington State Convention Center"
             }
         }, {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "The 5th Avenue Theatre",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.60941685466707,
+                lng: -122.33384550179656
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "The 5th Avenue Theatre"
             }
-        },
-        {
+        }, {
             title: "Museum of Pop Culture (MoPOP)",
             position: {
                 lat: 47.62149511793311,
