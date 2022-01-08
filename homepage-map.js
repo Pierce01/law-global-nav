@@ -102,7 +102,7 @@ function initialize() {
         },
         businessIcon: {
             icon: 'https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/pinlet_outline_v4-2-medium.png,assets/icons/poi/tactile/pinlet_v4-2-medium.png,assets/icons/poi/quantum/pinlet/dot_pinlet-2-medium.png&highlight=e3a611,fdb913,ffffff?scale=1'
-        }
+        },
         governmentIcon: {
             icon: 'https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/pinlet_outline_v4-2-medium.png,assets/icons/poi/tactile/pinlet_v4-2-medium.png,assets/icons/poi/quantum/pinlet/dot_pinlet-2-medium.png&highlight=e3a611,ef4135,ffffff?scale=1'
         }
@@ -125,7 +125,7 @@ function initialize() {
                 lat: 47.609624,
                 lng: -122.317480
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['governmentIcon'].icon,
             _listener: {
                 type: 1,
                 text: "Seattle University School of Law or Seattle Law School, or SU Law is a professional graduate school affiliated with Seattle University, the Northwest's largest independent university. The School is accredited by the American Bar Association and is a member of the Association of American Law Schools."
