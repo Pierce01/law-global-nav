@@ -582,37 +582,37 @@ function initialize() {
                 text: "Miller Nash LLP"
             }
         }, {
-            title: "Miller Nash LLP",
+            title: "Perkins Coie LLP",
             position: {
-                lat: 47.61479537333885,
-                lng: -122.35494277256925
+                lat: 47.607281861324104,
+                lng: -122.33574408441389
             },
             icon: icons['businessIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Miller Nash LLP"
+                text: "Perkins Coie LLP"
             }
         }, {
-            title: "Miller Nash LLP",
+            title: "Foster Garvey PC",
             position: {
-                lat: 47.61479537333885,
-                lng: -122.35494277256925
+                lat: 47.60654029747484,
+                lng: -122.33536574772079
             },
             icon: icons['businessIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Miller Nash LLP"
+                text: "Foster Garvey PC"
             }
         }, {
-            title: "Miller Nash LLP",
+            title: "K&L Gates LLP",
             position: {
-                lat: 47.61479537333885,
-                lng: -122.35494277256925
+                lat: 47.60585017139619,
+                lng: -122.33292859897965
             },
             icon: icons['businessIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Miller Nash LLP"
+                text: "K&L Gates LLP"
             }
         }, {
             title: "Miller Nash LLP",
