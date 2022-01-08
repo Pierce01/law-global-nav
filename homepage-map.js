@@ -114,7 +114,33 @@ function initialize() {
         this.div_ = null; // Explicitly call setMap on this overlay.
     
         this.setMap(map);
-      }
+    }
+
+
+
+    /**
+     * onAdd is called when the map's panes are ready and the overlay has been
+     * added to the map.
+     */
+  
+    SULawOverlay.prototype.onAdd = function() {
+        var div = document.createElement("div");
+        div.style.borderStyle = "none";
+        div.style.borderWidth = "0px";
+        div.style.position = "absolute"; // Create the img element and attach it to the div.
+    
+        var img = document.createElement("img");
+        console.log(this.image_);
+        img.src = this.image_;
+        img.style.width = "100%";
+        img.style.height = "100%";
+        img.style.position = "absolute";
+        div.appendChild(img);
+        this.div_ = div; // Add the element to the "overlayLayer" pane.
+    
+        var panes = this.getPanes();
+        panes.overlayLayer.appendChild(div);
+    };
 
 
 
