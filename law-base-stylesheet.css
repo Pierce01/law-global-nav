@@ -9083,6 +9083,9 @@ body.videopage {
         background-color: #fff;
         border-radius: initial;
     }
+    .bannerVideo.vbv.autoplay .card-img-overlay .textmat {
+        background-color: #fff!important;
+    } 
     .bannerVideo.vbv .opacity-75 {
         opacity: unset!important;
     }
