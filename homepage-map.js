@@ -146,8 +146,8 @@ function initialize() {
         }, {
             title: "Amazon.com",
             position: {
-                lat: 47.622400,
-                lng: -122.336306
+                lat: 47.62293267253664,
+                lng: -122.33680979475935
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
