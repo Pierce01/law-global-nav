@@ -556,6 +556,31 @@ function initialize() {
                 type: 0,
                 text: "If you love plant life and verdant scenery, then you’ll want to visit the Arboretum just off the shores of Lake Washington. Here, you’ll find 230 acres of plants, many of which are found nowhere else in the region."
             }
+        },
+
+        // Markers for Law start, alphabetized
+        {
+            title: "Kilpatrick Townsend & Stockton, LLP",
+            position: {
+                lat: 47.595043,
+                lng: -122.331596
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Home of the Seattle Seahawks and Seattle Sounders. It has incredible views of Downtown Seattle and has twice held the Guinness World Record for loudest crowd roar at an outdoor stadium."
+            }
+        }, {
+            title: "Chinatown-International District",
+            position: {
+                lat: 47.597814,
+                lng: -122.323777
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Also known as 'the CID,' this district is the center of Seattle’s Asian-American community, and one of eight historic neighborhoods recognized by the city. Seattle just wouldn’t be Seattle without its art, cuisine, and festivals."
+            }
         }
     ]
 
