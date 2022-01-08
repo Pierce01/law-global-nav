@@ -95,6 +95,26 @@ function initialize() {
     });
 
 
+
+
+    // Bounds required for overlay using Madronna and Mann neighborhoods
+    let bounds = new google.maps.LatLngBounds(
+        new google.maps.LatLng(47.61413511565072, -122.28931024694381),
+        new google.maps.LatLng(47.60926626487299, -122.29954475716657)
+    );
+
+
+    // Overlay class
+    class SULawOverlay extends google.maps.OverlayView {
+        bounds;
+        div;
+        constructor(bounds) {
+            super();
+            this.bounds = bounds;
+        }
+    }
+
+
     //Map style end
     //Map markers start
     //Map marker url list start
@@ -949,25 +969,6 @@ function initialize() {
                 $("#POITextBox").hide()
             }
         })
-    }
-
-
-
-    // Bounds required for overlay using Madronna and Mann neighborhoods
-    let bounds = new google.maps.LatLngBounds(
-        new google.maps.LatLng(47.61413511565072, -122.28931024694381),
-        new google.maps.LatLng(47.60926626487299, -122.29954475716657)
-    );
-
-
-    // Overlay class
-    class SULawOverlay extends google.maps.OverlayView {
-        bounds;
-        div;
-        constructor(bounds) {
-            super();
-            this.bounds = bounds;
-        }
     }
 }
 {/* </script> */}
