@@ -138,7 +138,7 @@ function initialize() {
                 lat: 47.626038,
                 lng: -122.334933
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 1,
                 text: "Nearly 13,000 employees and Highest Customer Satisfaction as ranked by J.D. Power and Associates for ten consecutive years. <a href='http://alaskaair.jobs/' title='Career page' target='_blank'>Career page.</a>"
@@ -149,7 +149,7 @@ function initialize() {
                 lat: 47.622400,
                 lng: -122.336306
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 1,
                 text: "The largest internet-based retailer in the world and fourth most valuable public company. <a href='http://amazon.jobs/' title='Career Page' target='_blank'>Career Page</a>"
