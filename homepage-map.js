@@ -129,9 +129,9 @@ function initialize() {
                 lat: 47.609624,
                 lng: -122.317480
             },
-            icon: icons['governmentIcon'].icon,
+            icon: icons['businessIcon'].icon,
             _listener: {
-                type: 2,
+                type: 1,
                 text: "Seattle University School of Law or Seattle Law School, or SU Law is a professional graduate school affiliated with Seattle University, the Northwest's largest independent university. The School is accredited by the American Bar Association and is a member of the Association of American Law Schools."
             }
         },
@@ -307,9 +307,9 @@ function initialize() {
                 lat: 47.613718,
                 lng: -122.355091
             },
-            icon: icons['businessIcon'].icon,
+            icon: icons['governmentIcon'].icon,
             _listener: {
-                type: 0,
+                type: 2,
                 text: "Referred to simply as the Port, this government agency runs Seattle’s seaport and airport, generating more than 200,000 jobs and $20 billion in business revenue. <a href='http://portseattle.org/jobs' title='Career Page' target='_blank'>Career Page</a>"
             }
         }, {
