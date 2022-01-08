@@ -194,6 +194,19 @@ function initialize() {
     });
 
 
+    function SULawOverlay(bounds, map) {
+        // Initialize all properties.
+        this.bounds_ = bounds;
+        this.map_ = map; // Define a property to hold the image's div. We'll
+        // actually create this div upon receipt of the onAdd()
+        // method so we'll leave it null for now.
+    
+        this.div_ = null; // Explicitly call setMap on this overlay.
+    
+        this.setMap(map);
+      }
+
+
 
 
     //Map style end
