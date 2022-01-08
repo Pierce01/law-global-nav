@@ -169,6 +169,18 @@ function initialize() {
 
 
 
+    SULawOverlay.prototype.onRemove = function() {
+        this.div_.parentNode.removeChild(this.div_);
+        this.div_ = null;
+      };
+        exports.overlay = new USGSOverlay(bounds, srcImage, map);
+          exports.USGSOverlay = USGSOverlay;
+    
+      }
+
+
+
+
     //Map style end
     //Map markers start
     //Map marker url list start
