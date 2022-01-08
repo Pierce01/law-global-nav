@@ -193,9 +193,6 @@ function initialize() {
     }
 
 
-    // call overlay
-    let overlay = new SULawOverlay(bounds);
-    overlay.setMap(map);
 
 
     //Map style end
@@ -1053,5 +1050,28 @@ function initialize() {
             }
         })
     }
+
+
+    // call overlay
+    let overlay = new SULawOverlay(bounds);
+    overlay.setMap(map);
+
+    let toggleButton = document.createElement("button");
+
+    toggleButton.textContent = "Toggle";
+    toggleButton.classList.add("custom-map-control-button");
+    
+    let toggleDOMButton = document.createElement("button");
+    
+    toggleDOMButton.textContent = "Toggle DOM Attachment";
+    toggleDOMButton.classList.add("custom-map-control-button");
+    toggleButton.addEventListener("click", () => {
+        overlay.toggle();
+    });
+    toggleDOMButton.addEventListener("click", () => {
+        overlay.toggleDOM(map);
+    });
+    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(toggleDOMButton);
+    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(toggleButton);
 }
 {/* </script> */}
