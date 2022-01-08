@@ -32,6 +32,7 @@ function initialize() {
         lat: 47.609165,
         lng: -122.318685
     }
+    SULawOverlay.prototype = new google.maps.OverlayView();
     var map = new google.maps.Map(document.getElementById('SeattlePOIMap'), {
         center: seattleu,
         streetViewControl: false,
@@ -93,15 +94,6 @@ function initialize() {
             }],
         }],
     });
-
-
-
-
-    // Bounds required for overlay using Madronna and Mann neighborhoods
-    let bounds = new google.maps.LatLngBounds(
-        new google.maps.LatLng(47.61413511565072, -122.28931024694381),
-        new google.maps.LatLng(47.60926626487299, -122.29954475716657)
-    );
 
 
     // Overlay class
