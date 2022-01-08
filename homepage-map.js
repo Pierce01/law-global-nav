@@ -829,8 +829,7 @@ function initialize() {
                 type: 0,
                 text: "Caffé Vita"
             }
-        },
-        {
+        }, {
             title: "Garage Bowling & Billiards",
             position: {
                 lat: 47.61225130971746,
@@ -852,8 +851,7 @@ function initialize() {
                 type: 0,
                 text: "Whole Foods Market"
             }
-        },
-        {
+        }, {
             title: "Elysian Capitol Hill Brewery",
             position: {
                 lat: 47.613950374046986,
@@ -875,8 +873,7 @@ function initialize() {
                 type: 0,
                 text: "Skillet Diner"
             }
-        },
-        {
+        }, {
             title: "Trader Joe's",
             position: {
                 lat: 47.61601799387743,
@@ -888,38 +885,37 @@ function initialize() {
                 text: "Trader Joe's"
             }
         }, {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "Zobel Ethiopian Cuisine",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.60610291656786,
+                lng: -122.31596365022605
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
-            }
-        },
-        {
-            title: "Museum of Pop Culture (MoPOP)",
-            position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
-            },
-            icon: icons['leisureIcon'].icon,
-            _listener: {
-                type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "Zobel Ethiopian Cuisine"
             }
         }, {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "Batch Baking Company",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.60959797675196,
+                lng: -122.31653336857984
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "Batch Baking Company"
+            }
+        }, {
+            title: "Boon Boona Coffee",
+            position: {
+                lat: 47.607555630706074,
+                lng: -122.31657614913652
+            },
+            icon: icons['leisureIcon'].icon,
+            _listener: {
+                type: 0,
+                text: "Boon Boona Coffee"
             }
         },
         {
