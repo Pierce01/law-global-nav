@@ -920,8 +920,8 @@ function initialize() {
         }, {
             title: "HoneyHole Sandwiches",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.60609257890519,
+                lng: -122.31505842502327
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
