@@ -8,13 +8,17 @@ function modifyTextBox(type, header, text) {
     $("#POITextBox p").html(text);
     $("#POITextBox").css("padding", "5px 25px 15px 25px");
     if (type == 0) {
-        //leisure
+        // attractions leisure icon
         $("#POITextBox").css("border-left", "5px solid #088099");
         $("#POITextBox h3").css("color", "#088099");
-    } else if (type == 1){
-        //business
-        $("#POITextBox").css("border-left", "5px solid #FDB915");
-        $("#POITextBox h3").css("color", "#FDB915");
+    } else if (type == 1) {
+        // law - business icon
+        $("#POITextBox").css("border-left", "5px solid #fdb913");
+        $("#POITextBox h3").css("color", "#fdb913");
+    } else if (type == 2)  {
+        // government government icon
+        $("#POITextBox").css("border-left", "5px solid #ef4135");
+        $("#POITextBox h3").css("color", "#ef4135");
     } else {
         $("#POITextBox").css("border-left", "5px solid #EF4135");
         $("#POITextBox h3").css("color", "#EF4135");
@@ -127,7 +131,7 @@ function initialize() {
             },
             icon: icons['governmentIcon'].icon,
             _listener: {
-                type: 1,
+                type: 2,
                 text: "Seattle University School of Law or Seattle Law School, or SU Law is a professional graduate school affiliated with Seattle University, the Northwest's largest independent university. The School is accredited by the American Bar Association and is a member of the Association of American Law Schools."
             }
         },
