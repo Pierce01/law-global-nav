@@ -427,8 +427,8 @@ function initialize() {
         }, {
             title: "Elliott Bay Book Company",
             position: {
-                lat: 47.614623,
-                lng: -122.319852
+                lat: 47.614700325273624,
+                lng: -122.31961886370313
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
