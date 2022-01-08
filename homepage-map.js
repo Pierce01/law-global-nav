@@ -731,27 +731,26 @@ function initialize() {
                 text: "Museum of Pop Culture (MoPOP)"
             }
         }, {
-            title: "Museum of Pop Culture (MoPOP)",
+            title: "Olympic Sculpture Park",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.61661452437855,
+                lng: -122.35532373162121
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "Olympic Sculpture Park"
             }
-        },
-        {
-            title: "Museum of Pop Culture (MoPOP)",
+        }, {
+            title: "The Seattle Great Wheel",
             position: {
-                lat: 47.62149511793311,
-                lng: -122.34812595749383
+                lat: 47.606144927577965,
+                lng: -122.34252492460529
             },
             icon: icons['leisureIcon'].icon,
             _listener: {
                 type: 0,
-                text: "Museum of Pop Culture (MoPOP)"
+                text: "The Seattle Great Wheel"
             }
         }, {
             title: "Museum of Pop Culture (MoPOP)",
