@@ -1,0 +1,14 @@
+<div class="cookie-banner" style="display: none;">
+    <p>By using our website, you agree to our <a href="https://www.seattleu.edu/policies/privacy-statement/">cookie policy</a></p>
+    <button class="close">Continue</button>
+</div>
+<script>
+    if (localStorage.getItem('cookieSeen') != 'shown') {
+        $(".cookie-banner").delay(2000).fadeIn();
+        localStorage.setItem('cookieSeen', 'shown')
+    }
+
+    $('.close').click(function(e) {
+        $('.cookie-banner').fadeOut();
+    });
+</script>
