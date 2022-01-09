@@ -125,8 +125,8 @@ function initialize() {
   
     SULawOverlay.prototype.onAdd = function() {
         var div = document.createElement("div");
-        div.style.borderStyle = "none";
-        div.style.borderWidth = "0px";
+        div.style.borderStyle = "solid";
+        div.style.borderWidth = "1px";
         div.style.height = "25%";
         div.style.width = "25%";
         div.style.position = "absolute"; // Create the img element and attach it to the div.
@@ -147,9 +147,7 @@ function initialize() {
 
 
     SULawOverlay.prototype.draw = function() {
-        // We use the south-west and north-east
-        // coordinates of the overlay to peg it to the correct position and size.
-        // To do this, we need to retrieve the projection from the overlay.
+
         var overlayProjection = this.getProjection(); // Retrieve the south-west and north-east coordinates of this overlay
         // in LatLngs and convert them to pixel coordinates.
         // We'll use these coordinates to resize the div.
