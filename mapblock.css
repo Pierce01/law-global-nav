@@ -4,17 +4,17 @@
 }
 
 #POIText {
-    padding: 60px 8.3333%;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
+	padding: 60px 8.3333%;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: bold;
 }
 
 #POIText h2 {
 	color: #fff;
 	font-size: 3rem;
 	font-weight: bold;
-    margin: 0 0 15px 0;
+	margin: 0 0 15px 0;
 }
 
 #POIText h3 {
@@ -26,7 +26,7 @@
 #POIText p {
 	color: #ffffff;
 	font-size: 1.5rem;
-    margin: 0;
+	margin: 0;
 }
 
 #SeattlePOIMap {
@@ -72,4 +72,42 @@
 #POITextBox a:hover {
 	color: #333333;
 	text-decoration: underline;
+}
+
+#ledger {
+	position: absolute;
+	z-index: 9;
+	height: 0px;
+	margin-top: 8px;
+	margin-right: 8px;
+	right: 0px;
+	opacity: .80;
+	color: gray;
+}
+
+#ledger > div > div.card-body > h5 {
+	color: #ef4135 !important;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1.6rem;
+}
+
+#ledger > div > div.card-footer {
+	font-size: small;
+}
+
+#ledger > div > div.card-footer > p > img {
+	margin-right: 5px;
+}
+
+#outMap > #ledger {
+	width: 100%;
+}
+
+#outMap > #ledger > div > div.card-footer {
+	justify-content: center;
+}
+
+#inMap > #ledger {
+	max-width: 500px;
 }

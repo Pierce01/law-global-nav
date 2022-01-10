@@ -28,19 +28,10 @@ function modifyTextBox(type, header, text) {
 }
 
 function initialize() {
-
     var seattleu = {
         lat: 47.609165,
         lng: -122.318685
     }
-
-    // Bounds required for overlay using Madronna and Mann neighborhoods
-    let bounds = new google.maps.LatLngBounds(
-        new google.maps.LatLng(47.61413511565072, -122.28931024694381),
-        new google.maps.LatLng(47.60926626487299, -122.29954475716657)
-    );
-
-    SULawOverlay.prototype = new google.maps.OverlayView();
     let map = new google.maps.Map(document.getElementById('SeattlePOIMap'), {
         center: seattleu,
         streetViewControl: false,
@@ -103,101 +94,25 @@ function initialize() {
         }],
     });
 
-
-    function SULawOverlay(bounds, map) {
-        // Initialize all properties.
-        this.bounds_ = bounds;
-        this.map_ = map; // Define a property to hold the image's div. We'll
-        // actually create this div upon receipt of the onAdd()
-        // method so we'll leave it null for now.
-    
-        this.div_ = null; // Explicitly call setMap on this overlay.
-    
-        this.setMap(map);
-    }
-
-
-
-    /**
-     * onAdd is called when the map's panes are ready and the overlay has been
-     * added to the map.
-     */
-  
-    SULawOverlay.prototype.onAdd = function() {
-        var div = document.createElement("div");
-        div.style.borderStyle = "solid";
-        div.style.borderWidth = "1px";
-        div.style.height = "25%";
-        div.style.width = "25%";
-        div.style.position = "absolute"; // Create the img element and attach it to the div.
-    
-        // var img = document.createElement("img");
-        // console.log(this.image_);
-        // img.src = this.image_;
-        // img.style.width = "100%";
-        // img.style.height = "100%";
-        // img.style.position = "absolute";
-        // div.appendChild(img);
-        // this.div_ = div; 
-    
-        var panes = this.getPanes();
-        panes.overlayLayer.appendChild(div);
-    };
-
-
-
-    SULawOverlay.prototype.draw = function() {
-
-        var overlayProjection = this.getProjection(); // Retrieve the south-west and north-east coordinates of this overlay
-        // in LatLngs and convert them to pixel coordinates.
-        // We'll use these coordinates to resize the div.
-    
-        var sw = overlayProjection.fromLatLngToDivPixel(
-          this.bounds_.getSouthWest()
-        );
-        var ne = overlayProjection.fromLatLngToDivPixel(
-          this.bounds_.getNorthEast()
-        ); // Resize the image's div to fit the indicated dimensions.
-    
-        var div = this.div_;
-        div.style.left = sw.x + "px";
-        div.style.top = ne.y + "px";
-        div.style.width = ne.x - sw.x + "px";
-        div.style.height = sw.y - ne.y + "px";
-    };
-
-
-
-
-    SULawOverlay.prototype.onRemove = function() {
-        this.div_.parentNode.removeChild(this.div_);
-        this.div_ = null;
-    };
-
-
-    // call overlay
-    let overlay = new SULawOverlay(bounds, map);
-    // overlay.setMap(map);
-
-
-
-
-
     //Map style end
     //Map markers start
     //Map marker url list start
     var icons = {
         seattleUIcon: {
-            icon: 'https://cms.seattleu.edu/media/graduate-admissions/images/graduate-viewbook/sulogo.png'
-        },
-        leisureIcon: {
-            icon: 'https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/pinlet_outline_v4-2-medium.png,assets/icons/poi/tactile/pinlet_v4-2-medium.png,assets/icons/poi/quantum/pinlet/dot_pinlet-2-medium.png&highlight=06667a,088099,ffffff?scale=1'
+            icon: 'https://cms.seattleu.edu/media/graduate-admissions/images/graduate-viewbook/sulogo.png',
+            ledgerText: null
         },
         businessIcon: {
-            icon: 'https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/pinlet_outline_v4-2-medium.png,assets/icons/poi/tactile/pinlet_v4-2-medium.png,assets/icons/poi/quantum/pinlet/dot_pinlet-2-medium.png&highlight=e3a611,fdb913,ffffff?scale=1'
+            icon: 'https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/pinlet_outline_v4-2-medium.png,assets/icons/poi/tactile/pinlet_v4-2-medium.png,assets/icons/poi/quantum/pinlet/dot_pinlet-2-medium.png&highlight=e3a611,fdb913,ffffff?scale=1',
+            ledgerText: 'Law Firms'
         },
         governmentIcon: {
-            icon: 'https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/pinlet_outline_v4-2-medium.png,assets/icons/poi/tactile/pinlet_v4-2-medium.png,assets/icons/poi/quantum/pinlet/dot_pinlet-2-medium.png&highlight=e3a611,ef4135,ffffff?scale=1'
+            icon: 'https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/pinlet_outline_v4-2-medium.png,assets/icons/poi/tactile/pinlet_v4-2-medium.png,assets/icons/poi/quantum/pinlet/dot_pinlet-2-medium.png&highlight=e3a611,ef4135,ffffff?scale=1',
+            ledgerText: 'Government Agencies'
+        },
+        leisureIcon: {
+            icon: 'https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/pinlet_outline_v4-2-medium.png,assets/icons/poi/tactile/pinlet_v4-2-medium.png,assets/icons/poi/quantum/pinlet/dot_pinlet-2-medium.png&highlight=06667a,088099,ffffff?scale=1',
+            ledgerText: 'Restaurants & Attractions'
         }
     }
 
@@ -1020,12 +935,11 @@ function initialize() {
         }
     ]
 
-
-    // // Pop up handling
+    // Pop up handling
     map.addListener('click', () => $("#POITextBox").hide())
 
     // Add markers and event listeners to map
-    for (let marker of markers) {
+    for (var marker of markers) {
         var obj = new google.maps.Marker({
             ...marker,
             map
@@ -1039,24 +953,36 @@ function initialize() {
         })
     }
 
-
-
-    let toggleButton = document.createElement("button");
-
-    toggleButton.textContent = "Toggle";
-    toggleButton.classList.add("custom-map-control-button");
-    
-    let toggleDOMButton = document.createElement("button");
-    
-    toggleDOMButton.textContent = "Toggle DOM Attachment";
-    toggleDOMButton.classList.add("custom-map-control-button");
-    toggleButton.addEventListener("click", () => {
-        overlay.toggle();
-    });
-    toggleDOMButton.addEventListener("click", () => {
-        overlay.toggleDOM(map);
-    });
-    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(toggleDOMButton);
-    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(toggleButton);
+    // Generate ledger labels dynamically
+    var iconKeys = Object.keys(icons)
+    var inUse = 0
+    // Hotfix for custom script duplication
+    if (!(document.querySelector('#ledger > div > div.card-footer').childNodes.length > 0)) {
+        for (var key of iconKeys) {
+            if (icons[key].ledgerText) {
+                var element = document.createElement('p')
+                element.className = 'card-text text-center col-auto'
+                element.innerHTML = '<img src="' + icons[key].icon + '">' + icons[key].ledgerText
+                document.querySelector('#ledger > div > div.card-footer').append(element)
+                inUse++
+            }
+        }
+        document.querySelector('#ledger > div > div.card-footer').className += ' row-cols-' + inUse
+    }
 }
+
+function generateLedger () {
+    var inElement = document.querySelector('#inMap > #ledger')
+    var outElement = document.querySelector('#outMap > #ledger')
+    if (window.innerWidth <= 991 && inElement) {
+        document.getElementById('outMap').append(inElement)
+        document.getElementById('outMap').style.height = document.querySelector('#ledger > .card').clientHeight + 'px'
+    } else if (window.innerWidth > 991 && outElement) {
+        document.getElementById('inMap').append(outElement)
+        document.getElementById('outMap').style.height = '0px'
+    }
+}
+
+window.addEventListener('resize', generateLedger)
+window.addEventListener('load', generateLedger)
 {/* </script> */}
